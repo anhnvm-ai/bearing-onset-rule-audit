@@ -308,9 +308,10 @@ def fig5() -> None:
 # ------------------------------------------------------------------ Fig. 6: RUL on the common reference
 def fig6() -> None:
     o, cr = read("j60_onsets"), read("j62_common_reference")
-    fig = plt.figure(figsize=(TW, 4.95))
-    gs = fig.add_gridspec(3, 2, height_ratios=[0.95, 1, 1], hspace=0.50, wspace=0.12,
-                          left=0.065, right=0.995, top=0.955, bottom=0.20)
+    # two rows since the self-review of 2026-10-26: the C-rank panels moved to the supplementary (Table S22)
+    fig = plt.figure(figsize=(TW, 3.6))
+    gs = fig.add_gridspec(2, 2, height_ratios=[0.95, 1.05], hspace=0.55, wspace=0.12,
+                          left=0.065, right=0.995, top=0.94, bottom=0.27)
     # (a) the targets on one bearing
     ax = fig.add_subplot(gs[0, :])
     b, arm = "Bearing1_3", "P-prospective"
@@ -337,10 +338,9 @@ def fig6() -> None:
     ax.legend(loc="lower left", frameon=False, ncol=1, handlelength=1.6, labelcolor=INK2, borderaxespad=0.1,
               labelspacing=0.25)
     style(ax)
-    # (b)-(e) the nine models under the four labelers, P-prospective, conventional settings, scoring set S
+    # (b), (c) the nine models under the four labelers, P-prospective, conventional settings, scoring set S
     a = cr[(cr.variant == "a") & (cr.config == "P-prospective|canonical")]
-    specs = [(1, 0, "xjtu", "rmse_common_S", "C-common RMSE", "b"), (1, 1, "femto", "rmse_common_S", "C-common RMSE", "c"),
-             (2, 0, "xjtu", "conc_S_mean", "C-rank concordance", "d"), (2, 1, "femto", "conc_S_mean", "C-rank concordance", "e")]
+    specs = [(1, 0, "xjtu", "rmse_common_S", "C-common RMSE", "b"), (1, 1, "femto", "rmse_common_S", "C-common RMSE", "c")]
     for row, colm, ds, col, ylab, letter in specs:
         ax = fig.add_subplot(gs[row, colm])
         d = a[a.dataset == ds].set_index(["labeler", "model"])[col]
@@ -355,7 +355,7 @@ def fig6() -> None:
         else:
             ax.set_ylim(0.3, 1.0)
         ax.set_xticks(range(len(MODELS)))
-        ax.set_xticklabels(MODEL_LABEL if row == 2 else [], rotation=40, ha="right", rotation_mode="anchor")
+        ax.set_xticklabels(MODEL_LABEL if row == 1 else [], rotation=40, ha="right", rotation_mode="anchor")
         ax.set_xlim(-0.6, len(MODELS) - 0.4)
         if colm == 0:
             ax.set_ylabel(ylab)

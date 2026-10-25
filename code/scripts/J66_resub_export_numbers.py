@@ -161,6 +161,13 @@ def data_design(M: Macros) -> None:
 def protocol(M: Macros) -> None:
     gap, pc, bc, w = read("j60_gap"), read("j60_protocol_curve"), read("j58_by_condition"), read("j60_warmup")
     g = gap[gap.bearing_set == "main"].set_index(["dataset", "arm"])
+    on = read("j60_onsets")
+    r3 = on[(on.dataset == "xjtu") & (on.rule == "3sig_rms") & (on.n_records >= 80)
+            & on.arm.isin(["P-retro", "P-II", "P-prospective"])].pivot_table(index="trajectory", columns="arm", values="i_star")
+    spread = r3.max(axis=1) - r3.min(axis=1)
+    M.add("RsRmsProtSpreadMax", int(spread.max()), "j60_onsets: 3sig_rms, XJTU-SY, n >= 80: largest difference in onset between P-retro, P-II and P-prospective, records")
+    M.add("RsRmsProtSpreadN", int((spread > 0).sum()), "same, bearings whose onset differs at all")
+    M.add("RsRmsProtBearings", len(spread), "same, bearings")
     for ds in DS:
         M.add(f"RsInsideCharts{DS[ds]}", pct(g.loc[(ds, "P-retro"), "inside_share_charts"]),
               f"j60_gap: chart onsets inside the P-retro baseline, per cent, {DS_NAME[ds]}")
@@ -241,9 +248,22 @@ def calibration(M: Macros) -> None:
             M.add(f"RsDjCal{k}", f(r.median_D_j_calibrated, 3), f"j61_matched_gap: median chart-detector D_j at 5% FAR, {DS_NAME[ds]}, {prot}")
     M.add("RsCalReadingOne", int(mg.reading.str.startswith("1").sum()), "j61_matched_gap: configurations with reading 1")
     M.add("RsCalCells", len(mg), "j61_matched_gap: configurations")
+    M.add("RsCalOverlap", int(mg.intervals_overlap.astype(bool).sum()),
+          "j61_matched_gap: configurations in which the detector and chart intervals overlap after calibration (A1 item 4)")
+    M.add("RsCalShrinkAbs", int((mg.gap_calibrated.abs() < mg.gap_uncalibrated.abs()).sum()),
+          "j61_matched_gap: configurations in which |calibrated gap| < |conventional gap|")
+    M.add("RsCalHalf", int((mg.gap_calibrated.abs() < 0.5 * mg.gap_uncalibrated.abs()).sum()),
+          "j61_matched_gap: configurations in which |calibrated gap| < half of |conventional gap|")
+    fch = df[(df.noise_arm == "main") & df.canonical & (df.dataset == "femto")
+             & df.design.isin([CANONICAL_DESIGN[r] for r in CHARTS])].far
+    M.add("RsFarChartFemtoMin", f(fch.min()), "j61_design_far: FAR of EWMA and CUSUM at canonical settings, FEMTO, both protocols, lowest")
+    M.add("RsFarChartFemtoMax", f(fch.max()), "same, highest")
     a5 = arl[arl.level == 0.05]
-    M.add("RsArlAbove", int((a5.reported == "> 10,000").sum()), "j61_arl0: calibrated rules with ARL0 above 10 000 records at 5% FAR")
+    M.add("RsArlAbove", int((a5.share_censored > 0.5).sum()),
+          "j61_arl0: calibrated rules at 5% FAR whose median run length exceeds 10 000 records (more than half of the runs censored)")
     M.add("RsArlCells", len(a5), "j61_arl0: calibrated rules at 5% FAR")
+    M.add("RsArlMeanMin", f"{a5.arl0_censored_mean.min():,.0f}".replace(",", "\\,"),
+          "j61_arl0: mean run length at 5% FAR with runs censored at 10 000 records (a lower bound), lowest")
 
 
 # ------------------------------------------------------------------ Section IV-C: simulation
@@ -263,6 +283,7 @@ def simulation(M: Macros) -> None:
             M.add(f"RsSim{gn}Slope{pn}Max", s(q.slope.max()), "same, highest")
     x = g[(g["shape"] == "exp") & (g.delta == 6) & g.rule.isin(RMS_DET)]
     miss = x.groupby(["protocol", "rule"]).share_never.median()
+    assert miss.loc["P-prospective"].idxmax() == "ma5sig", "Section IV-C names ma5sig as the detector that misses most"
     for prot, pn in PROT.items():
         M.add(f"RsSimDetMissExp{pn}", pct(miss.loc[prot].max()),
               f"j63_gradual: exponential degradation, delta = 6: largest median miss share of an RMS detector, per cent, {prot}")
@@ -359,6 +380,28 @@ def rul(M: Macros) -> None:
     hit = sS[sS.n_significant_reversals > 0]
     assert ((hit.labeler_a == "pct05") | (hit.labeler_b == "pct05")).all(), "a reversal under S without pct05"
     M.add("RsRevSthree", int(s3.n_significant_reversals.sum()), "j62_rankings: significant reversals, scoring set S3, all configurations")
+    can_s = sS[sS.config.str.endswith("canonical")]
+    M.add("RsRevCan", int(can_s.n_significant_reversals.sum()),
+          "j62_rankings: C-common reversals, S, the two configurations at conventional settings (primary)")
+    M.add("RsRevCal", int(sS[sS.config.str.endswith("matched5")].n_significant_reversals.sum()),
+          "j62_rankings: C-common reversals, S, the two configurations at 5% FAR (sensitivity)")
+    cr_rank = rk[rk.metric == "C-rank concordance"]
+    hit_r = cr_rank[cr_rank.n_significant_reversals > 0]
+    M.add("RsRevRankTotal", int(cr_rank.n_significant_reversals.sum()), "j62_rankings: significant reversals in C-rank, S and S3, all configurations")
+    M.add("RsRevRankS", int(cr_rank[cr_rank.set == "S"].n_significant_reversals.sum()), "same, scoring set S")
+    M.add("RsRevRankSthree", int(cr_rank[cr_rank.set == "S3"].n_significant_reversals.sum()), "same, scoring set S3")
+    M.add("RsRevRankXjtu", int(cr_rank[cr_rank.dataset == "xjtu"].n_significant_reversals.sum()), "same, XJTU-SY")
+    nopct = hit_r[(hit_r.labeler_a != "pct05") & (hit_r.labeler_b != "pct05")]
+    M.add("RsRevRankNoPct", int(nopct.n_significant_reversals.sum()), "j62_rankings: C-rank reversals between labelers other than pct05")
+    M.add("RsRevRankEwma", int(hit_r[(hit_r.labeler_a == "ewma") | (hit_r.labeler_b == "ewma")].n_significant_reversals.sum()),
+          "j62_rankings: C-rank reversals in which ewma is one of the two labelers")
+    cs_x = cc[(cc.set == "S") & (cc.dataset == "xjtu")]
+    M.add("RsTauCommonXjtu", f(cs_x.kendall_tau.median()), "j62_rankings: median Kendall tau between model rankings, C-common RMSE, S, XJTU-SY, all labeler pairs and configurations")
+    M.add("RsBestDiffersCommonXjtu", pct(cs_x.share_best_differs.median()),
+          "j62_rankings: median share of resamples in which the best model differs between two labelers, per cent, same cells")
+    cs_f = cc[(cc.set == "S") & (cc.dataset == "femto")]
+    M.add("RsTauCommonFemto", f(cs_f.kendall_tau.median()), "same as RsTauCommonXjtu, FEMTO")
+    M.add("RsBestDiffersCommonFemto", pct(cs_f.share_best_differs.median()), "same as RsBestDiffersCommonXjtu, FEMTO")
     can = a[a.config.str.endswith("canonical")]
     eight = can[can.model != "two-stage"]
     pct05 = eight[eight.labeler == "pct05"].rmse_common_S
@@ -634,13 +677,20 @@ def supp_calibration() -> str:
 
 
 def supp_arl() -> str:
-    a = read("j61_arl0").set_index(["dataset", "protocol", "rule", "level"]).reported
-    lines = _head("supp_tab_arl.tex", "Table rows: in-control average run length of the calibrated rules, records (j61_arl0).")
+    a = read("j61_arl0").set_index(["dataset", "protocol", "rule", "level"])
+    lines = _head("supp_tab_arl.tex", "Table rows: in-control run length of the calibrated rules on null series of 10 000 records: "
+                  "median (> 10 000 when more than half of the runs are censored) and censored mean, a lower bound (j61_arl0).")
+
+    def cell(r) -> str:
+        med = r"$>$\,10\,000" if r.share_censored > 0.5 else f"{r.median_run_length:,.0f}".replace(",", r"\,")
+        mean = f"{r.arl0_censored_mean:,.0f}".replace(",", r"\,")
+        return f"{med} ({mean})"
+
     for ds in DS:
         for prot in PROT:
             for rule in ("thr", "ma", "ewma", "cusum"):
                 cells = [DS_NAME[ds] if (prot == "P-retro" and rule == "thr") else "", prot if rule == "thr" else "", CAL_LABEL[rule + "_cal"]]
-                cells += [str(a[(ds, prot, rule, lv)]).replace(",", r"\,").replace(">", r"$>$") for lv in (0.01, 0.05, 0.10)]
+                cells += [cell(a.loc[(ds, prot, rule, lv)]) for lv in (0.01, 0.05, 0.10)]
                 lines.append(" & ".join(cells) + r" \\")
     return "\n".join(lines) + "\n"
 
@@ -681,7 +731,9 @@ def supp_conditions() -> str:
                 cells = [DS_NAME[ds] if i == 0 else "", str(cond) if i == 0 else "", tt(r.rule), f"{int(r.n_fired)}/{int(r.n_traj)}",
                          f"{int(r.length_min)}--{int(r.length_max)}" if i == 0 else "",
                          f(r.median_u) if pd.notna(r.median_u) else "---", f(r.median_shift_d) if pd.notna(r.median_shift_d) else "---",
-                         str(int(r.inside_baseline)), f(r.pos_rate_record), f(r.pos_rate_bearing)]
+                         str(int(r.inside_baseline)),
+                         f(r.pos_rate_record) if pd.notna(r.pos_rate_record) else "---",
+                         f(r.pos_rate_bearing) if pd.notna(r.pos_rate_bearing) else "---"]
                 lines.append(" & ".join(cells) + r" \\")
     return "\n".join(lines) + "\n"
 
@@ -824,12 +876,69 @@ def supp_rul_own() -> str:
 
 def supp_reversals() -> str:
     r = read("j62_rankings")
-    r = r[(r.metric == "C-common RMSE") & (r.n_significant_reversals > 0)]
-    lines = _head("supp_tab_reversals.tex", "Table rows: significant reversals under C-common (j62_rankings).")
-    for _, x in r.iterrows():
-        pairs = "; ".join(" vs ".join(MODEL_SHORT[m.strip()] for m in p.split(" vs ")) for p in x.reversals.split(";"))
-        lines.append(" & ".join([DS_NAME[x.dataset], CFG_LABEL[x.config], f"${x.set}$", f"{tt(x.labeler_a)} vs {tt(x.labeler_b)}",
-                                 str(int(x.n_significant_reversals)), pairs]) + r" \\")
+    r = r[r.n_significant_reversals > 0]
+    lines = _head("supp_tab_reversals.tex", "Table rows: significant reversals in C-common RMSE (primary) and in C-rank concordance (secondary) (j62_rankings).")
+    for metric, label in (("C-common RMSE", "C-common RMSE (primary)"), ("C-rank concordance", "C-rank concordance (secondary)")):
+        lines.append(rf"\multicolumn{{6}}{{@{{}}l}}{{\textbf{{{label}}}}} \\")
+        for _, x in r[r.metric == metric].iterrows():
+            pairs = "; ".join(" vs ".join(MODEL_SHORT[m.strip()] for m in p.split(" vs ")) for p in x.reversals.split(";"))
+            lines.append(" & ".join([DS_NAME[x.dataset], CFG_LABEL[x.config], f"${x.set}$", f"{tt(x.labeler_a)} vs {tt(x.labeler_b)}",
+                                     str(int(x.n_significant_reversals)), pairs]) + r" \\")
+    return "\n".join(lines) + "\n"
+
+
+def supp_rankstab() -> str:
+    """Kendall's tau between the model rankings of two labelers, and the share of resamples with a different best model."""
+    r = read("j62_rankings")
+    lines = _head("supp_tab_rankstab.tex", "Table rows: rank agreement of the nine models between labeler pairs; median and range over the "
+                  "labeler pairs of each cell (j62_rankings).")
+    for ds in DS:
+        lines.append(rf"\multicolumn{{6}}{{@{{}}l}}{{\textbf{{{DS_NAME[ds]}}}}} \\")
+        for cfg in CFG:
+            for st in ("S", "S3"):
+                cells = [CFG_LABEL[cfg], f"${st}$"]
+                for metric in ("C-common RMSE", "C-rank concordance"):
+                    q = r[(r.dataset == ds) & (r.config == cfg) & (r.set == st) & (r.metric == metric)]
+                    cells += [f"${s(q.kendall_tau.median())}$ $[{s(q.kendall_tau.min())}, {s(q.kendall_tau.max())}]$",
+                              f"{pct(q.share_best_differs.median())} ({pct(q.share_best_differs.min())}--{pct(q.share_best_differs.max())})"]
+                lines.append(" & ".join(cells) + r" \\")
+    return "\n".join(lines) + "\n"
+
+
+def supp_spearman() -> str:
+    """C-rank as a Spearman correlation, over the scored records and over all records (secondary measures of the plan)."""
+    a = read("j62_common_reference")
+    a = a[a.variant == "a"]
+    lines = _head("supp_tab_spearman.tex", "Table rows: within-bearing Spearman correlation between the prediction and the records left, "
+                  "median over bearings, then median and range over labelers and models (j62_common_reference).")
+    for cfg in CFG:
+        for ds in DS:
+            q = a[(a.config == cfg) & (a.dataset == ds)]
+            cells = [CFG_LABEL[cfg], DS_NAME[ds]]
+            for col in ("spearman_S_median", "spearman_all_median"):
+                cells.append(f"${s(q[col].median())}$ $[{s(q[col].min())}, {s(q[col].max())}]$")
+            lines.append(" & ".join(cells) + r" \\")
+    return "\n".join(lines) + "\n"
+
+
+def supp_sim_delta(protocol: str) -> str:
+    """Simulation outcomes per end-of-life size delta: early alarms, misses and median delay after t_1 (fraction of life)."""
+    g = read("j63_gradual")
+    g = g[g.protocol == protocol]
+    med = g.groupby(["delta", "shape", "rule"]).agg(early=("share_before_ref1", "median"), never=("share_never", "median"),
+                                                    delay=("median_delay_ref1_fraction", "median"), n=("n_series", "size"))
+    assert (med.n == 6).all(), "every delta x shape x rule must have 6 cells (3 starts x 2 noise models)"
+    lines = _head(f"supp_tab_simdelta_{PROT[protocol].lower()}.tex", f"Table rows: simulation under {protocol} per end-of-life size, "
+                  "median over the 6 cells of each shape (j63_gradual).")
+    for grp, rules in (("Conventional settings", RMS_DET + CHARTS), ("Matched 5\\% false-alarm rate", CAL_RULES)):
+        for delta in sorted(g.delta.unique()):
+            lines.append(rf"\multicolumn{{10}}{{@{{}}l}}{{\textbf{{{grp}, $\delta = {delta:g}$}}}} \\")
+            for rule in rules:
+                cells = [tt(rule) if rule in RMS_DET + CHARTS else CAL_LABEL[rule]]
+                for shp in ("step", "ramp", "exp"):
+                    r = med.loc[(delta, shp, rule)]
+                    cells += [pct(r.early), pct(r.never), pct(r.delay) if pd.notna(r.delay) else "---"]
+                lines.append(" & ".join(cells) + r" \\")
     return "\n".join(lines) + "\n"
 
 
@@ -837,9 +946,10 @@ def supp_main_effects() -> str:
     m = read("j62_main_effect")
     lines = _head("supp_tab_main_effects.tex", "Table rows: labeler main effects, difference in the mean over the nine models (j62_main_effect).")
     for _, x in m.iterrows():
+        # bounds keep the sign of the unrounded value, so that "excludes 0" can be read off a bound that rounds to 0.000
         lines.append(" & ".join([DS_NAME[x.dataset], CFG_LABEL[x.config], f"${x.set}$", "C-common" if x.metric.startswith("C-common") else "C-rank",
                                  f"{tt(x.labeler_a)} $-$ {tt(x.labeler_b)}", f"${s(x.diff_mean_over_models, 3)}$",
-                                 f"${ci(x.lo, x.hi, 3)}$", "yes" if x.excludes_0 else ""]) + r" \\")
+                                 f"$[{x.lo:+.3f}, {x.hi:+.3f}]$", "yes" if x.excludes_0 else ""]) + r" \\")
     return "\n".join(lines) + "\n"
 
 
@@ -890,7 +1000,10 @@ SUPP_TABLES_2 = {"supp_design_models": supp_design_models, "supp_design_outcomes
                  "supp_nonfiring_full": supp_nonfiring_full, "supp_rul_common": supp_rul_common,
                  "supp_rul_common_s3": supp_rul_common_s3, "supp_rul_rank": supp_rul_rank, "supp_rul_own": supp_rul_own,
                  "supp_reversals": supp_reversals, "supp_main_effects": supp_main_effects, "supp_variants": supp_variants,
-                 "supp_asix": supp_asix, "supp_mixed_onset": supp_mixed_onset, "supp_mixed_rul": supp_mixed_rul}
+                 "supp_asix": supp_asix, "supp_mixed_onset": supp_mixed_onset, "supp_mixed_rul": supp_mixed_rul,
+                 "supp_rankstab": supp_rankstab, "supp_spearman": supp_spearman,
+                 "supp_simdelta_prosp": lambda: supp_sim_delta("P-prospective"),
+                 "supp_simdelta_retro": lambda: supp_sim_delta("P-retro")}
 
 SUPP_TABLES = {"supp_protocurve": supp_protocurve, "supp_gaps": supp_gaps, "supp_contamination": supp_contamination,
                "supp_warmup": supp_warmup, "supp_calibration": supp_calibration, "supp_arl": supp_arl,

@@ -7,7 +7,7 @@ Code and derived data for the article
 Run-to-failure bearing datasets record no degradation onset, so an onset rule creates one. This repository holds the
 onsets that ten published rules and 67 rule designs place on 33 trajectories from four public datasets,
 the labels and remaining-useful-life (RUL) targets derived from them, and the code that produced every number, table
-and figure of the article and its supplementary material. Release 1.1.0 accompanies the resubmitted manuscript.
+and figure of the article and its supplementary material. Release 1.1.1 accompanies the resubmitted manuscript.
 
 ## What is here
 
@@ -45,9 +45,8 @@ of the article.
 | Fig. 3 | Onset fraction against trajectory length | `J67_resub_figures.py` | `j60_onsets` (J60) |
 | Fig. 4 | Simulated gradual degradation | `J67_resub_figures.py` | `j63_gradual` (J63) |
 | Fig. 5 | Label disagreement and target distance | `J67_resub_figures.py` | `j60_labels` (J60), `j61_matched_gap` (J61) |
-| Table 4 | Treatment and weighting of non-firing trajectories | `J66_resub_export_numbers.py` | `j57_censoring_2x2` (J57) |
 | Fig. 6 | RUL evaluation on the common reference | `J67_resub_figures.py` | `j60_onsets` (J60), `j62_common_reference` (J62) |
-| Table 5 | ORD-4 reporting items | `J66_resub_export_numbers.py` (numbers) | the tables named in the comments of the exported macro file |
+| Table 4 | ORD-4 reporting items | `J66_resub_export_numbers.py` (numbers) | the tables named in the comments of the exported macro file |
 | Text | Every other number of the paper | `J66_resub_export_numbers.py` | the tables named in the comments of the exported macro file |
 
 ### Supplementary material
@@ -71,30 +70,34 @@ of the article.
 | Table S12 | S4 Onset Scaling per Operating Condition | `J66_resub_export_numbers.py` (rows) | `j26b_slopes` (J26b) |
 | Table S13 | S5 Simulated Degradation in Detail | `J66_resub_export_numbers.py` (rows) | `j63_gradual` (J63) |
 | Table S14 | S5 Simulated Degradation in Detail | `J66_resub_export_numbers.py` (rows) | `j63_gradual` (J63) |
-| Table S15 | S5 Simulated Degradation in Detail | `J66_resub_export_numbers.py` (rows) | `j24_sim_single_change` (J24) |
-| Table S16 | S6 Design Parameters | `J66_resub_export_numbers.py` (rows) | `j64_models` (J64) |
-| Table S17 | S6 Design Parameters | `J66_resub_export_numbers.py` (rows) | `j64_design_outcomes` (J64) |
+| Table S15 | S5 Simulated Degradation in Detail | `J66_resub_export_numbers.py` (rows) | `j63_gradual` (J63) |
+| Table S16 | S5 Simulated Degradation in Detail | `J66_resub_export_numbers.py` (rows) | `j63_gradual` (J63) |
+| Table S17 | S5 Simulated Degradation in Detail | `J66_resub_export_numbers.py` (rows) | `j24_sim_single_change` (J24) |
+| Table S18 | S6 Design Parameters | `J66_resub_export_numbers.py` (rows) | `j64_models` (J64) |
+| Table S19 | S6 Design Parameters | `J66_resub_export_numbers.py` (rows) | `j64_design_outcomes` (J64) |
 | Fig. S4 | S6 Design Parameters | `J21_fig_shift.py` | see the script |
 | Fig. S5 | S6 Design Parameters | `J25_reviewer_figures.py` | see the script |
-| Table S18 | S7 Labels in Detail | `J66_resub_export_numbers.py` (rows) | `j57_censoring_2x2` (J57) |
+| Table S20 | S7 Labels in Detail | `J66_resub_export_numbers.py` (rows) | `j57_censoring_2x2` (J57) |
 | Fig. S6 | S7 Labels in Detail | `J25_reviewer_figures.py` | see the script |
 | Fig. S7 | S7 Labels in Detail | `J25_reviewer_figures.py` | see the script |
-| Table S19 | S7 Labels in Detail | earlier version (`supp_tables.py` of the first submission) | `j20_scored_check` (J17) |
-| Table S20 | S8 RUL Evaluation in Full | `J66_resub_export_numbers.py` (rows) | `j62_common_reference` (J62) |
-| Table S21 | S8 RUL Evaluation in Full | `J66_resub_export_numbers.py` (rows) | `j62_common_reference` (J62) |
+| Table S21 | S7 Labels in Detail | earlier version (`supp_tables.py` of the first submission) | `j20_scored_check` (J17) |
 | Table S22 | S8 RUL Evaluation in Full | `J66_resub_export_numbers.py` (rows) | `j62_common_reference` (J62) |
 | Table S23 | S8 RUL Evaluation in Full | `J66_resub_export_numbers.py` (rows) | `j62_common_reference` (J62) |
-| Table S24 | S8 RUL Evaluation in Full | `J66_resub_export_numbers.py` (rows) | `j62_rankings` (J62) |
-| Table S25 | S8 RUL Evaluation in Full | `J66_resub_export_numbers.py` (rows) | `j62_main_effect` (J62) |
-| Table S26 | S8 RUL Evaluation in Full | `J66_resub_export_numbers.py` (rows) | `j62_common_reference` (J62) |
-| Table S27 | S8 RUL Evaluation in Full | `J66_resub_export_numbers.py` (rows) | `j69_labeler_model_contrast` (J69) |
-| Table S28 | S9 Mixed-Effects Models | `J66_resub_export_numbers.py` (rows) | `j65_mixed_onset` (J65) |
-| Table S29 | S9 Mixed-Effects Models | `J66_resub_export_numbers.py` (rows) | `j65_mixed_rul` (J65) |
-| Table S30 | S10 Pre-Specified Analyses and Amendments | text | the plan and its amendments |
-| Table S31 | S10 Pre-Specified Analyses and Amendments | text | the plan and its amendments |
+| Table S24 | S8 RUL Evaluation in Full | `J66_resub_export_numbers.py` (rows) | `j62_common_reference` (J62) |
+| Table S25 | S8 RUL Evaluation in Full | `J66_resub_export_numbers.py` (rows) | `j62_common_reference` (J62) |
+| Table S26 | S8 RUL Evaluation in Full | `J66_resub_export_numbers.py` (rows) | `j62_rankings` (J62) |
+| Table S27 | S8 RUL Evaluation in Full | `J66_resub_export_numbers.py` (rows) | `j62_rankings` (J62) |
+| Table S28 | S8 RUL Evaluation in Full | `J66_resub_export_numbers.py` (rows) | `j62_common_reference` (J62) |
+| Table S29 | S8 RUL Evaluation in Full | `J66_resub_export_numbers.py` (rows) | `j62_main_effect` (J62) |
+| Table S30 | S8 RUL Evaluation in Full | `J66_resub_export_numbers.py` (rows) | `j62_common_reference` (J62) |
+| Table S31 | S8 RUL Evaluation in Full | `J66_resub_export_numbers.py` (rows) | `j69_labeler_model_contrast` (J69) |
+| Table S32 | S9 Mixed-Effects Models | `J66_resub_export_numbers.py` (rows) | `j65_mixed_onset` (J65) |
+| Table S33 | S9 Mixed-Effects Models | `J66_resub_export_numbers.py` (rows) | `j65_mixed_rul` (J65) |
+| Table S34 | S10 Pre-Specified Analyses and Amendments | text | the plan and its amendments |
+| Table S35 | S10 Pre-Specified Analyses and Amendments | text | the plan and its amendments |
 
 Figs. S2 and S5 are the figures of `J14_journal_figures.py` and `J25_reviewer_figures.py`, restyled for an earlier
-revision of the manuscript; the restyling script is not released. Table S19 was written by the table script of the
+revision of the manuscript; the restyling script is not released. Table S21 was written by the table script of the
 first submission from `j20_scored_check`.
 
 ## The pre-specified analysis plan
@@ -150,7 +153,7 @@ of their own providers; `data/README.md` names each source.
 
 Cite the article and this repository:
 
-> Anh Nguyen Vu Minh, Cao-Phuc Ha, Nguyen Le Thai, Huu-Tho Nguyen and Phu-Nguyen Le, "bearing-onset-rule-audit: code and derived data, release 1.1.0," https://github.com/anhnvm-ai/bearing-onset-rule-audit, 2026.
+> Anh Nguyen Vu Minh, Cao-Phuc Ha, Nguyen Le Thai, Huu-Tho Nguyen and Phu-Nguyen Le, "bearing-onset-rule-audit: code and derived data, release 1.1.1," https://github.com/anhnvm-ai/bearing-onset-rule-audit, 2026.
 
 ## Versions
 
@@ -158,3 +161,4 @@ Cite the article and this repository:
 |---|---|---|
 | 1.0.0 | 2026-10-02 | Code and derived data of the first submission |
 | 1.1.0 | 2026-10-26 | Adds the analyses of the resubmission (J57-J69), their logs, the pre-specified plan and the figures of the resubmitted paper |
+| 1.1.1 | 2026-10-26 | Cited by the resubmission (amendment A8): adds the supplementary tables of the planned secondary outputs (C-rank reversals, rank agreement, Spearman correlations, simulation delays, median run lengths), Fig. 6 in two rows, and the map of the final supplementary numbering; no result table changed |

@@ -1,4 +1,8 @@
-"""J68 -- build release v1.1.0 of the repository bearing-onset-rule-audit (resubmission of Access-2026-51094).
+"""J68 -- build release v1.1.1 of the repository bearing-onset-rule-audit (resubmission of Access-2026-51094).
+
+v1.1.1 (amendment A8) supersedes v1.1.0, built by the first version of this script on the same day: it adds the
+exporters and supplementary tables of the planned secondary outputs that an internal review found unreported (J66),
+Fig. 6 in two rows (J67), amendment A8, and the README map of the final supplementary numbering.
 
 The Data Availability statement of the resubmitted manuscript points to
 https://github.com/anhnvm-ai/bearing-onset-rule-audit, release v1.1.0. This script writes the working tree of that
@@ -66,7 +70,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SCRIPTS, SRC = ROOT / "scripts", ROOT / "src"
 TABLES, LOGS = ROOT / "results" / "tables", ROOT / "results" / "logs"
 MS = ROOT / "paper" / "access_resub"          # read to index the release; never released
-VERSION, RELEASED = "1.1.0", "2026-10-26"
+VERSION, RELEASED = "1.1.1", "2026-10-26"
 REPO = "https://github.com/anhnvm-ai/bearing-onset-rule-audit"
 NAME = "bearing-onset-rule-audit"
 TITLE = ("Effect of Onset Rules and Their Implementation on Degradation Labels and Remaining-Useful-Life "
@@ -635,7 +639,8 @@ Cite the article and this repository:
 | Version | Date | Content |
 |---|---|---|
 | 1.0.0 | 2026-10-02 | Code and derived data of the first submission |
-| {VERSION} | {RELEASED} | Adds the analyses of the resubmission (J57-J69), their logs, the pre-specified plan and the figures of the resubmitted paper |
+| 1.1.0 | 2026-10-26 | Adds the analyses of the resubmission (J57-J69), their logs, the pre-specified plan and the figures of the resubmitted paper |
+| {VERSION} | {RELEASED} | Cited by the resubmission (amendment A8): adds the supplementary tables of the planned secondary outputs (C-rank reversals, rank agreement, Spearman correlations, simulation delays, median run lengths), Fig. 6 in two rows, and the map of the final supplementary numbering; no result table changed |
 """
 
 

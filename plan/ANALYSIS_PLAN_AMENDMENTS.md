@@ -213,3 +213,17 @@ Written after all planned results and amendment A6 were reported. It changes whe
 **Reason.** The authors chose to release the code and data on GitHub rather than on Zenodo before the release was built.
 
 **Results seen before the change.** All planned results and the result of A6. None of them depends on where the files are released.
+
+## A8 — 2026-10-26
+
+Written after an internal review of the manuscript, before the resubmission. It changes no analysis and no result table.
+
+**Section(s) affected:** 9 (secondary outputs of WP-C) and the release named in A7.
+
+**Change.**
+1. **Harrell's concordance over all records is not reported.** Section 9 plans the Spearman correlation and Harrell's concordance over S_j (main) and over all records (secondary). J62 computed the Spearman correlation over S_j and over all records, and the concordance over S_j and S3_j only. The secondary measure over all records is therefore reported as the Spearman correlation alone; the concordance over all records was never computed and is not added now.
+2. **The release cited by the resubmission is v1.1.1.** It supersedes v1.1.0 (A7), which stays available. v1.1.1 adds the exporters and the supplementary tables for planned outputs that the draft checked by the internal review did not report: the reversals in C-rank concordance (secondary), Kendall's τ between model rankings, the share of resamples in which the best model differs, the Spearman correlations of item 1, the simulation delays and misses for each end-of-life size, and the median in-control run length. The result tables of J57–J69 are unchanged.
+
+**Reason.** The plan's reporting commitments (Section 15) require every planned analysis to be reported. The internal review found the outputs listed in item 2 unreported, and found that J62 did not compute the concordance over all records.
+
+**Results seen before the change.** All planned results, including the outputs of item 2, which were in the result tables of release v1.1.0.
