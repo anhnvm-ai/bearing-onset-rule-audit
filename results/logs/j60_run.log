@@ -1,0 +1,161 @@
+==============================================================================
+     J60  ONSET PROTOCOLS, PROTOCOL CURVE, CONTAMINATION, WARM-UP  (WP-B)     
+==============================================================================
+started 2026-10-24 21:32:18   B = 20,000   seed = 60
+
+trajectories: XJTU-SY 15, FEMTO 13, IMS 4, NSK 6205 1
+
+==============================================================================
+A  P-retro must reproduce the submitted onsets exactly
+==============================================================================
+  ten rules: 330 of 330 onsets identical (merged 330)
+  67 designs: 2211 of 2211 design alarms identical, shift to 1e-9 (merged 2211)
+  within-condition slope against J23.ols_slope: difference 1.9e-16
+  PASS
+
+==============================================================================
+B  Phase-I estimates of RMS under each arm, relative to P-retro (median over bearings)
+==============================================================================
+  XJTU-SY
+    P-retro        bearings 15  sd ratio  1.00 [1.00-1.00]  mu shift +0.00 sd  records removed (total) 0
+    P-II           bearings 15  sd ratio  1.00 [1.00-1.00]  mu shift +0.00 sd  records removed (total) 0
+    P-robust       bearings 15  sd ratio  1.02 [0.38-1.39]  mu shift -0.09 sd  records removed (total) 0
+    P-iter         bearings 15  sd ratio  1.00 [0.46-1.00]  mu shift +0.00 sd  records removed (total) 10
+    P-fixed(10)    bearings 15  sd ratio  0.55 [0.31-1.25]  mu shift +0.36 sd  records removed (total) 0
+    P-fixed(15)    bearings 13  sd ratio  0.60 [0.36-1.45]  mu shift +0.52 sd  records removed (total) 0
+    P-fixed(20)    bearings 13  sd ratio  0.81 [0.44-1.44]  mu shift +0.18 sd  records removed (total) 0
+    P-fixed(30)    bearings 12  sd ratio  0.86 [0.47-1.33]  mu shift +0.27 sd  records removed (total) 0
+    P-prospective  bearings 13  sd ratio  0.62 [0.44-1.44]  mu shift +0.18 sd  records removed (total) 1
+  FEMTO
+    P-retro        bearings 13  sd ratio  1.00 [1.00-1.00]  mu shift +0.00 sd  records removed (total) 0
+    P-II           bearings 13  sd ratio  1.00 [1.00-1.00]  mu shift +0.00 sd  records removed (total) 0
+    P-robust       bearings 13  sd ratio  0.92 [0.37-1.47]  mu shift -0.16 sd  records removed (total) 0
+    P-iter         bearings 13  sd ratio  0.92 [0.50-1.00]  mu shift +0.00 sd  records removed (total) 12
+    P-fixed(10)    bearings 12  sd ratio  0.85 [0.36-1.44]  mu shift -0.03 sd  records removed (total) 0
+    P-fixed(15)    bearings 12  sd ratio  0.98 [0.38-1.48]  mu shift +0.04 sd  records removed (total) 0
+    P-fixed(20)    bearings 11  sd ratio  0.97 [0.58-1.50]  mu shift +0.05 sd  records removed (total) 0
+    P-fixed(30)    bearings  9  sd ratio  1.00 [0.55-1.32]  mu shift +0.28 sd  records removed (total) 0
+    P-prospective  bearings 11  sd ratio  0.96 [0.33-1.33]  mu shift +0.05 sd  records removed (total) 5
+
+==============================================================================
+C  Protocol curve: b1 - 1 of each rule under each arm (paired bearing bootstrap)
+==============================================================================
+
+  XJTU-SY, main set (13 bearings) except P-fixed(30) on its own set
+    arm                      3sig_rms             ma5sig               ewma              cusum         gap (det - chart)
+    P-retro         +0.23 [-0.37,+0.48]  +0.02 [-0.23,+0.27]  -1.22 [-2.09,-0.09]  -1.14 [-1.85,+0.95]   +1.39 [-0.71, +2.33]
+    P-II            +0.23 [-0.37,+0.48]  +0.02 [-0.23,+0.27]  +0.07 [-0.67,+0.46]  +0.05 [-0.71,+0.45]   +0.15 [-0.07, +0.56]
+    P-robust        +0.01 [-0.31,+0.29]  -0.01 [-0.36,+0.21]  -1.58 [-2.99,+1.04]  -1.32 [-2.06,-0.35]   +1.46 [-0.38, +2.58]
+    P-iter          +0.23 [-0.37,+0.48]  +0.01 [-0.24,+0.27]  +0.06 [-0.67,+0.46]  +0.05 [-0.72,+0.45]   +0.15 [-0.08, +0.56]
+    P-fixed(10)     -0.62 [-3.40,+0.86]  +0.40 [-0.37,+0.76]  -0.54 [-3.61,+0.76]  -0.54 [-3.64,+0.76]   -0.02 [-1.33, +0.77]
+    P-fixed(15)     -0.38 [-2.27,+0.45]  +0.07 [-0.23,+0.30]  -0.50 [-3.01,+0.54]  -0.50 [-3.03,+0.55]   +0.13 [-1.17, +1.12]
+    P-fixed(20)     +0.23 [-0.37,+0.48]  +0.01 [-0.25,+0.27]  -0.76 [-2.96,+0.43]  -0.55 [-3.00,+0.48]   +0.87 [-0.07, +2.52]
+    P-fixed(30)     -0.06 [-1.26,+0.60]  -0.00 [-1.01,+0.71]  -0.60 [-2.69,+0.70]  -0.62 [-2.82,+0.70]   +0.55 [-0.53, +1.69]
+    P-prospective   +0.23 [-0.37,+0.48]  +0.02 [-0.23,+0.28]  -0.76 [-2.96,+0.43]  -0.55 [-3.00,+0.48]   +0.87 [-0.07, +2.52]
+
+  FEMTO, main set (11 bearings) except P-fixed(30) on its own set
+    arm                      3sig_rms             ma5sig               ewma              cusum         gap (det - chart)
+    P-retro         -0.20 [-2.42,+0.27]  -0.29 [-3.57,+0.27]  -3.02 [-6.64,-1.38]  -2.56 [-3.98,-0.91]   +2.50 [-2.02, +4.36]
+    P-II            -0.20 [-2.42,+0.27]  -0.29 [-3.57,+0.27]  -0.08 [-1.80,+0.39]  -0.08 [-1.69,+0.39]   -0.21 [-2.70, +0.34]
+    P-robust        -1.40 [-25.97,+0.57]  +0.00 [-4.10,+0.48]  -2.38 [-8.51,-1.05]  -2.55 [-7.27,-0.77]   +1.07 [-18.27, +3.38]
+    P-iter          +0.22 [-2.50,+0.56]  -0.28 [-3.57,+0.27]  +0.03 [-1.67,+0.53]  +0.75 [-1.66,+1.38]   -0.38 [-2.85, +0.28]
+    P-fixed(10)     -0.47 [-3.70,+1.11]  -0.68 [-4.48,+0.42]  +0.56 [-3.94,+2.26]  +1.13 [-2.87,+3.60]   -1.47 [-2.76, -0.01]
+    P-fixed(15)     +0.29 [-1.50,+0.57]  -0.09 [-3.57,+0.31]  +0.35 [-4.51,+1.73]  +0.26 [-4.78,+1.65]   -0.18 [-2.18, +3.59]
+    P-fixed(20)     +0.28 [-1.61,+0.56]  -0.28 [-3.57,+0.27]  -0.57 [-4.47,+0.56]  +0.41 [-4.47,+1.72]   -0.02 [-2.02, +3.30]
+    P-fixed(30)     -0.17 [-2.04,+0.27]  -0.29 [-3.58,+0.28]  +0.01 [-3.53,+0.42]  +0.04 [-3.52,+0.45]   -0.31 [-0.41, +0.01]
+    P-prospective   +0.28 [-1.56,+0.56]  +0.01 [-3.56,+0.42]  +0.38 [-3.67,+1.63]  +0.38 [-3.67,+1.63]   -0.25 [-2.61, +3.43]
+
+==============================================================================
+D  Pre-specified reading of the protocol curve (Section 7 of the analysis plan)
+==============================================================================
+  XJTU-SY: gap from -0.02 (P-fixed(10)) to +1.46 (P-robust); sign changes: yes; arm pairs with disjoint intervals: 0
+    -> MATERIAL CHANGE across arms: protocol-dependent onset-length relation (first reading)
+    in-baseline share under P-retro: charts 0.62, RMS detectors 0.03
+    in-baseline share under P-robust: charts 0.65, RMS detectors 0.03
+  FEMTO: gap from -1.47 (P-fixed(10)) to +2.50 (P-retro); sign changes: yes; arm pairs with disjoint intervals: 0
+    -> MATERIAL CHANGE across arms: protocol-dependent onset-length relation (first reading)
+    in-baseline share under P-retro: charts 0.61, RMS detectors 0.00
+    in-baseline share under P-robust: charts 0.89, RMS detectors 0.08
+
+==============================================================================
+E  Labels under each arm: positive rate and target distance D_j (main set)
+==============================================================================
+  XJTU-SY
+    arm             pos rate (rec): 3sig_rms    ewma   cusum   D_j within det  D_j chart-det
+    P-retro                            0.280   0.958   0.970            0.009          0.250
+    P-II                               0.280   0.544   0.551            0.009          0.021
+    P-robust                           0.319   0.933   0.971            0.011          0.260
+    P-iter                             0.280   0.544   0.552            0.008          0.021
+    P-fixed(10)                        0.702   0.789   0.790            0.008          0.014
+    P-fixed(15)                        0.543   0.777   0.778            0.008          0.031
+    P-fixed(20)                        0.280   0.740   0.775            0.008          0.056
+    P-prospective                      0.280   0.740   0.775            0.007          0.056
+  FEMTO
+    arm             pos rate (rec): 3sig_rms    ewma   cusum   D_j within det  D_j chart-det
+    P-retro                            0.231   0.830   0.893            0.012          0.337
+    P-II                               0.231   0.342   0.346            0.012          0.033
+    P-robust                           0.374   0.887   0.958            0.016          0.419
+    P-iter                             0.258   0.352   0.374            0.016          0.026
+    P-fixed(10)                        0.398   0.503   0.567            0.007          0.020
+    P-fixed(15)                        0.233   0.477   0.478            0.012          0.031
+    P-fixed(20)                        0.237   0.450   0.476            0.020          0.030
+    P-prospective                      0.243   0.505   0.505            0.017          0.034
+
+==============================================================================
+F  Baseline contamination diagnostic (descriptive; P-retro onsets inside the baseline)
+==============================================================================
+  in-baseline P-retro onsets: 39; with >= 20 records before the alarm: 11; excluded (fewer records): 28
+    excluded: xjtu/Bearing1_4/cusum (alarm at record 5)
+    excluded: xjtu/Bearing2_1/ma2sig (alarm at record 0)
+    excluded: xjtu/Bearing2_1/ewma (alarm at record 2)
+    excluded: xjtu/Bearing2_1/cusum (alarm at record 3)
+    excluded: xjtu/Bearing2_3/ewma (alarm at record 17)
+    excluded: xjtu/Bearing2_3/cusum (alarm at record 16)
+    excluded: xjtu/Bearing2_5/ewma (alarm at record 3)
+    excluded: xjtu/Bearing2_5/cusum (alarm at record 4)
+    excluded: xjtu/Bearing3_1/ewma (alarm at record 16)
+    excluded: xjtu/Bearing3_1/cusum (alarm at record 17)
+    excluded: xjtu/Bearing3_4/3sig_kurt (alarm at record 9)
+    excluded: xjtu/Bearing3_4/ewma (alarm at record 3)
+    excluded: xjtu/Bearing3_4/cusum (alarm at record 4)
+    excluded: femto/Bearing1_1/ma2sig (alarm at record 3)
+    excluded: femto/Bearing1_1/ewma (alarm at record 3)
+    excluded: femto/Bearing1_1/cusum (alarm at record 3)
+    excluded: femto/Bearing1_4/cusum (alarm at record 15)
+    excluded: femto/Bearing1_6/ewma (alarm at record 13)
+    excluded: femto/Bearing1_6/cusum (alarm at record 11)
+    excluded: femto/Bearing1_7/ewma (alarm at record 4)
+    excluded: femto/Bearing1_7/cusum (alarm at record 4)
+    excluded: femto/Bearing2_5/ewma (alarm at record 19)
+    excluded: femto/Bearing2_5/cusum (alarm at record 19)
+    excluded: ims/IMS_3rd_test_B3/3sig_rms (alarm at record 6)
+    excluded: ims/IMS_3rd_test_B3/ma2sig (alarm at record 6)
+    excluded: ims/IMS_3rd_test_B3/ma3sig (alarm at record 8)
+    excluded: ims/IMS_3rd_test_B3/ewma (alarm at record 5)
+    excluded: ims/IMS_3rd_test_B3/cusum (alarm at record 5)
+    xjtu/Bearing1_2 3sig_rms: alarm 31 -> 31; sd ratio 0.46, mu shift -0.16 sd; D_j 0.000
+    xjtu/Bearing1_3 cusum: alarm 28 -> 24; sd ratio 0.97, mu shift -0.13 sd; D_j 0.016
+    xjtu/Bearing3_1 ma2sig: alarm 24 -> 2338; sd ratio 0.69, mu shift +0.98 sd; D_j 0.529
+    xjtu/Bearing3_2 ewma: alarm 59 -> 68; sd ratio 0.86, mu shift +0.47 sd; D_j 0.002
+    xjtu/Bearing3_2 cusum: alarm 53 -> 63; sd ratio 0.84, mu shift +0.40 sd; D_j 0.002
+    xjtu/Bearing3_3 ewma: alarm 26 -> 342; sd ratio 1.39, mu shift +0.06 sd; D_j 0.511
+    xjtu/Bearing3_3 cusum: alarm 20 -> 24; sd ratio 1.44, mu shift -0.23 sd; D_j 0.006
+    femto/Bearing1_5 ewma: alarm 26 -> 26; sd ratio 1.01, mu shift -0.11 sd; D_j 0.000
+    femto/Bearing1_5 cusum: alarm 26 -> 26; sd ratio 1.01, mu shift -0.11 sd; D_j 0.000
+    ims/IMS_1st_test_B3 cusum: alarm 80 -> 57; sd ratio 0.95, mu shift -0.62 sd; D_j 0.019
+    ims/IMS_1st_test_B4 cusum: alarm 126 -> 108; sd ratio 1.03, mu shift -0.09 sd; D_j 0.016
+
+==============================================================================
+G  Warm-up hypothesis H_w: early chart alarms because the first records lie above the P-retro mean
+==============================================================================
+  ewma  XJTU-SY  rho(e10, i*) = -0.487 [-0.86, +0.07]  (n = 15)
+  ewma  FEMTO    rho(e10, i*) = -0.733 [-0.98, -0.24]  (n = 10)
+  cusum XJTU-SY  rho(e10, i*) = -0.655 [-0.93, -0.13]  (n = 15)
+  cusum FEMTO    rho(e10, i*) = -0.510 [-0.89, +0.12]  (n = 11)
+  condition 1 (negative rho, interval excluding 0 on >= 1 dataset, negative on the other): ewma met, cusum met
+  condition 2: chart alarms at i* < 0.05 n: 21; share on bearings with e10 > 1: 0.52 (needs >= 0.67) -> not met
+  -> H_w NOT SUPPORTED under the pre-specified criteria
+  plotted 6 bearings with a chart alarm before record 10: results/figures/j60_warmup_first100.png
+
+wrote j60_onsets.csv (2970), j60_design_onsets.csv (4422), j60_protocol_curve.csv (238), j60_gap.csv (34), j60_labels.csv (192), j60_contamination.csv (11), j60_warmup.csv (28), j60_warmup_test.csv (4)
+finished 2026-10-24 21:45:47

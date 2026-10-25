@@ -1,0 +1,8 @@
+dataset,rule,winner,runner_up,delta_median,delta_lo,delta_hi,p_winner_better,separable
+femto,pct05,thr:v_p2p,thr:v_absmax,0.0,0.0,0.0,0.0,False
+femto,3sig_rms,thr:v_rms,rf:all,0.05796051267400554,0.01356201880221627,0.13294253849723955,1.0,True
+femto,3sig_kurt,thr:v_crest,thr:v_kurtosis,0.02326963801984394,-0.016158480474806614,0.045085666542032166,0.8795,False
+femto,ma3sig,thr:v_rms,rf:all,0.07893896626188834,-0.0022502748020095885,0.16394952812547045,0.947,False
+femto,ma5sig,thr:v_absmax,thr:v_p2p,0.0003077027906494001,-0.0015306890877018532,0.0016153765459123903,0.5325,False
+femto,pct02,thr:v_p2p,thr:v_absmax,0.0,0.0,0.0,0.0,False
+femto,pct10,thr:v_absmax,thr:v_p2p,0.000653616333413154,-0.0007097158686098559,0.00387238542169625,0.6045,False

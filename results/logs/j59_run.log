@@ -1,0 +1,39 @@
+==============================================================================
+              J59  RULE, DESIGN AND MODEL CONFIGURATIONS  (R1.6)              
+==============================================================================
+started 2026-10-24 21:25:47
+
+==============================================================================
+A  The 67 designs (J26.build_grid) and the ten rules
+==============================================================================
+  control chart             45 designs; nominal shift 0.32-6.00 sd
+  detector                  12 designs; nominal shift 0.89-8.00 sd
+  chart, AR-corrected        5 designs; nominal shift 0.48-2.45 sd
+  chart, adaptive limits     5 designs; nominal shift 2.00-6.00 sd
+  canonical designs (the rules of Table 2 inside the grid): ewma_l0.2_L3, cusum_k0.5_h5, thr_3sd, ma5_2sd, ma5_3sd, ma5_5sd
+  R1   3sig_rms   detector      RMS                                = design thr_3sd
+  R2   3sig_kurt  detector      kurtosis                          
+  R3   ma2sig     detector      five-record moving average of RMS  = design ma5_2sd
+  R4   ma3sig     detector      five-record moving average of RMS  = design ma5_3sd
+  R5   ma5sig     detector      five-record moving average of RMS  = design ma5_5sd
+  R6   ewma       control chart RMS                                = design ewma_l0.2_L3
+  R7   cusum      control chart RMS                                = design cusum_k0.5_h5
+  R8   pct02      percentile    none                              
+  R9   pct05      percentile    none                              
+  R10  pct10      percentile    none                              
+
+==============================================================================
+B  Models of the RUL comparison (read back from the code)
+==============================================================================
+  lin:rms          J35.models       {}
+  ridge:all        J35.models       {"alpha": 1.0, "random_state": null}
+  knn:all          J35.models       {"n_neighbors": 15}
+  gbr:all          J35.models       {"learning_rate": 0.1, "n_estimators": 100, "random_state": 0}
+  et:all           J35.models       {"n_estimators": 200, "random_state": 0}
+  rf:all           J35.models       {"n_estimators": 200, "random_state": 0}
+  two-stage (exp)  J39              {"min_records_to_fit": 5, "variant_used": "exp"}
+  gru              J47.GRUHead      {"batch": 256, "epochs": 30, "learning_rate": 0.001, "parameters_xjtu": 3969, "seeds": [0, 1, 2], "window": 16}
+  tcn              J47.TCNHead      {"batch": 256, "epochs": 30, "learning_rate": 0.001, "parameters_xjtu": 6945, "seeds": [0, 1, 2], "window": 16}
+
+wrote results/tables/j59_rule_configurations.csv (77 rows), j59_model_settings.csv (9 rows)
+finished 2026-10-24 21:25:51

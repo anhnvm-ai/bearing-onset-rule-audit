@@ -1,0 +1,9 @@
+# versions the released results were produced with
+numpy==2.2.6
+pandas==2.3.2
+scipy==1.14.0
+scikit-learn==1.5.0
+statsmodels==0.14.6   # J65
+matplotlib==3.10.9
+pyarrow==24.0.0   # J62 prediction cache
+torch==2.14.0   # GRU and TCN only (J47, J62)

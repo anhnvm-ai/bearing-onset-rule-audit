@@ -1,0 +1,67 @@
+==============================================================================
+               J64  DESIGN PARAMETERS AND ONSET SCALING  (WP-F)               
+==============================================================================
+started 2026-10-24 21:53:36   B = 20,000   seed = 64
+
+  P-prospective main XJTU-SY: 13 bearings, 67 designs with an outcome, 360 of 360 splits usable
+    M0: R2 in +0.241, boot +0.214 [+0.052, +0.360], out of sample median -3.184 [q25 -14.565, q75 -0.965]
+    M1: R2 in +0.645, boot +0.541 [+0.093, +0.740], out of sample median -2.885 [q25 -15.554, q75 -0.937]
+    M2: R2 in +0.699, boot +0.565 [+0.204, +0.830], out of sample median -2.994 [q25 -15.612, q75 -0.909]
+    M3: R2 in +0.734, boot +0.602 [+0.259, +0.866], out of sample median -3.746 [q25 -15.709, q75 -1.102]
+    M4: R2 in +0.729, boot +0.617 [+0.239, +0.852], out of sample median -3.155 [q25 -15.959, q75 -1.012]
+    Delta R2 (M3 - M2): in +0.036, boot +0.036 [+0.019, +0.122]; M2 beats M0 out of sample in 0.44 of splits
+    split-half reliability median 0.377 (ceiling R2 0.142); mediators in sample: measured d 0.683, onset fraction 0.814
+    readings: (1) calibration beats family False; (2) family adds beyond FAR True; (3) every model below 0 out of sample True
+
+  P-prospective main FEMTO  : 11 bearings, 67 designs with an outcome, 60 of 120 splits usable
+    M0: R2 in +0.123, boot +0.218 [+0.007, +0.515], out of sample median -6.837 [q25 -7.433, q75 -4.137]
+    M1: R2 in +0.016, boot +0.308 [+0.006, +0.648], out of sample median -7.562 [q25 -9.914, q75 -5.020]
+    M2: R2 in +0.084, boot +0.415 [+0.050, +0.704], out of sample median -7.837 [q25 -10.397, q75 -5.376]
+    M3: R2 in +0.144, boot +0.491 [+0.085, +0.756], out of sample median -8.088 [q25 -10.699, q75 -5.486]
+    M4: R2 in +0.104, boot +0.441 [+0.095, +0.723], out of sample median -7.948 [q25 -10.411, q75 -5.381]
+    Delta R2 (M3 - M2): in +0.060, boot +0.057 [+0.002, +0.170]; M2 beats M0 out of sample in 0.32 of splits
+    split-half reliability median -0.024 (ceiling R2 0.001); mediators in sample: measured d 0.051, onset fraction 0.027
+    readings: (1) calibration beats family False; (2) family adds beyond FAR True; (3) every model below 0 out of sample True
+
+  P-retro       main XJTU-SY: 13 bearings, 67 designs with an outcome, 360 of 360 splits usable
+    M0: R2 in +0.127, boot +0.124 [+0.046, +0.230], out of sample median -0.671 [q25 -1.476, q75 -0.205]
+    M1: R2 in +0.651, boot +0.590 [+0.067, +0.661], out of sample median -0.378 [q25 -1.546, q75 +0.142]
+    M2: R2 in +0.698, boot +0.615 [+0.180, +0.768], out of sample median -0.448 [q25 -1.659, q75 +0.081]
+    M3: R2 in +0.707, boot +0.646 [+0.333, +0.780], out of sample median -0.635 [q25 -1.937, q75 -0.060]
+    M4: R2 in +0.735, boot +0.665 [+0.207, +0.784], out of sample median -0.573 [q25 -1.730, q75 +0.037]
+    Delta R2 (M3 - M2): in +0.009, boot +0.021 [+0.004, +0.197]; M2 beats M0 out of sample in 0.69 of splits
+    split-half reliability median 0.580 (ceiling R2 0.337); mediators in sample: measured d 0.669, onset fraction 0.784
+    readings: (1) calibration beats family False; (2) family adds beyond FAR True; (3) every model below 0 out of sample True
+
+  P-retro       main FEMTO  : 11 bearings, 67 designs with an outcome, 80 of 120 splits usable
+    M0: R2 in +0.105, boot +0.107 [+0.041, +0.221], out of sample median -4.232 [q25 -18.728, q75 -0.497]
+    M1: R2 in +0.582, boot +0.513 [+0.164, +0.618], out of sample median -5.367 [q25 -20.627, q75 -0.265]
+    M2: R2 in +0.736, boot +0.639 [+0.112, +0.819], out of sample median -11.214 [q25 -23.566, q75 -0.267]
+    M3: R2 in +0.750, boot +0.685 [+0.304, +0.836], out of sample median -18.745 [q25 -28.639, q75 -0.368]
+    M4: R2 in +0.740, boot +0.669 [+0.196, +0.821], out of sample median -11.793 [q25 -25.066, q75 -0.326]
+    Delta R2 (M3 - M2): in +0.014, boot +0.041 [+0.005, +0.315]; M2 beats M0 out of sample in 0.47 of splits
+    split-half reliability median 0.157 (ceiling R2 0.025); mediators in sample: measured d 0.813, onset fraction 0.764
+    readings: (1) calibration beats family False; (2) family adds beyond FAR True; (3) every model below 0 out of sample True
+
+  P-retro       all  XJTU-SY: 15 bearings, 67 designs with an outcome, 2000 of 2000 splits usable
+    M0: R2 in +0.108, boot +0.110 [+0.062, +0.194], out of sample median -0.219 [q25 -0.656, q75 -0.049]
+    M1: R2 in +0.645, boot +0.604 [+0.177, +0.661], out of sample median -0.004 [q25 -0.588, q75 +0.322]
+    M2: R2 in +0.770, boot +0.716 [+0.331, +0.810], out of sample median +0.025 [q25 -0.662, q75 +0.387]
+    M3: R2 in +0.784, boot +0.743 [+0.408, +0.831], out of sample median -0.024 [q25 -0.755, q75 +0.362]
+    M4: R2 in +0.791, boot +0.741 [+0.355, +0.824], out of sample median +0.006 [q25 -0.718, q75 +0.379]
+    Delta R2 (M3 - M2): in +0.014, boot +0.020 [+0.002, +0.139]; M2 beats M0 out of sample in 0.76 of splits
+    split-half reliability median 0.677 (ceiling R2 0.459); mediators in sample: measured d 0.706, onset fraction 0.810
+    readings: (1) calibration beats family False; (2) family adds beyond FAR True; (3) every model below 0 out of sample False
+
+  P-retro       all  FEMTO  : 13 bearings, 67 designs with an outcome, 400 of 400 splits usable
+    M0: R2 in +0.094, boot +0.098 [+0.035, +0.242], out of sample median -1.509 [q25 -15.969, q75 -0.404]
+    M1: R2 in +0.560, boot +0.488 [+0.153, +0.603], out of sample median -1.625 [q25 -17.251, q75 -0.129]
+    M2: R2 in +0.684, boot +0.579 [+0.086, +0.783], out of sample median -1.620 [q25 -16.461, q75 -0.070]
+    M3: R2 in +0.697, boot +0.628 [+0.316, +0.803], out of sample median -1.911 [q25 -23.659, q75 -0.178]
+    M4: R2 in +0.688, boot +0.614 [+0.184, +0.786], out of sample median -1.748 [q25 -18.476, q75 -0.147]
+    Delta R2 (M3 - M2): in +0.014, boot +0.043 [+0.005, +0.323]; M2 beats M0 out of sample in 0.68 of splits
+    split-half reliability median 0.333 (ceiling R2 0.111); mediators in sample: measured d 0.718, onset fraction 0.664
+    readings: (1) calibration beats family False; (2) family adds beyond FAR True; (3) every model below 0 out of sample True
+
+wrote j64_design_outcomes.csv (402), j64_models.csv (36), j64_splits.csv (3260)
+finished 2026-10-24 22:21:19

@@ -1,0 +1,17 @@
+p_min,statement,holds_at_p_max_050,largest_p_max_still_holding,first_p_max_failing,cells_holding,cells
+0.005,charts fail on all four datasets,True,0.65,0.7,6,9
+0.005,3sig_rms fails on IMS,True,0.6,0.65,5,9
+0.005,XJTU-SY condition changes the verdict,True,0.55,0.6,4,9
+0.005,at least four rules change verdict across datasets,True,0.6,0.65,5,9
+0.01,charts fail on all four datasets,True,0.65,0.7,6,9
+0.01,3sig_rms fails on IMS,True,0.6,0.65,5,9
+0.01,XJTU-SY condition changes the verdict,True,0.55,0.6,4,9
+0.01,at least four rules change verdict across datasets,True,0.6,0.65,5,9
+0.02,charts fail on all four datasets,True,0.65,0.7,6,9
+0.02,3sig_rms fails on IMS,True,0.6,0.65,5,9
+0.02,XJTU-SY condition changes the verdict,True,0.55,0.6,4,9
+0.02,at least four rules change verdict across datasets,True,0.6,0.65,5,9
+0.05,charts fail on all four datasets,True,0.65,0.7,6,9
+0.05,3sig_rms fails on IMS,True,0.6,0.65,5,9
+0.05,XJTU-SY condition changes the verdict,True,0.55,0.6,4,9
+0.05,at least four rules change verdict across datasets,True,0.8,,9,9

@@ -1,0 +1,9 @@
+macro,value
+DetectorSlopeXjtu,+1.18
+ChartSlopeXjtu,-0.13
+SweepRSqSize,0.788
+SweepRSqFamily,0.077
+SweepDesigns,67
+RulTargetRmseChartDetXjtu,0.433
+RulTargetRmseWithinDetXjtu,0.070
+NTrajectories,33

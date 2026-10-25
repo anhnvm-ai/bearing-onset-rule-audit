@@ -1,0 +1,125 @@
+==============================================================================
+    J69  LABELER EFFECT AGAINST MODEL EFFECT ON THE COMMON REFERENCE  (A6)    
+==============================================================================
+started 2026-10-25 14:53:21; B = 20000 bearing resamples stratified by condition, seed 69
+
+==============================================================================
+P-retro|canonical  XJTU-SY  (14 bearings)
+==============================================================================
+  S  C-common RMSE      nine        : labeler 0.1215, model 0.0714, R 1.702 [1.142, 2.760], R < 1 in 0.012 of resamples; leave-one-out max 9.873 (drop two-stage)
+  S  C-common RMSE      no two-stage: labeler 0.1207, model 0.0122, R 9.873 [2.990, 11.720], R < 1 in 0.000 of resamples
+  S  C-rank concordance nine        : labeler 0.0325, model 0.0690, R 0.471 [0.204, 0.816], R < 1 in 0.998 of resamples; leave-one-out max 0.664 (drop lin:rms)
+  S  C-rank concordance no two-stage: labeler 0.0320, model 0.0554, R 0.578 [0.228, 1.095], R < 1 in 0.949 of resamples
+  S3 C-common RMSE      nine        : labeler 0.0404, model 0.0561, R 0.720 [0.352, 1.500], R < 1 in 0.808 of resamples; leave-one-out max 2.126 (drop two-stage)
+  S3 C-common RMSE      no two-stage: labeler 0.0282, model 0.0133, R 2.126 [0.435, 3.354], R < 1 in 0.125 of resamples
+  S3 C-rank concordance nine        : labeler 0.0309, model 0.0712, R 0.433 [0.165, 0.786], R < 1 in 0.998 of resamples; leave-one-out max 0.673 (drop two-stage)
+  S3 C-rank concordance no two-stage: labeler 0.0450, model 0.0668, R 0.673 [0.330, 1.123], R < 1 in 0.932 of resamples
+
+==============================================================================
+P-retro|canonical  FEMTO  (9 bearings)
+==============================================================================
+  S  C-common RMSE      nine        : labeler 0.1022, model 0.1247, R 0.820 [0.378, 0.997], R < 1 in 0.980 of resamples; leave-one-out max 5.632 (drop two-stage)
+  S  C-common RMSE      no two-stage: labeler 0.1093, model 0.0194, R 5.632 [1.291, 9.598], R < 1 in 0.002 of resamples
+  S  C-rank concordance nine        : labeler 0.0351, model 0.1310, R 0.268 [0.180, 0.440], R < 1 in 1.000 of resamples; leave-one-out max 0.349 (drop two-stage)
+  S  C-rank concordance no two-stage: labeler 0.0438, model 0.1255, R 0.349 [0.198, 0.554], R < 1 in 1.000 of resamples
+  S3 C-common RMSE      nine        : labeler 0.0397, model 0.1006, R 0.395 [0.303, 0.638], R < 1 in 1.000 of resamples; leave-one-out max 2.166 (drop two-stage)
+  S3 C-common RMSE      no two-stage: labeler 0.0391, model 0.0181, R 2.166 [0.801, 2.394], R < 1 in 0.080 of resamples
+  S3 C-rank concordance nine        : labeler 0.0576, model 0.1346, R 0.428 [0.319, 0.748], R < 1 in 0.999 of resamples; leave-one-out max 0.569 (drop lin:rms)
+  S3 C-rank concordance no two-stage: labeler 0.0732, model 0.1374, R 0.533 [0.380, 0.861], R < 1 in 0.993 of resamples
+
+==============================================================================
+P-prospective|canonical  XJTU-SY  (12 bearings)
+==============================================================================
+  S  C-common RMSE      nine        : labeler 0.1112, model 0.0643, R 1.728 [1.206, 2.522], R < 1 in 0.009 of resamples; leave-one-out max 9.513 (drop two-stage)
+  S  C-common RMSE      no two-stage: labeler 0.1155, model 0.0121, R 9.513 [3.085, 15.556], R < 1 in 0.000 of resamples
+  S  C-rank concordance nine        : labeler 0.0259, model 0.0661, R 0.392 [0.206, 0.692], R < 1 in 0.999 of resamples; leave-one-out max 0.588 (drop lin:rms)
+  S  C-rank concordance no two-stage: labeler 0.0258, model 0.0531, R 0.485 [0.235, 0.892], R < 1 in 0.991 of resamples
+  S3 C-common RMSE      nine        : labeler 0.0254, model 0.0547, R 0.465 [0.133, 1.412], R < 1 in 0.925 of resamples; leave-one-out max 0.851 (drop two-stage)
+  S3 C-common RMSE      no two-stage: labeler 0.0134, model 0.0158, R 0.851 [0.124, 2.332], R < 1 in 0.654 of resamples
+  S3 C-rank concordance nine        : labeler 0.0262, model 0.0744, R 0.352 [0.133, 0.788], R < 1 in 0.998 of resamples; leave-one-out max 0.497 (drop lin:rms)
+  S3 C-rank concordance no two-stage: labeler 0.0347, model 0.0733, R 0.473 [0.220, 0.860], R < 1 in 0.995 of resamples
+
+==============================================================================
+P-prospective|canonical  FEMTO  (8 bearings)
+==============================================================================
+  S  C-common RMSE      nine        : labeler 0.0780, model 0.1417, R 0.551 [0.334, 0.689], R < 1 in 1.000 of resamples; leave-one-out max 2.616 (drop two-stage)
+  S  C-common RMSE      no two-stage: labeler 0.0832, model 0.0318, R 2.616 [1.279, 4.156], R < 1 in 0.000 of resamples
+  S  C-rank concordance nine        : labeler 0.0115, model 0.1231, R 0.093 [0.060, 0.229], R < 1 in 1.000 of resamples; leave-one-out max 0.125 (drop tcn)
+  S  C-rank concordance no two-stage: labeler 0.0132, model 0.1153, R 0.115 [0.064, 0.256], R < 1 in 1.000 of resamples
+  S3 C-common RMSE      nine        : labeler 0.0053, model 0.1008, R 0.053 [0.037, 0.196], R < 1 in 1.000 of resamples; leave-one-out max 0.542 (drop two-stage)
+  S3 C-common RMSE      no two-stage: labeler 0.0049, model 0.0091, R 0.542 [0.334, 1.460], R < 1 in 0.767 of resamples
+  S3 C-rank concordance nine        : labeler 0.0166, model 0.0896, R 0.185 [0.064, 0.390], R < 1 in 1.000 of resamples; leave-one-out max 0.306 (drop gbr:all)
+  S3 C-rank concordance no two-stage: labeler 0.0137, model 0.0977, R 0.140 [0.075, 0.342], R < 1 in 1.000 of resamples
+
+==============================================================================
+P-prospective|matched5  XJTU-SY  (13 bearings)
+==============================================================================
+  S  C-common RMSE      nine        : labeler 0.1041, model 0.0801, R 1.299 [0.929, 1.470], R < 1 in 0.036 of resamples; leave-one-out max 7.095 (drop two-stage)
+  S  C-common RMSE      no two-stage: labeler 0.1066, model 0.0150, R 7.095 [2.466, 9.256], R < 1 in 0.000 of resamples
+  S  C-rank concordance nine        : labeler 0.0342, model 0.0716, R 0.477 [0.175, 0.986], R < 1 in 0.978 of resamples; leave-one-out max 0.721 (drop lin:rms)
+  S  C-rank concordance no two-stage: labeler 0.0388, model 0.0598, R 0.649 [0.275, 1.132], R < 1 in 0.936 of resamples
+  S3 C-common RMSE      nine        : labeler 0.0098, model 0.0597, R 0.164 [0.055, 0.360], R < 1 in 1.000 of resamples; leave-one-out max 0.632 (drop two-stage)
+  S3 C-common RMSE      no two-stage: labeler 0.0065, model 0.0104, R 0.632 [0.124, 1.485], R < 1 in 0.875 of resamples
+  S3 C-rank concordance nine        : labeler 0.0151, model 0.0765, R 0.197 [0.033, 0.568], R < 1 in 1.000 of resamples; leave-one-out max 0.285 (drop lin:rms)
+  S3 C-rank concordance no two-stage: labeler 0.0184, model 0.0765, R 0.240 [0.065, 0.573], R < 1 in 1.000 of resamples
+
+==============================================================================
+P-prospective|matched5  FEMTO  (8 bearings)
+==============================================================================
+  S  C-common RMSE      nine        : labeler 0.0910, model 0.1432, R 0.636 [0.413, 0.796], R < 1 in 1.000 of resamples; leave-one-out max 2.725 (drop two-stage)
+  S  C-common RMSE      no two-stage: labeler 0.0961, model 0.0353, R 2.725 [1.420, 3.605], R < 1 in 0.002 of resamples
+  S  C-rank concordance nine        : labeler 0.0125, model 0.1010, R 0.123 [0.091, 0.298], R < 1 in 1.000 of resamples; leave-one-out max 0.190 (drop two-stage)
+  S  C-rank concordance no two-stage: labeler 0.0175, model 0.0923, R 0.190 [0.115, 0.336], R < 1 in 1.000 of resamples
+  S3 C-common RMSE      nine        : labeler 0.0037, model 0.1000, R 0.037 [0.024, 0.159], R < 1 in 1.000 of resamples; leave-one-out max 0.399 (drop two-stage)
+  S3 C-common RMSE      no two-stage: labeler 0.0052, model 0.0130, R 0.399 [0.151, 1.222], R < 1 in 0.900 of resamples
+  S3 C-rank concordance nine        : labeler 0.0113, model 0.0759, R 0.148 [0.054, 0.319], R < 1 in 1.000 of resamples; leave-one-out max 0.270 (drop gbr:all)
+  S3 C-rank concordance no two-stage: labeler 0.0089, model 0.0789, R 0.113 [0.040, 0.288], R < 1 in 1.000 of resamples
+
+==============================================================================
+P-retro|matched5  XJTU-SY  (15 bearings)
+==============================================================================
+  S  C-common RMSE      nine        : labeler 0.1074, model 0.1061, R 1.012 [0.677, 1.108], R < 1 in 0.468 of resamples; leave-one-out max 5.426 (drop two-stage)
+  S  C-common RMSE      no two-stage: labeler 0.1118, model 0.0206, R 5.426 [2.110, 8.067], R < 1 in 0.000 of resamples
+  S  C-rank concordance nine        : labeler 0.0141, model 0.0751, R 0.188 [0.056, 0.461], R < 1 in 1.000 of resamples; leave-one-out max 0.333 (drop lin:rms)
+  S  C-rank concordance no two-stage: labeler 0.0114, model 0.0518, R 0.219 [0.101, 0.576], R < 1 in 1.000 of resamples
+  S3 C-common RMSE      nine        : labeler 0.0123, model 0.0667, R 0.185 [0.019, 0.340], R < 1 in 1.000 of resamples; leave-one-out max 1.177 (drop two-stage)
+  S3 C-common RMSE      no two-stage: labeler 0.0155, model 0.0132, R 1.177 [0.056, 1.591], R < 1 in 0.445 of resamples
+  S3 C-rank concordance nine        : labeler 0.0053, model 0.0739, R 0.071 [0.015, 0.179], R < 1 in 1.000 of resamples; leave-one-out max 0.127 (drop lin:rms)
+  S3 C-rank concordance no two-stage: labeler 0.0086, model 0.0719, R 0.119 [0.039, 0.217], R < 1 in 1.000 of resamples
+
+==============================================================================
+P-retro|matched5  FEMTO  (9 bearings)
+==============================================================================
+  S  C-common RMSE      nine        : labeler 0.1084, model 0.1297, R 0.835 [0.329, 1.064], R < 1 in 0.887 of resamples; leave-one-out max 3.523 (drop two-stage)
+  S  C-common RMSE      no two-stage: labeler 0.1204, model 0.0342, R 3.523 [1.252, 4.520], R < 1 in 0.005 of resamples
+  S  C-rank concordance nine        : labeler 0.0212, model 0.1403, R 0.151 [0.049, 0.295], R < 1 in 1.000 of resamples; leave-one-out max 0.240 (drop gru)
+  S  C-rank concordance no two-stage: labeler 0.0222, model 0.1360, R 0.163 [0.058, 0.329], R < 1 in 1.000 of resamples
+  S3 C-common RMSE      nine        : labeler 0.0029, model 0.1043, R 0.028 [0.010, 0.072], R < 1 in 1.000 of resamples; leave-one-out max 0.036 (drop two-stage)
+  S3 C-common RMSE      no two-stage: labeler 0.0028, model 0.0786, R 0.036 [0.008, 0.087], R < 1 in 1.000 of resamples
+  S3 C-rank concordance nine        : labeler 0.0074, model 0.1562, R 0.047 [0.023, 0.152], R < 1 in 1.000 of resamples; leave-one-out max 0.061 (drop gru)
+  S3 C-rank concordance no two-stage: labeler 0.0078, model 0.1643, R 0.047 [0.023, 0.158], R < 1 in 1.000 of resamples
+
+==============================================================================
+Self-checks
+==============================================================================
+  labeler main-effect differences against j62_main_effect.csv: largest |difference| 1.7e-16
+  pooled cell values against j62_common_reference.csv: largest |difference| 2.2e-16
+  bearing counts against j62_common_reference.csv: all match
+
+==============================================================================
+Decision rule of A6 (C-rank, all 16 cells, pools 'nine' and 'no two-stage')
+==============================================================================
+  nine        : upper bound below 1 in 16/16 cells; R from 0.047 to 0.477; largest upper bound 0.986
+  no two-stage: upper bound below 1 in 13/16 cells; R from 0.047 to 0.673; largest upper bound 1.132
+  -> the clause is REMOVED from the abstract; cells with an upper bound of 1 or more:
+     P-retro|canonical XJTU-SY S no two-stage: R 0.578 [0.228, 1.095]
+     P-retro|canonical XJTU-SY S3 no two-stage: R 0.673 [0.330, 1.123]
+     P-prospective|matched5 XJTU-SY S no two-stage: R 0.649 [0.275, 1.132]
+
+  C-common RMSE (reported, no abstract claim):
+    S  nine        : R below 1 with upper bound below 1 in 3/8 cells; R above 1 with lower bound above 1 in 2/8; R from 0.551 to 1.728
+    S  no two-stage: R below 1 with upper bound below 1 in 0/8 cells; R above 1 with lower bound above 1 in 8/8; R from 2.616 to 9.873
+    S3 nine        : R below 1 with upper bound below 1 in 6/8 cells; R above 1 with lower bound above 1 in 0/8; R from 0.028 to 0.720
+    S3 no two-stage: R below 1 with upper bound below 1 in 1/8 cells; R above 1 with lower bound above 1 in 0/8; R from 0.036 to 2.166
+
+wrote j69_labeler_model_contrast.csv (64 rows); finished 2026-10-25 14:53:24

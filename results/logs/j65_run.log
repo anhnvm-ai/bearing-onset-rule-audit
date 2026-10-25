@@ -1,0 +1,35 @@
+==============================================================================
+    J65  LINEAR MIXED MODELS: SENSITIVITY TO THE CLUSTER BOOTSTRAP  (WP-G)    
+==============================================================================
+started 2026-10-24 23:56:07
+
+==============================================================================
+(i) RUL per bearing ~ labeler + model + condition + (1 | bearing)
+==============================================================================
+  P-retro|canonical        XJTU-SY rmse_common_S : labeler chi2    41.1 (df 3, p 6.3e-09); model chi2   102.2 (df 8, p 1.5e-18); SD of effects labeler 0.0374 vs model 0.0589; bearing var 0.004323, residual 0.01712  (not converged)
+  P-retro|canonical        XJTU-SY conc_S        : labeler chi2     6.9 (df 3, p 0.074); model chi2    44.1 (df 8, p 5.5e-07); SD of effects labeler 0.0220 vs model 0.0554; bearing var 0.01738, residual 0.03507
+  P-retro|canonical        FEMTO   rmse_common_S : labeler chi2    65.2 (df 3, p 4.5e-14); model chi2   380.4 (df 8, p 3e-77); SD of effects labeler 0.0607 vs model 0.1466; bearing var 0.006304, residual 0.01831
+  P-retro|canonical        FEMTO   conc_S        : labeler chi2     4.7 (df 3, p 0.19); model chi2    72.9 (df 8, p 1.3e-12); SD of effects labeler 0.0259 vs model 0.1021; bearing var 0.01464, residual 0.04631
+  P-prospective|canonical  XJTU-SY rmse_common_S : labeler chi2    42.5 (df 3, p 3.2e-09); model chi2    59.0 (df 8, p 7.4e-10); SD of effects labeler 0.0369 vs model 0.0435; bearing var 0.002887, residual 0.01389
+  P-prospective|canonical  XJTU-SY conc_S        : labeler chi2     4.5 (df 3, p 0.21); model chi2    43.2 (df 8, p 8.2e-07); SD of effects labeler 0.0184 vs model 0.0569; bearing var 0.01185, residual 0.03238
+  P-prospective|canonical  FEMTO   rmse_common_S : labeler chi2    55.8 (df 3, p 4.7e-12); model chi2   509.0 (df 8, p 8.2e-105); SD of effects labeler 0.0524 vs model 0.1583; bearing var 0.0046, residual 0.01418
+  P-prospective|canonical  FEMTO   conc_S        : labeler chi2     0.5 (df 3, p 0.91); model chi2    73.5 (df 8, p 9.8e-13); SD of effects labeler 0.0083 vs model 0.0979; bearing var 0.01907, residual 0.03754
+  P-prospective|matched5   XJTU-SY rmse_common_S : labeler chi2    48.4 (df 3, p 1.7e-10); model chi2    84.5 (df 8, p 6.1e-15); SD of effects labeler 0.0432 vs model 0.0571; bearing var 0.007086, residual 0.01806
+  P-prospective|matched5   XJTU-SY conc_S        : labeler chi2     8.7 (df 3, p 0.034); model chi2    60.3 (df 8, p 4e-10); SD of effects labeler 0.0230 vs model 0.0606; bearing var 0.01108, residual 0.02848
+  P-prospective|matched5   FEMTO   rmse_common_S : labeler chi2    74.3 (df 3, p 5e-16); model chi2   570.0 (df 8, p 6.5e-118); SD of effects labeler 0.0597 vs model 0.1654; bearing var 0.005419, residual 0.01382
+  P-prospective|matched5   FEMTO   conc_S        : labeler chi2     0.7 (df 3, p 0.88); model chi2    59.8 (df 8, p 5.1e-10); SD of effects labeler 0.0086 vs model 0.0820; bearing var 0.02193, residual 0.0324
+  P-retro|matched5         XJTU-SY rmse_common_S : labeler chi2    37.3 (df 3, p 4e-08); model chi2   154.0 (df 8, p 2.8e-29); SD of effects labeler 0.0365 vs model 0.0741; bearing var 0.005277, residual 0.01927
+  P-retro|matched5         XJTU-SY conc_S        : labeler chi2     1.7 (df 3, p 0.64); model chi2    79.0 (df 8, p 7.8e-14); SD of effects labeler 0.0098 vs model 0.0673; bearing var 0.02084, residual 0.03092
+  P-retro|matched5         FEMTO   rmse_common_S : labeler chi2    80.9 (df 3, p 2e-17); model chi2   348.6 (df 8, p 1.8e-70); SD of effects labeler 0.0683 vs model 0.1418; bearing var 0.0117, residual 0.0187
+  P-retro|matched5         FEMTO   conc_S        : labeler chi2     2.4 (df 3, p 0.49); model chi2   130.9 (df 8, p 1.9e-24); SD of effects labeler 0.0152 vs model 0.1124; bearing var 0.02442, residual 0.0313
+
+==============================================================================
+(ii) log u ~ log n * family + condition + (1 | bearing), RMS detectors and charts, n >= 80
+==============================================================================
+  P-retro       XJTU-SY: chart b1-1 -1.24; detector minus chart +1.43 [+1.12, +1.74], p 2.4e-19 (64 rule-bearing rows, 13 bearings)
+  P-retro       FEMTO  : chart b1-1 -2.56; detector minus chart +2.49 [+1.95, +3.04], p 4.4e-19 (42 rule-bearing rows, 9 bearings)
+  P-prospective XJTU-SY: chart b1-1 -0.68; detector minus chart +0.84 [+0.55, +1.12], p 1.1e-08 (64 rule-bearing rows, 13 bearings)
+  P-prospective FEMTO  : chart b1-1 +0.06; detector minus chart +0.30 [-0.26, +0.86], p 0.29 (40 rule-bearing rows, 8 bearings)
+
+wrote j65_mixed_rul.csv (16), j65_mixed_onset.csv (4)
+finished 2026-10-24 23:56:08

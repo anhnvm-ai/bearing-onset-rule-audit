@@ -1,0 +1,131 @@
+==============================================================================
+   J58  ONSET FRACTION AGAINST TEST LENGTH, AND BY CONDITION  (R2.3, R2.4)    
+==============================================================================
+started 2026-10-24 21:23:00   B = 20,000   seed = 58
+
+==============================================================================
+A  Consistency with the submitted manuscript (checked before anything is written)
+==============================================================================
+  rho(i*, n) of the submitted Table 3: 20 of 20 values reproduced to 5e-4
+  b1 of Eq. (5) against J23 (14 dataset-rule cells): largest difference 7.66e-15
+  PASS
+
+==============================================================================
+B  Onset fraction u = (i*+1)/n against test length (P-retro onsets)
+==============================================================================
+  b1 - 1: slope of log u on log n with condition effects (0: fraction independent of n; -1: index independent)
+
+  XJTU-SY
+    rule        fired  median u    b1 - 1       95% interval   rho(u,n)       95% interval   rho(i*,n)
+    3sig_rms   15/15      0.538       +0.177  [-0.20, +0.39]       +0.472  [+0.11, +0.79]      +0.894
+    ma3sig     15/15      0.577       +0.147  [-0.21, +0.36]       +0.404  [+0.04, +0.72]      +0.894
+    ma5sig     14/15      0.617       -0.034  [-0.24, +0.14]       +0.345  [-0.09, +0.67]      +0.889
+    ma2sig     15/15      0.309       -0.615  [-1.99, +0.14]       -0.147  [-0.59, +0.43]      +0.429
+    3sig_kurt  10/15      0.342       -0.746  [-3.50, +2.63]       -0.444  [-0.91, +0.34]      +0.304
+    ewma       15/15      0.203       -1.125  [-1.70, -0.67]       -0.813  [-0.92, -0.60]      -0.201
+    cusum      15/15      0.057       -1.106  [-1.63, -0.72]       -0.790  [-0.92, -0.53]      -0.111
+    pct02      15/15      0.981       -0.003  [-0.01, +0.00]       -0.657  [-0.91, -0.22]      +1.000
+    pct05      15/15      0.951       -0.002  [-0.00, -0.00]       -0.559  [-0.81, -0.12]      +1.000
+    pct10      15/15      0.901       -0.001  [-0.00, +0.00]       -0.825  [-0.96, -0.66]      +1.000
+
+  FEMTO
+    rule        fired  median u    b1 - 1       95% interval   rho(u,n)       95% interval   rho(i*,n)
+    3sig_rms    9/13      0.764       -0.164  [-2.28, +0.33]       -0.017  [-0.78, +0.81]      +0.817
+    ma3sig      9/13      0.768       -0.258  [-3.33, +0.32]       -0.017  [-0.78, +0.81]      +0.783
+    ma5sig      9/13      0.965       -0.258  [-3.33, +0.32]       -0.167  [-0.92, +0.75]      +0.883
+    ma2sig      9/13      0.764      -1.751  [-23.07, +0.33]       -0.167  [-0.90, +0.73]      +0.283
+    3sig_kurt   6/13      0.714       -0.059  [-2.24, +6.33]       -0.143  [-1.00, +1.00]      +0.886
+    ewma       10/13      0.136       -2.870  [-6.42, -0.71]       -0.770  [-0.96, -0.38]      -0.515
+    cusum      11/13      0.068       -1.640  [-3.48, -0.92]       -0.873  [-0.98, -0.58]      -0.610
+    pct02      13/13      0.983       -0.007  [-0.01, -0.00]       -0.798  [-0.96, -0.47]      +1.000
+    pct05      13/13      0.952       -0.008  [-0.02, -0.00]       -0.890  [-0.98, -0.64]      +1.000
+    pct10      13/13      0.903       -0.007  [-0.01, -0.00]       -0.748  [-0.97, -0.37]      +1.000
+
+  IMS
+    rule        fired  median u    b1 - 1       95% interval   rho(u,n)       95% interval   rho(i*,n)
+    3sig_rms    4/4       0.673       -2.961                       -0.316                      -0.316
+    ma3sig      4/4       0.675       -2.820                       -0.316                      -0.316
+    ma5sig      3/4       0.944          n/a                          n/a                         n/a
+    ma2sig      4/4       0.657       -2.958                       -0.316                      -0.316
+    3sig_kurt   4/4       0.695       +0.200                       +0.316                      +0.949
+    ewma        4/4       0.619       -3.037                       -0.316                      -0.316
+    cusum       4/4       0.145       -2.897                       -0.949                      -0.949
+    pct02       4/4       0.981       -0.001                       -1.000                      +1.000
+    pct05       4/4       0.951       -0.001                       -0.333                      +1.000
+    pct10       4/4       0.901       -0.001                       -1.000                      +1.000
+
+  NSK 6205
+    rule        fired  median u    b1 - 1       95% interval   rho(u,n)       95% interval   rho(i*,n)
+    3sig_rms    1/1       0.969          n/a                          n/a                         n/a
+    ma3sig      1/1       0.984          n/a                          n/a                         n/a
+    ma5sig      1/1       0.984          n/a                          n/a                         n/a
+    ma2sig      1/1       0.977          n/a                          n/a                         n/a
+    3sig_kurt   0/1         nan          n/a                          n/a                         n/a
+    ewma        1/1       0.209          n/a                          n/a                         n/a
+    cusum       1/1       0.217          n/a                          n/a                         n/a
+    pct02       1/1       0.984          n/a                          n/a                         n/a
+    pct05       1/1       0.953          n/a                          n/a                         n/a
+    pct10       1/1       0.907          n/a                          n/a                         n/a
+
+  valid bootstrap share, b1 - 1: min 0.925; rho(u, n): min 0.942
+
+  NOTE on the percentile rules. Their onset fraction is fixed by construction, so b1 - 1 is ~0 (XJTU-SY: -0.003 to -0.001). Their rank correlation is
+  not: the floor in floor(n(1-p)) makes u = (i*+1)/n FALL toward 1-p as n grows (here rho(u, n) from -0.82 to -0.56),
+  while i*/n RISES toward 1-p (rho(i*/n, n) about +0.86 for pct05). A rank statistic follows a discretisation
+  artefact of a few thousandths of life in either direction; the slope does not. This is why b1 - 1 is the
+  main statistic of the revision (analysis plan, Section 6).
+
+==============================================================================
+C  By operating condition (descriptive: 5/5/5 and 6/5/2 bearings carry no inference)
+==============================================================================
+
+  XJTU-SY
+    condition 1: 5 bearings, lengths 52-161, 616 records
+      3sig_rms   fired 5/5  median u 0.538  d  4.66  inside 1  pos rate rec 0.563 brg 0.534
+      ma5sig     fired 4/5  median u 0.507  d  7.56  inside 0  pos rate rec 0.589 brg 0.546
+      3sig_kurt  fired 3/5  median u 0.386  d   n/a  inside 0  pos rate rec 0.574 brg 0.552
+      ewma       fired 5/5  median u 0.373  d  2.22  inside 0  pos rate rec 0.653 brg 0.631
+      cusum      fired 5/5  median u 0.203  d  1.53  inside 2  pos rate rec 0.817 brg 0.785
+      pct05      fired 5/5  median u 0.951  d   n/a  inside 0  pos rate rec 0.055 brg 0.056
+    condition 2: 5 bearings, lengths 42-533, 1566 records
+      3sig_rms   fired 5/5  median u 0.292  d  3.99  inside 0  pos rate rec 0.509 brg 0.580
+      ma5sig     fired 5/5  median u 0.448  d  5.84  inside 0  pos rate rec 0.485 brg 0.526
+      3sig_kurt  fired 3/5  median u 0.298  d   n/a  inside 0  pos rate rec 0.472 brg 0.516
+      ewma       fired 5/5  median u 0.034  d  2.06  inside 3  pos rate rec 0.950 brg 0.886
+      cusum      fired 5/5  median u 0.032  d  1.97  inside 3  pos rate rec 0.950 brg 0.886
+      pct05      fired 5/5  median u 0.951  d   n/a  inside 0  pos rate rec 0.052 brg 0.056
+    condition 3: 5 bearings, lengths 114-2538, 7034 records
+      3sig_rms   fired 5/5  median u 0.922  d  3.89  inside 0  pos rate rec 0.208 brg 0.273
+      ma5sig     fired 5/5  median u 0.926  d  6.34  inside 0  pos rate rec 0.146 brg 0.135
+      3sig_kurt  fired 4/5  median u 0.472  d   n/a  inside 1  pos rate rec 0.742 brg 0.536
+      ewma       fired 5/5  median u 0.024  d  1.63  inside 4  pos rate rec 0.982 brg 0.939
+      cusum      fired 5/5  median u 0.022  d  1.41  inside 4  pos rate rec 0.984 brg 0.945
+      pct05      fired 5/5  median u 0.950  d   n/a  inside 0  pos rate rec 0.050 brg 0.051
+
+  FEMTO
+    condition 1: 6 bearings, lengths 144-466, 2041 records
+      3sig_rms   fired 6/6  median u 0.858  d  9.45  inside 0  pos rate rec 0.202 brg 0.182
+      ma5sig     fired 6/6  median u 0.867  d 10.28  inside 0  pos rate rec 0.223 brg 0.195
+      3sig_kurt  fired 4/6  median u 0.714  d   n/a  inside 0  pos rate rec 0.303 brg 0.311
+      ewma       fired 6/6  median u 0.050  d  2.59  inside 4  pos rate rec 0.844 brg 0.747
+      cusum      fired 6/6  median u 0.048  d  1.92  inside 5  pos rate rec 0.926 brg 0.864
+      pct05      fired 6/6  median u 0.951  d   n/a  inside 0  pos rate rec 0.051 brg 0.052
+    condition 2: 5 bearings, lengths 38-386, 816 records
+      3sig_rms   fired 1/5  median u 0.272  d  3.48  inside 0  pos rate rec 0.735 brg 0.735
+      ma5sig     fired 1/5  median u 0.987  d 12.01  inside 0  pos rate rec 0.020 brg 0.020
+      3sig_kurt  fired 2/5  median u 0.706  d   n/a  inside 0  pos rate rec 0.311 brg 0.302
+      ewma       fired 2/5  median u 0.129  d  2.21  inside 1  pos rate rec 0.909 brg 0.876
+      cusum      fired 3/5  median u 0.205  d  2.22  inside 1  pos rate rec 0.861 brg 0.645
+      pct05      fired 5/5  median u 0.954  d   n/a  inside 0  pos rate rec 0.053 brg 0.053
+    condition 3: 2 bearings, lengths 72-89, 161 records
+      3sig_rms   fired 2/2  median u 0.851  d 12.58  inside 0  pos rate rec 0.149 brg 0.161
+      ma5sig     fired 2/2  median u 0.878  d 16.68  inside 0  pos rate rec 0.124 brg 0.135
+      3sig_kurt  fired 0/2  median u   nan  d   n/a  inside 0  pos rate rec   nan brg   nan
+      ewma       fired 2/2  median u 0.601  d 10.44  inside 0  pos rate rec 0.373 brg 0.411
+      cusum      fired 2/2  median u 0.594  d 10.59  inside 0  pos rate rec 0.379 brg 0.418
+      pct05      fired 2/2  median u 0.957  d   n/a  inside 0  pos rate rec 0.056 brg 0.056
+
+  XJTU-SY records by condition: 1: 616, 2: 1566, 3: 7034 (condition 3 holds 76.3% of the records)
+
+wrote results/tables/j58_onset_fraction.csv (40 rows), j58_by_condition.csv (60 rows)
+finished 2026-10-24 21:25:18

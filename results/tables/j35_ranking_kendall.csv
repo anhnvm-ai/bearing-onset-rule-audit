@@ -1,0 +1,13 @@
+dataset,labeller_a,labeller_b,winner_a,winner_b,same_winner,kendall_tau,p_value
+xjtu,3sig_rms,ma5sig,gbr:all,gbr:all,True,0.2,0.7194444444444444
+xjtu,3sig_rms,ewma,gbr:all,ridge:all,False,-0.3333333333333333,0.46944444444444444
+xjtu,3sig_rms,pct05,gbr:all,ridge:all,False,-0.3333333333333333,0.46944444444444444
+xjtu,ma5sig,ewma,gbr:all,ridge:all,False,0.4666666666666666,0.2722222222222222
+xjtu,ma5sig,pct05,gbr:all,ridge:all,False,0.4666666666666666,0.2722222222222222
+xjtu,ewma,pct05,ridge:all,ridge:all,True,0.9999999999999999,0.002777777777777778
+femto,3sig_rms,ma5sig,gbr:all,ridge:all,False,-0.4666666666666666,0.2722222222222222
+femto,3sig_rms,ewma,gbr:all,gbr:all,True,0.4666666666666666,0.2722222222222222
+femto,3sig_rms,pct05,gbr:all,knn:all,False,0.2,0.7194444444444444
+femto,ma5sig,ewma,ridge:all,gbr:all,False,-0.4666666666666666,0.2722222222222222
+femto,ma5sig,pct05,ridge:all,knn:all,False,0.3333333333333333,0.46944444444444444
+femto,ewma,pct05,gbr:all,knn:all,False,-0.3333333333333333,0.46944444444444444

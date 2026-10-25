@@ -1,0 +1,13 @@
+dataset,convention,note,r2
+xjtu,A_primary,"cusum 2k, ma k/sqrt(5), ewma L*sqrt(l/(2-l))",0.7194900810821357
+xjtu,B_cusum_k,cusum k instead of 2k,0.7493907211704076
+xjtu,C_ma_k,ma k instead of k/sqrt(5),0.7650812041999625
+xjtu,D_ewma_L_only,"ewma L, dropping the lambda factor the limit has (a deliberate control)",0.38687098431831723
+femto,A_primary,"cusum 2k, ma k/sqrt(5), ewma L*sqrt(l/(2-l))",0.6365751393253052
+femto,B_cusum_k,cusum k instead of 2k,0.6718332693442741
+femto,C_ma_k,ma k instead of k/sqrt(5),0.6678878139353706
+femto,D_ewma_L_only,"ewma L, dropping the lambda factor the limit has (a deliberate control)",0.44122742794254366
+ims,A_primary,"cusum 2k, ma k/sqrt(5), ewma L*sqrt(l/(2-l))",0.6191956930153077
+ims,B_cusum_k,cusum k instead of 2k,0.4578110843793183
+ims,C_ma_k,ma k instead of k/sqrt(5),0.6188031247194435
+ims,D_ewma_L_only,"ewma L, dropping the lambda factor the limit has (a deliberate control)",0.26453469293753806

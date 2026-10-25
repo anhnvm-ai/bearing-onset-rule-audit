@@ -1,0 +1,9 @@
+config,dataset,n_reversals_common,main_effect_present,reading
+P-retro|canonical,xjtu,0,True,"2: labeler main effect, no reversal"
+P-retro|canonical,femto,2,True,1: reversal under the common reference
+P-prospective|canonical,xjtu,0,True,"2: labeler main effect, no reversal"
+P-prospective|canonical,femto,2,True,1: reversal under the common reference
+P-prospective|matched5,xjtu,0,True,"2: labeler main effect, no reversal"
+P-prospective|matched5,femto,7,True,1: reversal under the common reference
+P-retro|matched5,xjtu,0,True,"2: labeler main effect, no reversal"
+P-retro|matched5,femto,3,True,1: reversal under the common reference

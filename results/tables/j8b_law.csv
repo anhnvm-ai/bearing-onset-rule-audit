@@ -1,0 +1,16 @@
+dataset,trajectory,n_win,rho,rho_n,k_star
+xjtu,Bearing1_1,4,1.0,4.0,1.0
+xjtu,Bearing1_2,4,1.0,4.0,1.0
+xjtu,Bearing1_3,4,1.0,4.0,1.0
+xjtu,Bearing1_4,4,0.0,0.0,
+xjtu,Bearing1_5,4,1.0,4.0,1.0
+xjtu,Bearing2_1,4,1.0,4.0,1.0
+xjtu,Bearing2_2,4,1.0,4.0,1.0
+xjtu,Bearing2_3,4,1.0,4.0,1.0
+xjtu,Bearing2_4,4,1.0,4.0,1.0
+xjtu,Bearing2_5,4,1.0,4.0,1.0
+xjtu,Bearing3_1,4,0.0,0.0,
+xjtu,Bearing3_2,4,1.0,4.0,1.0
+xjtu,Bearing3_3,4,1.0,4.0,1.0
+xjtu,Bearing3_4,4,1.0,4.0,1.0
+xjtu,Bearing3_5,4,1.0,4.0,1.0

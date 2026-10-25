@@ -1,0 +1,11 @@
+# written by code/make_workspace.py and by running the scripts
+/scripts/
+/src/
+/colab_bundle/
+/paper/
+/datasets/
+results/cache_*/
+results/tables/*_quick*
+results/logs/*_quick*
+__pycache__/
+*.pyc

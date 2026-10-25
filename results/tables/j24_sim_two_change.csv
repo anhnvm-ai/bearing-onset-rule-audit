@@ -1,0 +1,49 @@
+early_drift_placement,early_drift_at,delta1_sd,delta2_sd,u2,rule,family,slope_log_index_on_log_n,median_index,share_never_fire
+fixed record count,15.0,1.5,6.0,0.7,3sig_rms,detector,1.019493740453892,113.0,0.0003333333333333333
+fixed record count,15.0,1.5,6.0,0.7,ma3sig,detector,1.0071429188460856,115.0,0.0006666666666666666
+fixed record count,15.0,1.5,6.0,0.7,ma5sig,detector,0.9845606172941817,246.0,0.2831666666666667
+fixed record count,15.0,1.5,6.0,0.7,ma2sig,detector,1.0456620209338778,114.0,0.0
+fixed record count,15.0,1.5,6.0,0.7,ewma,control chart,0.7562371920325934,86.0,0.0
+fixed record count,15.0,1.5,6.0,0.7,cusum,control chart,0.5711639896292279,49.0,0.0
+fixed record count,15.0,2.5,6.0,0.7,3sig_rms,detector,1.0561228095646185,136.0,0.04783333333333333
+fixed record count,15.0,2.5,6.0,0.7,ma3sig,detector,1.0403683130147265,136.0,0.0555
+fixed record count,15.0,2.5,6.0,0.7,ma5sig,detector,1.0480468900778657,38.0,0.8246666666666667
+fixed record count,15.0,2.5,6.0,0.7,ma2sig,detector,1.0913089017172644,115.0,0.0
+fixed record count,15.0,2.5,6.0,0.7,ewma,control chart,0.8580781543194435,77.0,0.0
+fixed record count,15.0,2.5,6.0,0.7,cusum,control chart,0.6830092827212368,34.0,0.0
+fixed record count,30.0,1.5,6.0,0.7,3sig_rms,detector,1.0292075384386565,112.0,0.0005
+fixed record count,30.0,1.5,6.0,0.7,ma3sig,detector,1.0115928079800425,114.0,0.00016666666666666666
+fixed record count,30.0,1.5,6.0,0.7,ma5sig,detector,0.9938249966810178,115.0,0.14716666666666667
+fixed record count,30.0,1.5,6.0,0.7,ma2sig,detector,1.0920996235247415,111.0,0.0
+fixed record count,30.0,1.5,6.0,0.7,ewma,control chart,0.7144790062115886,45.0,0.0
+fixed record count,30.0,1.5,6.0,0.7,cusum,control chart,0.5069148040143379,40.0,0.0
+fixed record count,30.0,2.5,6.0,0.7,3sig_rms,detector,1.109384002233595,112.0,0.009333333333333334
+fixed record count,30.0,2.5,6.0,0.7,ma3sig,detector,1.0900473366240098,113.0,0.011666666666666667
+fixed record count,30.0,2.5,6.0,0.7,ma5sig,detector,0.9831402881714817,88.0,0.49683333333333335
+fixed record count,30.0,2.5,6.0,0.7,ma2sig,detector,1.1763643281890768,48.0,0.0
+fixed record count,30.0,2.5,6.0,0.7,ewma,control chart,0.8034061620720665,35.0,0.0
+fixed record count,30.0,2.5,6.0,0.7,cusum,control chart,0.5556133002501907,34.0,0.0
+fraction of life,0.1,1.5,6.0,0.7,3sig_rms,detector,0.9975006956703368,113.0,0.005
+fraction of life,0.1,1.5,6.0,0.7,ma3sig,detector,0.984563700078611,115.0,0.006
+fraction of life,0.1,1.5,6.0,0.7,ma5sig,detector,0.9873416405166041,267.0,0.38116666666666665
+fraction of life,0.1,1.5,6.0,0.7,ma2sig,detector,0.9677420269914543,114.0,0.0
+fraction of life,0.1,1.5,6.0,0.7,ewma,control chart,0.5902844965785397,79.0,0.0
+fraction of life,0.1,1.5,6.0,0.7,cusum,control chart,0.6086182099330197,55.0,0.0
+fraction of life,0.1,2.5,6.0,0.7,3sig_rms,detector,0.9831371745095147,238.0,0.10383333333333333
+fraction of life,0.1,2.5,6.0,0.7,ma3sig,detector,0.9724354984492956,241.0,0.11183333333333334
+fraction of life,0.1,2.5,6.0,0.7,ma5sig,detector,1.0062323095538908,48.0,0.9715
+fraction of life,0.1,2.5,6.0,0.7,ma2sig,detector,0.9867280425544709,115.0,0.0028333333333333335
+fraction of life,0.1,2.5,6.0,0.7,ewma,control chart,0.5934501355046795,65.0,0.0
+fraction of life,0.1,2.5,6.0,0.7,cusum,control chart,0.6570764385142287,41.0,0.0
+fraction of life,0.2,1.5,6.0,0.7,3sig_rms,detector,0.8701181802195099,112.0,0.0003333333333333333
+fraction of life,0.2,1.5,6.0,0.7,ma3sig,detector,0.936334107954715,113.0,0.0003333333333333333
+fraction of life,0.2,1.5,6.0,0.7,ma5sig,detector,0.9822405015100426,116.0,0.014833333333333334
+fraction of life,0.2,1.5,6.0,0.7,ma2sig,detector,0.8018040864677692,80.0,0.0
+fraction of life,0.2,1.5,6.0,0.7,ewma,control chart,0.7140784347795094,40.0,0.0
+fraction of life,0.2,1.5,6.0,0.7,cusum,control chart,0.5710455046988308,36.0,0.0
+fraction of life,0.2,2.5,6.0,0.7,3sig_rms,detector,0.8461143572467803,75.0,0.0
+fraction of life,0.2,2.5,6.0,0.7,ma3sig,detector,0.8203282217469818,79.0,0.0
+fraction of life,0.2,2.5,6.0,0.7,ma5sig,detector,1.0071769042786307,116.0,0.014833333333333334
+fraction of life,0.2,2.5,6.0,0.7,ma2sig,detector,0.904422713429265,40.0,0.0
+fraction of life,0.2,2.5,6.0,0.7,ewma,control chart,0.786680184887568,34.0,0.0
+fraction of life,0.2,2.5,6.0,0.7,cusum,control chart,0.6256000841766914,34.0,0.0

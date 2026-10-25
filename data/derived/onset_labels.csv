@@ -1,0 +1,331 @@
+dataset,bearing_id,trajectory_id,n_records,rule,rule_family,indicator,fired,onset_index,onset_fraction,censored,baseline_length,onset_inside_baseline,baseline_fraction,confirmation_count,response_size,positive_records,positive_rate
+xjtu,Bearing2_4,xjtu/Bearing2_4,42,3sig_rms,detector,RMS,True,11.0,0.2619047619047619,False,8.0,False,0.2,3.0,3.2254606282700204,31.0,0.7380952380952381
+xjtu,Bearing2_4,xjtu/Bearing2_4,42,ma3sig,detector,RMS,True,13.0,0.3095238095238095,False,8.0,False,0.2,3.0,3.826803194124656,29.0,0.6904761904761905
+xjtu,Bearing2_4,xjtu/Bearing2_4,42,ma5sig,detector,RMS,True,19.0,0.4523809523809524,False,8.0,False,0.2,3.0,5.840536227866513,23.0,0.5476190476190477
+xjtu,Bearing2_4,xjtu/Bearing2_4,42,ma2sig,detector,RMS,True,11.0,0.2619047619047619,False,8.0,False,0.2,3.0,3.2254606282700204,31.0,0.7380952380952381
+xjtu,Bearing2_4,xjtu/Bearing2_4,42,3sig_kurt,detector,kurtosis,False,,,True,8.0,False,0.2,3.0,,,
+xjtu,Bearing2_4,xjtu/Bearing2_4,42,ewma,control chart,RMS,True,10.0,0.238095238095238,False,8.0,False,0.2,3.0,3.0634596718586704,32.0,0.7619047619047619
+xjtu,Bearing2_4,xjtu/Bearing2_4,42,cusum,control chart,RMS,True,10.0,0.238095238095238,False,8.0,False,0.2,3.0,3.0634596718586704,32.0,0.7619047619047619
+xjtu,Bearing2_4,xjtu/Bearing2_4,42,pct02,fixed convention,none,True,41.0,0.9761904761904762,False,,,,,,1.0,0.0238095238095238
+xjtu,Bearing2_4,xjtu/Bearing2_4,42,pct05,fixed convention,none,True,39.0,0.9285714285714286,False,,,,,,3.0,0.0714285714285714
+xjtu,Bearing2_4,xjtu/Bearing2_4,42,pct10,fixed convention,none,True,37.0,0.8809523809523809,False,,,,,,5.0,0.119047619047619
+xjtu,Bearing1_5,xjtu/Bearing1_5,52,3sig_rms,detector,RMS,True,27.0,0.5192307692307693,False,10.0,False,0.2,3.0,5.072024148731792,25.0,0.4807692307692308
+xjtu,Bearing1_5,xjtu/Bearing1_5,52,ma3sig,detector,RMS,True,29.0,0.5576923076923077,False,10.0,False,0.2,3.0,7.291140570971777,23.0,0.4423076923076923
+xjtu,Bearing1_5,xjtu/Bearing1_5,52,ma5sig,detector,RMS,True,31.0,0.5961538461538461,False,10.0,False,0.2,3.0,10.172241826013227,21.0,0.4038461538461538
+xjtu,Bearing1_5,xjtu/Bearing1_5,52,ma2sig,detector,RMS,True,27.0,0.5192307692307693,False,10.0,False,0.2,3.0,5.072024148731792,25.0,0.4807692307692308
+xjtu,Bearing1_5,xjtu/Bearing1_5,52,3sig_kurt,detector,kurtosis,False,,,True,10.0,False,0.2,3.0,,,
+xjtu,Bearing1_5,xjtu/Bearing1_5,52,ewma,control chart,RMS,True,24.0,0.4615384615384615,False,10.0,False,0.2,3.0,2.2180243788079856,28.0,0.5384615384615384
+xjtu,Bearing1_5,xjtu/Bearing1_5,52,cusum,control chart,RMS,True,24.0,0.4615384615384615,False,10.0,False,0.2,3.0,2.2180243788079856,28.0,0.5384615384615384
+xjtu,Bearing1_5,xjtu/Bearing1_5,52,pct02,fixed convention,none,True,50.0,0.9615384615384616,False,,,,,,2.0,0.0384615384615384
+xjtu,Bearing1_5,xjtu/Bearing1_5,52,pct05,fixed convention,none,True,49.0,0.9423076923076924,False,,,,,,3.0,0.0576923076923076
+xjtu,Bearing1_5,xjtu/Bearing1_5,52,pct10,fixed convention,none,True,46.0,0.8846153846153846,False,,,,,,6.0,0.1153846153846153
+xjtu,Bearing3_5,xjtu/Bearing3_5,114,3sig_rms,detector,RMS,True,32.0,0.2807017543859649,False,22.0,False,0.2,3.0,3.0813502566884448,82.0,0.7192982456140351
+xjtu,Bearing3_5,xjtu/Bearing3_5,114,ma3sig,detector,RMS,True,35.0,0.3070175438596491,False,22.0,False,0.2,3.0,3.0216463377480123,79.0,0.6929824561403509
+xjtu,Bearing3_5,xjtu/Bearing3_5,114,ma5sig,detector,RMS,True,93.0,0.8157894736842105,False,22.0,False,0.2,3.0,6.341927505153627,21.0,0.1842105263157894
+xjtu,Bearing3_5,xjtu/Bearing3_5,114,ma2sig,detector,RMS,True,30.0,0.2631578947368421,False,22.0,False,0.2,3.0,2.8165920541441283,84.0,0.7368421052631579
+xjtu,Bearing3_5,xjtu/Bearing3_5,114,3sig_kurt,detector,kurtosis,True,73.0,0.6403508771929824,False,22.0,False,0.2,3.0,,41.0,0.3596491228070175
+xjtu,Bearing3_5,xjtu/Bearing3_5,114,ewma,control chart,RMS,True,23.0,0.2017543859649122,False,22.0,False,0.2,3.0,1.707565428425701,91.0,0.7982456140350878
+xjtu,Bearing3_5,xjtu/Bearing3_5,114,cusum,control chart,RMS,True,22.0,0.1929824561403508,False,22.0,False,0.2,3.0,1.6001683882821838,92.0,0.8070175438596491
+xjtu,Bearing3_5,xjtu/Bearing3_5,114,pct02,fixed convention,none,True,111.0,0.9736842105263158,False,,,,,,3.0,0.0263157894736842
+xjtu,Bearing3_5,xjtu/Bearing3_5,114,pct05,fixed convention,none,True,108.0,0.9473684210526316,False,,,,,,6.0,0.0526315789473684
+xjtu,Bearing3_5,xjtu/Bearing3_5,114,pct10,fixed convention,none,True,102.0,0.8947368421052632,False,,,,,,12.0,0.1052631578947368
+xjtu,Bearing1_4,xjtu/Bearing1_4,122,3sig_rms,detector,RMS,True,83.0,0.680327868852459,False,24.0,False,0.2,3.0,3.6011698030498183,39.0,0.319672131147541
+xjtu,Bearing1_4,xjtu/Bearing1_4,122,ma3sig,detector,RMS,True,84.0,0.6885245901639344,False,24.0,False,0.2,3.0,3.6186440105339375,38.0,0.3114754098360656
+xjtu,Bearing1_4,xjtu/Bearing1_4,122,ma5sig,detector,RMS,False,,,True,24.0,False,0.2,3.0,,,
+xjtu,Bearing1_4,xjtu/Bearing1_4,122,ma2sig,detector,RMS,True,82.0,0.6721311475409836,False,24.0,False,0.2,3.0,3.3603330418283,40.0,0.3278688524590163
+xjtu,Bearing1_4,xjtu/Bearing1_4,122,3sig_kurt,detector,kurtosis,True,85.0,0.6967213114754098,False,24.0,False,0.2,3.0,,37.0,0.3032786885245901
+xjtu,Bearing1_4,xjtu/Bearing1_4,122,ewma,control chart,RMS,True,76.0,0.6229508196721312,False,24.0,False,0.2,3.0,1.4669257377125762,46.0,0.3770491803278688
+xjtu,Bearing1_4,xjtu/Bearing1_4,122,cusum,control chart,RMS,True,5.0,0.040983606557377,False,24.0,True,0.2,3.0,0.9415987502384028,117.0,0.9590163934426228
+xjtu,Bearing1_4,xjtu/Bearing1_4,122,pct02,fixed convention,none,True,119.0,0.9754098360655736,False,,,,,,3.0,0.0245901639344262
+xjtu,Bearing1_4,xjtu/Bearing1_4,122,pct05,fixed convention,none,True,115.0,0.9426229508196722,False,,,,,,7.0,0.0573770491803278
+xjtu,Bearing1_4,xjtu/Bearing1_4,122,pct10,fixed convention,none,True,109.0,0.8934426229508197,False,,,,,,13.0,0.1065573770491803
+xjtu,Bearing1_1,xjtu/Bearing1_1,123,3sig_rms,detector,RMS,True,70.0,0.5691056910569106,False,24.0,False,0.2,3.0,3.952562329420493,53.0,0.4308943089430894
+xjtu,Bearing1_1,xjtu/Bearing1_1,123,ma3sig,detector,RMS,True,71.0,0.5772357723577236,False,24.0,False,0.2,3.0,4.385970483909972,52.0,0.4227642276422764
+xjtu,Bearing1_1,xjtu/Bearing1_1,123,ma5sig,detector,RMS,True,75.0,0.6097560975609756,False,24.0,False,0.2,3.0,8.316697335335759,48.0,0.3902439024390244
+xjtu,Bearing1_1,xjtu/Bearing1_1,123,ma2sig,detector,RMS,True,37.0,0.3008130081300813,False,24.0,False,0.2,3.0,2.082908835889317,86.0,0.6991869918699187
+xjtu,Bearing1_1,xjtu/Bearing1_1,123,3sig_kurt,detector,kurtosis,False,,,True,24.0,False,0.2,3.0,,,
+xjtu,Bearing1_1,xjtu/Bearing1_1,123,ewma,control chart,RMS,True,24.0,0.1951219512195122,False,24.0,False,0.2,3.0,1.5309197722356434,99.0,0.8048780487804879
+xjtu,Bearing1_1,xjtu/Bearing1_1,123,cusum,control chart,RMS,True,24.0,0.1951219512195122,False,24.0,False,0.2,3.0,1.5309197722356434,99.0,0.8048780487804879
+xjtu,Bearing1_1,xjtu/Bearing1_1,123,pct02,fixed convention,none,True,120.0,0.975609756097561,False,,,,,,3.0,0.024390243902439
+xjtu,Bearing1_1,xjtu/Bearing1_1,123,pct05,fixed convention,none,True,116.0,0.943089430894309,False,,,,,,7.0,0.056910569105691
+xjtu,Bearing1_1,xjtu/Bearing1_1,123,pct10,fixed convention,none,True,110.0,0.8943089430894309,False,,,,,,13.0,0.1056910569105691
+xjtu,Bearing1_3,xjtu/Bearing1_3,158,3sig_rms,detector,RMS,True,58.0,0.3670886075949367,False,31.0,False,0.2,3.0,5.937835982750956,100.0,0.6329113924050633
+xjtu,Bearing1_3,xjtu/Bearing1_3,158,ma3sig,detector,RMS,True,60.0,0.379746835443038,False,31.0,False,0.2,3.0,5.855114551948812,98.0,0.620253164556962
+xjtu,Bearing1_3,xjtu/Bearing1_3,158,ma5sig,detector,RMS,True,62.0,0.3924050632911392,False,31.0,False,0.2,3.0,6.322381401044345,96.0,0.6075949367088608
+xjtu,Bearing1_3,xjtu/Bearing1_3,158,ma2sig,detector,RMS,True,59.0,0.3734177215189873,False,31.0,False,0.2,3.0,5.879365718816368,99.0,0.6265822784810127
+xjtu,Bearing1_3,xjtu/Bearing1_3,158,3sig_kurt,detector,kurtosis,True,60.0,0.379746835443038,False,31.0,False,0.2,3.0,,98.0,0.620253164556962
+xjtu,Bearing1_3,xjtu/Bearing1_3,158,ewma,control chart,RMS,True,58.0,0.3670886075949367,False,31.0,False,0.2,3.0,5.937835982750956,100.0,0.6329113924050633
+xjtu,Bearing1_3,xjtu/Bearing1_3,158,cusum,control chart,RMS,True,28.0,0.1772151898734177,False,31.0,True,0.2,3.0,1.1733932334209811,130.0,0.8227848101265823
+xjtu,Bearing1_3,xjtu/Bearing1_3,158,pct02,fixed convention,none,True,154.0,0.9746835443037974,False,,,,,,4.0,0.0253164556962025
+xjtu,Bearing1_3,xjtu/Bearing1_3,158,pct05,fixed convention,none,True,150.0,0.9493670886075948,False,,,,,,8.0,0.050632911392405
+xjtu,Bearing1_3,xjtu/Bearing1_3,158,pct10,fixed convention,none,True,142.0,0.8987341772151899,False,,,,,,16.0,0.1012658227848101
+xjtu,Bearing1_2,xjtu/Bearing1_2,161,3sig_rms,detector,RMS,True,31.0,0.1925465838509316,False,32.0,True,0.2,3.0,4.656170209191389,130.0,0.8074534161490683
+xjtu,Bearing1_2,xjtu/Bearing1_2,161,ma3sig,detector,RMS,True,34.0,0.2111801242236025,False,32.0,False,0.2,3.0,6.188296963456847,127.0,0.7888198757763976
+xjtu,Bearing1_2,xjtu/Bearing1_2,161,ma5sig,detector,RMS,True,35.0,0.217391304347826,False,32.0,False,0.2,3.0,6.799372267036552,126.0,0.782608695652174
+xjtu,Bearing1_2,xjtu/Bearing1_2,161,ma2sig,detector,RMS,True,33.0,0.2049689440993788,False,32.0,False,0.2,3.0,5.577758541495601,128.0,0.7950310559006211
+xjtu,Bearing1_2,xjtu/Bearing1_2,161,3sig_kurt,detector,kurtosis,True,43.0,0.2670807453416149,False,32.0,False,0.2,3.0,,118.0,0.7329192546583851
+xjtu,Bearing1_2,xjtu/Bearing1_2,161,ewma,control chart,RMS,True,32.0,0.1987577639751552,False,32.0,False,0.2,3.0,4.924488798501821,129.0,0.8012422360248447
+xjtu,Bearing1_2,xjtu/Bearing1_2,161,cusum,control chart,RMS,True,32.0,0.1987577639751552,False,32.0,False,0.2,3.0,4.924488798501821,129.0,0.8012422360248447
+xjtu,Bearing1_2,xjtu/Bearing1_2,161,pct02,fixed convention,none,True,157.0,0.9751552795031057,False,,,,,,4.0,0.0248447204968944
+xjtu,Bearing1_2,xjtu/Bearing1_2,161,pct05,fixed convention,none,True,152.0,0.9440993788819876,False,,,,,,9.0,0.0559006211180124
+xjtu,Bearing1_2,xjtu/Bearing1_2,161,pct10,fixed convention,none,True,144.0,0.8944099378881988,False,,,,,,17.0,0.1055900621118012
+xjtu,Bearing2_2,xjtu/Bearing2_2,161,3sig_rms,detector,RMS,True,46.0,0.2857142857142857,False,32.0,False,0.2,3.0,12.07458241691414,115.0,0.7142857142857143
+xjtu,Bearing2_2,xjtu/Bearing2_2,161,ma3sig,detector,RMS,True,47.0,0.2919254658385093,False,32.0,False,0.2,3.0,12.407852152393785,114.0,0.7080745341614907
+xjtu,Bearing2_2,xjtu/Bearing2_2,161,ma5sig,detector,RMS,True,48.0,0.2981366459627329,False,32.0,False,0.2,3.0,14.228690125648818,113.0,0.7018633540372671
+xjtu,Bearing2_2,xjtu/Bearing2_2,161,ma2sig,detector,RMS,True,47.0,0.2919254658385093,False,32.0,False,0.2,3.0,12.407852152393785,114.0,0.7080745341614907
+xjtu,Bearing2_2,xjtu/Bearing2_2,161,3sig_kurt,detector,kurtosis,True,47.0,0.2919254658385093,False,32.0,False,0.2,3.0,,114.0,0.7080745341614907
+xjtu,Bearing2_2,xjtu/Bearing2_2,161,ewma,control chart,RMS,True,46.0,0.2857142857142857,False,32.0,False,0.2,3.0,12.07458241691414,115.0,0.7142857142857143
+xjtu,Bearing2_2,xjtu/Bearing2_2,161,cusum,control chart,RMS,True,46.0,0.2857142857142857,False,32.0,False,0.2,3.0,12.07458241691414,115.0,0.7142857142857143
+xjtu,Bearing2_2,xjtu/Bearing2_2,161,pct02,fixed convention,none,True,157.0,0.9751552795031057,False,,,,,,4.0,0.0248447204968944
+xjtu,Bearing2_2,xjtu/Bearing2_2,161,pct05,fixed convention,none,True,152.0,0.9440993788819876,False,,,,,,9.0,0.0559006211180124
+xjtu,Bearing2_2,xjtu/Bearing2_2,161,pct10,fixed convention,none,True,144.0,0.8944099378881988,False,,,,,,17.0,0.1055900621118012
+xjtu,Bearing2_5,xjtu/Bearing2_5,339,3sig_rms,detector,RMS,True,133.0,0.3923303834808259,False,67.0,False,0.2,3.0,3.105237786949594,206.0,0.6076696165191741
+xjtu,Bearing2_5,xjtu/Bearing2_5,339,ma3sig,detector,RMS,True,134.0,0.3952802359882006,False,67.0,False,0.2,3.0,3.122693396521047,205.0,0.6047197640117994
+xjtu,Bearing2_5,xjtu/Bearing2_5,339,ma5sig,detector,RMS,True,151.0,0.4454277286135693,False,67.0,False,0.2,3.0,5.312543059954781,188.0,0.5545722713864307
+xjtu,Bearing2_5,xjtu/Bearing2_5,339,ma2sig,detector,RMS,True,124.0,0.3657817109144542,False,67.0,False,0.2,3.0,2.6557010929591867,215.0,0.6342182890855457
+xjtu,Bearing2_5,xjtu/Bearing2_5,339,3sig_kurt,detector,kurtosis,False,,,True,67.0,False,0.2,3.0,,,
+xjtu,Bearing2_5,xjtu/Bearing2_5,339,ewma,control chart,RMS,True,3.0,0.0088495575221238,False,67.0,True,0.2,3.0,2.0601582880688776,336.0,0.991150442477876
+xjtu,Bearing2_5,xjtu/Bearing2_5,339,cusum,control chart,RMS,True,4.0,0.0117994100294985,False,67.0,True,0.2,3.0,1.969176077936402,335.0,0.9882005899705014
+xjtu,Bearing2_5,xjtu/Bearing2_5,339,pct02,fixed convention,none,True,332.0,0.9793510324483776,False,,,,,,7.0,0.0206489675516224
+xjtu,Bearing2_5,xjtu/Bearing2_5,339,pct05,fixed convention,none,True,322.0,0.9498525073746312,False,,,,,,17.0,0.0501474926253687
+xjtu,Bearing2_5,xjtu/Bearing2_5,339,pct10,fixed convention,none,True,305.0,0.8997050147492626,False,,,,,,34.0,0.1002949852507374
+xjtu,Bearing3_3,xjtu/Bearing3_3,371,3sig_rms,detector,RMS,True,341.0,0.9191374663072776,False,74.0,False,0.2,3.0,20.571773106325928,30.0,0.0808625336927223
+xjtu,Bearing3_3,xjtu/Bearing3_3,371,ma3sig,detector,RMS,True,343.0,0.9245283018867924,False,74.0,False,0.2,3.0,78.61463675235593,28.0,0.0754716981132075
+xjtu,Bearing3_3,xjtu/Bearing3_3,371,ma5sig,detector,RMS,True,343.0,0.9245283018867924,False,74.0,False,0.2,3.0,78.61463675235593,28.0,0.0754716981132075
+xjtu,Bearing3_3,xjtu/Bearing3_3,371,ma2sig,detector,RMS,True,342.0,0.921832884097035,False,74.0,False,0.2,3.0,44.44226512873593,29.0,0.0781671159029649
+xjtu,Bearing3_3,xjtu/Bearing3_3,371,3sig_kurt,detector,kurtosis,True,339.0,0.9137466307277629,False,74.0,False,0.2,3.0,,32.0,0.0862533692722372
+xjtu,Bearing3_3,xjtu/Bearing3_3,371,ewma,control chart,RMS,True,26.0,0.0700808625336927,False,74.0,True,0.2,3.0,1.0867363948020548,345.0,0.9299191374663072
+xjtu,Bearing3_3,xjtu/Bearing3_3,371,cusum,control chart,RMS,True,20.0,0.0539083557951482,False,74.0,True,0.2,3.0,1.1052085372948703,351.0,0.9460916442048516
+xjtu,Bearing3_3,xjtu/Bearing3_3,371,pct02,fixed convention,none,True,363.0,0.9784366576819408,False,,,,,,8.0,0.0215633423180593
+xjtu,Bearing3_3,xjtu/Bearing3_3,371,pct05,fixed convention,none,True,352.0,0.9487870619946092,False,,,,,,19.0,0.0512129380053908
+xjtu,Bearing3_3,xjtu/Bearing3_3,371,pct10,fixed convention,none,True,333.0,0.8975741239892183,False,,,,,,38.0,0.1024258760107816
+xjtu,Bearing2_1,xjtu/Bearing2_1,491,3sig_rms,detector,RMS,True,452.0,0.920570264765784,False,98.0,False,0.2,3.0,16.224060977988877,39.0,0.0794297352342158
+xjtu,Bearing2_1,xjtu/Bearing2_1,491,ma3sig,detector,RMS,True,454.0,0.924643584521385,False,98.0,False,0.2,3.0,39.66230879839856,37.0,0.075356415478615
+xjtu,Bearing2_1,xjtu/Bearing2_1,491,ma5sig,detector,RMS,True,454.0,0.924643584521385,False,98.0,False,0.2,3.0,39.66230879839856,37.0,0.075356415478615
+xjtu,Bearing2_1,xjtu/Bearing2_1,491,ma2sig,detector,RMS,True,0.0,0.0,False,98.0,True,0.2,3.0,2.157126792667059,491.0,1.0
+xjtu,Bearing2_1,xjtu/Bearing2_1,491,3sig_kurt,detector,kurtosis,True,452.0,0.920570264765784,False,98.0,False,0.2,3.0,,39.0,0.0794297352342158
+xjtu,Bearing2_1,xjtu/Bearing2_1,491,ewma,control chart,RMS,True,2.0,0.0040733197556008,False,98.0,True,0.2,3.0,1.962539315538212,489.0,0.9959266802443992
+xjtu,Bearing2_1,xjtu/Bearing2_1,491,cusum,control chart,RMS,True,3.0,0.0061099796334012,False,98.0,True,0.2,3.0,1.8679938571202808,488.0,0.9938900203665988
+xjtu,Bearing2_1,xjtu/Bearing2_1,491,pct02,fixed convention,none,True,481.0,0.979633401221996,False,,,,,,10.0,0.020366598778004
+xjtu,Bearing2_1,xjtu/Bearing2_1,491,pct05,fixed convention,none,True,466.0,0.9490835030549898,False,,,,,,25.0,0.0509164969450101
+xjtu,Bearing2_1,xjtu/Bearing2_1,491,pct10,fixed convention,none,True,441.0,0.8981670061099797,False,,,,,,50.0,0.1018329938900203
+xjtu,Bearing2_3,xjtu/Bearing2_3,533,3sig_rms,detector,RMS,True,127.0,0.2382739212007504,False,106.0,False,0.2,3.0,3.9874228856992993,406.0,0.7617260787992496
+xjtu,Bearing2_3,xjtu/Bearing2_3,533,ma3sig,detector,RMS,True,130.0,0.2439024390243902,False,106.0,False,0.2,3.0,5.14126097346434,403.0,0.7560975609756098
+xjtu,Bearing2_3,xjtu/Bearing2_3,533,ma5sig,detector,RMS,True,134.0,0.2514071294559099,False,106.0,False,0.2,3.0,5.3477195571596985,399.0,0.7485928705440901
+xjtu,Bearing2_3,xjtu/Bearing2_3,533,ma2sig,detector,RMS,True,127.0,0.2382739212007504,False,106.0,False,0.2,3.0,3.9874228856992993,406.0,0.7617260787992496
+xjtu,Bearing2_3,xjtu/Bearing2_3,533,3sig_kurt,detector,kurtosis,True,127.0,0.2382739212007504,False,106.0,False,0.2,3.0,,406.0,0.7617260787992496
+xjtu,Bearing2_3,xjtu/Bearing2_3,533,ewma,control chart,RMS,True,17.0,0.0318949343339587,False,106.0,True,0.2,3.0,1.0636940567649291,516.0,0.9681050656660412
+xjtu,Bearing2_3,xjtu/Bearing2_3,533,cusum,control chart,RMS,True,16.0,0.0300187617260788,False,106.0,True,0.2,3.0,1.0828611880282837,517.0,0.9699812382739212
+xjtu,Bearing2_3,xjtu/Bearing2_3,533,pct02,fixed convention,none,True,522.0,0.9793621013133208,False,,,,,,11.0,0.0206378986866791
+xjtu,Bearing2_3,xjtu/Bearing2_3,533,pct05,fixed convention,none,True,506.0,0.949343339587242,False,,,,,,27.0,0.0506566604127579
+xjtu,Bearing2_3,xjtu/Bearing2_3,533,pct10,fixed convention,none,True,479.0,0.8986866791744841,False,,,,,,54.0,0.1013133208255159
+xjtu,Bearing3_4,xjtu/Bearing3_4,1515,3sig_rms,detector,RMS,True,1417.0,0.9353135313531352,False,303.0,False,0.2,3.0,16.740206389243763,98.0,0.0646864686468646
+xjtu,Bearing3_4,xjtu/Bearing3_4,1515,ma3sig,detector,RMS,True,1417.0,0.9353135313531352,False,303.0,False,0.2,3.0,16.740206389243763,98.0,0.0646864686468646
+xjtu,Bearing3_4,xjtu/Bearing3_4,1515,ma5sig,detector,RMS,True,1418.0,0.935973597359736,False,303.0,False,0.2,3.0,20.38964502920516,97.0,0.064026402640264
+xjtu,Bearing3_4,xjtu/Bearing3_4,1515,ma2sig,detector,RMS,True,1011.0,0.6673267326732674,False,303.0,False,0.2,3.0,2.930684747318735,504.0,0.3326732673267327
+xjtu,Bearing3_4,xjtu/Bearing3_4,1515,3sig_kurt,detector,kurtosis,True,9.0,0.0059405940594059,False,303.0,True,0.2,3.0,,1506.0,0.994059405940594
+xjtu,Bearing3_4,xjtu/Bearing3_4,1515,ewma,control chart,RMS,True,3.0,0.0019801980198019,False,303.0,True,0.2,3.0,2.034000581818704,1512.0,0.998019801980198
+xjtu,Bearing3_4,xjtu/Bearing3_4,1515,cusum,control chart,RMS,True,4.0,0.0026402640264026,False,303.0,True,0.2,3.0,2.031592790156202,1511.0,0.9973597359735974
+xjtu,Bearing3_4,xjtu/Bearing3_4,1515,pct02,fixed convention,none,True,1484.0,0.9795379537953796,False,,,,,,31.0,0.0204620462046204
+xjtu,Bearing3_4,xjtu/Bearing3_4,1515,pct05,fixed convention,none,True,1439.0,0.9498349834983498,False,,,,,,76.0,0.0501650165016501
+xjtu,Bearing3_4,xjtu/Bearing3_4,1515,pct10,fixed convention,none,True,1363.0,0.8996699669966997,False,,,,,,152.0,0.1003300330033003
+xjtu,Bearing3_2,xjtu/Bearing3_2,2496,3sig_rms,detector,RMS,True,1441.0,0.577323717948718,False,499.0,False,0.2,3.0,3.229089701652889,1055.0,0.422676282051282
+xjtu,Bearing3_2,xjtu/Bearing3_2,2496,ma3sig,detector,RMS,True,1509.0,0.6045673076923077,False,499.0,False,0.2,3.0,3.277862274018968,987.0,0.3954326923076923
+xjtu,Bearing3_2,xjtu/Bearing3_2,2496,ma5sig,detector,RMS,True,1804.0,0.7227564102564102,False,499.0,False,0.2,3.0,5.798468738442735,692.0,0.2772435897435897
+xjtu,Bearing3_2,xjtu/Bearing3_2,2496,ma2sig,detector,RMS,True,1234.0,0.4943910256410256,False,499.0,False,0.2,3.0,2.692030904741113,1262.0,0.5056089743589743
+xjtu,Bearing3_2,xjtu/Bearing3_2,2496,3sig_kurt,detector,kurtosis,False,,,True,499.0,False,0.2,3.0,,,
+xjtu,Bearing3_2,xjtu/Bearing3_2,2496,ewma,control chart,RMS,True,59.0,0.0236378205128205,False,499.0,True,0.2,3.0,1.632358730008883,2437.0,0.9763621794871796
+xjtu,Bearing3_2,xjtu/Bearing3_2,2496,cusum,control chart,RMS,True,53.0,0.0212339743589743,False,499.0,True,0.2,3.0,1.320115690470054,2443.0,0.9787660256410255
+xjtu,Bearing3_2,xjtu/Bearing3_2,2496,pct02,fixed convention,none,True,2446.0,0.9799679487179488,False,,,,,,50.0,0.0200320512820512
+xjtu,Bearing3_2,xjtu/Bearing3_2,2496,pct05,fixed convention,none,True,2371.0,0.9499198717948718,False,,,,,,125.0,0.0500801282051282
+xjtu,Bearing3_2,xjtu/Bearing3_2,2496,pct10,fixed convention,none,True,2246.0,0.8998397435897436,False,,,,,,250.0,0.1001602564102564
+xjtu,Bearing3_1,xjtu/Bearing3_1,2538,3sig_rms,detector,RMS,True,2340.0,0.9219858156028368,False,507.0,False,0.2,3.0,3.889309414655593,198.0,0.0780141843971631
+xjtu,Bearing3_1,xjtu/Bearing3_1,2538,ma3sig,detector,RMS,True,2341.0,0.9223798266351458,False,507.0,False,0.2,3.0,3.988060649931059,197.0,0.0776201733648542
+xjtu,Bearing3_1,xjtu/Bearing3_1,2538,ma5sig,detector,RMS,True,2350.0,0.925925925925926,False,507.0,False,0.2,3.0,5.316423069843471,188.0,0.074074074074074
+xjtu,Bearing3_1,xjtu/Bearing3_1,2538,ma2sig,detector,RMS,True,24.0,0.0094562647754137,False,507.0,True,0.2,3.0,2.4021542797106545,2514.0,0.9905437352245864
+xjtu,Bearing3_1,xjtu/Bearing3_1,2538,3sig_kurt,detector,kurtosis,True,748.0,0.2947202521670606,False,507.0,False,0.2,3.0,,1790.0,0.7052797478329393
+xjtu,Bearing3_1,xjtu/Bearing3_1,2538,ewma,control chart,RMS,True,16.0,0.0063041765169424,False,507.0,True,0.2,3.0,1.438989364074066,2522.0,0.9936958234830576
+xjtu,Bearing3_1,xjtu/Bearing3_1,2538,cusum,control chart,RMS,True,17.0,0.0066981875492513,False,507.0,True,0.2,3.0,1.412324688841399,2521.0,0.9933018124507488
+xjtu,Bearing3_1,xjtu/Bearing3_1,2538,pct02,fixed convention,none,True,2487.0,0.979905437352246,False,,,,,,51.0,0.0200945626477541
+xjtu,Bearing3_1,xjtu/Bearing3_1,2538,pct05,fixed convention,none,True,2411.0,0.9499605988967692,False,,,,,,127.0,0.0500394011032308
+xjtu,Bearing3_1,xjtu/Bearing3_1,2538,pct10,fixed convention,none,True,2284.0,0.8999211977935382,False,,,,,,254.0,0.1000788022064617
+femto,Bearing2_7,femto/Bearing2_7,38,3sig_rms,detector,RMS,False,,,True,7.0,False,0.2,3.0,,,
+femto,Bearing2_7,femto/Bearing2_7,38,ma3sig,detector,RMS,False,,,True,7.0,False,0.2,3.0,,,
+femto,Bearing2_7,femto/Bearing2_7,38,ma5sig,detector,RMS,False,,,True,7.0,False,0.2,3.0,,,
+femto,Bearing2_7,femto/Bearing2_7,38,ma2sig,detector,RMS,False,,,True,7.0,False,0.2,3.0,,,
+femto,Bearing2_7,femto/Bearing2_7,38,3sig_kurt,detector,kurtosis,False,,,True,7.0,False,0.2,3.0,,,
+femto,Bearing2_7,femto/Bearing2_7,38,ewma,control chart,RMS,False,,,True,7.0,False,0.2,3.0,,,
+femto,Bearing2_7,femto/Bearing2_7,38,cusum,control chart,RMS,True,31.0,0.8157894736842105,False,7.0,False,0.2,3.0,4.154944602276622,7.0,0.1842105263157894
+femto,Bearing2_7,femto/Bearing2_7,38,pct02,fixed convention,none,True,37.0,0.9736842105263158,False,,,,,,1.0,0.0263157894736842
+femto,Bearing2_7,femto/Bearing2_7,38,pct05,fixed convention,none,True,36.0,0.9473684210526316,False,,,,,,2.0,0.0526315789473684
+femto,Bearing2_7,femto/Bearing2_7,38,pct10,fixed convention,none,True,34.0,0.8947368421052632,False,,,,,,4.0,0.1052631578947368
+femto,Bearing3_3,femto/Bearing3_3,72,3sig_rms,detector,RMS,True,52.0,0.7222222222222222,False,14.0,False,0.2,3.0,5.950657803450983,20.0,0.2777777777777778
+femto,Bearing3_3,femto/Bearing3_3,72,ma3sig,detector,RMS,True,54.0,0.75,False,14.0,False,0.2,3.0,10.94843133532287,18.0,0.25
+femto,Bearing3_3,femto/Bearing3_3,72,ma5sig,detector,RMS,True,55.0,0.7638888888888888,False,14.0,False,0.2,3.0,12.713706375905028,17.0,0.2361111111111111
+femto,Bearing3_3,femto/Bearing3_3,72,ma2sig,detector,RMS,True,53.0,0.7361111111111112,False,14.0,False,0.2,3.0,8.184595985149942,19.0,0.2638888888888889
+femto,Bearing3_3,femto/Bearing3_3,72,3sig_kurt,detector,kurtosis,False,,,True,14.0,False,0.2,3.0,,,
+femto,Bearing3_3,femto/Bearing3_3,72,ewma,control chart,RMS,True,16.0,0.2222222222222222,False,14.0,False,0.2,3.0,1.6653751478309906,56.0,0.7777777777777778
+femto,Bearing3_3,femto/Bearing3_3,72,cusum,control chart,RMS,True,15.0,0.2083333333333333,False,14.0,False,0.2,3.0,1.980066861449408,57.0,0.7916666666666666
+femto,Bearing3_3,femto/Bearing3_3,72,pct02,fixed convention,none,True,70.0,0.9722222222222222,False,,,,,,2.0,0.0277777777777777
+femto,Bearing3_3,femto/Bearing3_3,72,pct05,fixed convention,none,True,68.0,0.9444444444444444,False,,,,,,4.0,0.0555555555555555
+femto,Bearing3_3,femto/Bearing3_3,72,pct10,fixed convention,none,True,64.0,0.8888888888888888,False,,,,,,8.0,0.1111111111111111
+femto,Bearing3_1,femto/Bearing3_1,89,3sig_rms,detector,RMS,True,85.0,0.9550561797752808,False,17.0,False,0.2,3.0,19.20896658396496,4.0,0.0449438202247191
+femto,Bearing3_1,femto/Bearing3_1,89,ma3sig,detector,RMS,True,86.0,0.9662921348314608,False,17.0,False,0.2,3.0,20.65614137548256,3.0,0.0337078651685393
+femto,Bearing3_1,femto/Bearing3_1,89,ma5sig,detector,RMS,True,86.0,0.9662921348314608,False,17.0,False,0.2,3.0,20.65614137548256,3.0,0.0337078651685393
+femto,Bearing3_1,femto/Bearing3_1,89,ma2sig,detector,RMS,True,86.0,0.9662921348314608,False,17.0,False,0.2,3.0,20.65614137548256,3.0,0.0337078651685393
+femto,Bearing3_1,femto/Bearing3_1,89,3sig_kurt,detector,kurtosis,False,,,True,17.0,False,0.2,3.0,,,
+femto,Bearing3_1,femto/Bearing3_1,89,ewma,control chart,RMS,True,85.0,0.9550561797752808,False,17.0,False,0.2,3.0,19.20896658396496,4.0,0.0449438202247191
+femto,Bearing3_1,femto/Bearing3_1,89,cusum,control chart,RMS,True,85.0,0.9550561797752808,False,17.0,False,0.2,3.0,19.20896658396496,4.0,0.0449438202247191
+femto,Bearing3_1,femto/Bearing3_1,89,pct02,fixed convention,none,True,87.0,0.9775280898876404,False,,,,,,2.0,0.0224719101123595
+femto,Bearing3_1,femto/Bearing3_1,89,pct05,fixed convention,none,True,84.0,0.9438202247191012,False,,,,,,5.0,0.0561797752808988
+femto,Bearing3_1,femto/Bearing3_1,89,pct10,fixed convention,none,True,80.0,0.898876404494382,False,,,,,,9.0,0.1011235955056179
+femto,Bearing2_6,femto/Bearing2_6,116,3sig_rms,detector,RMS,False,,,True,23.0,False,0.2,3.0,,,
+femto,Bearing2_6,femto/Bearing2_6,116,ma3sig,detector,RMS,False,,,True,23.0,False,0.2,3.0,,,
+femto,Bearing2_6,femto/Bearing2_6,116,ma5sig,detector,RMS,False,,,True,23.0,False,0.2,3.0,,,
+femto,Bearing2_6,femto/Bearing2_6,116,ma2sig,detector,RMS,False,,,True,23.0,False,0.2,3.0,,,
+femto,Bearing2_6,femto/Bearing2_6,116,3sig_kurt,detector,kurtosis,True,110.0,0.9482758620689656,False,23.0,False,0.2,3.0,,6.0,0.0517241379310344
+femto,Bearing2_6,femto/Bearing2_6,116,ewma,control chart,RMS,False,,,True,23.0,False,0.2,3.0,,,
+femto,Bearing2_6,femto/Bearing2_6,116,cusum,control chart,RMS,False,,,True,23.0,False,0.2,3.0,,,
+femto,Bearing2_6,femto/Bearing2_6,116,pct02,fixed convention,none,True,113.0,0.9741379310344828,False,,,,,,3.0,0.0258620689655172
+femto,Bearing2_6,femto/Bearing2_6,116,pct05,fixed convention,none,True,110.0,0.9482758620689656,False,,,,,,6.0,0.0517241379310344
+femto,Bearing2_6,femto/Bearing2_6,116,pct10,fixed convention,none,True,104.0,0.896551724137931,False,,,,,,12.0,0.1034482758620689
+femto,Bearing2_4,femto/Bearing2_4,125,3sig_rms,detector,RMS,False,,,True,25.0,False,0.2,3.0,,,
+femto,Bearing2_4,femto/Bearing2_4,125,ma3sig,detector,RMS,False,,,True,25.0,False,0.2,3.0,,,
+femto,Bearing2_4,femto/Bearing2_4,125,ma5sig,detector,RMS,False,,,True,25.0,False,0.2,3.0,,,
+femto,Bearing2_4,femto/Bearing2_4,125,ma2sig,detector,RMS,False,,,True,25.0,False,0.2,3.0,,,
+femto,Bearing2_4,femto/Bearing2_4,125,3sig_kurt,detector,kurtosis,True,56.0,0.448,False,25.0,False,0.2,3.0,,69.0,0.552
+femto,Bearing2_4,femto/Bearing2_4,125,ewma,control chart,RMS,False,,,True,25.0,False,0.2,3.0,,,
+femto,Bearing2_4,femto/Bearing2_4,125,cusum,control chart,RMS,False,,,True,25.0,False,0.2,3.0,,,
+femto,Bearing2_4,femto/Bearing2_4,125,pct02,fixed convention,none,True,122.0,0.976,False,,,,,,3.0,0.024
+femto,Bearing2_4,femto/Bearing2_4,125,pct05,fixed convention,none,True,118.0,0.944,False,,,,,,7.0,0.056
+femto,Bearing2_4,femto/Bearing2_4,125,pct10,fixed convention,none,True,112.0,0.896,False,,,,,,13.0,0.104
+femto,Bearing1_2,femto/Bearing1_2,144,3sig_rms,detector,RMS,True,136.0,0.9444444444444444,False,28.0,False,0.2,3.0,8.994672726801276,8.0,0.0555555555555555
+femto,Bearing1_2,femto/Bearing1_2,144,ma3sig,detector,RMS,True,138.0,0.9583333333333334,False,28.0,False,0.2,3.0,11.497804984510145,6.0,0.0416666666666666
+femto,Bearing1_2,femto/Bearing1_2,144,ma5sig,detector,RMS,True,138.0,0.9583333333333334,False,28.0,False,0.2,3.0,11.497804984510145,6.0,0.0416666666666666
+femto,Bearing1_2,femto/Bearing1_2,144,ma2sig,detector,RMS,True,137.0,0.9513888888888888,False,28.0,False,0.2,3.0,11.121360541337031,7.0,0.0486111111111111
+femto,Bearing1_2,femto/Bearing1_2,144,3sig_kurt,detector,kurtosis,False,,,True,28.0,False,0.2,3.0,,,
+femto,Bearing1_2,femto/Bearing1_2,144,ewma,control chart,RMS,True,93.0,0.6458333333333334,False,28.0,False,0.2,3.0,2.74870643570928,51.0,0.3541666666666667
+femto,Bearing1_2,femto/Bearing1_2,144,cusum,control chart,RMS,True,93.0,0.6458333333333334,False,28.0,False,0.2,3.0,2.74870643570928,51.0,0.3541666666666667
+femto,Bearing1_2,femto/Bearing1_2,144,pct02,fixed convention,none,True,141.0,0.9791666666666666,False,,,,,,3.0,0.0208333333333333
+femto,Bearing1_2,femto/Bearing1_2,144,pct05,fixed convention,none,True,136.0,0.9444444444444444,False,,,,,,8.0,0.0555555555555555
+femto,Bearing1_2,femto/Bearing1_2,144,pct10,fixed convention,none,True,129.0,0.8958333333333334,False,,,,,,15.0,0.1041666666666666
+femto,Bearing2_1,femto/Bearing2_1,151,3sig_rms,detector,RMS,True,40.0,0.2649006622516556,False,30.0,False,0.2,3.0,3.4834947472000954,111.0,0.7350993377483444
+femto,Bearing2_1,femto/Bearing2_1,151,ma3sig,detector,RMS,True,40.0,0.2649006622516556,False,30.0,False,0.2,3.0,3.4834947472000954,111.0,0.7350993377483444
+femto,Bearing2_1,femto/Bearing2_1,151,ma5sig,detector,RMS,True,148.0,0.9801324503311258,False,30.0,False,0.2,3.0,12.006821540112997,3.0,0.0198675496688741
+femto,Bearing2_1,femto/Bearing2_1,151,ma2sig,detector,RMS,True,32.0,0.2119205298013245,False,30.0,False,0.2,3.0,2.4479170294898087,119.0,0.7880794701986755
+femto,Bearing2_1,femto/Bearing2_1,151,3sig_kurt,detector,kurtosis,False,,,True,30.0,False,0.2,3.0,,,
+femto,Bearing2_1,femto/Bearing2_1,151,ewma,control chart,RMS,True,30.0,0.1986754966887417,False,30.0,False,0.2,3.0,2.2177074485967494,121.0,0.8013245033112583
+femto,Bearing2_1,femto/Bearing2_1,151,cusum,control chart,RMS,True,30.0,0.1986754966887417,False,30.0,False,0.2,3.0,2.2177074485967494,121.0,0.8013245033112583
+femto,Bearing2_1,femto/Bearing2_1,151,pct02,fixed convention,none,True,147.0,0.9735099337748344,False,,,,,,4.0,0.0264900662251655
+femto,Bearing2_1,femto/Bearing2_1,151,pct05,fixed convention,none,True,143.0,0.9470198675496688,False,,,,,,8.0,0.0529801324503311
+femto,Bearing2_1,femto/Bearing2_1,151,pct10,fixed convention,none,True,135.0,0.8940397350993378,False,,,,,,16.0,0.1059602649006622
+femto,Bearing1_4,femto/Bearing1_4,237,3sig_rms,detector,RMS,True,180.0,0.759493670886076,False,47.0,False,0.2,3.0,34.55240124046077,57.0,0.240506329113924
+femto,Bearing1_4,femto/Bearing1_4,237,ma3sig,detector,RMS,True,181.0,0.7637130801687764,False,47.0,False,0.2,3.0,45.3748268054699,56.0,0.2362869198312236
+femto,Bearing1_4,femto/Bearing1_4,237,ma5sig,detector,RMS,True,181.0,0.7637130801687764,False,47.0,False,0.2,3.0,45.3748268054699,56.0,0.2362869198312236
+femto,Bearing1_4,femto/Bearing1_4,237,ma2sig,detector,RMS,True,180.0,0.759493670886076,False,47.0,False,0.2,3.0,34.55240124046077,57.0,0.240506329113924
+femto,Bearing1_4,femto/Bearing1_4,237,3sig_kurt,detector,kurtosis,True,179.0,0.7552742616033755,False,47.0,False,0.2,3.0,,58.0,0.2447257383966244
+femto,Bearing1_4,femto/Bearing1_4,237,ewma,control chart,RMS,True,180.0,0.759493670886076,False,47.0,False,0.2,3.0,34.55240124046077,57.0,0.240506329113924
+femto,Bearing1_4,femto/Bearing1_4,237,cusum,control chart,RMS,True,15.0,0.0632911392405063,False,47.0,True,0.2,3.0,0.6281917650299349,222.0,0.9367088607594936
+femto,Bearing1_4,femto/Bearing1_4,237,pct02,fixed convention,none,True,232.0,0.978902953586498,False,,,,,,5.0,0.0210970464135021
+femto,Bearing1_4,femto/Bearing1_4,237,pct05,fixed convention,none,True,225.0,0.9493670886075948,False,,,,,,12.0,0.050632911392405
+femto,Bearing1_4,femto/Bearing1_4,237,pct10,fixed convention,none,True,213.0,0.8987341772151899,False,,,,,,24.0,0.1012658227848101
+femto,Bearing1_7,femto/Bearing1_7,376,3sig_rms,detector,RMS,True,366.0,0.973404255319149,False,75.0,False,0.2,3.0,9.909715474025994,10.0,0.026595744680851
+femto,Bearing1_7,femto/Bearing1_7,376,ma3sig,detector,RMS,True,367.0,0.976063829787234,False,75.0,False,0.2,3.0,16.6898855389033,9.0,0.0239361702127659
+femto,Bearing1_7,femto/Bearing1_7,376,ma5sig,detector,RMS,True,368.0,0.9787234042553192,False,75.0,False,0.2,3.0,25.56427330341632,8.0,0.0212765957446808
+femto,Bearing1_7,femto/Bearing1_7,376,ma2sig,detector,RMS,True,364.0,0.9680851063829788,False,75.0,False,0.2,3.0,2.872767426337034,12.0,0.0319148936170212
+femto,Bearing1_7,femto/Bearing1_7,376,3sig_kurt,detector,kurtosis,True,149.0,0.3962765957446808,False,75.0,False,0.2,3.0,,227.0,0.6037234042553191
+femto,Bearing1_7,femto/Bearing1_7,376,ewma,control chart,RMS,True,4.0,0.0106382978723404,False,75.0,True,0.2,3.0,1.2813685132401325,372.0,0.9893617021276596
+femto,Bearing1_7,femto/Bearing1_7,376,cusum,control chart,RMS,True,4.0,0.0106382978723404,False,75.0,True,0.2,3.0,1.2813685132401325,372.0,0.9893617021276596
+femto,Bearing1_7,femto/Bearing1_7,376,pct02,fixed convention,none,True,368.0,0.9787234042553192,False,,,,,,8.0,0.0212765957446808
+femto,Bearing1_7,femto/Bearing1_7,376,pct05,fixed convention,none,True,357.0,0.949468085106383,False,,,,,,19.0,0.050531914893617
+femto,Bearing1_7,femto/Bearing1_7,376,pct10,fixed convention,none,True,338.0,0.898936170212766,False,,,,,,38.0,0.101063829787234
+femto,Bearing2_5,femto/Bearing2_5,386,3sig_rms,detector,RMS,False,,,True,77.0,False,0.2,3.0,,,
+femto,Bearing2_5,femto/Bearing2_5,386,ma3sig,detector,RMS,False,,,True,77.0,False,0.2,3.0,,,
+femto,Bearing2_5,femto/Bearing2_5,386,ma5sig,detector,RMS,False,,,True,77.0,False,0.2,3.0,,,
+femto,Bearing2_5,femto/Bearing2_5,386,ma2sig,detector,RMS,False,,,True,77.0,False,0.2,3.0,,,
+femto,Bearing2_5,femto/Bearing2_5,386,3sig_kurt,detector,kurtosis,False,,,True,77.0,False,0.2,3.0,,,
+femto,Bearing2_5,femto/Bearing2_5,386,ewma,control chart,RMS,True,19.0,0.0492227979274611,False,77.0,True,0.2,3.0,2.2069668382446075,367.0,0.9507772020725388
+femto,Bearing2_5,femto/Bearing2_5,386,cusum,control chart,RMS,True,19.0,0.0492227979274611,False,77.0,True,0.2,3.0,2.2069668382446075,367.0,0.9507772020725388
+femto,Bearing2_5,femto/Bearing2_5,386,pct02,fixed convention,none,True,378.0,0.9792746113989638,False,,,,,,8.0,0.0207253886010362
+femto,Bearing2_5,femto/Bearing2_5,386,pct05,fixed convention,none,True,366.0,0.9481865284974094,False,,,,,,20.0,0.0518134715025906
+femto,Bearing2_5,femto/Bearing2_5,386,pct10,fixed convention,none,True,347.0,0.8989637305699482,False,,,,,,39.0,0.1010362694300518
+femto,Bearing1_6,femto/Bearing1_6,408,3sig_rms,detector,RMS,True,272.0,0.6666666666666666,False,81.0,False,0.2,3.0,11.7490406835565,136.0,0.3333333333333333
+femto,Bearing1_6,femto/Bearing1_6,408,ma3sig,detector,RMS,True,274.0,0.6715686274509803,False,81.0,False,0.2,3.0,1.911687698887128,134.0,0.3284313725490196
+femto,Bearing1_6,femto/Bearing1_6,408,ma5sig,detector,RMS,True,274.0,0.6715686274509803,False,81.0,False,0.2,3.0,1.911687698887128,134.0,0.3284313725490196
+femto,Bearing1_6,femto/Bearing1_6,408,ma2sig,detector,RMS,True,273.0,0.6691176470588235,False,81.0,False,0.2,3.0,7.64695125452366,135.0,0.3308823529411764
+femto,Bearing1_6,femto/Bearing1_6,408,3sig_kurt,detector,kurtosis,True,272.0,0.6666666666666666,False,81.0,False,0.2,3.0,,136.0,0.3333333333333333
+femto,Bearing1_6,femto/Bearing1_6,408,ewma,control chart,RMS,True,13.0,0.0318627450980392,False,81.0,True,0.2,3.0,1.5044154307018842,395.0,0.9681372549019608
+femto,Bearing1_6,femto/Bearing1_6,408,cusum,control chart,RMS,True,11.0,0.0269607843137254,False,81.0,True,0.2,3.0,1.4202379927872075,397.0,0.9730392156862744
+femto,Bearing1_6,femto/Bearing1_6,408,pct02,fixed convention,none,True,399.0,0.9779411764705882,False,,,,,,9.0,0.0220588235294117
+femto,Bearing1_6,femto/Bearing1_6,408,pct05,fixed convention,none,True,387.0,0.9485294117647058,False,,,,,,21.0,0.0514705882352941
+femto,Bearing1_6,femto/Bearing1_6,408,pct10,fixed convention,none,True,367.0,0.8995098039215687,False,,,,,,41.0,0.1004901960784313
+femto,Bearing1_5,femto/Bearing1_5,410,3sig_rms,detector,RMS,True,401.0,0.9780487804878047,False,82.0,False,0.2,3.0,7.918570590312723,9.0,0.0219512195121951
+femto,Bearing1_5,femto/Bearing1_5,410,ma3sig,detector,RMS,True,403.0,0.9829268292682928,False,82.0,False,0.2,3.0,7.932038323566934,7.0,0.0170731707317073
+femto,Bearing1_5,femto/Bearing1_5,410,ma5sig,detector,RMS,True,404.0,0.9853658536585366,False,82.0,False,0.2,3.0,9.056720086710907,6.0,0.0146341463414634
+femto,Bearing1_5,femto/Bearing1_5,410,ma2sig,detector,RMS,True,403.0,0.9829268292682928,False,82.0,False,0.2,3.0,7.932038323566934,7.0,0.0170731707317073
+femto,Bearing1_5,femto/Bearing1_5,410,3sig_kurt,detector,kurtosis,False,,,True,82.0,False,0.2,3.0,,,
+femto,Bearing1_5,femto/Bearing1_5,410,ewma,control chart,RMS,True,26.0,0.0634146341463414,False,82.0,True,0.2,3.0,2.427757207618084,384.0,0.9365853658536586
+femto,Bearing1_5,femto/Bearing1_5,410,cusum,control chart,RMS,True,26.0,0.0634146341463414,False,82.0,True,0.2,3.0,2.427757207618084,384.0,0.9365853658536586
+femto,Bearing1_5,femto/Bearing1_5,410,pct02,fixed convention,none,True,401.0,0.9780487804878047,False,,,,,,9.0,0.0219512195121951
+femto,Bearing1_5,femto/Bearing1_5,410,pct05,fixed convention,none,True,389.0,0.948780487804878,False,,,,,,21.0,0.0512195121951219
+femto,Bearing1_5,femto/Bearing1_5,410,pct10,fixed convention,none,True,369.0,0.9,False,,,,,,41.0,0.1
+femto,Bearing1_1,femto/Bearing1_1,466,3sig_rms,detector,RMS,True,274.0,0.5879828326180258,False,93.0,False,0.2,3.0,3.2758497606429,192.0,0.4120171673819742
+femto,Bearing1_1,femto/Bearing1_1,466,ma3sig,detector,RMS,True,220.0,0.4721030042918455,False,93.0,False,0.2,3.0,7.658440796996634,246.0,0.5278969957081545
+femto,Bearing1_1,femto/Bearing1_1,466,ma5sig,detector,RMS,True,220.0,0.4721030042918455,False,93.0,False,0.2,3.0,7.658440796996634,246.0,0.5278969957081545
+femto,Bearing1_1,femto/Bearing1_1,466,ma2sig,detector,RMS,True,3.0,0.0064377682403433,False,93.0,True,0.2,3.0,2.8656875352054603,463.0,0.9935622317596566
+femto,Bearing1_1,femto/Bearing1_1,466,3sig_kurt,detector,kurtosis,True,437.0,0.9377682403433476,False,93.0,False,0.2,3.0,,29.0,0.0622317596566523
+femto,Bearing1_1,femto/Bearing1_1,466,ewma,control chart,RMS,True,3.0,0.0064377682403433,False,93.0,True,0.2,3.0,2.8656875352054603,463.0,0.9935622317596566
+femto,Bearing1_1,femto/Bearing1_1,466,cusum,control chart,RMS,True,3.0,0.0064377682403433,False,93.0,True,0.2,3.0,2.8656875352054603,463.0,0.9935622317596566
+femto,Bearing1_1,femto/Bearing1_1,466,pct02,fixed convention,none,True,456.0,0.9785407725321889,False,,,,,,10.0,0.0214592274678111
+femto,Bearing1_1,femto/Bearing1_1,466,pct05,fixed convention,none,True,442.0,0.9484978540772532,False,,,,,,24.0,0.0515021459227467
+femto,Bearing1_1,femto/Bearing1_1,466,pct10,fixed convention,none,True,419.0,0.8991416309012875,False,,,,,,47.0,0.1008583690987124
+ims,IMS_2nd_test_B1,ims/IMS_2nd_test_B1,328,3sig_rms,detector,RMS,True,178.0,0.5426829268292683,False,65.0,False,0.2,3.0,5.652452691459177,150.0,0.4573170731707317
+ims,IMS_2nd_test_B1,ims/IMS_2nd_test_B1,328,ma3sig,detector,RMS,True,179.0,0.5457317073170732,False,65.0,False,0.2,3.0,5.888046820601172,149.0,0.4542682926829268
+ims,IMS_2nd_test_B1,ims/IMS_2nd_test_B1,328,ma5sig,detector,RMS,True,182.0,0.5548780487804879,False,65.0,False,0.2,3.0,7.677635763805818,146.0,0.4451219512195122
+ims,IMS_2nd_test_B1,ims/IMS_2nd_test_B1,328,ma2sig,detector,RMS,True,178.0,0.5426829268292683,False,65.0,False,0.2,3.0,5.652452691459177,150.0,0.4573170731707317
+ims,IMS_2nd_test_B1,ims/IMS_2nd_test_B1,328,3sig_kurt,detector,kurtosis,True,234.0,0.7134146341463414,False,65.0,False,0.2,3.0,,94.0,0.2865853658536585
+ims,IMS_2nd_test_B1,ims/IMS_2nd_test_B1,328,ewma,control chart,RMS,True,178.0,0.5426829268292683,False,65.0,False,0.2,3.0,5.652452691459177,150.0,0.4573170731707317
+ims,IMS_2nd_test_B1,ims/IMS_2nd_test_B1,328,cusum,control chart,RMS,True,178.0,0.5426829268292683,False,65.0,False,0.2,3.0,5.652452691459177,150.0,0.4573170731707317
+ims,IMS_2nd_test_B1,ims/IMS_2nd_test_B1,328,pct02,fixed convention,none,True,321.0,0.9786585365853658,False,,,,,,7.0,0.0213414634146341
+ims,IMS_2nd_test_B1,ims/IMS_2nd_test_B1,328,pct05,fixed convention,none,True,311.0,0.948170731707317,False,,,,,,17.0,0.0518292682926829
+ims,IMS_2nd_test_B1,ims/IMS_2nd_test_B1,328,pct10,fixed convention,none,True,295.0,0.899390243902439,False,,,,,,33.0,0.1006097560975609
+ims,IMS_1st_test_B3,ims/IMS_1st_test_B3,719,3sig_rms,detector,RMS,True,707.0,0.9833101529902644,False,143.0,False,0.2,3.0,5.70362817186569,12.0,0.0166898470097357
+ims,IMS_1st_test_B3,ims/IMS_1st_test_B3,719,ma3sig,detector,RMS,True,708.0,0.9847009735744088,False,143.0,False,0.2,3.0,6.337340351850359,11.0,0.015299026425591
+ims,IMS_1st_test_B3,ims/IMS_1st_test_B3,719,ma5sig,detector,RMS,True,710.0,0.9874826147426982,False,143.0,False,0.2,3.0,7.510094640875287,9.0,0.0125173852573018
+ims,IMS_1st_test_B3,ims/IMS_1st_test_B3,719,ma2sig,detector,RMS,True,673.0,0.9360222531293464,False,143.0,False,0.2,3.0,2.159646073751728,46.0,0.0639777468706536
+ims,IMS_1st_test_B3,ims/IMS_1st_test_B3,719,3sig_kurt,detector,kurtosis,True,321.0,0.4464534075104311,False,143.0,False,0.2,3.0,,398.0,0.5535465924895688
+ims,IMS_1st_test_B3,ims/IMS_1st_test_B3,719,ewma,control chart,RMS,True,600.0,0.8344923504867872,False,143.0,False,0.2,3.0,1.0903173702680216,119.0,0.1655076495132127
+ims,IMS_1st_test_B3,ims/IMS_1st_test_B3,719,cusum,control chart,RMS,True,80.0,0.1112656467315716,False,143.0,True,0.2,3.0,0.7937589792779082,639.0,0.8887343532684284
+ims,IMS_1st_test_B3,ims/IMS_1st_test_B3,719,pct02,fixed convention,none,True,704.0,0.9791376912378305,False,,,,,,15.0,0.0208623087621696
+ims,IMS_1st_test_B3,ims/IMS_1st_test_B3,719,pct05,fixed convention,none,True,683.0,0.9499304589707928,False,,,,,,36.0,0.0500695410292072
+ims,IMS_1st_test_B3,ims/IMS_1st_test_B3,719,pct10,fixed convention,none,True,647.0,0.8998609179415855,False,,,,,,72.0,0.1001390820584144
+ims,IMS_1st_test_B4,ims/IMS_1st_test_B4,719,3sig_rms,detector,RMS,True,574.0,0.7983310152990264,False,143.0,False,0.2,3.0,3.5396757245093884,145.0,0.2016689847009735
+ims,IMS_1st_test_B4,ims/IMS_1st_test_B4,719,ma3sig,detector,RMS,True,575.0,0.799721835883171,False,143.0,False,0.2,3.0,3.464778659788943,144.0,0.2002781641168289
+ims,IMS_1st_test_B4,ims/IMS_1st_test_B4,719,ma5sig,detector,RMS,False,,,True,143.0,False,0.2,3.0,,,
+ims,IMS_1st_test_B4,ims/IMS_1st_test_B4,719,ma2sig,detector,RMS,True,552.0,0.7677329624478443,False,143.0,False,0.2,3.0,3.025648036448693,167.0,0.2322670375521557
+ims,IMS_1st_test_B4,ims/IMS_1st_test_B4,719,3sig_kurt,detector,kurtosis,True,483.0,0.6717663421418637,False,143.0,False,0.2,3.0,,236.0,0.3282336578581363
+ims,IMS_1st_test_B4,ims/IMS_1st_test_B4,719,ewma,control chart,RMS,True,497.0,0.6912378303198887,False,143.0,False,0.2,3.0,1.6880503830298383,222.0,0.3087621696801113
+ims,IMS_1st_test_B4,ims/IMS_1st_test_B4,719,cusum,control chart,RMS,True,126.0,0.1752433936022253,False,143.0,True,0.2,3.0,0.6551707341708222,593.0,0.8247566063977747
+ims,IMS_1st_test_B4,ims/IMS_1st_test_B4,719,pct02,fixed convention,none,True,704.0,0.9791376912378305,False,,,,,,15.0,0.0208623087621696
+ims,IMS_1st_test_B4,ims/IMS_1st_test_B4,719,pct05,fixed convention,none,True,683.0,0.9499304589707928,False,,,,,,36.0,0.0500695410292072
+ims,IMS_1st_test_B4,ims/IMS_1st_test_B4,719,pct10,fixed convention,none,True,647.0,0.8998609179415855,False,,,,,,72.0,0.1001390820584144
+ims,IMS_3rd_test_B3,ims/IMS_3rd_test_B3,2108,3sig_rms,detector,RMS,True,6.0,0.0028462998102466,False,421.0,True,0.2,3.0,4.129372159850635,2102.0,0.9971537001897534
+ims,IMS_3rd_test_B3,ims/IMS_3rd_test_B3,2108,ma3sig,detector,RMS,True,8.0,0.0037950664136622,False,421.0,True,0.2,3.0,2.7407348355935497,2100.0,0.9962049335863378
+ims,IMS_3rd_test_B3,ims/IMS_3rd_test_B3,2108,ma5sig,detector,RMS,True,1990.0,0.944022770398482,False,421.0,False,0.2,3.0,10.190147122523474,118.0,0.055977229601518
+ims,IMS_3rd_test_B3,ims/IMS_3rd_test_B3,2108,ma2sig,detector,RMS,True,6.0,0.0028462998102466,False,421.0,True,0.2,3.0,4.129372159850635,2102.0,0.9971537001897534
+ims,IMS_3rd_test_B3,ims/IMS_3rd_test_B3,2108,3sig_kurt,detector,kurtosis,True,2058.0,0.976280834914611,False,421.0,False,0.2,3.0,,50.0,0.0237191650853889
+ims,IMS_3rd_test_B3,ims/IMS_3rd_test_B3,2108,ewma,control chart,RMS,True,5.0,0.0023719165085388,False,421.0,True,0.2,3.0,3.8245051961510654,2103.0,0.9976280834914611
+ims,IMS_3rd_test_B3,ims/IMS_3rd_test_B3,2108,cusum,control chart,RMS,True,5.0,0.0023719165085388,False,421.0,True,0.2,3.0,3.8245051961510654,2103.0,0.9976280834914611
+ims,IMS_3rd_test_B3,ims/IMS_3rd_test_B3,2108,pct02,fixed convention,none,True,2065.0,0.9796015180265656,False,,,,,,43.0,0.0203984819734345
+ims,IMS_3rd_test_B3,ims/IMS_3rd_test_B3,2108,pct05,fixed convention,none,True,2002.0,0.9497153700189752,False,,,,,,106.0,0.0502846299810246
+ims,IMS_3rd_test_B3,ims/IMS_3rd_test_B3,2108,pct10,fixed convention,none,True,1897.0,0.8999051233396584,False,,,,,,211.0,0.1000948766603415
+nsk,NSK_6205,nsk/NSK_6205,129,3sig_rms,detector,RMS,True,124.0,0.9612403100775194,False,25.0,False,0.2,3.0,,5.0,0.0387596899224806
+nsk,NSK_6205,nsk/NSK_6205,129,ma3sig,detector,RMS,True,126.0,0.9767441860465116,False,25.0,False,0.2,3.0,,3.0,0.0232558139534883
+nsk,NSK_6205,nsk/NSK_6205,129,ma5sig,detector,RMS,True,126.0,0.9767441860465116,False,25.0,False,0.2,3.0,,3.0,0.0232558139534883
+nsk,NSK_6205,nsk/NSK_6205,129,ma2sig,detector,RMS,True,125.0,0.9689922480620154,False,25.0,False,0.2,3.0,,4.0,0.0310077519379844
+nsk,NSK_6205,nsk/NSK_6205,129,3sig_kurt,detector,kurtosis,False,,,True,25.0,False,0.2,3.0,,,
+nsk,NSK_6205,nsk/NSK_6205,129,ewma,control chart,RMS,True,26.0,0.2015503875968992,False,25.0,False,0.2,3.0,,103.0,0.7984496124031008
+nsk,NSK_6205,nsk/NSK_6205,129,cusum,control chart,RMS,True,27.0,0.2093023255813953,False,25.0,False,0.2,3.0,,102.0,0.7906976744186046
+nsk,NSK_6205,nsk/NSK_6205,129,pct02,fixed convention,none,True,126.0,0.9767441860465116,False,,,,,,3.0,0.0232558139534883
+nsk,NSK_6205,nsk/NSK_6205,129,pct05,fixed convention,none,True,122.0,0.9457364341085271,False,,,,,,7.0,0.0542635658914728
+nsk,NSK_6205,nsk/NSK_6205,129,pct10,fixed convention,none,True,116.0,0.8992248062015504,False,,,,,,13.0,0.1007751937984496

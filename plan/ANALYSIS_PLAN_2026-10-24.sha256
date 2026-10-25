@@ -1,0 +1,5 @@
+898407948fca88d93de586c4411d4173b655067a5f4f7c3b629876c91fcd9576  ANALYSIS_PLAN_2026-10-24.md
+# Locked: 2026-10-24 11:11:16 +0700 (Asia/Ho_Chi_Minh, UTC+07:00)
+# Approved design decisions D1-D7: all five authors, 2026-10-24
+# Before the lock: no output of scripts J57-J65 existed in results/tables/, and none of those scripts existed.
+# Verify with: sha256sum -c ANALYSIS_PLAN_2026-10-24.sha256

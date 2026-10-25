@@ -1,0 +1,1073 @@
+dataset,protocol,noise_arm,design,kind,family,canonical,far
+xjtu,P-prospective,main,ewma_l0.05_L2,ewma,control chart,False,0.661923076923077
+xjtu,P-prospective,main,ewma_l0.05_L3,ewma,control chart,False,0.49884615384615383
+xjtu,P-prospective,main,ewma_l0.05_L4,ewma,control chart,False,0.34544230769230766
+xjtu,P-prospective,main,ewma_l0.05_L5,ewma,control chart,False,0.22088461538461537
+xjtu,P-prospective,main,ewma_l0.05_L6,ewma,control chart,False,0.13338461538461538
+xjtu,P-prospective,main,ewma_l0.1_L2,ewma,control chart,False,0.7378653846153846
+xjtu,P-prospective,main,ewma_l0.1_L3,ewma,control chart,False,0.5388846153846154
+xjtu,P-prospective,main,ewma_l0.1_L4,ewma,control chart,False,0.3416923076923077
+xjtu,P-prospective,main,ewma_l0.1_L5,ewma,control chart,False,0.19192307692307692
+xjtu,P-prospective,main,ewma_l0.1_L6,ewma,control chart,False,0.09665384615384615
+xjtu,P-prospective,main,ewma_l0.2_L2,ewma,control chart,False,0.7829807692307692
+xjtu,P-prospective,main,ewma_l0.2_L3,ewma,control chart,True,0.5336730769230769
+xjtu,P-prospective,main,ewma_l0.2_L4,ewma,control chart,False,0.29274999999999995
+xjtu,P-prospective,main,ewma_l0.2_L5,ewma,control chart,False,0.13253846153846155
+xjtu,P-prospective,main,ewma_l0.2_L6,ewma,control chart,False,0.05390384615384615
+xjtu,P-prospective,main,ewma_l0.4_L2,ewma,control chart,False,0.7544807692307693
+xjtu,P-prospective,main,ewma_l0.4_L3,ewma,control chart,False,0.41759615384615384
+xjtu,P-prospective,main,ewma_l0.4_L4,ewma,control chart,False,0.16340384615384615
+xjtu,P-prospective,main,ewma_l0.4_L5,ewma,control chart,False,0.050826923076923075
+xjtu,P-prospective,main,ewma_l0.4_L6,ewma,control chart,False,0.014730769230769233
+xjtu,P-prospective,main,ewma_l0.8_L2,ewma,control chart,False,0.48765384615384616
+xjtu,P-prospective,main,ewma_l0.8_L3,ewma,control chart,False,0.1263076923076923
+xjtu,P-prospective,main,ewma_l0.8_L4,ewma,control chart,False,0.02184615384615385
+xjtu,P-prospective,main,ewma_l0.8_L5,ewma,control chart,False,0.0033461538461538464
+xjtu,P-prospective,main,ewma_l0.8_L6,ewma,control chart,False,0.0004807692307692308
+xjtu,P-prospective,main,cusum_k0.25_h3,cusum,control chart,False,0.9317884615384616
+xjtu,P-prospective,main,cusum_k0.25_h5,cusum,control chart,False,0.8283076923076924
+xjtu,P-prospective,main,cusum_k0.25_h8,cusum,control chart,False,0.6735769230769232
+xjtu,P-prospective,main,cusum_k0.25_h12,cusum,control chart,False,0.5139038461538462
+xjtu,P-prospective,main,cusum_k0.5_h3,cusum,control chart,False,0.8346730769230769
+xjtu,P-prospective,main,cusum_k0.5_h5,cusum,control chart,True,0.668923076923077
+xjtu,P-prospective,main,cusum_k0.5_h8,cusum,control chart,False,0.4685961538461539
+xjtu,P-prospective,main,cusum_k0.5_h12,cusum,control chart,False,0.3050769230769231
+xjtu,P-prospective,main,cusum_k1_h3,cusum,control chart,False,0.5250000000000001
+xjtu,P-prospective,main,cusum_k1_h5,cusum,control chart,False,0.3181923076923078
+xjtu,P-prospective,main,cusum_k1_h8,cusum,control chart,False,0.16109615384615386
+xjtu,P-prospective,main,cusum_k1_h12,cusum,control chart,False,0.07561538461538463
+xjtu,P-prospective,main,cusum_k2_h3,cusum,control chart,False,0.08971153846153847
+xjtu,P-prospective,main,cusum_k2_h5,cusum,control chart,False,0.03544230769230769
+xjtu,P-prospective,main,cusum_k2_h8,cusum,control chart,False,0.010865384615384614
+xjtu,P-prospective,main,cusum_k2_h12,cusum,control chart,False,0.0031153846153846153
+xjtu,P-prospective,main,cusum_k3_h3,cusum,control chart,False,0.010153846153846152
+xjtu,P-prospective,main,cusum_k3_h5,cusum,control chart,False,0.003076923076923077
+xjtu,P-prospective,main,cusum_k3_h8,cusum,control chart,False,0.0007115384615384616
+xjtu,P-prospective,main,cusum_k3_h12,cusum,control chart,False,0.00011538461538461538
+xjtu,P-prospective,main,thr_1sd,threshold,detector,False,0.8486730769230768
+xjtu,P-prospective,main,thr_1.5sd,threshold,detector,False,0.5839615384615384
+xjtu,P-prospective,main,thr_2sd,threshold,detector,False,0.30719230769230765
+xjtu,P-prospective,main,thr_2.5sd,threshold,detector,False,0.12834615384615386
+xjtu,P-prospective,main,thr_3sd,threshold,detector,True,0.04646153846153846
+xjtu,P-prospective,main,thr_4sd,threshold,detector,False,0.005365384615384616
+xjtu,P-prospective,main,thr_5sd,threshold,detector,False,0.0005576923076923078
+xjtu,P-prospective,main,thr_6sd,threshold,detector,False,5.769230769230769e-05
+xjtu,P-prospective,main,thr_8sd,threshold,detector,False,0.0
+xjtu,P-prospective,main,ma5_2sd,ma,detector,True,0.1827884615384615
+xjtu,P-prospective,main,ma5_3sd,ma,detector,True,0.01725
+xjtu,P-prospective,main,ma5_5sd,ma,detector,True,9.615384615384615e-05
+xjtu,P-prospective,main,ewmaAR_l0.05_L3,ewma_ar,"chart, AR-corrected",False,0.3987884615384615
+xjtu,P-prospective,main,ewmaAR_l0.1_L3,ewma_ar,"chart, AR-corrected",False,0.41988461538461547
+xjtu,P-prospective,main,ewmaAR_l0.2_L3,ewma_ar,"chart, AR-corrected",False,0.411
+xjtu,P-prospective,main,ewmaAR_l0.4_L3,ewma_ar,"chart, AR-corrected",False,0.3251346153846154
+xjtu,P-prospective,main,ewmaAR_l0.8_L3,ewma_ar,"chart, AR-corrected",False,0.11403846153846152
+xjtu,P-prospective,main,adapt_L2,adaptive,"chart, adaptive limits",False,0.13825
+xjtu,P-prospective,main,adapt_L3,adaptive,"chart, adaptive limits",False,0.0006730769230769232
+xjtu,P-prospective,main,adapt_L4,adaptive,"chart, adaptive limits",False,0.0
+xjtu,P-prospective,main,adapt_L5,adaptive,"chart, adaptive limits",False,0.0
+xjtu,P-prospective,main,adapt_L6,adaptive,"chart, adaptive limits",False,0.0
+xjtu,P-prospective,t3,ewma_l0.05_L2,ewma,control chart,False,0.7409999999999999
+xjtu,P-prospective,t3,ewma_l0.05_L3,ewma,control chart,False,0.6139423076923076
+xjtu,P-prospective,t3,ewma_l0.05_L4,ewma,control chart,False,0.4886923076923076
+xjtu,P-prospective,t3,ewma_l0.05_L5,ewma,control chart,False,0.37198076923076917
+xjtu,P-prospective,t3,ewma_l0.05_L6,ewma,control chart,False,0.27371153846153845
+xjtu,P-prospective,t3,ewma_l0.1_L2,ewma,control chart,False,0.8155576923076923
+xjtu,P-prospective,t3,ewma_l0.1_L3,ewma,control chart,False,0.6833076923076923
+xjtu,P-prospective,t3,ewma_l0.1_L4,ewma,control chart,False,0.5403653846153846
+xjtu,P-prospective,t3,ewma_l0.1_L5,ewma,control chart,False,0.4116730769230769
+xjtu,P-prospective,t3,ewma_l0.1_L6,ewma,control chart,False,0.30232692307692305
+xjtu,P-prospective,t3,ewma_l0.2_L2,ewma,control chart,False,0.8619423076923076
+xjtu,P-prospective,t3,ewma_l0.2_L3,ewma,control chart,True,0.7178076923076924
+xjtu,P-prospective,t3,ewma_l0.2_L4,ewma,control chart,False,0.5618076923076922
+xjtu,P-prospective,t3,ewma_l0.2_L5,ewma,control chart,False,0.4260576923076923
+xjtu,P-prospective,t3,ewma_l0.2_L6,ewma,control chart,False,0.3170769230769231
+xjtu,P-prospective,t3,ewma_l0.4_L2,ewma,control chart,False,0.8509038461538463
+xjtu,P-prospective,t3,ewma_l0.4_L3,ewma,control chart,False,0.6704615384615386
+xjtu,P-prospective,t3,ewma_l0.4_L4,ewma,control chart,False,0.49896153846153857
+xjtu,P-prospective,t3,ewma_l0.4_L5,ewma,control chart,False,0.36305769230769225
+xjtu,P-prospective,t3,ewma_l0.4_L6,ewma,control chart,False,0.26432692307692307
+xjtu,P-prospective,t3,ewma_l0.8_L2,ewma,control chart,False,0.6247115384615385
+xjtu,P-prospective,t3,ewma_l0.8_L3,ewma,control chart,False,0.34934615384615386
+xjtu,P-prospective,t3,ewma_l0.8_L4,ewma,control chart,False,0.1822884615384615
+xjtu,P-prospective,t3,ewma_l0.8_L5,ewma,control chart,False,0.09532692307692307
+xjtu,P-prospective,t3,ewma_l0.8_L6,ewma,control chart,False,0.051942307692307704
+xjtu,P-prospective,t3,cusum_k0.25_h3,cusum,control chart,False,0.9553076923076923
+xjtu,P-prospective,t3,cusum_k0.25_h5,cusum,control chart,False,0.8925384615384615
+xjtu,P-prospective,t3,cusum_k0.25_h8,cusum,control chart,False,0.7876346153846155
+xjtu,P-prospective,t3,cusum_k0.25_h12,cusum,control chart,False,0.6601346153846155
+xjtu,P-prospective,t3,cusum_k0.5_h3,cusum,control chart,False,0.9079999999999999
+xjtu,P-prospective,t3,cusum_k0.5_h5,cusum,control chart,True,0.809923076923077
+xjtu,P-prospective,t3,cusum_k0.5_h8,cusum,control chart,False,0.6705769230769232
+xjtu,P-prospective,t3,cusum_k0.5_h12,cusum,control chart,False,0.5203653846153846
+xjtu,P-prospective,t3,cusum_k1_h3,cusum,control chart,False,0.7774038461538461
+xjtu,P-prospective,t3,cusum_k1_h5,cusum,control chart,False,0.6386153846153847
+xjtu,P-prospective,t3,cusum_k1_h8,cusum,control chart,False,0.47269230769230763
+xjtu,P-prospective,t3,cusum_k1_h12,cusum,control chart,False,0.3237307692307692
+xjtu,P-prospective,t3,cusum_k2_h3,cusum,control chart,False,0.5351346153846154
+xjtu,P-prospective,t3,cusum_k2_h5,cusum,control chart,False,0.41334615384615386
+xjtu,P-prospective,t3,cusum_k2_h8,cusum,control chart,False,0.28026923076923077
+xjtu,P-prospective,t3,cusum_k2_h12,cusum,control chart,False,0.1726153846153846
+xjtu,P-prospective,t3,cusum_k3_h3,cusum,control chart,False,0.3687307692307692
+xjtu,P-prospective,t3,cusum_k3_h5,cusum,control chart,False,0.2847692307692308
+xjtu,P-prospective,t3,cusum_k3_h8,cusum,control chart,False,0.1929423076923077
+xjtu,P-prospective,t3,cusum_k3_h12,cusum,control chart,False,0.11459615384615383
+xjtu,P-prospective,t3,thr_1sd,threshold,detector,False,0.8373076923076924
+xjtu,P-prospective,t3,thr_1.5sd,threshold,detector,False,0.6337884615384617
+xjtu,P-prospective,t3,thr_2sd,threshold,detector,False,0.43305769230769237
+xjtu,P-prospective,t3,thr_2.5sd,threshold,detector,False,0.27811538461538465
+xjtu,P-prospective,t3,thr_3sd,threshold,detector,True,0.17046153846153847
+xjtu,P-prospective,t3,thr_4sd,threshold,detector,False,0.06663461538461538
+xjtu,P-prospective,t3,thr_5sd,threshold,detector,False,0.026538461538461535
+xjtu,P-prospective,t3,thr_6sd,threshold,detector,False,0.012288461538461538
+xjtu,P-prospective,t3,thr_8sd,threshold,detector,False,0.0037307692307692315
+xjtu,P-prospective,t3,ma5_2sd,ma,detector,True,0.5146730769230768
+xjtu,P-prospective,t3,ma5_3sd,ma,detector,True,0.27725
+xjtu,P-prospective,t3,ma5_5sd,ma,detector,True,0.08571153846153846
+xjtu,P-prospective,t3,ewmaAR_l0.05_L3,ewma_ar,"chart, AR-corrected",False,0.5261538461538461
+xjtu,P-prospective,t3,ewmaAR_l0.1_L3,ewma_ar,"chart, AR-corrected",False,0.5898846153846153
+xjtu,P-prospective,t3,ewmaAR_l0.2_L3,ewma_ar,"chart, AR-corrected",False,0.6291923076923076
+xjtu,P-prospective,t3,ewmaAR_l0.4_L3,ewma_ar,"chart, AR-corrected",False,0.6021153846153846
+xjtu,P-prospective,t3,ewmaAR_l0.8_L3,ewma_ar,"chart, AR-corrected",False,0.32794230769230764
+xjtu,P-prospective,t3,adapt_L2,adaptive,"chart, adaptive limits",False,0.16138461538461538
+xjtu,P-prospective,t3,adapt_L3,adaptive,"chart, adaptive limits",False,0.016211538461538465
+xjtu,P-prospective,t3,adapt_L4,adaptive,"chart, adaptive limits",False,0.002346153846153846
+xjtu,P-prospective,t3,adapt_L5,adaptive,"chart, adaptive limits",False,0.00042307692307692304
+xjtu,P-prospective,t3,adapt_L6,adaptive,"chart, adaptive limits",False,3.846153846153846e-05
+xjtu,P-prospective,phi_q25,ewma_l0.05_L2,ewma,control chart,False,0.5700000000000001
+xjtu,P-prospective,phi_q25,ewma_l0.05_L3,ewma,control chart,False,0.36740384615384614
+xjtu,P-prospective,phi_q25,ewma_l0.05_L4,ewma,control chart,False,0.20803846153846156
+xjtu,P-prospective,phi_q25,ewma_l0.05_L5,ewma,control chart,False,0.1056346153846154
+xjtu,P-prospective,phi_q25,ewma_l0.05_L6,ewma,control chart,False,0.04782692307692308
+xjtu,P-prospective,phi_q25,ewma_l0.1_L2,ewma,control chart,False,0.6308653846153847
+xjtu,P-prospective,phi_q25,ewma_l0.1_L3,ewma,control chart,False,0.37040384615384614
+xjtu,P-prospective,phi_q25,ewma_l0.1_L4,ewma,control chart,False,0.1774230769230769
+xjtu,P-prospective,phi_q25,ewma_l0.1_L5,ewma,control chart,False,0.06913461538461539
+xjtu,P-prospective,phi_q25,ewma_l0.1_L6,ewma,control chart,False,0.024596153846153844
+xjtu,P-prospective,phi_q25,ewma_l0.2_L2,ewma,control chart,False,0.6589423076923077
+xjtu,P-prospective,phi_q25,ewma_l0.2_L3,ewma,control chart,True,0.33142307692307693
+xjtu,P-prospective,phi_q25,ewma_l0.2_L4,ewma,control chart,False,0.12025
+xjtu,P-prospective,phi_q25,ewma_l0.2_L5,ewma,control chart,False,0.03455769230769231
+xjtu,P-prospective,phi_q25,ewma_l0.2_L6,ewma,control chart,False,0.008846153846153846
+xjtu,P-prospective,phi_q25,ewma_l0.4_L2,ewma,control chart,False,0.5884807692307693
+xjtu,P-prospective,phi_q25,ewma_l0.4_L3,ewma,control chart,False,0.20680769230769233
+xjtu,P-prospective,phi_q25,ewma_l0.4_L4,ewma,control chart,False,0.04544230769230769
+xjtu,P-prospective,phi_q25,ewma_l0.4_L5,ewma,control chart,False,0.008807692307692308
+xjtu,P-prospective,phi_q25,ewma_l0.4_L6,ewma,control chart,False,0.0013653846153846155
+xjtu,P-prospective,phi_q25,ewma_l0.8_L2,ewma,control chart,False,0.2825384615384615
+xjtu,P-prospective,phi_q25,ewma_l0.8_L3,ewma,control chart,False,0.036076923076923076
+xjtu,P-prospective,phi_q25,ewma_l0.8_L4,ewma,control chart,False,0.003230769230769231
+xjtu,P-prospective,phi_q25,ewma_l0.8_L5,ewma,control chart,False,0.0003846153846153846
+xjtu,P-prospective,phi_q25,ewma_l0.8_L6,ewma,control chart,False,3.846153846153846e-05
+xjtu,P-prospective,phi_q25,cusum_k0.25_h3,cusum,control chart,False,0.8882500000000001
+xjtu,P-prospective,phi_q25,cusum_k0.25_h5,cusum,control chart,False,0.7300576923076924
+xjtu,P-prospective,phi_q25,cusum_k0.25_h8,cusum,control chart,False,0.5302884615384615
+xjtu,P-prospective,phi_q25,cusum_k0.25_h12,cusum,control chart,False,0.367076923076923
+xjtu,P-prospective,phi_q25,cusum_k0.5_h3,cusum,control chart,False,0.7201538461538463
+xjtu,P-prospective,phi_q25,cusum_k0.5_h5,cusum,control chart,True,0.4856538461538461
+xjtu,P-prospective,phi_q25,cusum_k0.5_h8,cusum,control chart,False,0.27578846153846154
+xjtu,P-prospective,phi_q25,cusum_k0.5_h12,cusum,control chart,False,0.15323076923076923
+xjtu,P-prospective,phi_q25,cusum_k1_h3,cusum,control chart,False,0.31223076923076926
+xjtu,P-prospective,phi_q25,cusum_k1_h5,cusum,control chart,False,0.13509615384615387
+xjtu,P-prospective,phi_q25,cusum_k1_h8,cusum,control chart,False,0.047019230769230765
+xjtu,P-prospective,phi_q25,cusum_k1_h12,cusum,control chart,False,0.016980769230769233
+xjtu,P-prospective,phi_q25,cusum_k2_h3,cusum,control chart,False,0.022403846153846156
+xjtu,P-prospective,phi_q25,cusum_k2_h5,cusum,control chart,False,0.00526923076923077
+xjtu,P-prospective,phi_q25,cusum_k2_h8,cusum,control chart,False,0.0011153846153846153
+xjtu,P-prospective,phi_q25,cusum_k2_h12,cusum,control chart,False,0.0002692307692307693
+xjtu,P-prospective,phi_q25,cusum_k3_h3,cusum,control chart,False,0.0013076923076923079
+xjtu,P-prospective,phi_q25,cusum_k3_h5,cusum,control chart,False,0.00032692307692307697
+xjtu,P-prospective,phi_q25,cusum_k3_h8,cusum,control chart,False,5.769230769230769e-05
+xjtu,P-prospective,phi_q25,cusum_k3_h12,cusum,control chart,False,0.0
+xjtu,P-prospective,phi_q25,thr_1sd,threshold,detector,False,0.7410961538461538
+xjtu,P-prospective,phi_q25,thr_1.5sd,threshold,detector,False,0.39099999999999996
+xjtu,P-prospective,phi_q25,thr_2sd,threshold,detector,False,0.1401923076923077
+xjtu,P-prospective,phi_q25,thr_2.5sd,threshold,detector,False,0.03888461538461539
+xjtu,P-prospective,phi_q25,thr_3sd,threshold,detector,True,0.009615384615384616
+xjtu,P-prospective,phi_q25,thr_4sd,threshold,detector,False,0.0006153846153846154
+xjtu,P-prospective,phi_q25,thr_5sd,threshold,detector,False,1.923076923076923e-05
+xjtu,P-prospective,phi_q25,thr_6sd,threshold,detector,False,0.0
+xjtu,P-prospective,phi_q25,thr_8sd,threshold,detector,False,0.0
+xjtu,P-prospective,phi_q25,ma5_2sd,ma,detector,True,0.05221153846153847
+xjtu,P-prospective,phi_q25,ma5_3sd,ma,detector,True,0.001807692307692308
+xjtu,P-prospective,phi_q25,ma5_5sd,ma,detector,True,0.0
+xjtu,P-prospective,phi_q25,ewmaAR_l0.05_L3,ewma_ar,"chart, AR-corrected",False,0.3574423076923076
+xjtu,P-prospective,phi_q25,ewmaAR_l0.1_L3,ewma_ar,"chart, AR-corrected",False,0.36299999999999993
+xjtu,P-prospective,phi_q25,ewmaAR_l0.2_L3,ewma_ar,"chart, AR-corrected",False,0.33
+xjtu,P-prospective,phi_q25,ewmaAR_l0.4_L3,ewma_ar,"chart, AR-corrected",False,0.2183076923076923
+xjtu,P-prospective,phi_q25,ewmaAR_l0.8_L3,ewma_ar,"chart, AR-corrected",False,0.03825
+xjtu,P-prospective,phi_q25,adapt_L2,adaptive,"chart, adaptive limits",False,0.029788461538461538
+xjtu,P-prospective,phi_q25,adapt_L3,adaptive,"chart, adaptive limits",False,5.769230769230769e-05
+xjtu,P-prospective,phi_q25,adapt_L4,adaptive,"chart, adaptive limits",False,0.0
+xjtu,P-prospective,phi_q25,adapt_L5,adaptive,"chart, adaptive limits",False,0.0
+xjtu,P-prospective,phi_q25,adapt_L6,adaptive,"chart, adaptive limits",False,0.0
+xjtu,P-prospective,phi_q75,ewma_l0.05_L2,ewma,control chart,False,0.7289615384615384
+xjtu,P-prospective,phi_q75,ewma_l0.05_L3,ewma,control chart,False,0.6068461538461538
+xjtu,P-prospective,phi_q75,ewma_l0.05_L4,ewma,control chart,False,0.4783269230769231
+xjtu,P-prospective,phi_q75,ewma_l0.05_L5,ewma,control chart,False,0.35815384615384616
+xjtu,P-prospective,phi_q75,ewma_l0.05_L6,ewma,control chart,False,0.2580769230769231
+xjtu,P-prospective,phi_q75,ewma_l0.1_L2,ewma,control chart,False,0.8070384615384614
+xjtu,P-prospective,phi_q75,ewma_l0.1_L3,ewma,control chart,False,0.6654615384615384
+xjtu,P-prospective,phi_q75,ewma_l0.1_L4,ewma,control chart,False,0.5060384615384614
+xjtu,P-prospective,phi_q75,ewma_l0.1_L5,ewma,control chart,False,0.3549230769230769
+xjtu,P-prospective,phi_q75,ewma_l0.1_L6,ewma,control chart,False,0.23246153846153841
+xjtu,P-prospective,phi_q75,ewma_l0.2_L2,ewma,control chart,False,0.8561346153846154
+xjtu,P-prospective,phi_q75,ewma_l0.2_L3,ewma,control chart,True,0.6827307692307691
+xjtu,P-prospective,phi_q75,ewma_l0.2_L4,ewma,control chart,False,0.48230769230769227
+xjtu,P-prospective,phi_q75,ewma_l0.2_L5,ewma,control chart,False,0.2999807692307692
+xjtu,P-prospective,phi_q75,ewma_l0.2_L6,ewma,control chart,False,0.1679807692307692
+xjtu,P-prospective,phi_q75,ewma_l0.4_L2,ewma,control chart,False,0.8436346153846154
+xjtu,P-prospective,phi_q75,ewma_l0.4_L3,ewma,control chart,False,0.5991346153846153
+xjtu,P-prospective,phi_q75,ewma_l0.4_L4,ewma,control chart,False,0.33936538461538457
+xjtu,P-prospective,phi_q75,ewma_l0.4_L5,ewma,control chart,False,0.16251923076923078
+xjtu,P-prospective,phi_q75,ewma_l0.4_L6,ewma,control chart,False,0.06694230769230769
+xjtu,P-prospective,phi_q75,ewma_l0.8_L2,ewma,control chart,False,0.6464230769230769
+xjtu,P-prospective,phi_q75,ewma_l0.8_L3,ewma,control chart,False,0.2735769230769231
+xjtu,P-prospective,phi_q75,ewma_l0.8_L4,ewma,control chart,False,0.08188461538461539
+xjtu,P-prospective,phi_q75,ewma_l0.8_L5,ewma,control chart,False,0.020596153846153844
+xjtu,P-prospective,phi_q75,ewma_l0.8_L6,ewma,control chart,False,0.005192307692307692
+xjtu,P-prospective,phi_q75,cusum_k0.25_h3,cusum,control chart,False,0.9489807692307692
+xjtu,P-prospective,phi_q75,cusum_k0.25_h5,cusum,control chart,False,0.8851730769230769
+xjtu,P-prospective,phi_q75,cusum_k0.25_h8,cusum,control chart,False,0.7736923076923078
+xjtu,P-prospective,phi_q75,cusum_k0.25_h12,cusum,control chart,False,0.6440384615384616
+xjtu,P-prospective,phi_q75,cusum_k0.5_h3,cusum,control chart,False,0.8899807692307691
+xjtu,P-prospective,phi_q75,cusum_k0.5_h5,cusum,control chart,True,0.7825192307692309
+xjtu,P-prospective,phi_q75,cusum_k0.5_h8,cusum,control chart,False,0.6307884615384616
+xjtu,P-prospective,phi_q75,cusum_k0.5_h12,cusum,control chart,False,0.4755384615384615
+xjtu,P-prospective,phi_q75,cusum_k1_h3,cusum,control chart,False,0.677173076923077
+xjtu,P-prospective,phi_q75,cusum_k1_h5,cusum,control chart,False,0.510826923076923
+xjtu,P-prospective,phi_q75,cusum_k1_h8,cusum,control chart,False,0.33667307692307696
+xjtu,P-prospective,phi_q75,cusum_k1_h12,cusum,control chart,False,0.20680769230769233
+xjtu,P-prospective,phi_q75,cusum_k2_h3,cusum,control chart,False,0.2218076923076923
+xjtu,P-prospective,phi_q75,cusum_k2_h5,cusum,control chart,False,0.12180769230769231
+xjtu,P-prospective,phi_q75,cusum_k2_h8,cusum,control chart,False,0.05698076923076924
+xjtu,P-prospective,phi_q75,cusum_k2_h12,cusum,control chart,False,0.024192307692307687
+xjtu,P-prospective,phi_q75,cusum_k3_h3,cusum,control chart,False,0.04538461538461539
+xjtu,P-prospective,phi_q75,cusum_k3_h5,cusum,control chart,False,0.02098076923076923
+xjtu,P-prospective,phi_q75,cusum_k3_h8,cusum,control chart,False,0.008173076923076924
+xjtu,P-prospective,phi_q75,cusum_k3_h12,cusum,control chart,False,0.0032500000000000003
+xjtu,P-prospective,phi_q75,thr_1sd,threshold,detector,False,0.9010384615384617
+xjtu,P-prospective,phi_q75,thr_1.5sd,threshold,detector,False,0.7158846153846153
+xjtu,P-prospective,phi_q75,thr_2sd,threshold,detector,False,0.47748076923076926
+xjtu,P-prospective,phi_q75,thr_2.5sd,threshold,detector,False,0.26694230769230765
+xjtu,P-prospective,phi_q75,thr_3sd,threshold,detector,True,0.1334423076923077
+xjtu,P-prospective,phi_q75,thr_4sd,threshold,detector,False,0.025884615384615388
+xjtu,P-prospective,phi_q75,thr_5sd,threshold,detector,False,0.00501923076923077
+xjtu,P-prospective,phi_q75,thr_6sd,threshold,detector,False,0.0007115384615384616
+xjtu,P-prospective,phi_q75,thr_8sd,threshold,detector,False,3.846153846153846e-05
+xjtu,P-prospective,phi_q75,ma5_2sd,ma,detector,True,0.3678846153846153
+xjtu,P-prospective,phi_q75,ma5_3sd,ma,detector,True,0.07534615384615385
+xjtu,P-prospective,phi_q75,ma5_5sd,ma,detector,True,0.002057692307692308
+xjtu,P-prospective,phi_q75,ewmaAR_l0.05_L3,ewma_ar,"chart, AR-corrected",False,0.4470384615384616
+xjtu,P-prospective,phi_q75,ewmaAR_l0.1_L3,ewma_ar,"chart, AR-corrected",False,0.47975000000000007
+xjtu,P-prospective,phi_q75,ewmaAR_l0.2_L3,ewma_ar,"chart, AR-corrected",False,0.4869423076923077
+xjtu,P-prospective,phi_q75,ewmaAR_l0.4_L3,ewma_ar,"chart, AR-corrected",False,0.42617307692307693
+xjtu,P-prospective,phi_q75,ewmaAR_l0.8_L3,ewma_ar,"chart, AR-corrected",False,0.22907692307692307
+xjtu,P-prospective,phi_q75,adapt_L2,adaptive,"chart, adaptive limits",False,0.3086730769230769
+xjtu,P-prospective,phi_q75,adapt_L3,adaptive,"chart, adaptive limits",False,0.006076923076923077
+xjtu,P-prospective,phi_q75,adapt_L4,adaptive,"chart, adaptive limits",False,0.0
+xjtu,P-prospective,phi_q75,adapt_L5,adaptive,"chart, adaptive limits",False,0.0
+xjtu,P-prospective,phi_q75,adapt_L6,adaptive,"chart, adaptive limits",False,0.0
+xjtu,P-retro,main,ewma_l0.05_L2,ewma,control chart,False,0.6896833333333333
+xjtu,P-retro,main,ewma_l0.05_L3,ewma,control chart,False,0.48725
+xjtu,P-retro,main,ewma_l0.05_L4,ewma,control chart,False,0.2499333333333333
+xjtu,P-retro,main,ewma_l0.05_L5,ewma,control chart,False,0.08683333333333333
+xjtu,P-retro,main,ewma_l0.05_L6,ewma,control chart,False,0.030849999999999995
+xjtu,P-retro,main,ewma_l0.1_L2,ewma,control chart,False,0.7575833333333332
+xjtu,P-retro,main,ewma_l0.1_L3,ewma,control chart,False,0.5238666666666667
+xjtu,P-retro,main,ewma_l0.1_L4,ewma,control chart,False,0.24123333333333333
+xjtu,P-retro,main,ewma_l0.1_L5,ewma,control chart,False,0.0664
+xjtu,P-retro,main,ewma_l0.1_L6,ewma,control chart,False,0.020716666666666664
+xjtu,P-retro,main,ewma_l0.2_L2,ewma,control chart,False,0.7933833333333332
+xjtu,P-retro,main,ewma_l0.2_L3,ewma,control chart,True,0.5039333333333333
+xjtu,P-retro,main,ewma_l0.2_L4,ewma,control chart,False,0.1721666666666667
+xjtu,P-retro,main,ewma_l0.2_L5,ewma,control chart,False,0.03528333333333333
+xjtu,P-retro,main,ewma_l0.2_L6,ewma,control chart,False,0.010000000000000002
+xjtu,P-retro,main,ewma_l0.4_L2,ewma,control chart,False,0.7502666666666666
+xjtu,P-retro,main,ewma_l0.4_L3,ewma,control chart,False,0.34040000000000004
+xjtu,P-retro,main,ewma_l0.4_L4,ewma,control chart,False,0.05283333333333333
+xjtu,P-retro,main,ewma_l0.4_L5,ewma,control chart,False,0.009433333333333334
+xjtu,P-retro,main,ewma_l0.4_L6,ewma,control chart,False,0.00285
+xjtu,P-retro,main,ewma_l0.8_L2,ewma,control chart,False,0.4297
+xjtu,P-retro,main,ewma_l0.8_L3,ewma,control chart,False,0.03443333333333334
+xjtu,P-retro,main,ewma_l0.8_L4,ewma,control chart,False,0.003866666666666667
+xjtu,P-retro,main,ewma_l0.8_L5,ewma,control chart,False,0.0009666666666666667
+xjtu,P-retro,main,ewma_l0.8_L6,ewma,control chart,False,0.00028333333333333335
+xjtu,P-retro,main,cusum_k0.25_h3,cusum,control chart,False,0.9358
+xjtu,P-retro,main,cusum_k0.25_h5,cusum,control chart,False,0.8348166666666668
+xjtu,P-retro,main,cusum_k0.25_h8,cusum,control chart,False,0.6724666666666667
+xjtu,P-retro,main,cusum_k0.25_h12,cusum,control chart,False,0.4911166666666666
+xjtu,P-retro,main,cusum_k0.5_h3,cusum,control chart,False,0.8384666666666667
+xjtu,P-retro,main,cusum_k0.5_h5,cusum,control chart,True,0.6562166666666668
+xjtu,P-retro,main,cusum_k0.5_h8,cusum,control chart,False,0.4124
+xjtu,P-retro,main,cusum_k0.5_h12,cusum,control chart,False,0.1743
+xjtu,P-retro,main,cusum_k1_h3,cusum,control chart,False,0.4723
+xjtu,P-retro,main,cusum_k1_h5,cusum,control chart,False,0.19171666666666667
+xjtu,P-retro,main,cusum_k1_h8,cusum,control chart,False,0.04636666666666667
+xjtu,P-retro,main,cusum_k1_h12,cusum,control chart,False,0.0159
+xjtu,P-retro,main,cusum_k2_h3,cusum,control chart,False,0.019116666666666667
+xjtu,P-retro,main,cusum_k2_h5,cusum,control chart,False,0.0066500000000000005
+xjtu,P-retro,main,cusum_k2_h8,cusum,control chart,False,0.0025666666666666667
+xjtu,P-retro,main,cusum_k2_h12,cusum,control chart,False,0.0012333333333333335
+xjtu,P-retro,main,cusum_k3_h3,cusum,control chart,False,0.002433333333333334
+xjtu,P-retro,main,cusum_k3_h5,cusum,control chart,False,0.0010166666666666668
+xjtu,P-retro,main,cusum_k3_h8,cusum,control chart,False,0.0004166666666666667
+xjtu,P-retro,main,cusum_k3_h12,cusum,control chart,False,0.0002
+xjtu,P-retro,main,thr_1sd,threshold,detector,False,0.8450333333333334
+xjtu,P-retro,main,thr_1.5sd,threshold,detector,False,0.5461333333333334
+xjtu,P-retro,main,thr_2sd,threshold,detector,False,0.1977833333333333
+xjtu,P-retro,main,thr_2.5sd,threshold,detector,False,0.03701666666666667
+xjtu,P-retro,main,thr_3sd,threshold,detector,True,0.007800000000000001
+xjtu,P-retro,main,thr_4sd,threshold,detector,False,0.0011500000000000002
+xjtu,P-retro,main,thr_5sd,threshold,detector,False,0.00021666666666666668
+xjtu,P-retro,main,thr_6sd,threshold,detector,False,0.0001
+xjtu,P-retro,main,thr_8sd,threshold,detector,False,0.0
+xjtu,P-retro,main,ma5_2sd,ma,detector,True,0.06518333333333333
+xjtu,P-retro,main,ma5_3sd,ma,detector,True,0.0031666666666666666
+xjtu,P-retro,main,ma5_5sd,ma,detector,True,8.333333333333333e-05
+xjtu,P-retro,main,ewmaAR_l0.05_L3,ewma_ar,"chart, AR-corrected",False,0.24684999999999996
+xjtu,P-retro,main,ewmaAR_l0.1_L3,ewma_ar,"chart, AR-corrected",False,0.2579333333333333
+xjtu,P-retro,main,ewmaAR_l0.2_L3,ewma_ar,"chart, AR-corrected",False,0.23251666666666668
+xjtu,P-retro,main,ewmaAR_l0.4_L3,ewma_ar,"chart, AR-corrected",False,0.14161666666666667
+xjtu,P-retro,main,ewmaAR_l0.8_L3,ewma_ar,"chart, AR-corrected",False,0.025216666666666665
+xjtu,P-retro,main,adapt_L2,adaptive,"chart, adaptive limits",False,0.12903333333333333
+xjtu,P-retro,main,adapt_L3,adaptive,"chart, adaptive limits",False,0.0004833333333333333
+xjtu,P-retro,main,adapt_L4,adaptive,"chart, adaptive limits",False,0.0
+xjtu,P-retro,main,adapt_L5,adaptive,"chart, adaptive limits",False,0.0
+xjtu,P-retro,main,adapt_L6,adaptive,"chart, adaptive limits",False,0.0
+xjtu,P-retro,t3,ewma_l0.05_L2,ewma,control chart,False,0.7148333333333333
+xjtu,P-retro,t3,ewma_l0.05_L3,ewma,control chart,False,0.53415
+xjtu,P-retro,t3,ewma_l0.05_L4,ewma,control chart,False,0.3488166666666667
+xjtu,P-retro,t3,ewma_l0.05_L5,ewma,control chart,False,0.19081666666666666
+xjtu,P-retro,t3,ewma_l0.05_L6,ewma,control chart,False,0.09916666666666667
+xjtu,P-retro,t3,ewma_l0.1_L2,ewma,control chart,False,0.7840333333333334
+xjtu,P-retro,t3,ewma_l0.1_L3,ewma,control chart,False,0.59345
+xjtu,P-retro,t3,ewma_l0.1_L4,ewma,control chart,False,0.3978999999999999
+xjtu,P-retro,t3,ewma_l0.1_L5,ewma,control chart,False,0.23191666666666666
+xjtu,P-retro,t3,ewma_l0.1_L6,ewma,control chart,False,0.13075
+xjtu,P-retro,t3,ewma_l0.2_L2,ewma,control chart,False,0.8269000000000001
+xjtu,P-retro,t3,ewma_l0.2_L3,ewma,control chart,True,0.6150166666666668
+xjtu,P-retro,t3,ewma_l0.2_L4,ewma,control chart,False,0.4151833333333333
+xjtu,P-retro,t3,ewma_l0.2_L5,ewma,control chart,False,0.2546166666666666
+xjtu,P-retro,t3,ewma_l0.2_L6,ewma,control chart,False,0.15303333333333333
+xjtu,P-retro,t3,ewma_l0.4_L2,ewma,control chart,False,0.7973833333333334
+xjtu,P-retro,t3,ewma_l0.4_L3,ewma,control chart,False,0.5434333333333332
+xjtu,P-retro,t3,ewma_l0.4_L4,ewma,control chart,False,0.3389
+xjtu,P-retro,t3,ewma_l0.4_L5,ewma,control chart,False,0.1998
+xjtu,P-retro,t3,ewma_l0.4_L6,ewma,control chart,False,0.12083333333333332
+xjtu,P-retro,t3,ewma_l0.8_L2,ewma,control chart,False,0.4804000000000001
+xjtu,P-retro,t3,ewma_l0.8_L3,ewma,control chart,False,0.16748333333333335
+xjtu,P-retro,t3,ewma_l0.8_L4,ewma,control chart,False,0.057450000000000015
+xjtu,P-retro,t3,ewma_l0.8_L5,ewma,control chart,False,0.023833333333333335
+xjtu,P-retro,t3,ewma_l0.8_L6,ewma,control chart,False,0.012266666666666669
+xjtu,P-retro,t3,cusum_k0.25_h3,cusum,control chart,False,0.9465666666666668
+xjtu,P-retro,t3,cusum_k0.25_h5,cusum,control chart,False,0.8590666666666666
+xjtu,P-retro,t3,cusum_k0.25_h8,cusum,control chart,False,0.7129833333333334
+xjtu,P-retro,t3,cusum_k0.25_h12,cusum,control chart,False,0.54685
+xjtu,P-retro,t3,cusum_k0.5_h3,cusum,control chart,False,0.8768999999999998
+xjtu,P-retro,t3,cusum_k0.5_h5,cusum,control chart,True,0.7254666666666666
+xjtu,P-retro,t3,cusum_k0.5_h8,cusum,control chart,False,0.5350499999999999
+xjtu,P-retro,t3,cusum_k0.5_h12,cusum,control chart,False,0.33176666666666665
+xjtu,P-retro,t3,cusum_k1_h3,cusum,control chart,False,0.6749333333333333
+xjtu,P-retro,t3,cusum_k1_h5,cusum,control chart,False,0.49279999999999996
+xjtu,P-retro,t3,cusum_k1_h8,cusum,control chart,False,0.29336666666666666
+xjtu,P-retro,t3,cusum_k1_h12,cusum,control chart,False,0.14418333333333333
+xjtu,P-retro,t3,cusum_k2_h3,cusum,control chart,False,0.3822333333333333
+xjtu,P-retro,t3,cusum_k2_h5,cusum,control chart,False,0.2507833333333333
+xjtu,P-retro,t3,cusum_k2_h8,cusum,control chart,False,0.13101666666666667
+xjtu,P-retro,t3,cusum_k2_h12,cusum,control chart,False,0.06423333333333332
+xjtu,P-retro,t3,cusum_k3_h3,cusum,control chart,False,0.21336666666666662
+xjtu,P-retro,t3,cusum_k3_h5,cusum,control chart,False,0.14185
+xjtu,P-retro,t3,cusum_k3_h8,cusum,control chart,False,0.08186666666666667
+xjtu,P-retro,t3,cusum_k3_h12,cusum,control chart,False,0.03886666666666667
+xjtu,P-retro,t3,thr_1sd,threshold,detector,False,0.77535
+xjtu,P-retro,t3,thr_1.5sd,threshold,detector,False,0.49325
+xjtu,P-retro,t3,thr_2sd,threshold,detector,False,0.24184999999999998
+xjtu,P-retro,t3,thr_2.5sd,threshold,detector,False,0.10353333333333332
+xjtu,P-retro,t3,thr_3sd,threshold,detector,True,0.04616666666666667
+xjtu,P-retro,t3,thr_4sd,threshold,detector,False,0.012566666666666667
+xjtu,P-retro,t3,thr_5sd,threshold,detector,False,0.004883333333333334
+xjtu,P-retro,t3,thr_6sd,threshold,detector,False,0.002333333333333333
+xjtu,P-retro,t3,thr_8sd,threshold,detector,False,0.0007833333333333335
+xjtu,P-retro,t3,ma5_2sd,ma,detector,True,0.35555
+xjtu,P-retro,t3,ma5_3sd,ma,detector,True,0.12931666666666666
+xjtu,P-retro,t3,ma5_5sd,ma,detector,True,0.0261
+xjtu,P-retro,t3,ewmaAR_l0.05_L3,ewma_ar,"chart, AR-corrected",False,0.349
+xjtu,P-retro,t3,ewmaAR_l0.1_L3,ewma_ar,"chart, AR-corrected",False,0.41763333333333336
+xjtu,P-retro,t3,ewmaAR_l0.2_L3,ewma_ar,"chart, AR-corrected",False,0.46446666666666664
+xjtu,P-retro,t3,ewmaAR_l0.4_L3,ewma_ar,"chart, AR-corrected",False,0.4302166666666667
+xjtu,P-retro,t3,ewmaAR_l0.8_L3,ewma_ar,"chart, AR-corrected",False,0.1383
+xjtu,P-retro,t3,adapt_L2,adaptive,"chart, adaptive limits",False,0.13758333333333334
+xjtu,P-retro,t3,adapt_L3,adaptive,"chart, adaptive limits",False,0.014633333333333335
+xjtu,P-retro,t3,adapt_L4,adaptive,"chart, adaptive limits",False,0.002183333333333333
+xjtu,P-retro,t3,adapt_L5,adaptive,"chart, adaptive limits",False,0.00036666666666666667
+xjtu,P-retro,t3,adapt_L6,adaptive,"chart, adaptive limits",False,6.666666666666667e-05
+xjtu,P-retro,phi_q25,ewma_l0.05_L2,ewma,control chart,False,0.5834
+xjtu,P-retro,phi_q25,ewma_l0.05_L3,ewma,control chart,False,0.29456666666666664
+xjtu,P-retro,phi_q25,ewma_l0.05_L4,ewma,control chart,False,0.07764999999999998
+xjtu,P-retro,phi_q25,ewma_l0.05_L5,ewma,control chart,False,0.02088333333333333
+xjtu,P-retro,phi_q25,ewma_l0.05_L6,ewma,control chart,False,0.00755
+xjtu,P-retro,phi_q25,ewma_l0.1_L2,ewma,control chart,False,0.64165
+xjtu,P-retro,phi_q25,ewma_l0.1_L3,ewma,control chart,False,0.3003
+xjtu,P-retro,phi_q25,ewma_l0.1_L4,ewma,control chart,False,0.059333333333333335
+xjtu,P-retro,phi_q25,ewma_l0.1_L5,ewma,control chart,False,0.013383333333333332
+xjtu,P-retro,phi_q25,ewma_l0.1_L6,ewma,control chart,False,0.004616666666666667
+xjtu,P-retro,phi_q25,ewma_l0.2_L2,ewma,control chart,False,0.6580333333333334
+xjtu,P-retro,phi_q25,ewma_l0.2_L3,ewma,control chart,True,0.24131666666666665
+xjtu,P-retro,phi_q25,ewma_l0.2_L4,ewma,control chart,False,0.031900000000000005
+xjtu,P-retro,phi_q25,ewma_l0.2_L5,ewma,control chart,False,0.006616666666666667
+xjtu,P-retro,phi_q25,ewma_l0.2_L6,ewma,control chart,False,0.0021833333333333336
+xjtu,P-retro,phi_q25,ewma_l0.4_L2,ewma,control chart,False,0.5644166666666666
+xjtu,P-retro,phi_q25,ewma_l0.4_L3,ewma,control chart,False,0.09590000000000001
+xjtu,P-retro,phi_q25,ewma_l0.4_L4,ewma,control chart,False,0.00876666666666667
+xjtu,P-retro,phi_q25,ewma_l0.4_L5,ewma,control chart,False,0.0020500000000000006
+xjtu,P-retro,phi_q25,ewma_l0.4_L6,ewma,control chart,False,0.0007
+xjtu,P-retro,phi_q25,ewma_l0.8_L2,ewma,control chart,False,0.18671666666666667
+xjtu,P-retro,phi_q25,ewma_l0.8_L3,ewma,control chart,False,0.0058333333333333345
+xjtu,P-retro,phi_q25,ewma_l0.8_L4,ewma,control chart,False,0.0009166666666666668
+xjtu,P-retro,phi_q25,ewma_l0.8_L5,ewma,control chart,False,0.00018333333333333334
+xjtu,P-retro,phi_q25,ewma_l0.8_L6,ewma,control chart,False,6.666666666666667e-05
+xjtu,P-retro,phi_q25,cusum_k0.25_h3,cusum,control chart,False,0.89385
+xjtu,P-retro,phi_q25,cusum_k0.25_h5,cusum,control chart,False,0.7344166666666667
+xjtu,P-retro,phi_q25,cusum_k0.25_h8,cusum,control chart,False,0.5122
+xjtu,P-retro,phi_q25,cusum_k0.25_h12,cusum,control chart,False,0.28018333333333334
+xjtu,P-retro,phi_q25,cusum_k0.5_h3,cusum,control chart,False,0.7157499999999999
+xjtu,P-retro,phi_q25,cusum_k0.5_h5,cusum,control chart,True,0.4442333333333333
+xjtu,P-retro,phi_q25,cusum_k0.5_h8,cusum,control chart,False,0.15045
+xjtu,P-retro,phi_q25,cusum_k0.5_h12,cusum,control chart,False,0.04061666666666667
+xjtu,P-retro,phi_q25,cusum_k1_h3,cusum,control chart,False,0.2048333333333333
+xjtu,P-retro,phi_q25,cusum_k1_h5,cusum,control chart,False,0.03835
+xjtu,P-retro,phi_q25,cusum_k1_h8,cusum,control chart,False,0.0089
+xjtu,P-retro,phi_q25,cusum_k1_h12,cusum,control chart,False,0.003633333333333334
+xjtu,P-retro,phi_q25,cusum_k2_h3,cusum,control chart,False,0.004266666666666667
+xjtu,P-retro,phi_q25,cusum_k2_h5,cusum,control chart,False,0.00165
+xjtu,P-retro,phi_q25,cusum_k2_h8,cusum,control chart,False,0.0006999999999999999
+xjtu,P-retro,phi_q25,cusum_k2_h12,cusum,control chart,False,0.0002666666666666667
+xjtu,P-retro,phi_q25,cusum_k3_h3,cusum,control chart,False,0.00065
+xjtu,P-retro,phi_q25,cusum_k3_h5,cusum,control chart,False,0.00025
+xjtu,P-retro,phi_q25,cusum_k3_h8,cusum,control chart,False,0.00013333333333333334
+xjtu,P-retro,phi_q25,cusum_k3_h12,cusum,control chart,False,1.6666666666666667e-05
+xjtu,P-retro,phi_q25,thr_1sd,threshold,detector,False,0.7250999999999999
+xjtu,P-retro,phi_q25,thr_1.5sd,threshold,detector,False,0.3278333333333333
+xjtu,P-retro,phi_q25,thr_2sd,threshold,detector,False,0.05265000000000001
+xjtu,P-retro,phi_q25,thr_2.5sd,threshold,detector,False,0.0068333333333333345
+xjtu,P-retro,phi_q25,thr_3sd,threshold,detector,True,0.0016666666666666666
+xjtu,P-retro,phi_q25,thr_4sd,threshold,detector,False,0.0002666666666666667
+xjtu,P-retro,phi_q25,thr_5sd,threshold,detector,False,3.3333333333333335e-05
+xjtu,P-retro,phi_q25,thr_6sd,threshold,detector,False,0.0
+xjtu,P-retro,phi_q25,thr_8sd,threshold,detector,False,0.0
+xjtu,P-retro,phi_q25,ma5_2sd,ma,detector,True,0.00965
+xjtu,P-retro,phi_q25,ma5_3sd,ma,detector,True,0.0008
+xjtu,P-retro,phi_q25,ma5_5sd,ma,detector,True,1.6666666666666667e-05
+xjtu,P-retro,phi_q25,ewmaAR_l0.05_L3,ewma_ar,"chart, AR-corrected",False,0.21616666666666662
+xjtu,P-retro,phi_q25,ewmaAR_l0.1_L3,ewma_ar,"chart, AR-corrected",False,0.2152
+xjtu,P-retro,phi_q25,ewmaAR_l0.2_L3,ewma_ar,"chart, AR-corrected",False,0.16901666666666668
+xjtu,P-retro,phi_q25,ewmaAR_l0.4_L3,ewma_ar,"chart, AR-corrected",False,0.07491666666666666
+xjtu,P-retro,phi_q25,ewmaAR_l0.8_L3,ewma_ar,"chart, AR-corrected",False,0.006566666666666667
+xjtu,P-retro,phi_q25,adapt_L2,adaptive,"chart, adaptive limits",False,0.027383333333333336
+xjtu,P-retro,phi_q25,adapt_L3,adaptive,"chart, adaptive limits",False,3.3333333333333335e-05
+xjtu,P-retro,phi_q25,adapt_L4,adaptive,"chart, adaptive limits",False,0.0
+xjtu,P-retro,phi_q25,adapt_L5,adaptive,"chart, adaptive limits",False,0.0
+xjtu,P-retro,phi_q25,adapt_L6,adaptive,"chart, adaptive limits",False,0.0
+xjtu,P-retro,phi_q75,ewma_l0.05_L2,ewma,control chart,False,0.7665500000000001
+xjtu,P-retro,phi_q75,ewma_l0.05_L3,ewma,control chart,False,0.6172666666666665
+xjtu,P-retro,phi_q75,ewma_l0.05_L4,ewma,control chart,False,0.44236666666666663
+xjtu,P-retro,phi_q75,ewma_l0.05_L5,ewma,control chart,False,0.24861666666666665
+xjtu,P-retro,phi_q75,ewma_l0.05_L6,ewma,control chart,False,0.11304999999999997
+xjtu,P-retro,phi_q75,ewma_l0.1_L2,ewma,control chart,False,0.8319666666666666
+xjtu,P-retro,phi_q75,ewma_l0.1_L3,ewma,control chart,False,0.6700833333333333
+xjtu,P-retro,phi_q75,ewma_l0.1_L4,ewma,control chart,False,0.46615
+xjtu,P-retro,phi_q75,ewma_l0.1_L5,ewma,control chart,False,0.23356666666666667
+xjtu,P-retro,phi_q75,ewma_l0.1_L6,ewma,control chart,False,0.08800000000000001
+xjtu,P-retro,phi_q75,ewma_l0.2_L2,ewma,control chart,False,0.8687
+xjtu,P-retro,phi_q75,ewma_l0.2_L3,ewma,control chart,True,0.6743
+xjtu,P-retro,phi_q75,ewma_l0.2_L4,ewma,control chart,False,0.41513333333333335
+xjtu,P-retro,phi_q75,ewma_l0.2_L5,ewma,control chart,False,0.1534
+xjtu,P-retro,phi_q75,ewma_l0.2_L6,ewma,control chart,False,0.04640000000000001
+xjtu,P-retro,phi_q75,ewma_l0.4_L2,ewma,control chart,False,0.8479333333333334
+xjtu,P-retro,phi_q75,ewma_l0.4_L3,ewma,control chart,False,0.5578666666666667
+xjtu,P-retro,phi_q75,ewma_l0.4_L4,ewma,control chart,False,0.20149999999999996
+xjtu,P-retro,phi_q75,ewma_l0.4_L5,ewma,control chart,False,0.04396666666666667
+xjtu,P-retro,phi_q75,ewma_l0.4_L6,ewma,control chart,False,0.012166666666666666
+xjtu,P-retro,phi_q75,ewma_l0.8_L2,ewma,control chart,False,0.6115333333333334
+xjtu,P-retro,phi_q75,ewma_l0.8_L3,ewma,control chart,False,0.12693333333333334
+xjtu,P-retro,phi_q75,ewma_l0.8_L4,ewma,control chart,False,0.015816666666666666
+xjtu,P-retro,phi_q75,ewma_l0.8_L5,ewma,control chart,False,0.0038166666666666666
+xjtu,P-retro,phi_q75,ewma_l0.8_L6,ewma,control chart,False,0.0011333333333333334
+xjtu,P-retro,phi_q75,cusum_k0.25_h3,cusum,control chart,False,0.9564333333333332
+xjtu,P-retro,phi_q75,cusum_k0.25_h5,cusum,control chart,False,0.8946333333333334
+xjtu,P-retro,phi_q75,cusum_k0.25_h8,cusum,control chart,False,0.7788333333333333
+xjtu,P-retro,phi_q75,cusum_k0.25_h12,cusum,control chart,False,0.6376166666666667
+xjtu,P-retro,phi_q75,cusum_k0.5_h3,cusum,control chart,False,0.9002
+xjtu,P-retro,phi_q75,cusum_k0.5_h5,cusum,control chart,True,0.7813833333333334
+xjtu,P-retro,phi_q75,cusum_k0.5_h8,cusum,control chart,False,0.60925
+xjtu,P-retro,phi_q75,cusum_k0.5_h12,cusum,control chart,False,0.40776666666666667
+xjtu,P-retro,phi_q75,cusum_k1_h3,cusum,control chart,False,0.6504
+xjtu,P-retro,phi_q75,cusum_k1_h5,cusum,control chart,False,0.43609999999999993
+xjtu,P-retro,phi_q75,cusum_k1_h8,cusum,control chart,False,0.18894999999999998
+xjtu,P-retro,phi_q75,cusum_k1_h12,cusum,control chart,False,0.06436666666666666
+xjtu,P-retro,phi_q75,cusum_k2_h3,cusum,control chart,False,0.0747
+xjtu,P-retro,phi_q75,cusum_k2_h5,cusum,control chart,False,0.02713333333333333
+xjtu,P-retro,phi_q75,cusum_k2_h8,cusum,control chart,False,0.011250000000000001
+xjtu,P-retro,phi_q75,cusum_k2_h12,cusum,control chart,False,0.00515
+xjtu,P-retro,phi_q75,cusum_k3_h3,cusum,control chart,False,0.008816666666666667
+xjtu,P-retro,phi_q75,cusum_k3_h5,cusum,control chart,False,0.004483333333333334
+xjtu,P-retro,phi_q75,cusum_k3_h8,cusum,control chart,False,0.0022166666666666667
+xjtu,P-retro,phi_q75,cusum_k3_h12,cusum,control chart,False,0.0011833333333333335
+xjtu,P-retro,phi_q75,thr_1sd,threshold,detector,False,0.9048833333333334
+xjtu,P-retro,phi_q75,thr_1.5sd,threshold,detector,False,0.6955833333333333
+xjtu,P-retro,phi_q75,thr_2sd,threshold,detector,False,0.3927333333333334
+xjtu,P-retro,phi_q75,thr_2.5sd,threshold,detector,False,0.12396666666666666
+xjtu,P-retro,phi_q75,thr_3sd,threshold,detector,True,0.03133333333333333
+xjtu,P-retro,phi_q75,thr_4sd,threshold,detector,False,0.0044666666666666665
+xjtu,P-retro,phi_q75,thr_5sd,threshold,detector,False,0.0011
+xjtu,P-retro,phi_q75,thr_6sd,threshold,detector,False,0.0004166666666666667
+xjtu,P-retro,phi_q75,thr_8sd,threshold,detector,False,0.0001
+xjtu,P-retro,phi_q75,ma5_2sd,ma,detector,True,0.2375333333333333
+xjtu,P-retro,phi_q75,ma5_3sd,ma,detector,True,0.01445
+xjtu,P-retro,phi_q75,ma5_5sd,ma,detector,True,0.00075
+xjtu,P-retro,phi_q75,ewmaAR_l0.05_L3,ewma_ar,"chart, AR-corrected",False,0.2813166666666666
+xjtu,P-retro,phi_q75,ewmaAR_l0.1_L3,ewma_ar,"chart, AR-corrected",False,0.30396666666666666
+xjtu,P-retro,phi_q75,ewmaAR_l0.2_L3,ewma_ar,"chart, AR-corrected",False,0.2967
+xjtu,P-retro,phi_q75,ewmaAR_l0.4_L3,ewma_ar,"chart, AR-corrected",False,0.22431666666666666
+xjtu,P-retro,phi_q75,ewmaAR_l0.8_L3,ewma_ar,"chart, AR-corrected",False,0.07323333333333333
+xjtu,P-retro,phi_q75,adapt_L2,adaptive,"chart, adaptive limits",False,0.28030000000000005
+xjtu,P-retro,phi_q75,adapt_L3,adaptive,"chart, adaptive limits",False,0.004116666666666667
+xjtu,P-retro,phi_q75,adapt_L4,adaptive,"chart, adaptive limits",False,1.6666666666666667e-05
+xjtu,P-retro,phi_q75,adapt_L5,adaptive,"chart, adaptive limits",False,0.0
+xjtu,P-retro,phi_q75,adapt_L6,adaptive,"chart, adaptive limits",False,0.0
+femto,P-prospective,main,ewma_l0.05_L2,ewma,control chart,False,0.566659090909091
+femto,P-prospective,main,ewma_l0.05_L3,ewma,control chart,False,0.3782272727272727
+femto,P-prospective,main,ewma_l0.05_L4,ewma,control chart,False,0.2253181818181818
+femto,P-prospective,main,ewma_l0.05_L5,ewma,control chart,False,0.12022727272727272
+femto,P-prospective,main,ewma_l0.05_L6,ewma,control chart,False,0.058386363636363646
+femto,P-prospective,main,ewma_l0.1_L2,ewma,control chart,False,0.6370681818181818
+femto,P-prospective,main,ewma_l0.1_L3,ewma,control chart,False,0.3955681818181818
+femto,P-prospective,main,ewma_l0.1_L4,ewma,control chart,False,0.19988636363636364
+femto,P-prospective,main,ewma_l0.1_L5,ewma,control chart,False,0.08815909090909092
+femto,P-prospective,main,ewma_l0.1_L6,ewma,control chart,False,0.03413636363636364
+femto,P-prospective,main,ewma_l0.2_L2,ewma,control chart,False,0.6753863636363636
+femto,P-prospective,main,ewma_l0.2_L3,ewma,control chart,True,0.36690909090909096
+femto,P-prospective,main,ewma_l0.2_L4,ewma,control chart,False,0.1455909090909091
+femto,P-prospective,main,ewma_l0.2_L5,ewma,control chart,False,0.04729545454545454
+femto,P-prospective,main,ewma_l0.2_L6,ewma,control chart,False,0.013590909090909091
+femto,P-prospective,main,ewma_l0.4_L2,ewma,control chart,False,0.6182500000000001
+femto,P-prospective,main,ewma_l0.4_L3,ewma,control chart,False,0.23775000000000002
+femto,P-prospective,main,ewma_l0.4_L4,ewma,control chart,False,0.06127272727272726
+femto,P-prospective,main,ewma_l0.4_L5,ewma,control chart,False,0.012840909090909092
+femto,P-prospective,main,ewma_l0.4_L6,ewma,control chart,False,0.0026363636363636368
+femto,P-prospective,main,ewma_l0.8_L2,ewma,control chart,False,0.303
+femto,P-prospective,main,ewma_l0.8_L3,ewma,control chart,False,0.04356818181818181
+femto,P-prospective,main,ewma_l0.8_L4,ewma,control chart,False,0.004704545454545455
+femto,P-prospective,main,ewma_l0.8_L5,ewma,control chart,False,0.0005681818181818183
+femto,P-prospective,main,ewma_l0.8_L6,ewma,control chart,False,0.00018181818181818183
+femto,P-prospective,main,cusum_k0.25_h3,cusum,control chart,False,0.8892272727272726
+femto,P-prospective,main,cusum_k0.25_h5,cusum,control chart,False,0.739
+femto,P-prospective,main,cusum_k0.25_h8,cusum,control chart,False,0.5430681818181817
+femto,P-prospective,main,cusum_k0.25_h12,cusum,control chart,False,0.38070454545454546
+femto,P-prospective,main,cusum_k0.5_h3,cusum,control chart,False,0.7395454545454545
+femto,P-prospective,main,cusum_k0.5_h5,cusum,control chart,True,0.5171136363636364
+femto,P-prospective,main,cusum_k0.5_h8,cusum,control chart,False,0.3080681818181819
+femto,P-prospective,main,cusum_k0.5_h12,cusum,control chart,False,0.1761136363636364
+femto,P-prospective,main,cusum_k1_h3,cusum,control chart,False,0.3478181818181818
+femto,P-prospective,main,cusum_k1_h5,cusum,control chart,False,0.1620681818181818
+femto,P-prospective,main,cusum_k1_h8,cusum,control chart,False,0.06349999999999999
+femto,P-prospective,main,cusum_k1_h12,cusum,control chart,False,0.02429545454545455
+femto,P-prospective,main,cusum_k2_h3,cusum,control chart,False,0.02920454545454546
+femto,P-prospective,main,cusum_k2_h5,cusum,control chart,False,0.008795454545454546
+femto,P-prospective,main,cusum_k2_h8,cusum,control chart,False,0.0018181818181818182
+femto,P-prospective,main,cusum_k2_h12,cusum,control chart,False,0.0005454545454545456
+femto,P-prospective,main,cusum_k3_h3,cusum,control chart,False,0.0022500000000000003
+femto,P-prospective,main,cusum_k3_h5,cusum,control chart,False,0.0005227272727272728
+femto,P-prospective,main,cusum_k3_h8,cusum,control chart,False,0.00018181818181818183
+femto,P-prospective,main,cusum_k3_h12,cusum,control chart,False,4.545454545454546e-05
+femto,P-prospective,main,thr_1sd,threshold,detector,False,0.7563636363636363
+femto,P-prospective,main,thr_1.5sd,threshold,detector,False,0.40540909090909094
+femto,P-prospective,main,thr_2sd,threshold,detector,False,0.1503409090909091
+femto,P-prospective,main,thr_2.5sd,threshold,detector,False,0.043977272727272726
+femto,P-prospective,main,thr_3sd,threshold,detector,True,0.011931818181818182
+femto,P-prospective,main,thr_4sd,threshold,detector,False,0.0007954545454545455
+femto,P-prospective,main,thr_5sd,threshold,detector,False,0.00013636363636363637
+femto,P-prospective,main,thr_6sd,threshold,detector,False,4.545454545454546e-05
+femto,P-prospective,main,thr_8sd,threshold,detector,False,2.272727272727273e-05
+femto,P-prospective,main,ma5_2sd,ma,detector,True,0.06949999999999999
+femto,P-prospective,main,ma5_3sd,ma,detector,True,0.003295454545454546
+femto,P-prospective,main,ma5_5sd,ma,detector,True,2.272727272727273e-05
+femto,P-prospective,main,ewmaAR_l0.05_L3,ewma_ar,"chart, AR-corrected",False,0.3265681818181818
+femto,P-prospective,main,ewmaAR_l0.1_L3,ewma_ar,"chart, AR-corrected",False,0.3331363636363636
+femto,P-prospective,main,ewmaAR_l0.2_L3,ewma_ar,"chart, AR-corrected",False,0.30972727272727274
+femto,P-prospective,main,ewmaAR_l0.4_L3,ewma_ar,"chart, AR-corrected",False,0.2093409090909091
+femto,P-prospective,main,ewmaAR_l0.8_L3,ewma_ar,"chart, AR-corrected",False,0.04234090909090909
+femto,P-prospective,main,adapt_L2,adaptive,"chart, adaptive limits",False,0.030840909090909096
+femto,P-prospective,main,adapt_L3,adaptive,"chart, adaptive limits",False,0.0
+femto,P-prospective,main,adapt_L4,adaptive,"chart, adaptive limits",False,0.0
+femto,P-prospective,main,adapt_L5,adaptive,"chart, adaptive limits",False,0.0
+femto,P-prospective,main,adapt_L6,adaptive,"chart, adaptive limits",False,0.0
+femto,P-prospective,t3,ewma_l0.05_L2,ewma,control chart,False,0.6644090909090908
+femto,P-prospective,t3,ewma_l0.05_L3,ewma,control chart,False,0.5007954545454546
+femto,P-prospective,t3,ewma_l0.05_L4,ewma,control chart,False,0.3546818181818182
+femto,P-prospective,t3,ewma_l0.05_L5,ewma,control chart,False,0.23377272727272727
+femto,P-prospective,t3,ewma_l0.05_L6,ewma,control chart,False,0.1489318181818182
+femto,P-prospective,t3,ewma_l0.1_L2,ewma,control chart,False,0.7471363636363637
+femto,P-prospective,t3,ewma_l0.1_L3,ewma,control chart,False,0.5680454545454545
+femto,P-prospective,t3,ewma_l0.1_L4,ewma,control chart,False,0.3931136363636363
+femto,P-prospective,t3,ewma_l0.1_L5,ewma,control chart,False,0.2516818181818182
+femto,P-prospective,t3,ewma_l0.1_L6,ewma,control chart,False,0.15670454545454546
+femto,P-prospective,t3,ewma_l0.2_L2,ewma,control chart,False,0.8004545454545454
+femto,P-prospective,t3,ewma_l0.2_L3,ewma,control chart,True,0.6000000000000001
+femto,P-prospective,t3,ewma_l0.2_L4,ewma,control chart,False,0.40347727272727274
+femto,P-prospective,t3,ewma_l0.2_L5,ewma,control chart,False,0.25722727272727275
+femto,P-prospective,t3,ewma_l0.2_L6,ewma,control chart,False,0.16427272727272724
+femto,P-prospective,t3,ewma_l0.4_L2,ewma,control chart,False,0.7705000000000001
+femto,P-prospective,t3,ewma_l0.4_L3,ewma,control chart,False,0.519090909090909
+femto,P-prospective,t3,ewma_l0.4_L4,ewma,control chart,False,0.31375000000000003
+femto,P-prospective,t3,ewma_l0.4_L5,ewma,control chart,False,0.18472727272727274
+femto,P-prospective,t3,ewma_l0.4_L6,ewma,control chart,False,0.10909090909090907
+femto,P-prospective,t3,ewma_l0.8_L2,ewma,control chart,False,0.43668181818181817
+femto,P-prospective,t3,ewma_l0.8_L3,ewma,control chart,False,0.15520454545454546
+femto,P-prospective,t3,ewma_l0.8_L4,ewma,control chart,False,0.05413636363636364
+femto,P-prospective,t3,ewma_l0.8_L5,ewma,control chart,False,0.02125
+femto,P-prospective,t3,ewma_l0.8_L6,ewma,control chart,False,0.009772727272727273
+femto,P-prospective,t3,cusum_k0.25_h3,cusum,control chart,False,0.9348863636363636
+femto,P-prospective,t3,cusum_k0.25_h5,cusum,control chart,False,0.8456818181818183
+femto,P-prospective,t3,cusum_k0.25_h8,cusum,control chart,False,0.6994318181818182
+femto,P-prospective,t3,cusum_k0.25_h12,cusum,control chart,False,0.5380909090909091
+femto,P-prospective,t3,cusum_k0.5_h3,cusum,control chart,False,0.8670681818181817
+femto,P-prospective,t3,cusum_k0.5_h5,cusum,control chart,True,0.7284545454545452
+femto,P-prospective,t3,cusum_k0.5_h8,cusum,control chart,False,0.5393636363636364
+femto,P-prospective,t3,cusum_k0.5_h12,cusum,control chart,False,0.36234090909090905
+femto,P-prospective,t3,cusum_k1_h3,cusum,control chart,False,0.68925
+femto,P-prospective,t3,cusum_k1_h5,cusum,control chart,False,0.5052045454545454
+femto,P-prospective,t3,cusum_k1_h8,cusum,control chart,False,0.30824999999999997
+femto,P-prospective,t3,cusum_k1_h12,cusum,control chart,False,0.16868181818181818
+femto,P-prospective,t3,cusum_k2_h3,cusum,control chart,False,0.38184090909090906
+femto,P-prospective,t3,cusum_k2_h5,cusum,control chart,False,0.2525
+femto,P-prospective,t3,cusum_k2_h8,cusum,control chart,False,0.14070454545454544
+femto,P-prospective,t3,cusum_k2_h12,cusum,control chart,False,0.06979545454545454
+femto,P-prospective,t3,cusum_k3_h3,cusum,control chart,False,0.20777272727272725
+femto,P-prospective,t3,cusum_k3_h5,cusum,control chart,False,0.14061363636363636
+femto,P-prospective,t3,cusum_k3_h8,cusum,control chart,False,0.08184090909090909
+femto,P-prospective,t3,cusum_k3_h12,cusum,control chart,False,0.04354545454545455
+femto,P-prospective,t3,thr_1sd,threshold,detector,False,0.729
+femto,P-prospective,t3,thr_1.5sd,threshold,detector,False,0.4422045454545456
+femto,P-prospective,t3,thr_2sd,threshold,detector,False,0.22570454545454544
+femto,P-prospective,t3,thr_2.5sd,threshold,detector,False,0.10736363636363634
+femto,P-prospective,t3,thr_3sd,threshold,detector,True,0.05136363636363636
+femto,P-prospective,t3,thr_4sd,threshold,detector,False,0.012681818181818183
+femto,P-prospective,t3,thr_5sd,threshold,detector,False,0.003454545454545455
+femto,P-prospective,t3,thr_6sd,threshold,detector,False,0.0009318181818181817
+femto,P-prospective,t3,thr_8sd,threshold,detector,False,0.00018181818181818183
+femto,P-prospective,t3,ma5_2sd,ma,detector,True,0.34820454545454543
+femto,P-prospective,t3,ma5_3sd,ma,detector,True,0.12909090909090912
+femto,P-prospective,t3,ma5_5sd,ma,detector,True,0.02827272727272728
+femto,P-prospective,t3,ewmaAR_l0.05_L3,ewma_ar,"chart, AR-corrected",False,0.4440454545454546
+femto,P-prospective,t3,ewmaAR_l0.1_L3,ewma_ar,"chart, AR-corrected",False,0.4997045454545455
+femto,P-prospective,t3,ewmaAR_l0.2_L3,ewma_ar,"chart, AR-corrected",False,0.5337045454545454
+femto,P-prospective,t3,ewmaAR_l0.4_L3,ewma_ar,"chart, AR-corrected",False,0.47261363636363635
+femto,P-prospective,t3,ewmaAR_l0.8_L3,ewma_ar,"chart, AR-corrected",False,0.14811363636363636
+femto,P-prospective,t3,adapt_L2,adaptive,"chart, adaptive limits",False,0.030227272727272728
+femto,P-prospective,t3,adapt_L3,adaptive,"chart, adaptive limits",False,0.0011818181818181817
+femto,P-prospective,t3,adapt_L4,adaptive,"chart, adaptive limits",False,9.090909090909092e-05
+femto,P-prospective,t3,adapt_L5,adaptive,"chart, adaptive limits",False,2.272727272727273e-05
+femto,P-prospective,t3,adapt_L6,adaptive,"chart, adaptive limits",False,0.0
+femto,P-prospective,phi_q25,ewma_l0.05_L2,ewma,control chart,False,0.4810909090909092
+femto,P-prospective,phi_q25,ewma_l0.05_L3,ewma,control chart,False,0.26625
+femto,P-prospective,phi_q25,ewma_l0.05_L4,ewma,control chart,False,0.1265227272727273
+femto,P-prospective,phi_q25,ewma_l0.05_L5,ewma,control chart,False,0.05297727272727273
+femto,P-prospective,phi_q25,ewma_l0.05_L6,ewma,control chart,False,0.020363636363636365
+femto,P-prospective,phi_q25,ewma_l0.1_L2,ewma,control chart,False,0.52675
+femto,P-prospective,phi_q25,ewma_l0.1_L3,ewma,control chart,False,0.25434090909090906
+femto,P-prospective,phi_q25,ewma_l0.1_L4,ewma,control chart,False,0.09318181818181817
+femto,P-prospective,phi_q25,ewma_l0.1_L5,ewma,control chart,False,0.029227272727272727
+femto,P-prospective,phi_q25,ewma_l0.1_L6,ewma,control chart,False,0.008295454545454545
+femto,P-prospective,phi_q25,ewma_l0.2_L2,ewma,control chart,False,0.5376136363636363
+femto,P-prospective,phi_q25,ewma_l0.2_L3,ewma,control chart,True,0.20111363636363636
+femto,P-prospective,phi_q25,ewma_l0.2_L4,ewma,control chart,False,0.05261363636363637
+femto,P-prospective,phi_q25,ewma_l0.2_L5,ewma,control chart,False,0.011431818181818182
+femto,P-prospective,phi_q25,ewma_l0.2_L6,ewma,control chart,False,0.0022045454545454547
+femto,P-prospective,phi_q25,ewma_l0.4_L2,ewma,control chart,False,0.43897727272727277
+femto,P-prospective,phi_q25,ewma_l0.4_L3,ewma,control chart,False,0.09829545454545455
+femto,P-prospective,phi_q25,ewma_l0.4_L4,ewma,control chart,False,0.015113636363636364
+femto,P-prospective,phi_q25,ewma_l0.4_L5,ewma,control chart,False,0.001931818181818182
+femto,P-prospective,phi_q25,ewma_l0.4_L6,ewma,control chart,False,0.0003181818181818182
+femto,P-prospective,phi_q25,ewma_l0.8_L2,ewma,control chart,False,0.14695454545454545
+femto,P-prospective,phi_q25,ewma_l0.8_L3,ewma,control chart,False,0.010522727272727274
+femto,P-prospective,phi_q25,ewma_l0.8_L4,ewma,control chart,False,0.0007727272727272728
+femto,P-prospective,phi_q25,ewma_l0.8_L5,ewma,control chart,False,9.090909090909092e-05
+femto,P-prospective,phi_q25,ewma_l0.8_L6,ewma,control chart,False,0.0
+femto,P-prospective,phi_q25,cusum_k0.25_h3,cusum,control chart,False,0.8336136363636363
+femto,P-prospective,phi_q25,cusum_k0.25_h5,cusum,control chart,False,0.6270227272727271
+femto,P-prospective,phi_q25,cusum_k0.25_h8,cusum,control chart,False,0.4114545454545455
+femto,P-prospective,phi_q25,cusum_k0.25_h12,cusum,control chart,False,0.2635
+femto,P-prospective,phi_q25,cusum_k0.5_h3,cusum,control chart,False,0.603340909090909
+femto,P-prospective,phi_q25,cusum_k0.5_h5,cusum,control chart,True,0.3457272727272727
+femto,P-prospective,phi_q25,cusum_k0.5_h8,cusum,control chart,False,0.1687727272727273
+femto,P-prospective,phi_q25,cusum_k0.5_h12,cusum,control chart,False,0.08379545454545455
+femto,P-prospective,phi_q25,cusum_k1_h3,cusum,control chart,False,0.18143181818181817
+femto,P-prospective,phi_q25,cusum_k1_h5,cusum,control chart,False,0.06129545454545455
+femto,P-prospective,phi_q25,cusum_k1_h8,cusum,control chart,False,0.017499999999999998
+femto,P-prospective,phi_q25,cusum_k1_h12,cusum,control chart,False,0.005409090909090909
+femto,P-prospective,phi_q25,cusum_k2_h3,cusum,control chart,False,0.006840909090909091
+femto,P-prospective,phi_q25,cusum_k2_h5,cusum,control chart,False,0.0013181818181818182
+femto,P-prospective,phi_q25,cusum_k2_h8,cusum,control chart,False,0.00022727272727272733
+femto,P-prospective,phi_q25,cusum_k2_h12,cusum,control chart,False,6.818181818181818e-05
+femto,P-prospective,phi_q25,cusum_k3_h3,cusum,control chart,False,0.00022727272727272733
+femto,P-prospective,phi_q25,cusum_k3_h5,cusum,control chart,False,2.272727272727273e-05
+femto,P-prospective,phi_q25,cusum_k3_h8,cusum,control chart,False,0.0
+femto,P-prospective,phi_q25,cusum_k3_h12,cusum,control chart,False,0.0
+femto,P-prospective,phi_q25,thr_1sd,threshold,detector,False,0.6169545454545454
+femto,P-prospective,phi_q25,thr_1.5sd,threshold,detector,False,0.2342045454545455
+femto,P-prospective,phi_q25,thr_2sd,threshold,detector,False,0.05804545454545454
+femto,P-prospective,phi_q25,thr_2.5sd,threshold,detector,False,0.012363636363636365
+femto,P-prospective,phi_q25,thr_3sd,threshold,detector,True,0.002522727272727273
+femto,P-prospective,phi_q25,thr_4sd,threshold,detector,False,0.0001590909090909091
+femto,P-prospective,phi_q25,thr_5sd,threshold,detector,False,0.0
+femto,P-prospective,phi_q25,thr_6sd,threshold,detector,False,0.0
+femto,P-prospective,phi_q25,thr_8sd,threshold,detector,False,0.0
+femto,P-prospective,phi_q25,ma5_2sd,ma,detector,True,0.01743181818181818
+femto,P-prospective,phi_q25,ma5_3sd,ma,detector,True,0.00040909090909090913
+femto,P-prospective,phi_q25,ma5_5sd,ma,detector,True,0.0
+femto,P-prospective,phi_q25,ewmaAR_l0.05_L3,ewma_ar,"chart, AR-corrected",False,0.2924090909090909
+femto,P-prospective,phi_q25,ewmaAR_l0.1_L3,ewma_ar,"chart, AR-corrected",False,0.28725
+femto,P-prospective,phi_q25,ewmaAR_l0.2_L3,ewma_ar,"chart, AR-corrected",False,0.24550000000000002
+femto,P-prospective,phi_q25,ewmaAR_l0.4_L3,ewma_ar,"chart, AR-corrected",False,0.1325909090909091
+femto,P-prospective,phi_q25,ewmaAR_l0.8_L3,ewma_ar,"chart, AR-corrected",False,0.012295454545454547
+femto,P-prospective,phi_q25,adapt_L2,adaptive,"chart, adaptive limits",False,0.006659090909090909
+femto,P-prospective,phi_q25,adapt_L3,adaptive,"chart, adaptive limits",False,2.272727272727273e-05
+femto,P-prospective,phi_q25,adapt_L4,adaptive,"chart, adaptive limits",False,0.0
+femto,P-prospective,phi_q25,adapt_L5,adaptive,"chart, adaptive limits",False,0.0
+femto,P-prospective,phi_q25,adapt_L6,adaptive,"chart, adaptive limits",False,0.0
+femto,P-prospective,phi_q75,ewma_l0.05_L2,ewma,control chart,False,0.6958181818181818
+femto,P-prospective,phi_q75,ewma_l0.05_L3,ewma,control chart,False,0.5693863636363637
+femto,P-prospective,phi_q75,ewma_l0.05_L4,ewma,control chart,False,0.4451818181818182
+femto,P-prospective,phi_q75,ewma_l0.05_L5,ewma,control chart,False,0.3292045454545454
+femto,P-prospective,phi_q75,ewma_l0.05_L6,ewma,control chart,False,0.2366818181818182
+femto,P-prospective,phi_q75,ewma_l0.1_L2,ewma,control chart,False,0.7760454545454546
+femto,P-prospective,phi_q75,ewma_l0.1_L3,ewma,control chart,False,0.6297954545454545
+femto,P-prospective,phi_q75,ewma_l0.1_L4,ewma,control chart,False,0.4696590909090909
+femto,P-prospective,phi_q75,ewma_l0.1_L5,ewma,control chart,False,0.3247727272727273
+femto,P-prospective,phi_q75,ewma_l0.1_L6,ewma,control chart,False,0.2097954545454546
+femto,P-prospective,phi_q75,ewma_l0.2_L2,ewma,control chart,False,0.82775
+femto,P-prospective,phi_q75,ewma_l0.2_L3,ewma,control chart,True,0.6481818181818182
+femto,P-prospective,phi_q75,ewma_l0.2_L4,ewma,control chart,False,0.4440227272727272
+femto,P-prospective,phi_q75,ewma_l0.2_L5,ewma,control chart,False,0.27099999999999996
+femto,P-prospective,phi_q75,ewma_l0.2_L6,ewma,control chart,False,0.1471818181818182
+femto,P-prospective,phi_q75,ewma_l0.4_L2,ewma,control chart,False,0.8183863636363636
+femto,P-prospective,phi_q75,ewma_l0.4_L3,ewma,control chart,False,0.5575227272727272
+femto,P-prospective,phi_q75,ewma_l0.4_L4,ewma,control chart,False,0.3047500000000001
+femto,P-prospective,phi_q75,ewma_l0.4_L5,ewma,control chart,False,0.13822727272727275
+femto,P-prospective,phi_q75,ewma_l0.4_L6,ewma,control chart,False,0.0571590909090909
+femto,P-prospective,phi_q75,ewma_l0.8_L2,ewma,control chart,False,0.6042727272727273
+femto,P-prospective,phi_q75,ewma_l0.8_L3,ewma,control chart,False,0.235
+femto,P-prospective,phi_q75,ewma_l0.8_L4,ewma,control chart,False,0.06531818181818182
+femto,P-prospective,phi_q75,ewma_l0.8_L5,ewma,control chart,False,0.015863636363636364
+femto,P-prospective,phi_q75,ewma_l0.8_L6,ewma,control chart,False,0.004181818181818182
+femto,P-prospective,phi_q75,cusum_k0.25_h3,cusum,control chart,False,0.9378181818181818
+femto,P-prospective,phi_q75,cusum_k0.25_h5,cusum,control chart,False,0.8633409090909091
+femto,P-prospective,phi_q75,cusum_k0.25_h8,cusum,control chart,False,0.7430227272727273
+femto,P-prospective,phi_q75,cusum_k0.25_h12,cusum,control chart,False,0.6068636363636365
+femto,P-prospective,phi_q75,cusum_k0.5_h3,cusum,control chart,False,0.8695681818181819
+femto,P-prospective,phi_q75,cusum_k0.5_h5,cusum,control chart,True,0.7514772727272728
+femto,P-prospective,phi_q75,cusum_k0.5_h8,cusum,control chart,False,0.5949772727272727
+femto,P-prospective,phi_q75,cusum_k0.5_h12,cusum,control chart,False,0.4400454545454545
+femto,P-prospective,phi_q75,cusum_k1_h3,cusum,control chart,False,0.6409999999999999
+femto,P-prospective,phi_q75,cusum_k1_h5,cusum,control chart,False,0.4721136363636363
+femto,P-prospective,phi_q75,cusum_k1_h8,cusum,control chart,False,0.30661363636363637
+femto,P-prospective,phi_q75,cusum_k1_h12,cusum,control chart,False,0.18545454545454546
+femto,P-prospective,phi_q75,cusum_k2_h3,cusum,control chart,False,0.19256818181818183
+femto,P-prospective,phi_q75,cusum_k2_h5,cusum,control chart,False,0.10327272727272727
+femto,P-prospective,phi_q75,cusum_k2_h8,cusum,control chart,False,0.04918181818181819
+femto,P-prospective,phi_q75,cusum_k2_h12,cusum,control chart,False,0.021750000000000002
+femto,P-prospective,phi_q75,cusum_k3_h3,cusum,control chart,False,0.03777272727272727
+femto,P-prospective,phi_q75,cusum_k3_h5,cusum,control chart,False,0.017477272727272727
+femto,P-prospective,phi_q75,cusum_k3_h8,cusum,control chart,False,0.0074090909090909094
+femto,P-prospective,phi_q75,cusum_k3_h12,cusum,control chart,False,0.003022727272727273
+femto,P-prospective,phi_q75,thr_1sd,threshold,detector,False,0.8785909090909091
+femto,P-prospective,phi_q75,thr_1.5sd,threshold,detector,False,0.6776363636363636
+femto,P-prospective,phi_q75,thr_2sd,threshold,detector,False,0.4279318181818182
+femto,P-prospective,phi_q75,thr_2.5sd,threshold,detector,False,0.2286590909090909
+femto,P-prospective,phi_q75,thr_3sd,threshold,detector,True,0.10754545454545453
+femto,P-prospective,phi_q75,thr_4sd,threshold,detector,False,0.02013636363636364
+femto,P-prospective,phi_q75,thr_5sd,threshold,detector,False,0.0036136363636363644
+femto,P-prospective,phi_q75,thr_6sd,threshold,detector,False,0.0009318181818181819
+femto,P-prospective,phi_q75,thr_8sd,threshold,detector,False,4.545454545454546e-05
+femto,P-prospective,phi_q75,ma5_2sd,ma,detector,True,0.3309090909090909
+femto,P-prospective,phi_q75,ma5_3sd,ma,detector,True,0.06413636363636364
+femto,P-prospective,phi_q75,ma5_5sd,ma,detector,True,0.0018181818181818186
+femto,P-prospective,phi_q75,ewmaAR_l0.05_L3,ewma_ar,"chart, AR-corrected",False,0.40827272727272723
+femto,P-prospective,phi_q75,ewmaAR_l0.1_L3,ewma_ar,"chart, AR-corrected",False,0.4395454545454545
+femto,P-prospective,phi_q75,ewmaAR_l0.2_L3,ewma_ar,"chart, AR-corrected",False,0.4432272727272727
+femto,P-prospective,phi_q75,ewmaAR_l0.4_L3,ewma_ar,"chart, AR-corrected",False,0.3821136363636363
+femto,P-prospective,phi_q75,ewmaAR_l0.8_L3,ewma_ar,"chart, AR-corrected",False,0.19275
+femto,P-prospective,phi_q75,adapt_L2,adaptive,"chart, adaptive limits",False,0.21504545454545457
+femto,P-prospective,phi_q75,adapt_L3,adaptive,"chart, adaptive limits",False,0.003136363636363637
+femto,P-prospective,phi_q75,adapt_L4,adaptive,"chart, adaptive limits",False,0.0
+femto,P-prospective,phi_q75,adapt_L5,adaptive,"chart, adaptive limits",False,0.0
+femto,P-prospective,phi_q75,adapt_L6,adaptive,"chart, adaptive limits",False,0.0
+femto,P-retro,main,ewma_l0.05_L2,ewma,control chart,False,0.5785576923076924
+femto,P-retro,main,ewma_l0.05_L3,ewma,control chart,False,0.30621153846153853
+femto,P-retro,main,ewma_l0.05_L4,ewma,control chart,False,0.12880769230769232
+femto,P-retro,main,ewma_l0.05_L5,ewma,control chart,False,0.0475
+femto,P-retro,main,ewma_l0.05_L6,ewma,control chart,False,0.017538461538461537
+femto,P-retro,main,ewma_l0.1_L2,ewma,control chart,False,0.6621153846153847
+femto,P-retro,main,ewma_l0.1_L3,ewma,control chart,False,0.3250769230769231
+femto,P-retro,main,ewma_l0.1_L4,ewma,control chart,False,0.11086538461538463
+femto,P-retro,main,ewma_l0.1_L5,ewma,control chart,False,0.033096153846153845
+femto,P-retro,main,ewma_l0.1_L6,ewma,control chart,False,0.010211538461538463
+femto,P-retro,main,ewma_l0.2_L2,ewma,control chart,False,0.6983653846153847
+femto,P-retro,main,ewma_l0.2_L3,ewma,control chart,True,0.28688461538461535
+femto,P-retro,main,ewma_l0.2_L4,ewma,control chart,False,0.06973076923076924
+femto,P-retro,main,ewma_l0.2_L5,ewma,control chart,False,0.016307692307692308
+femto,P-retro,main,ewma_l0.2_L6,ewma,control chart,False,0.004634615384615385
+femto,P-retro,main,ewma_l0.4_L2,ewma,control chart,False,0.6122884615384615
+femto,P-retro,main,ewma_l0.4_L3,ewma,control chart,False,0.14759615384615388
+femto,P-retro,main,ewma_l0.4_L4,ewma,control chart,False,0.021596153846153845
+femto,P-retro,main,ewma_l0.4_L5,ewma,control chart,False,0.004480769230769231
+femto,P-retro,main,ewma_l0.4_L6,ewma,control chart,False,0.0013653846153846153
+femto,P-retro,main,ewma_l0.8_L2,ewma,control chart,False,0.21421153846153845
+femto,P-retro,main,ewma_l0.8_L3,ewma,control chart,False,0.01494230769230769
+femto,P-retro,main,ewma_l0.8_L4,ewma,control chart,False,0.001903846153846154
+femto,P-retro,main,ewma_l0.8_L5,ewma,control chart,False,0.0005384615384615384
+femto,P-retro,main,ewma_l0.8_L6,ewma,control chart,False,0.0001730769230769231
+femto,P-retro,main,cusum_k0.25_h3,cusum,control chart,False,0.9085576923076922
+femto,P-retro,main,cusum_k0.25_h5,cusum,control chart,False,0.7651923076923078
+femto,P-retro,main,cusum_k0.25_h8,cusum,control chart,False,0.5244807692307693
+femto,P-retro,main,cusum_k0.25_h12,cusum,control chart,False,0.30325
+femto,P-retro,main,cusum_k0.5_h3,cusum,control chart,False,0.7579807692307692
+femto,P-retro,main,cusum_k0.5_h5,cusum,control chart,True,0.48007692307692307
+femto,P-retro,main,cusum_k0.5_h8,cusum,control chart,False,0.21078846153846154
+femto,P-retro,main,cusum_k0.5_h12,cusum,control chart,False,0.08555769230769232
+femto,P-retro,main,cusum_k1_h3,cusum,control chart,False,0.2534038461538461
+femto,P-retro,main,cusum_k1_h5,cusum,control chart,False,0.07976923076923076
+femto,P-retro,main,cusum_k1_h8,cusum,control chart,False,0.022442307692307692
+femto,P-retro,main,cusum_k1_h12,cusum,control chart,False,0.007865384615384616
+femto,P-retro,main,cusum_k2_h3,cusum,control chart,False,0.009846153846153846
+femto,P-retro,main,cusum_k2_h5,cusum,control chart,False,0.003596153846153846
+femto,P-retro,main,cusum_k2_h8,cusum,control chart,False,0.0013846153846153847
+femto,P-retro,main,cusum_k2_h12,cusum,control chart,False,0.0007115384615384616
+femto,P-retro,main,cusum_k3_h3,cusum,control chart,False,0.0014423076923076922
+femto,P-retro,main,cusum_k3_h5,cusum,control chart,False,0.0007692307692307693
+femto,P-retro,main,cusum_k3_h8,cusum,control chart,False,0.0003076923076923077
+femto,P-retro,main,cusum_k3_h12,cusum,control chart,False,9.615384615384615e-05
+femto,P-retro,main,thr_1sd,threshold,detector,False,0.7687500000000002
+femto,P-retro,main,thr_1.5sd,threshold,detector,False,0.3378269230769231
+femto,P-retro,main,thr_2sd,threshold,detector,False,0.07638461538461538
+femto,P-retro,main,thr_2.5sd,threshold,detector,False,0.014942307692307692
+femto,P-retro,main,thr_3sd,threshold,detector,True,0.0041730769230769234
+femto,P-retro,main,thr_4sd,threshold,detector,False,0.000673076923076923
+femto,P-retro,main,thr_5sd,threshold,detector,False,0.00025
+femto,P-retro,main,thr_6sd,threshold,detector,False,9.615384615384615e-05
+femto,P-retro,main,thr_8sd,threshold,detector,False,0.0
+femto,P-retro,main,ma5_2sd,ma,detector,True,0.025653846153846152
+femto,P-retro,main,ma5_3sd,ma,detector,True,0.0015769230769230769
+femto,P-retro,main,ma5_5sd,ma,detector,True,5.769230769230769e-05
+femto,P-retro,main,ewmaAR_l0.05_L3,ewma_ar,"chart, AR-corrected",False,0.2091730769230769
+femto,P-retro,main,ewmaAR_l0.1_L3,ewma_ar,"chart, AR-corrected",False,0.21025
+femto,P-retro,main,ewmaAR_l0.2_L3,ewma_ar,"chart, AR-corrected",False,0.18171153846153845
+femto,P-retro,main,ewmaAR_l0.4_L3,ewma_ar,"chart, AR-corrected",False,0.10303846153846154
+femto,P-retro,main,ewmaAR_l0.8_L3,ewma_ar,"chart, AR-corrected",False,0.014538461538461538
+femto,P-retro,main,adapt_L2,adaptive,"chart, adaptive limits",False,0.026749999999999993
+femto,P-retro,main,adapt_L3,adaptive,"chart, adaptive limits",False,1.923076923076923e-05
+femto,P-retro,main,adapt_L4,adaptive,"chart, adaptive limits",False,0.0
+femto,P-retro,main,adapt_L5,adaptive,"chart, adaptive limits",False,0.0
+femto,P-retro,main,adapt_L6,adaptive,"chart, adaptive limits",False,0.0
+femto,P-retro,t3,ewma_l0.05_L2,ewma,control chart,False,0.6128461538461538
+femto,P-retro,t3,ewma_l0.05_L3,ewma,control chart,False,0.36611538461538456
+femto,P-retro,t3,ewma_l0.05_L4,ewma,control chart,False,0.1950576923076923
+femto,P-retro,t3,ewma_l0.05_L5,ewma,control chart,False,0.095
+femto,P-retro,t3,ewma_l0.05_L6,ewma,control chart,False,0.047442307692307686
+femto,P-retro,t3,ewma_l0.1_L2,ewma,control chart,False,0.7034807692307694
+femto,P-retro,t3,ewma_l0.1_L3,ewma,control chart,False,0.42701923076923076
+femto,P-retro,t3,ewma_l0.1_L4,ewma,control chart,False,0.21986538461538466
+femto,P-retro,t3,ewma_l0.1_L5,ewma,control chart,False,0.11038461538461539
+femto,P-retro,t3,ewma_l0.1_L6,ewma,control chart,False,0.05876923076923077
+femto,P-retro,t3,ewma_l0.2_L2,ewma,control chart,False,0.7514038461538461
+femto,P-retro,t3,ewma_l0.2_L3,ewma,control chart,True,0.4557115384615385
+femto,P-retro,t3,ewma_l0.2_L4,ewma,control chart,False,0.2305576923076923
+femto,P-retro,t3,ewma_l0.2_L5,ewma,control chart,False,0.12001923076923077
+femto,P-retro,t3,ewma_l0.2_L6,ewma,control chart,False,0.06819230769230769
+femto,P-retro,t3,ewma_l0.4_L2,ewma,control chart,False,0.69
+femto,P-retro,t3,ewma_l0.4_L3,ewma,control chart,False,0.3465192307692308
+femto,P-retro,t3,ewma_l0.4_L4,ewma,control chart,False,0.15646153846153846
+femto,P-retro,t3,ewma_l0.4_L5,ewma,control chart,False,0.07769230769230771
+femto,P-retro,t3,ewma_l0.4_L6,ewma,control chart,False,0.043000000000000003
+femto,P-retro,t3,ewma_l0.8_L2,ewma,control chart,False,0.252
+femto,P-retro,t3,ewma_l0.8_L3,ewma,control chart,False,0.054423076923076914
+femto,P-retro,t3,ewma_l0.8_L4,ewma,control chart,False,0.015115384615384616
+femto,P-retro,t3,ewma_l0.8_L5,ewma,control chart,False,0.005673076923076923
+femto,P-retro,t3,ewma_l0.8_L6,ewma,control chart,False,0.002673076923076923
+femto,P-retro,t3,cusum_k0.25_h3,cusum,control chart,False,0.9269807692307693
+femto,P-retro,t3,cusum_k0.25_h5,cusum,control chart,False,0.7966153846153845
+femto,P-retro,t3,cusum_k0.25_h8,cusum,control chart,False,0.5885769230769231
+femto,P-retro,t3,cusum_k0.25_h12,cusum,control chart,False,0.37213461538461534
+femto,P-retro,t3,cusum_k0.5_h3,cusum,control chart,False,0.8215000000000002
+femto,P-retro,t3,cusum_k0.5_h5,cusum,control chart,True,0.6081538461538462
+femto,P-retro,t3,cusum_k0.5_h8,cusum,control chart,False,0.34759615384615383
+femto,P-retro,t3,cusum_k0.5_h12,cusum,control chart,False,0.17469230769230767
+femto,P-retro,t3,cusum_k1_h3,cusum,control chart,False,0.5484423076923076
+femto,P-retro,t3,cusum_k1_h5,cusum,control chart,False,0.3198076923076923
+femto,P-retro,t3,cusum_k1_h8,cusum,control chart,False,0.14548076923076922
+femto,P-retro,t3,cusum_k1_h12,cusum,control chart,False,0.06378846153846154
+femto,P-retro,t3,cusum_k2_h3,cusum,control chart,False,0.21651923076923077
+femto,P-retro,t3,cusum_k2_h5,cusum,control chart,False,0.12182692307692308
+femto,P-retro,t3,cusum_k2_h8,cusum,control chart,False,0.05965384615384614
+femto,P-retro,t3,cusum_k2_h12,cusum,control chart,False,0.027326923076923082
+femto,P-retro,t3,cusum_k3_h3,cusum,control chart,False,0.09673076923076922
+femto,P-retro,t3,cusum_k3_h5,cusum,control chart,False,0.06025
+femto,P-retro,t3,cusum_k3_h8,cusum,control chart,False,0.033423076923076916
+femto,P-retro,t3,cusum_k3_h12,cusum,control chart,False,0.017576923076923077
+femto,P-retro,t3,thr_1sd,threshold,detector,False,0.6325000000000001
+femto,P-retro,t3,thr_1.5sd,threshold,detector,False,0.26340384615384616
+femto,P-retro,t3,thr_2sd,threshold,detector,False,0.08775
+femto,P-retro,t3,thr_2.5sd,threshold,detector,False,0.03173076923076923
+femto,P-retro,t3,thr_3sd,threshold,detector,True,0.012884615384615383
+femto,P-retro,t3,thr_4sd,threshold,detector,False,0.0031153846153846153
+femto,P-retro,t3,thr_5sd,threshold,detector,False,0.0008653846153846156
+femto,P-retro,t3,thr_6sd,threshold,detector,False,0.0004807692307692308
+femto,P-retro,t3,thr_8sd,threshold,detector,False,0.0001346153846153846
+femto,P-retro,t3,ma5_2sd,ma,detector,True,0.18378846153846154
+femto,P-retro,t3,ma5_3sd,ma,detector,True,0.05324999999999999
+femto,P-retro,t3,ma5_5sd,ma,detector,True,0.010096153846153847
+femto,P-retro,t3,ewmaAR_l0.05_L3,ewma_ar,"chart, AR-corrected",False,0.2703076923076923
+femto,P-retro,t3,ewmaAR_l0.1_L3,ewma_ar,"chart, AR-corrected",False,0.3124807692307693
+femto,P-retro,t3,ewmaAR_l0.2_L3,ewma_ar,"chart, AR-corrected",False,0.3460384615384615
+femto,P-retro,t3,ewmaAR_l0.4_L3,ewma_ar,"chart, AR-corrected",False,0.2742307692307692
+femto,P-retro,t3,ewmaAR_l0.8_L3,ewma_ar,"chart, AR-corrected",False,0.04980769230769232
+femto,P-retro,t3,adapt_L2,adaptive,"chart, adaptive limits",False,0.02432692307692308
+femto,P-retro,t3,adapt_L3,adaptive,"chart, adaptive limits",False,0.000980769230769231
+femto,P-retro,t3,adapt_L4,adaptive,"chart, adaptive limits",False,7.692307692307693e-05
+femto,P-retro,t3,adapt_L5,adaptive,"chart, adaptive limits",False,0.0
+femto,P-retro,t3,adapt_L6,adaptive,"chart, adaptive limits",False,0.0
+femto,P-retro,phi_q25,ewma_l0.05_L2,ewma,control chart,False,0.4494230769230769
+femto,P-retro,phi_q25,ewma_l0.05_L3,ewma,control chart,False,0.17573076923076922
+femto,P-retro,phi_q25,ewma_l0.05_L4,ewma,control chart,False,0.051173076923076925
+femto,P-retro,phi_q25,ewma_l0.05_L5,ewma,control chart,False,0.014884615384615385
+femto,P-retro,phi_q25,ewma_l0.05_L6,ewma,control chart,False,0.004596153846153846
+femto,P-retro,phi_q25,ewma_l0.1_L2,ewma,control chart,False,0.5128653846153846
+femto,P-retro,phi_q25,ewma_l0.1_L3,ewma,control chart,False,0.16251923076923078
+femto,P-retro,phi_q25,ewma_l0.1_L4,ewma,control chart,False,0.03611538461538461
+femto,P-retro,phi_q25,ewma_l0.1_L5,ewma,control chart,False,0.009346153846153846
+femto,P-retro,phi_q25,ewma_l0.1_L6,ewma,control chart,False,0.002923076923076923
+femto,P-retro,phi_q25,ewma_l0.2_L2,ewma,control chart,False,0.5196153846153847
+femto,P-retro,phi_q25,ewma_l0.2_L3,ewma,control chart,True,0.11517307692307693
+femto,P-retro,phi_q25,ewma_l0.2_L4,ewma,control chart,False,0.018288461538461538
+femto,P-retro,phi_q25,ewma_l0.2_L5,ewma,control chart,False,0.004346153846153846
+femto,P-retro,phi_q25,ewma_l0.2_L6,ewma,control chart,False,0.001480769230769231
+femto,P-retro,phi_q25,ewma_l0.4_L2,ewma,control chart,False,0.3830961538461539
+femto,P-retro,phi_q25,ewma_l0.4_L3,ewma,control chart,False,0.04328846153846154
+femto,P-retro,phi_q25,ewma_l0.4_L4,ewma,control chart,False,0.005211538461538461
+femto,P-retro,phi_q25,ewma_l0.4_L5,ewma,control chart,False,0.00125
+femto,P-retro,phi_q25,ewma_l0.4_L6,ewma,control chart,False,0.00040384615384615383
+femto,P-retro,phi_q25,ewma_l0.8_L2,ewma,control chart,False,0.07903846153846154
+femto,P-retro,phi_q25,ewma_l0.8_L3,ewma,control chart,False,0.0035769230769230774
+femto,P-retro,phi_q25,ewma_l0.8_L4,ewma,control chart,False,0.0005769230769230769
+femto,P-retro,phi_q25,ewma_l0.8_L5,ewma,control chart,False,0.0001923076923076923
+femto,P-retro,phi_q25,ewma_l0.8_L6,ewma,control chart,False,5.769230769230769e-05
+femto,P-retro,phi_q25,cusum_k0.25_h3,cusum,control chart,False,0.8515384615384616
+femto,P-retro,phi_q25,cusum_k0.25_h5,cusum,control chart,False,0.6331538461538462
+femto,P-retro,phi_q25,cusum_k0.25_h8,cusum,control chart,False,0.3447692307692307
+femto,P-retro,phi_q25,cusum_k0.25_h12,cusum,control chart,False,0.16703846153846158
+femto,P-retro,phi_q25,cusum_k0.5_h3,cusum,control chart,False,0.5934038461538461
+femto,P-retro,phi_q25,cusum_k0.5_h5,cusum,control chart,True,0.25890384615384615
+femto,P-retro,phi_q25,cusum_k0.5_h8,cusum,control chart,False,0.08175
+femto,P-retro,phi_q25,cusum_k0.5_h12,cusum,control chart,False,0.028557692307692308
+femto,P-retro,phi_q25,cusum_k1_h3,cusum,control chart,False,0.09582692307692309
+femto,P-retro,phi_q25,cusum_k1_h5,cusum,control chart,False,0.022173076923076924
+femto,P-retro,phi_q25,cusum_k1_h8,cusum,control chart,False,0.006403846153846154
+femto,P-retro,phi_q25,cusum_k1_h12,cusum,control chart,False,0.002576923076923077
+femto,P-retro,phi_q25,cusum_k2_h3,cusum,control chart,False,0.0029423076923076924
+femto,P-retro,phi_q25,cusum_k2_h5,cusum,control chart,False,0.001326923076923077
+femto,P-retro,phi_q25,cusum_k2_h8,cusum,control chart,False,0.0005769230769230769
+femto,P-retro,phi_q25,cusum_k2_h12,cusum,control chart,False,0.00023076923076923076
+femto,P-retro,phi_q25,cusum_k3_h3,cusum,control chart,False,0.0006153846153846154
+femto,P-retro,phi_q25,cusum_k3_h5,cusum,control chart,False,0.0002692307692307692
+femto,P-retro,phi_q25,cusum_k3_h8,cusum,control chart,False,9.615384615384615e-05
+femto,P-retro,phi_q25,cusum_k3_h12,cusum,control chart,False,3.846153846153846e-05
+femto,P-retro,phi_q25,thr_1sd,threshold,detector,False,0.6102307692307692
+femto,P-retro,phi_q25,thr_1.5sd,threshold,detector,False,0.15828846153846154
+femto,P-retro,phi_q25,thr_2sd,threshold,detector,False,0.02298076923076923
+femto,P-retro,phi_q25,thr_2.5sd,threshold,detector,False,0.003923076923076923
+femto,P-retro,phi_q25,thr_3sd,threshold,detector,True,0.0011153846153846155
+femto,P-retro,phi_q25,thr_4sd,threshold,detector,False,0.0002692307692307692
+femto,P-retro,phi_q25,thr_5sd,threshold,detector,False,3.846153846153846e-05
+femto,P-retro,phi_q25,thr_6sd,threshold,detector,False,3.846153846153846e-05
+femto,P-retro,phi_q25,thr_8sd,threshold,detector,False,0.0
+femto,P-retro,phi_q25,ma5_2sd,ma,detector,True,0.006423076923076922
+femto,P-retro,phi_q25,ma5_3sd,ma,detector,True,0.0005576923076923077
+femto,P-retro,phi_q25,ma5_5sd,ma,detector,True,1.923076923076923e-05
+femto,P-retro,phi_q25,ewmaAR_l0.05_L3,ewma_ar,"chart, AR-corrected",False,0.18394230769230768
+femto,P-retro,phi_q25,ewmaAR_l0.1_L3,ewma_ar,"chart, AR-corrected",False,0.17555769230769233
+femto,P-retro,phi_q25,ewmaAR_l0.2_L3,ewma_ar,"chart, AR-corrected",False,0.13378846153846155
+femto,P-retro,phi_q25,ewmaAR_l0.4_L3,ewma_ar,"chart, AR-corrected",False,0.056942307692307695
+femto,P-retro,phi_q25,ewmaAR_l0.8_L3,ewma_ar,"chart, AR-corrected",False,0.004692307692307692
+femto,P-retro,phi_q25,adapt_L2,adaptive,"chart, adaptive limits",False,0.005461538461538462
+femto,P-retro,phi_q25,adapt_L3,adaptive,"chart, adaptive limits",False,0.0
+femto,P-retro,phi_q25,adapt_L4,adaptive,"chart, adaptive limits",False,0.0
+femto,P-retro,phi_q25,adapt_L5,adaptive,"chart, adaptive limits",False,0.0
+femto,P-retro,phi_q25,adapt_L6,adaptive,"chart, adaptive limits",False,0.0
+femto,P-retro,phi_q75,ewma_l0.05_L2,ewma,control chart,False,0.7406923076923078
+femto,P-retro,phi_q75,ewma_l0.05_L3,ewma,control chart,False,0.5526923076923078
+femto,P-retro,phi_q75,ewma_l0.05_L4,ewma,control chart,False,0.3660769230769231
+femto,P-retro,phi_q75,ewma_l0.05_L5,ewma,control chart,False,0.22134615384615383
+femto,P-retro,phi_q75,ewma_l0.05_L6,ewma,control chart,False,0.12376923076923077
+femto,P-retro,phi_q75,ewma_l0.1_L2,ewma,control chart,False,0.817076923076923
+femto,P-retro,phi_q75,ewma_l0.1_L3,ewma,control chart,False,0.6259999999999999
+femto,P-retro,phi_q75,ewma_l0.1_L4,ewma,control chart,False,0.3934615384615385
+femto,P-retro,phi_q75,ewma_l0.1_L5,ewma,control chart,False,0.21084615384615385
+femto,P-retro,phi_q75,ewma_l0.1_L6,ewma,control chart,False,0.10205769230769232
+femto,P-retro,phi_q75,ewma_l0.2_L2,ewma,control chart,False,0.8597884615384614
+femto,P-retro,phi_q75,ewma_l0.2_L3,ewma,control chart,True,0.6398269230769231
+femto,P-retro,phi_q75,ewma_l0.2_L4,ewma,control chart,False,0.35032692307692304
+femto,P-retro,phi_q75,ewma_l0.2_L5,ewma,control chart,False,0.1514807692307692
+femto,P-retro,phi_q75,ewma_l0.2_L6,ewma,control chart,False,0.06067307692307693
+femto,P-retro,phi_q75,ewma_l0.4_L2,ewma,control chart,False,0.8398653846153846
+femto,P-retro,phi_q75,ewma_l0.4_L3,ewma,control chart,False,0.49971153846153843
+femto,P-retro,phi_q75,ewma_l0.4_L4,ewma,control chart,False,0.18251923076923077
+femto,P-retro,phi_q75,ewma_l0.4_L5,ewma,control chart,False,0.05592307692307693
+femto,P-retro,phi_q75,ewma_l0.4_L6,ewma,control chart,False,0.01903846153846154
+femto,P-retro,phi_q75,ewma_l0.8_L2,ewma,control chart,False,0.5603653846153847
+femto,P-retro,phi_q75,ewma_l0.8_L3,ewma,control chart,False,0.11917307692307691
+femto,P-retro,phi_q75,ewma_l0.8_L4,ewma,control chart,False,0.022576923076923074
+femto,P-retro,phi_q75,ewma_l0.8_L5,ewma,control chart,False,0.005692307692307692
+femto,P-retro,phi_q75,ewma_l0.8_L6,ewma,control chart,False,0.0019615384615384616
+femto,P-retro,phi_q75,cusum_k0.25_h3,cusum,control chart,False,0.9558846153846153
+femto,P-retro,phi_q75,cusum_k0.25_h5,cusum,control chart,False,0.8855769230769229
+femto,P-retro,phi_q75,cusum_k0.25_h8,cusum,control chart,False,0.7599615384615384
+femto,P-retro,phi_q75,cusum_k0.25_h12,cusum,control chart,False,0.5871538461538461
+femto,P-retro,phi_q75,cusum_k0.5_h3,cusum,control chart,False,0.8924038461538462
+femto,P-retro,phi_q75,cusum_k0.5_h5,cusum,control chart,True,0.7662115384615386
+femto,P-retro,phi_q75,cusum_k0.5_h8,cusum,control chart,False,0.5566923076923076
+femto,P-retro,phi_q75,cusum_k0.5_h12,cusum,control chart,False,0.34330769230769226
+femto,P-retro,phi_q75,cusum_k1_h3,cusum,control chart,False,0.6093461538461539
+femto,P-retro,phi_q75,cusum_k1_h5,cusum,control chart,False,0.3737307692307692
+femto,P-retro,phi_q75,cusum_k1_h8,cusum,control chart,False,0.1828461538461538
+femto,P-retro,phi_q75,cusum_k1_h12,cusum,control chart,False,0.08236538461538462
+femto,P-retro,phi_q75,cusum_k2_h3,cusum,control chart,False,0.0864423076923077
+femto,P-retro,phi_q75,cusum_k2_h5,cusum,control chart,False,0.038634615384615385
+femto,P-retro,phi_q75,cusum_k2_h8,cusum,control chart,False,0.016346153846153847
+femto,P-retro,phi_q75,cusum_k2_h12,cusum,control chart,False,0.008423076923076924
+femto,P-retro,phi_q75,cusum_k3_h3,cusum,control chart,False,0.01321153846153846
+femto,P-retro,phi_q75,cusum_k3_h5,cusum,control chart,False,0.006692307692307692
+femto,P-retro,phi_q75,cusum_k3_h8,cusum,control chart,False,0.0033461538461538464
+femto,P-retro,phi_q75,cusum_k3_h12,cusum,control chart,False,0.00175
+femto,P-retro,phi_q75,thr_1sd,threshold,detector,False,0.9002884615384613
+femto,P-retro,phi_q75,thr_1.5sd,threshold,detector,False,0.6655961538461538
+femto,P-retro,phi_q75,thr_2sd,threshold,detector,False,0.3236538461538462
+femto,P-retro,phi_q75,thr_2.5sd,threshold,detector,False,0.11542307692307692
+femto,P-retro,phi_q75,thr_3sd,threshold,detector,True,0.03965384615384616
+femto,P-retro,phi_q75,thr_4sd,threshold,detector,False,0.00675
+femto,P-retro,phi_q75,thr_5sd,threshold,detector,False,0.001980769230769231
+femto,P-retro,phi_q75,thr_6sd,threshold,detector,False,0.0006923076923076924
+femto,P-retro,phi_q75,thr_8sd,threshold,detector,False,0.0001730769230769231
+femto,P-retro,phi_q75,ma5_2sd,ma,detector,True,0.20796153846153848
+femto,P-retro,phi_q75,ma5_3sd,ma,detector,True,0.022
+femto,P-retro,phi_q75,ma5_5sd,ma,detector,True,0.0011538461538461537
+femto,P-retro,phi_q75,ewmaAR_l0.05_L3,ewma_ar,"chart, AR-corrected",False,0.26482692307692307
+femto,P-retro,phi_q75,ewmaAR_l0.1_L3,ewma_ar,"chart, AR-corrected",False,0.2865961538461539
+femto,P-retro,phi_q75,ewmaAR_l0.2_L3,ewma_ar,"chart, AR-corrected",False,0.28203846153846157
+femto,P-retro,phi_q75,ewmaAR_l0.4_L3,ewma_ar,"chart, AR-corrected",False,0.2215769230769231
+femto,P-retro,phi_q75,ewmaAR_l0.8_L3,ewma_ar,"chart, AR-corrected",False,0.08326923076923078
+femto,P-retro,phi_q75,adapt_L2,adaptive,"chart, adaptive limits",False,0.18275000000000002
+femto,P-retro,phi_q75,adapt_L3,adaptive,"chart, adaptive limits",False,0.002384615384615385
+femto,P-retro,phi_q75,adapt_L4,adaptive,"chart, adaptive limits",False,0.0
+femto,P-retro,phi_q75,adapt_L5,adaptive,"chart, adaptive limits",False,0.0
+femto,P-retro,phi_q75,adapt_L6,adaptive,"chart, adaptive limits",False,0.0

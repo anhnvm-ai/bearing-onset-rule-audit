@@ -1,0 +1,140 @@
+==============================================================================
+       J62  RUL EVALUATION ON A COMMON RETROSPECTIVE REFERENCE  (WP-C)        
+==============================================================================
+started 2026-10-24 23:42:13   B = 20,000   workers = 14   torch 2.14.0+cpu
+  J61 full calibration found: the calibrated labelers are included as a sensitivity analysis
+  P-retro|canonical        XJTU-SY: 14 usable bearings (dropped: Bearing1_4)
+  P-retro|canonical        FEMTO  : 9 usable bearings (dropped: Bearing2_4, Bearing2_5, Bearing2_6, Bearing2_7)
+  P-prospective|canonical  XJTU-SY: 12 usable bearings (dropped: Bearing1_4, Bearing1_5, Bearing2_4)
+  P-prospective|canonical  FEMTO  : 8 usable bearings (dropped: Bearing2_4, Bearing2_5, Bearing2_6, Bearing2_7, Bearing3_3)
+  P-prospective|matched5   XJTU-SY: 13 usable bearings (dropped: Bearing1_5, Bearing2_4)
+  P-prospective|matched5   FEMTO  : 8 usable bearings (dropped: Bearing2_4, Bearing2_5, Bearing2_6, Bearing2_7, Bearing3_3)
+  P-retro|matched5         XJTU-SY: 15 usable bearings (dropped: none)
+  P-retro|matched5         FEMTO  : 9 usable bearings (dropped: Bearing2_4, Bearing2_5, Bearing2_6, Bearing2_7)
+  P-retro canonical onsets against fig1_fpt_matrix.csv: 0 mismatches
+
+  training jobs: 1920 (1728 cached, 192 to run)
+    25/192 jobs done, 2.2 min
+    50/192 jobs done, 5.3 min
+    75/192 jobs done, 8.1 min
+    100/192 jobs done, 9.6 min
+    125/192 jobs done, 10.1 min
+    150/192 jobs done, 10.5 min
+    175/192 jobs done, 10.9 min
+    192/192 jobs done, 12.4 min
+  P-retro|canonical XJTU-SY: two-stage through T_hat against J39.two_stage: max difference 2.7e-15
+
+  P-retro|canonical XJTU-SY (14 bearings): significant reversals under C-common: 0; labeler main effect present: True -> reading 2: labeler main effect, no reversal
+    3sig_rms vs ma5sig  : best gru / gru; best differs in 0.07 of resamples; tau +0.72; reversals: none
+    3sig_rms vs ewma    : best gru / et:all; best differs in 0.94 of resamples; tau +0.33; reversals: none
+    3sig_rms vs pct05   : best gru / lin:rms; best differs in 0.99 of resamples; tau +0.00; reversals: none
+    ma5sig   vs ewma    : best gru / et:all; best differs in 0.95 of resamples; tau +0.06; reversals: none
+    ma5sig   vs pct05   : best gru / lin:rms; best differs in 0.98 of resamples; tau -0.06; reversals: none
+    ewma     vs pct05   : best et:all / lin:rms; best differs in 1.00 of resamples; tau +0.00; reversals: none
+  P-retro|canonical FEMTO: two-stage through T_hat against J39.two_stage: max difference 4.7e-15
+
+  P-retro|canonical FEMTO (9 bearings): significant reversals under C-common: 2; labeler main effect present: True -> reading 1: reversal under the common reference
+    3sig_rms vs ma5sig  : best tcn / ridge:all; best differs in 0.87 of resamples; tau -0.06; reversals: none
+    3sig_rms vs ewma    : best tcn / tcn; best differs in 0.24 of resamples; tau +0.61; reversals: none
+    3sig_rms vs pct05   : best tcn / knn:all; best differs in 0.98 of resamples; tau -0.06; reversals: none
+    ma5sig   vs ewma    : best ridge:all / tcn; best differs in 0.96 of resamples; tau +0.00; reversals: none
+    ma5sig   vs pct05   : best ridge:all / knn:all; best differs in 0.73 of resamples; tau +0.22; reversals: none
+    ewma     vs pct05   : best tcn / knn:all; best differs in 0.99 of resamples; tau +0.00; reversals: lin:rms vs gru; ridge:all vs gru
+
+  P-prospective|canonical XJTU-SY (12 bearings): significant reversals under C-common: 0; labeler main effect present: True -> reading 2: labeler main effect, no reversal
+    3sig_rms vs ma5sig  : best gru / gru; best differs in 0.23 of resamples; tau +0.67; reversals: none
+    3sig_rms vs ewma    : best gru / et:all; best differs in 0.84 of resamples; tau +0.33; reversals: none
+    3sig_rms vs pct05   : best gru / knn:all; best differs in 0.87 of resamples; tau +0.22; reversals: none
+    ma5sig   vs ewma    : best gru / et:all; best differs in 0.92 of resamples; tau +0.00; reversals: none
+    ma5sig   vs pct05   : best gru / knn:all; best differs in 0.89 of resamples; tau +0.00; reversals: none
+    ewma     vs pct05   : best et:all / knn:all; best differs in 0.91 of resamples; tau +0.11; reversals: none
+
+  P-prospective|canonical FEMTO (8 bearings): significant reversals under C-common: 2; labeler main effect present: True -> reading 1: reversal under the common reference
+    3sig_rms vs ma5sig  : best et:all / rf:all; best differs in 0.86 of resamples; tau +0.78; reversals: none
+    3sig_rms vs ewma    : best et:all / rf:all; best differs in 0.75 of resamples; tau +0.61; reversals: none
+    3sig_rms vs pct05   : best et:all / knn:all; best differs in 0.86 of resamples; tau +0.33; reversals: none
+    ma5sig   vs ewma    : best rf:all / rf:all; best differs in 0.76 of resamples; tau +0.83; reversals: none
+    ma5sig   vs pct05   : best rf:all / knn:all; best differs in 0.99 of resamples; tau +0.33; reversals: none
+    ewma     vs pct05   : best rf:all / knn:all; best differs in 0.96 of resamples; tau +0.17; reversals: lin:rms vs gru; ridge:all vs gru
+
+  P-prospective|matched5 XJTU-SY (13 bearings): significant reversals under C-common: 0; labeler main effect present: True -> reading 2: labeler main effect, no reversal
+    3sig_rms vs ma5sig  : best gru / gru; best differs in 0.63 of resamples; tau +0.56; reversals: none
+    3sig_rms vs ewma    : best gru / gru; best differs in 0.60 of resamples; tau +0.56; reversals: none
+    3sig_rms vs pct05   : best gru / lin:rms; best differs in 0.95 of resamples; tau +0.06; reversals: none
+    ma5sig   vs ewma    : best gru / gru; best differs in 0.28 of resamples; tau +1.00; reversals: none
+    ma5sig   vs pct05   : best gru / lin:rms; best differs in 0.94 of resamples; tau +0.28; reversals: none
+    ewma     vs pct05   : best gru / lin:rms; best differs in 0.96 of resamples; tau +0.28; reversals: none
+
+  P-prospective|matched5 FEMTO (8 bearings): significant reversals under C-common: 7; labeler main effect present: True -> reading 1: reversal under the common reference
+    3sig_rms vs ma5sig  : best gbr:all / tcn; best differs in 0.73 of resamples; tau +0.67; reversals: none
+    3sig_rms vs ewma    : best gbr:all / tcn; best differs in 0.82 of resamples; tau +0.67; reversals: none
+    3sig_rms vs pct05   : best gbr:all / knn:all; best differs in 0.82 of resamples; tau +0.28; reversals: lin:rms vs tcn
+    ma5sig   vs ewma    : best tcn / tcn; best differs in 0.14 of resamples; tau +1.00; reversals: none
+    ma5sig   vs pct05   : best tcn / knn:all; best differs in 0.98 of resamples; tau +0.06; reversals: lin:rms vs gru; lin:rms vs tcn; ridge:all vs tcn
+    ewma     vs pct05   : best tcn / knn:all; best differs in 0.99 of resamples; tau +0.06; reversals: lin:rms vs gru; lin:rms vs tcn; ridge:all vs tcn
+  P-retro|matched5 XJTU-SY: two-stage through T_hat against J39.two_stage: max difference 3.0e-15
+
+  P-retro|matched5 XJTU-SY (15 bearings): significant reversals under C-common: 0; labeler main effect present: True -> reading 2: labeler main effect, no reversal
+    3sig_rms vs ma5sig  : best gru / gbr:all; best differs in 0.83 of resamples; tau +0.56; reversals: none
+    3sig_rms vs ewma    : best gru / gru; best differs in 0.34 of resamples; tau +0.78; reversals: none
+    3sig_rms vs pct05   : best gru / lin:rms; best differs in 0.97 of resamples; tau +0.11; reversals: none
+    ma5sig   vs ewma    : best gbr:all / gru; best differs in 0.62 of resamples; tau +0.56; reversals: none
+    ma5sig   vs pct05   : best gbr:all / lin:rms; best differs in 0.98 of resamples; tau +0.33; reversals: none
+    ewma     vs pct05   : best gru / lin:rms; best differs in 0.98 of resamples; tau +0.00; reversals: none
+  P-retro|matched5 FEMTO: two-stage through T_hat against J39.two_stage: max difference 1.8e-15
+
+  P-retro|matched5 FEMTO (9 bearings): significant reversals under C-common: 3; labeler main effect present: True -> reading 1: reversal under the common reference
+    3sig_rms vs ma5sig  : best tcn / tcn; best differs in 0.04 of resamples; tau +1.00; reversals: none
+    3sig_rms vs ewma    : best tcn / tcn; best differs in 0.07 of resamples; tau +1.00; reversals: none
+    3sig_rms vs pct05   : best tcn / knn:all; best differs in 1.00 of resamples; tau +0.11; reversals: lin:rms vs gru
+    ma5sig   vs ewma    : best tcn / tcn; best differs in 0.05 of resamples; tau +1.00; reversals: none
+    ma5sig   vs pct05   : best tcn / knn:all; best differs in 1.00 of resamples; tau +0.11; reversals: lin:rms vs gru
+    ewma     vs pct05   : best tcn / knn:all; best differs in 0.99 of resamples; tau +0.11; reversals: lin:rms vs gru
+
+==============================================================================
+Replication on the submitted protocol (P-retro, canonical labelers, input (a), own targets)
+==============================================================================
+  six regressors against J35 (48 cells): largest |RMSE difference| 1.11e-16
+    xjtu   3sig_rms  gru: J47 (torch 2.12) 0.1363, here (torch 2.14.0+cpu) 0.1363, difference +0.0000
+    xjtu   3sig_rms  tcn: J47 (torch 2.12) 0.1507, here (torch 2.14.0+cpu) 0.1509, difference +0.0001
+    xjtu   ma5sig    gru: J47 (torch 2.12) 0.1667, here (torch 2.14.0+cpu) 0.1667, difference +0.0000
+    xjtu   ma5sig    tcn: J47 (torch 2.12) 0.1650, here (torch 2.14.0+cpu) 0.1663, difference +0.0013
+    xjtu   ewma      gru: J47 (torch 2.12) 0.3127, here (torch 2.14.0+cpu) 0.3127, difference +0.0000
+    xjtu   ewma      tcn: J47 (torch 2.12) 0.4548, here (torch 2.14.0+cpu) 0.4571, difference +0.0023
+    xjtu   pct05     gru: J47 (torch 2.12) 0.1248, here (torch 2.14.0+cpu) 0.1248, difference +0.0000
+    xjtu   pct05     tcn: J47 (torch 2.12) 0.1346, here (torch 2.14.0+cpu) 0.1348, difference +0.0002
+    femto  3sig_rms  gru: J47 (torch 2.12) 0.2681, here (torch 2.14.0+cpu) 0.2681, difference +0.0000
+    femto  3sig_rms  tcn: J47 (torch 2.12) 0.2766, here (torch 2.14.0+cpu) 0.2766, difference +0.0000
+    femto  ma5sig    gru: J47 (torch 2.12) 0.2922, here (torch 2.14.0+cpu) 0.2922, difference +0.0000
+    femto  ma5sig    tcn: J47 (torch 2.12) 0.3055, here (torch 2.14.0+cpu) 0.3055, difference +0.0000
+    femto  ewma      gru: J47 (torch 2.12) 0.3292, here (torch 2.14.0+cpu) 0.3292, difference +0.0000
+    femto  ewma      tcn: J47 (torch 2.12) 0.3288, here (torch 2.14.0+cpu) 0.3288, difference +0.0000
+    femto  pct05     gru: J47 (torch 2.12) 0.1805, here (torch 2.14.0+cpu) 0.1805, difference +0.0000
+    femto  pct05     tcn: J47 (torch 2.12) 0.1604, here (torch 2.14.0+cpu) 0.1604, difference -0.0000
+  GRU/TCN: largest |difference| 0.0023
+
+==============================================================================
+C-common RMSE on S_j (variant a) and C-rank concordance, by labeler (median over the nine models)
+==============================================================================
+  P-retro|canonical        XJTU-SY  3sig_rms: 0.212 / 0.772  ma5sig: 0.190 / 0.721  ewma: 0.241 / 0.702  pct05: 0.016 / 0.661
+  P-retro|canonical        FEMTO    3sig_rms: 0.163 / 0.667  ma5sig: 0.187 / 0.670  ewma: 0.209 / 0.607  pct05: 0.018 / 0.673
+  P-prospective|canonical  XJTU-SY  3sig_rms: 0.207 / 0.759  ma5sig: 0.190 / 0.685  ewma: 0.231 / 0.668  pct05: 0.015 / 0.673
+  P-prospective|canonical  FEMTO    3sig_rms: 0.157 / 0.665  ma5sig: 0.160 / 0.618  ewma: 0.160 / 0.640  pct05: 0.018 / 0.647
+  P-prospective|matched5   XJTU-SY  3sig_rms: 0.214 / 0.746  ma5sig: 0.217 / 0.661  ewma: 0.221 / 0.720  pct05: 0.017 / 0.675
+  P-prospective|matched5   FEMTO    3sig_rms: 0.157 / 0.674  ma5sig: 0.178 / 0.632  ewma: 0.178 / 0.642  pct05: 0.018 / 0.656
+  P-retro|matched5         XJTU-SY  3sig_rms: 0.224 / 0.720  ma5sig: 0.239 / 0.681  ewma: 0.224 / 0.671  pct05: 0.016 / 0.660
+  P-retro|matched5         FEMTO    3sig_rms: 0.263 / 0.615  ma5sig: 0.275 / 0.617  ewma: 0.272 / 0.612  pct05: 0.017 / 0.680
+
+  input variants (median over labelers and models of C-common RMSE on S_j): 
+    P-retro|canonical        XJTU-SY a: 0.202, b: 0.094, c: 0.168, d: 0.166
+    P-retro|canonical        FEMTO   a: 0.167, b: 0.142, c: 0.129, d: 0.143
+    P-prospective|canonical  XJTU-SY a: 0.203, b: 0.092, c: 0.174, d: 0.170
+    P-prospective|canonical  FEMTO   a: 0.148, b: 0.142, c: 0.134, d: 0.143
+    P-prospective|matched5   XJTU-SY a: 0.213, b: 0.114, c: 0.203, d: 0.199
+    P-prospective|matched5   FEMTO   a: 0.177, b: 0.137, c: 0.129, d: 0.149
+    P-retro|matched5         XJTU-SY a: 0.216, b: 0.123, c: 0.199, d: 0.188
+    P-retro|matched5         FEMTO   a: 0.255, b: 0.177, c: 0.139, d: 0.163
+    (a: per-record statistics; b: + elapsed record count; c, d: + history over 16, 64 records, tree models)
+
+wrote j62_common_reference.csv (736), j62_per_bearing.csv (8096), j62_rankings.csv (144), j62_main_effect.csv (144), j62_readings.csv (8), j62_oof_predictions parquet
+finished 2026-10-24 23:55:13

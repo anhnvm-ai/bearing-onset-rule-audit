@@ -1,0 +1,577 @@
+dataset,trajectory,rule,family,null,n_records,observed_index,null_fire_share,null_median_index,p_null_fires_by_observed
+xjtu,Bearing1_1,3sig_rms,detector,iid,123,70.0,0.001,34.5,0.001
+xjtu,Bearing1_1,ma3sig,detector,iid,123,71.0,0.0,,0.0
+xjtu,Bearing1_1,ma5sig,detector,iid,123,75.0,0.0,,0.0
+xjtu,Bearing1_1,ma2sig,detector,iid,123,37.0,0.002,88.5,0.0005
+xjtu,Bearing1_1,ewma,control chart,iid,123,24.0,0.07,73.0,0.0
+xjtu,Bearing1_1,cusum,control chart,iid,123,24.0,0.1545,70.0,0.0
+xjtu,Bearing1_1,3sig_rms,detector,ar1_raw,123,70.0,0.2415,56.0,0.158
+xjtu,Bearing1_1,ma3sig,detector,ar1_raw,123,71.0,0.2175,59.0,0.1385
+xjtu,Bearing1_1,ma5sig,detector,ar1_raw,123,75.0,0.0195,73.0,0.011
+xjtu,Bearing1_1,ma2sig,detector,ar1_raw,123,37.0,0.4775,50.0,0.141
+xjtu,Bearing1_1,ewma,control chart,ar1_raw,123,24.0,0.714,41.0,0.0655
+xjtu,Bearing1_1,cusum,control chart,ar1_raw,123,24.0,0.8,35.0,0.156
+xjtu,Bearing1_1,3sig_rms,detector,ar1_detr,123,70.0,0.0195,66.0,0.01
+xjtu,Bearing1_1,ma3sig,detector,ar1_detr,123,71.0,0.01,80.5,0.004
+xjtu,Bearing1_1,ma5sig,detector,ar1_detr,123,75.0,0.0,,0.0
+xjtu,Bearing1_1,ma2sig,detector,ar1_detr,123,37.0,0.095,62.0,0.014
+xjtu,Bearing1_1,ewma,control chart,ar1_detr,123,24.0,0.419,54.0,0.0035
+xjtu,Bearing1_1,cusum,control chart,ar1_detr,123,24.0,0.5585,50.0,0.0075
+xjtu,Bearing1_2,3sig_rms,detector,iid,161,31.0,0.0,,0.0
+xjtu,Bearing1_2,ma3sig,detector,iid,161,34.0,0.0,,0.0
+xjtu,Bearing1_2,ma5sig,detector,iid,161,35.0,0.0,,0.0
+xjtu,Bearing1_2,ma2sig,detector,iid,161,33.0,0.0005,0.0,0.0005
+xjtu,Bearing1_2,ewma,control chart,iid,161,32.0,0.0615,90.0,0.0
+xjtu,Bearing1_2,cusum,control chart,iid,161,32.0,0.1675,81.0,0.0005
+xjtu,Bearing1_2,3sig_rms,detector,ar1_raw,161,31.0,0.0005,59.0,0.0
+xjtu,Bearing1_2,ma3sig,detector,ar1_raw,161,34.0,0.0,,0.0
+xjtu,Bearing1_2,ma5sig,detector,ar1_raw,161,35.0,0.0,,0.0
+xjtu,Bearing1_2,ma2sig,detector,ar1_raw,161,33.0,0.0035,64.0,0.0
+xjtu,Bearing1_2,ewma,control chart,ar1_raw,161,32.0,0.09,83.0,0.0
+xjtu,Bearing1_2,cusum,control chart,ar1_raw,161,32.0,0.198,82.0,0.001
+xjtu,Bearing1_2,3sig_rms,detector,ar1_detr,161,31.0,0.0,,0.0
+xjtu,Bearing1_2,ma3sig,detector,ar1_detr,161,34.0,0.0,,0.0
+xjtu,Bearing1_2,ma5sig,detector,ar1_detr,161,35.0,0.0,,0.0
+xjtu,Bearing1_2,ma2sig,detector,ar1_detr,161,33.0,0.0005,85.0,0.0
+xjtu,Bearing1_2,ewma,control chart,ar1_detr,161,32.0,0.0875,90.0,0.0
+xjtu,Bearing1_2,cusum,control chart,ar1_detr,161,32.0,0.204,83.0,0.0005
+xjtu,Bearing1_3,3sig_rms,detector,iid,158,58.0,0.0,,0.0
+xjtu,Bearing1_3,ma3sig,detector,iid,158,60.0,0.0,,0.0
+xjtu,Bearing1_3,ma5sig,detector,iid,158,62.0,0.0,,0.0
+xjtu,Bearing1_3,ma2sig,detector,iid,158,59.0,0.0025,78.0,0.0005
+xjtu,Bearing1_3,ewma,control chart,iid,158,58.0,0.0645,91.0,0.0175
+xjtu,Bearing1_3,cusum,control chart,iid,158,28.0,0.175,81.5,0.0
+xjtu,Bearing1_3,3sig_rms,detector,ar1_raw,158,58.0,0.1495,78.0,0.0465
+xjtu,Bearing1_3,ma3sig,detector,ar1_raw,158,60.0,0.1145,79.0,0.0335
+xjtu,Bearing1_3,ma5sig,detector,ar1_raw,158,62.0,0.0045,101.0,0.001
+xjtu,Bearing1_3,ma2sig,detector,ar1_raw,158,59.0,0.401,69.0,0.1625
+xjtu,Bearing1_3,ewma,control chart,ar1_raw,158,58.0,0.7525,52.0,0.44
+xjtu,Bearing1_3,cusum,control chart,ar1_raw,158,28.0,0.861,41.0,0.2025
+xjtu,Bearing1_3,3sig_rms,detector,ar1_detr,158,58.0,0.0015,125.0,0.0
+xjtu,Bearing1_3,ma3sig,detector,ar1_detr,158,60.0,0.0015,98.0,0.0
+xjtu,Bearing1_3,ma5sig,detector,ar1_detr,158,62.0,0.0,,0.0
+xjtu,Bearing1_3,ma2sig,detector,ar1_detr,158,59.0,0.024,88.0,0.006
+xjtu,Bearing1_3,ewma,control chart,ar1_detr,158,58.0,0.2555,79.0,0.0795
+xjtu,Bearing1_3,cusum,control chart,ar1_detr,158,28.0,0.426,71.0,0.0045
+xjtu,Bearing1_4,3sig_rms,detector,iid,122,83.0,0.0,,0.0
+xjtu,Bearing1_4,ma3sig,detector,iid,122,84.0,0.0,,0.0
+xjtu,Bearing1_4,ma5sig,detector,iid,122,,0.0,,
+xjtu,Bearing1_4,ma2sig,detector,iid,122,82.0,0.0035,91.0,0.0015
+xjtu,Bearing1_4,ewma,control chart,iid,122,76.0,0.069,64.0,0.048
+xjtu,Bearing1_4,cusum,control chart,iid,122,5.0,0.155,61.0,0.0
+xjtu,Bearing1_4,3sig_rms,detector,ar1_raw,122,83.0,0.184,60.0,0.135
+xjtu,Bearing1_4,ma3sig,detector,ar1_raw,122,84.0,0.158,62.0,0.12
+xjtu,Bearing1_4,ma5sig,detector,ar1_raw,122,,0.015,66.5,
+xjtu,Bearing1_4,ma2sig,detector,ar1_raw,122,82.0,0.4245,55.0,0.316
+xjtu,Bearing1_4,ewma,control chart,ar1_raw,122,76.0,0.69,43.0,0.557
+xjtu,Bearing1_4,cusum,control chart,ar1_raw,122,5.0,0.788,38.0,0.0065
+xjtu,Bearing1_4,3sig_rms,detector,ar1_detr,122,83.0,0.015,73.5,0.01
+xjtu,Bearing1_4,ma3sig,detector,ar1_detr,122,84.0,0.004,65.0,0.003
+xjtu,Bearing1_4,ma5sig,detector,ar1_detr,122,,0.0,,
+xjtu,Bearing1_4,ma2sig,detector,ar1_detr,122,82.0,0.084,64.0,0.055
+xjtu,Bearing1_4,ewma,control chart,ar1_detr,122,76.0,0.3935,57.0,0.282
+xjtu,Bearing1_4,cusum,control chart,ar1_detr,122,5.0,0.527,51.0,0.0005
+xjtu,Bearing1_5,3sig_rms,detector,iid,52,27.0,0.003,23.0,0.002
+xjtu,Bearing1_5,ma3sig,detector,iid,52,29.0,0.0015,22.0,0.0015
+xjtu,Bearing1_5,ma5sig,detector,iid,52,31.0,0.0,,0.0
+xjtu,Bearing1_5,ma2sig,detector,iid,52,27.0,0.0165,30.0,0.007
+xjtu,Bearing1_5,ewma,control chart,iid,52,24.0,0.098,26.0,0.045
+xjtu,Bearing1_5,cusum,control chart,iid,52,24.0,0.1645,27.0,0.0715
+xjtu,Bearing1_5,3sig_rms,detector,ar1_raw,52,27.0,0.031,29.5,0.015
+xjtu,Bearing1_5,ma3sig,detector,ar1_raw,52,29.0,0.0185,32.0,0.009
+xjtu,Bearing1_5,ma5sig,detector,ar1_raw,52,31.0,0.0,,0.0
+xjtu,Bearing1_5,ma2sig,detector,ar1_raw,52,27.0,0.1,27.0,0.051
+xjtu,Bearing1_5,ewma,control chart,ar1_raw,52,24.0,0.2895,24.0,0.1505
+xjtu,Bearing1_5,cusum,control chart,ar1_raw,52,24.0,0.3845,23.0,0.206
+xjtu,Bearing1_5,3sig_rms,detector,ar1_detr,52,27.0,0.0,,0.0
+xjtu,Bearing1_5,ma3sig,detector,ar1_detr,52,29.0,0.0,,0.0
+xjtu,Bearing1_5,ma5sig,detector,ar1_detr,52,31.0,0.0,,0.0
+xjtu,Bearing1_5,ma2sig,detector,ar1_detr,52,27.0,0.0005,40.0,0.0
+xjtu,Bearing1_5,ewma,control chart,ar1_detr,52,24.0,0.022,28.5,0.0085
+xjtu,Bearing1_5,cusum,control chart,ar1_detr,52,24.0,0.0615,26.0,0.025
+xjtu,Bearing2_1,3sig_rms,detector,iid,491,452.0,0.0,,0.0
+xjtu,Bearing2_1,ma3sig,detector,iid,491,454.0,0.0,,0.0
+xjtu,Bearing2_1,ma5sig,detector,iid,491,454.0,0.0,,0.0
+xjtu,Bearing2_1,ma2sig,detector,iid,491,0.0,0.0,,0.0
+xjtu,Bearing2_1,ewma,control chart,iid,491,2.0,0.0695,289.0,0.0
+xjtu,Bearing2_1,cusum,control chart,iid,491,3.0,0.2285,230.0,0.0
+xjtu,Bearing2_1,3sig_rms,detector,ar1_raw,491,452.0,0.135,289.5,0.1255
+xjtu,Bearing2_1,ma3sig,detector,ar1_raw,491,454.0,0.093,285.5,0.0875
+xjtu,Bearing2_1,ma5sig,detector,ar1_raw,491,454.0,0.001,418.5,0.001
+xjtu,Bearing2_1,ma2sig,detector,ar1_raw,491,0.0,0.594,186.0,0.0055
+xjtu,Bearing2_1,ewma,control chart,ar1_raw,491,2.0,0.9875,59.0,0.006
+xjtu,Bearing2_1,cusum,control chart,ar1_raw,491,3.0,0.9995,42.0,0.0145
+xjtu,Bearing2_1,3sig_rms,detector,ar1_detr,491,452.0,0.004,255.0,0.0035
+xjtu,Bearing2_1,ma3sig,detector,ar1_detr,491,454.0,0.0,,0.0
+xjtu,Bearing2_1,ma5sig,detector,ar1_detr,491,454.0,0.0,,0.0
+xjtu,Bearing2_1,ma2sig,detector,ar1_detr,491,0.0,0.0455,253.0,0.0
+xjtu,Bearing2_1,ewma,control chart,ar1_detr,491,2.0,0.591,194.0,0.0
+xjtu,Bearing2_1,cusum,control chart,ar1_detr,491,3.0,0.835,135.5,0.001
+xjtu,Bearing2_2,3sig_rms,detector,iid,161,46.0,0.0,,0.0
+xjtu,Bearing2_2,ma3sig,detector,iid,161,47.0,0.0,,0.0
+xjtu,Bearing2_2,ma5sig,detector,iid,161,48.0,0.0,,0.0
+xjtu,Bearing2_2,ma2sig,detector,iid,161,47.0,0.001,136.5,0.0
+xjtu,Bearing2_2,ewma,control chart,iid,161,46.0,0.074,90.0,0.007
+xjtu,Bearing2_2,cusum,control chart,iid,161,46.0,0.171,87.0,0.0185
+xjtu,Bearing2_2,3sig_rms,detector,ar1_raw,161,46.0,0.01,82.5,0.002
+xjtu,Bearing2_2,ma3sig,detector,ar1_raw,161,47.0,0.005,90.0,0.0005
+xjtu,Bearing2_2,ma5sig,detector,ar1_raw,161,48.0,0.0,,0.0
+xjtu,Bearing2_2,ma2sig,detector,ar1_raw,161,47.0,0.09,85.0,0.0155
+xjtu,Bearing2_2,ewma,control chart,ar1_raw,161,46.0,0.4195,71.0,0.097
+xjtu,Bearing2_2,cusum,control chart,ar1_raw,161,46.0,0.59,63.0,0.1805
+xjtu,Bearing2_2,3sig_rms,detector,ar1_detr,161,46.0,0.0,,0.0
+xjtu,Bearing2_2,ma3sig,detector,ar1_detr,161,47.0,0.0,,0.0
+xjtu,Bearing2_2,ma5sig,detector,ar1_detr,161,48.0,0.0,,0.0
+xjtu,Bearing2_2,ma2sig,detector,ar1_detr,161,47.0,0.003,95.0,0.001
+xjtu,Bearing2_2,ewma,control chart,ar1_detr,161,46.0,0.1225,85.0,0.0195
+xjtu,Bearing2_2,cusum,control chart,ar1_detr,161,46.0,0.2555,79.0,0.0405
+xjtu,Bearing2_3,3sig_rms,detector,iid,533,127.0,0.0,,0.0
+xjtu,Bearing2_3,ma3sig,detector,iid,533,130.0,0.0,,0.0
+xjtu,Bearing2_3,ma5sig,detector,iid,533,134.0,0.0,,0.0
+xjtu,Bearing2_3,ma2sig,detector,iid,533,127.0,0.001,340.5,0.0
+xjtu,Bearing2_3,ewma,control chart,iid,533,17.0,0.0835,290.0,0.001
+xjtu,Bearing2_3,cusum,control chart,iid,533,16.0,0.237,265.5,0.0025
+xjtu,Bearing2_3,3sig_rms,detector,ar1_raw,533,127.0,0.012,256.0,0.001
+xjtu,Bearing2_3,ma3sig,detector,ar1_raw,533,130.0,0.0025,278.0,0.0
+xjtu,Bearing2_3,ma5sig,detector,ar1_raw,533,134.0,0.0,,0.0
+xjtu,Bearing2_3,ma2sig,detector,ar1_raw,533,127.0,0.1505,280.0,0.0165
+xjtu,Bearing2_3,ewma,control chart,ar1_raw,533,17.0,0.8505,145.0,0.0455
+xjtu,Bearing2_3,cusum,control chart,ar1_raw,533,16.0,0.9575,93.0,0.07
+xjtu,Bearing2_3,3sig_rms,detector,ar1_detr,533,127.0,0.005,415.5,0.0005
+xjtu,Bearing2_3,ma3sig,detector,ar1_detr,533,130.0,0.0005,454.0,0.0
+xjtu,Bearing2_3,ma5sig,detector,ar1_detr,533,134.0,0.0,,0.0
+xjtu,Bearing2_3,ma2sig,detector,ar1_detr,533,127.0,0.169,291.5,0.013
+xjtu,Bearing2_3,ewma,control chart,ar1_detr,533,17.0,0.8345,143.0,0.0455
+xjtu,Bearing2_3,cusum,control chart,ar1_detr,533,16.0,0.9635,89.0,0.081
+xjtu,Bearing2_4,3sig_rms,detector,iid,42,11.0,0.0035,21.0,0.0
+xjtu,Bearing2_4,ma3sig,detector,iid,42,13.0,0.003,19.0,0.0
+xjtu,Bearing2_4,ma5sig,detector,iid,42,19.0,0.001,28.5,0.0005
+xjtu,Bearing2_4,ma2sig,detector,iid,42,11.0,0.0195,19.0,0.0025
+xjtu,Bearing2_4,ewma,control chart,iid,42,10.0,0.116,21.0,0.008
+xjtu,Bearing2_4,cusum,control chart,iid,42,10.0,0.184,20.5,0.01
+xjtu,Bearing2_4,3sig_rms,detector,ar1_raw,42,11.0,0.0265,22.0,0.006
+xjtu,Bearing2_4,ma3sig,detector,ar1_raw,42,13.0,0.017,25.0,0.0025
+xjtu,Bearing2_4,ma5sig,detector,ar1_raw,42,19.0,0.001,24.0,0.0005
+xjtu,Bearing2_4,ma2sig,detector,ar1_raw,42,11.0,0.083,22.0,0.0075
+xjtu,Bearing2_4,ewma,control chart,ar1_raw,42,10.0,0.2505,20.0,0.021
+xjtu,Bearing2_4,cusum,control chart,ar1_raw,42,10.0,0.333,19.0,0.0285
+xjtu,Bearing2_4,3sig_rms,detector,ar1_detr,42,11.0,0.0005,8.0,0.0005
+xjtu,Bearing2_4,ma3sig,detector,ar1_detr,42,13.0,0.0005,10.0,0.0005
+xjtu,Bearing2_4,ma5sig,detector,ar1_detr,42,19.0,0.0,,0.0
+xjtu,Bearing2_4,ma2sig,detector,ar1_detr,42,11.0,0.002,14.5,0.0005
+xjtu,Bearing2_4,ewma,control chart,ar1_detr,42,10.0,0.0195,20.0,0.001
+xjtu,Bearing2_4,cusum,control chart,ar1_detr,42,10.0,0.0445,22.0,0.002
+xjtu,Bearing2_5,3sig_rms,detector,iid,339,133.0,0.0,,0.0
+xjtu,Bearing2_5,ma3sig,detector,iid,339,134.0,0.0,,0.0
+xjtu,Bearing2_5,ma5sig,detector,iid,339,151.0,0.0,,0.0
+xjtu,Bearing2_5,ma2sig,detector,iid,339,124.0,0.0,,0.0
+xjtu,Bearing2_5,ewma,control chart,iid,339,3.0,0.072,208.5,0.0
+xjtu,Bearing2_5,cusum,control chart,iid,339,4.0,0.1965,185.0,0.0
+xjtu,Bearing2_5,3sig_rms,detector,ar1_raw,339,133.0,0.3045,160.0,0.1165
+xjtu,Bearing2_5,ma3sig,detector,ar1_raw,339,134.0,0.2735,163.0,0.102
+xjtu,Bearing2_5,ma5sig,detector,ar1_raw,339,151.0,0.02,188.5,0.0075
+xjtu,Bearing2_5,ma2sig,detector,ar1_raw,339,124.0,0.655,122.0,0.3345
+xjtu,Bearing2_5,ewma,control chart,ar1_raw,339,3.0,0.9765,42.0,0.047
+xjtu,Bearing2_5,cusum,control chart,ar1_raw,339,4.0,0.9955,33.0,0.07
+xjtu,Bearing2_5,3sig_rms,detector,ar1_detr,339,133.0,0.022,187.0,0.0075
+xjtu,Bearing2_5,ma3sig,detector,ar1_detr,339,134.0,0.0075,177.0,0.002
+xjtu,Bearing2_5,ma5sig,detector,ar1_detr,339,151.0,0.0,,0.0
+xjtu,Bearing2_5,ma2sig,detector,ar1_detr,339,124.0,0.216,173.5,0.057
+xjtu,Bearing2_5,ewma,control chart,ar1_detr,339,3.0,0.7875,96.0,0.0025
+xjtu,Bearing2_5,cusum,control chart,ar1_detr,339,4.0,0.9305,66.0,0.007
+xjtu,Bearing3_1,3sig_rms,detector,iid,2538,2340.0,0.0,,0.0
+xjtu,Bearing3_1,ma3sig,detector,iid,2538,2341.0,0.0,,0.0
+xjtu,Bearing3_1,ma5sig,detector,iid,2538,2350.0,0.0,,0.0
+xjtu,Bearing3_1,ma2sig,detector,iid,2538,24.0,0.0005,0.0,0.0005
+xjtu,Bearing3_1,ewma,control chart,iid,2538,16.0,0.1995,1289.0,0.0005
+xjtu,Bearing3_1,cusum,control chart,iid,2538,17.0,0.636,983.5,0.0025
+xjtu,Bearing3_1,3sig_rms,detector,ar1_raw,2538,2340.0,0.2085,1283.0,0.1945
+xjtu,Bearing3_1,ma3sig,detector,ar1_raw,2538,2341.0,0.105,1447.0,0.0965
+xjtu,Bearing3_1,ma5sig,detector,ar1_raw,2538,2350.0,0.0,,0.0
+xjtu,Bearing3_1,ma2sig,detector,ar1_raw,2538,24.0,0.9735,394.0,0.0425
+xjtu,Bearing3_1,ewma,control chart,ar1_raw,2538,16.0,1.0,68.0,0.146
+xjtu,Bearing3_1,cusum,control chart,ar1_raw,2538,17.0,1.0,50.0,0.2125
+xjtu,Bearing3_1,3sig_rms,detector,ar1_detr,2538,2340.0,0.1955,1288.0,0.177
+xjtu,Bearing3_1,ma3sig,detector,ar1_detr,2538,2341.0,0.0875,1266.0,0.0795
+xjtu,Bearing3_1,ma5sig,detector,ar1_detr,2538,2350.0,0.0,,0.0
+xjtu,Bearing3_1,ma2sig,detector,ar1_detr,2538,24.0,0.9625,457.0,0.0415
+xjtu,Bearing3_1,ewma,control chart,ar1_detr,2538,16.0,1.0,72.0,0.142
+xjtu,Bearing3_1,cusum,control chart,ar1_detr,2538,17.0,1.0,51.0,0.197
+xjtu,Bearing3_2,3sig_rms,detector,iid,2496,1441.0,0.0,,0.0
+xjtu,Bearing3_2,ma3sig,detector,iid,2496,1509.0,0.0,,0.0
+xjtu,Bearing3_2,ma5sig,detector,iid,2496,1804.0,0.0,,0.0
+xjtu,Bearing3_2,ma2sig,detector,iid,2496,1234.0,0.0,,0.0
+xjtu,Bearing3_2,ewma,control chart,iid,2496,59.0,0.1955,1255.0,0.005
+xjtu,Bearing3_2,cusum,control chart,iid,2496,53.0,0.6075,984.0,0.0165
+xjtu,Bearing3_2,3sig_rms,detector,ar1_raw,2496,1441.0,0.008,1408.0,0.0045
+xjtu,Bearing3_2,ma3sig,detector,ar1_raw,2496,1509.0,0.0,,0.0
+xjtu,Bearing3_2,ma5sig,detector,ar1_raw,2496,1804.0,0.0,,0.0
+xjtu,Bearing3_2,ma2sig,detector,ar1_raw,2496,1234.0,0.152,1189.0,0.0785
+xjtu,Bearing3_2,ewma,control chart,ar1_raw,2496,59.0,0.993,327.5,0.114
+xjtu,Bearing3_2,cusum,control chart,ar1_raw,2496,53.0,1.0,140.0,0.2065
+xjtu,Bearing3_2,3sig_rms,detector,ar1_detr,2496,1441.0,0.002,740.0,0.002
+xjtu,Bearing3_2,ma3sig,detector,ar1_detr,2496,1509.0,0.0,,0.0
+xjtu,Bearing3_2,ma5sig,detector,ar1_detr,2496,1804.0,0.0,,0.0
+xjtu,Bearing3_2,ma2sig,detector,ar1_detr,2496,1234.0,0.0615,1523.0,0.0235
+xjtu,Bearing3_2,ewma,control chart,ar1_detr,2496,59.0,0.951,484.5,0.066
+xjtu,Bearing3_2,cusum,control chart,ar1_detr,2496,53.0,0.998,210.0,0.1435
+xjtu,Bearing3_3,3sig_rms,detector,iid,371,341.0,0.0,,0.0
+xjtu,Bearing3_3,ma3sig,detector,iid,371,343.0,0.0,,0.0
+xjtu,Bearing3_3,ma5sig,detector,iid,371,343.0,0.0,,0.0
+xjtu,Bearing3_3,ma2sig,detector,iid,371,342.0,0.0,,0.0
+xjtu,Bearing3_3,ewma,control chart,iid,371,26.0,0.068,202.5,0.001
+xjtu,Bearing3_3,cusum,control chart,iid,371,20.0,0.214,189.5,0.0025
+xjtu,Bearing3_3,3sig_rms,detector,ar1_raw,371,341.0,0.139,196.0,0.1315
+xjtu,Bearing3_3,ma3sig,detector,ar1_raw,371,343.0,0.098,202.0,0.092
+xjtu,Bearing3_3,ma5sig,detector,ar1_raw,371,343.0,0.001,192.0,0.001
+xjtu,Bearing3_3,ma2sig,detector,ar1_raw,371,342.0,0.5445,157.0,0.5245
+xjtu,Bearing3_3,ewma,control chart,ar1_raw,371,26.0,0.968,54.0,0.24
+xjtu,Bearing3_3,cusum,control chart,ar1_raw,371,20.0,0.9965,41.0,0.2465
+xjtu,Bearing3_3,3sig_rms,detector,ar1_detr,371,341.0,0.1335,199.0,0.1195
+xjtu,Bearing3_3,ma3sig,detector,ar1_detr,371,343.0,0.086,213.0,0.079
+xjtu,Bearing3_3,ma5sig,detector,ar1_detr,371,343.0,0.001,301.5,0.001
+xjtu,Bearing3_3,ma2sig,detector,ar1_detr,371,342.0,0.5505,153.0,0.532
+xjtu,Bearing3_3,ewma,control chart,ar1_detr,371,26.0,0.962,58.0,0.22
+xjtu,Bearing3_3,cusum,control chart,ar1_detr,371,20.0,0.993,41.0,0.2365
+xjtu,Bearing3_4,3sig_rms,detector,iid,1515,1417.0,0.0,,0.0
+xjtu,Bearing3_4,ma3sig,detector,iid,1515,1417.0,0.0,,0.0
+xjtu,Bearing3_4,ma5sig,detector,iid,1515,1418.0,0.0,,0.0
+xjtu,Bearing3_4,ma2sig,detector,iid,1515,1011.0,0.0,,0.0
+xjtu,Bearing3_4,ewma,control chart,iid,1515,3.0,0.13,767.5,0.0
+xjtu,Bearing3_4,cusum,control chart,iid,1515,4.0,0.47,641.0,0.0
+xjtu,Bearing3_4,3sig_rms,detector,ar1_raw,1515,1417.0,0.1305,785.0,0.1215
+xjtu,Bearing3_4,ma3sig,detector,ar1_raw,1515,1417.0,0.058,883.0,0.0555
+xjtu,Bearing3_4,ma5sig,detector,ar1_raw,1515,1418.0,0.0,,0.0
+xjtu,Bearing3_4,ma2sig,detector,ar1_raw,1515,1011.0,0.847,415.0,0.7465
+xjtu,Bearing3_4,ewma,control chart,ar1_raw,1515,3.0,1.0,75.0,0.0155
+xjtu,Bearing3_4,cusum,control chart,ar1_raw,1515,4.0,1.0,52.0,0.032
+xjtu,Bearing3_4,3sig_rms,detector,ar1_detr,1515,1417.0,0.0,,0.0
+xjtu,Bearing3_4,ma3sig,detector,ar1_detr,1515,1417.0,0.0,,0.0
+xjtu,Bearing3_4,ma5sig,detector,ar1_detr,1515,1418.0,0.0,,0.0
+xjtu,Bearing3_4,ma2sig,detector,ar1_detr,1515,1011.0,0.0055,1079.0,0.0025
+xjtu,Bearing3_4,ewma,control chart,ar1_detr,1515,3.0,0.506,643.5,0.0005
+xjtu,Bearing3_4,cusum,control chart,ar1_detr,1515,4.0,0.8665,378.0,0.0005
+xjtu,Bearing3_5,3sig_rms,detector,iid,114,32.0,0.001,81.0,0.0
+xjtu,Bearing3_5,ma3sig,detector,iid,114,35.0,0.0005,106.0,0.0
+xjtu,Bearing3_5,ma5sig,detector,iid,114,93.0,0.0,,0.0
+xjtu,Bearing3_5,ma2sig,detector,iid,114,30.0,0.004,63.5,0.0005
+xjtu,Bearing3_5,ewma,control chart,iid,114,23.0,0.078,62.0,0.0
+xjtu,Bearing3_5,cusum,control chart,iid,114,22.0,0.1615,58.0,0.0
+xjtu,Bearing3_5,3sig_rms,detector,ar1_raw,114,32.0,0.3325,53.0,0.0515
+xjtu,Bearing3_5,ma3sig,detector,ar1_raw,114,35.0,0.3105,55.0,0.0555
+xjtu,Bearing3_5,ma5sig,detector,ar1_raw,114,93.0,0.064,62.0,0.0515
+xjtu,Bearing3_5,ma2sig,detector,ar1_raw,114,30.0,0.5465,45.0,0.111
+xjtu,Bearing3_5,ewma,control chart,ar1_raw,114,23.0,0.718,37.0,0.102
+xjtu,Bearing3_5,cusum,control chart,ar1_raw,114,22.0,0.7845,34.0,0.125
+xjtu,Bearing3_5,3sig_rms,detector,ar1_detr,114,32.0,0.2145,55.0,0.0395
+xjtu,Bearing3_5,ma3sig,detector,ar1_detr,114,35.0,0.175,57.0,0.035
+xjtu,Bearing3_5,ma5sig,detector,ar1_detr,114,93.0,0.0205,61.0,0.0175
+xjtu,Bearing3_5,ma2sig,detector,ar1_detr,114,30.0,0.4285,48.0,0.0895
+xjtu,Bearing3_5,ewma,control chart,ar1_detr,114,23.0,0.6735,39.0,0.0625
+xjtu,Bearing3_5,cusum,control chart,ar1_detr,114,22.0,0.764,37.0,0.064
+femto,Bearing1_1,3sig_rms,detector,iid,466,274.0,0.0,,0.0
+femto,Bearing1_1,ma3sig,detector,iid,466,220.0,0.0,,0.0
+femto,Bearing1_1,ma5sig,detector,iid,466,220.0,0.0,,0.0
+femto,Bearing1_1,ma2sig,detector,iid,466,3.0,0.0,,0.0
+femto,Bearing1_1,ewma,control chart,iid,466,3.0,0.0715,248.0,0.0
+femto,Bearing1_1,cusum,control chart,iid,466,3.0,0.238,236.0,0.0
+femto,Bearing1_1,3sig_rms,detector,ar1_raw,466,274.0,0.156,262.0,0.085
+femto,Bearing1_1,ma3sig,detector,ar1_raw,466,220.0,0.1085,274.0,0.0385
+femto,Bearing1_1,ma5sig,detector,ar1_raw,466,220.0,0.0015,190.0,0.001
+femto,Bearing1_1,ma2sig,detector,ar1_raw,466,3.0,0.6205,174.0,0.0105
+femto,Bearing1_1,ewma,control chart,ar1_raw,466,3.0,0.9855,57.0,0.0215
+femto,Bearing1_1,cusum,control chart,ar1_raw,466,3.0,0.9995,42.0,0.0215
+femto,Bearing1_1,3sig_rms,detector,ar1_detr,466,274.0,0.037,275.0,0.018
+femto,Bearing1_1,ma3sig,detector,ar1_detr,466,220.0,0.0105,260.0,0.004
+femto,Bearing1_1,ma5sig,detector,ar1_detr,466,220.0,0.0,,0.0
+femto,Bearing1_1,ma2sig,detector,ar1_detr,466,3.0,0.322,221.5,0.006
+femto,Bearing1_1,ewma,control chart,ar1_detr,466,3.0,0.9135,94.0,0.008
+femto,Bearing1_1,cusum,control chart,ar1_detr,466,3.0,0.986,59.0,0.008
+femto,Bearing1_2,3sig_rms,detector,iid,144,136.0,0.0005,53.0,0.0005
+femto,Bearing1_2,ma3sig,detector,iid,144,138.0,0.0,,0.0
+femto,Bearing1_2,ma5sig,detector,iid,144,138.0,0.0,,0.0
+femto,Bearing1_2,ma2sig,detector,iid,144,137.0,0.0015,112.0,0.0015
+femto,Bearing1_2,ewma,control chart,iid,144,93.0,0.0665,71.0,0.0435
+femto,Bearing1_2,cusum,control chart,iid,144,93.0,0.164,73.5,0.1095
+femto,Bearing1_2,3sig_rms,detector,ar1_raw,144,136.0,0.0005,64.0,0.0005
+femto,Bearing1_2,ma3sig,detector,ar1_raw,144,138.0,0.0,,0.0
+femto,Bearing1_2,ma5sig,detector,ar1_raw,144,138.0,0.0,,0.0
+femto,Bearing1_2,ma2sig,detector,ar1_raw,144,137.0,0.0005,53.0,0.0005
+femto,Bearing1_2,ewma,control chart,ar1_raw,144,93.0,0.075,73.0,0.0495
+femto,Bearing1_2,cusum,control chart,ar1_raw,144,93.0,0.181,71.5,0.1205
+femto,Bearing1_2,3sig_rms,detector,ar1_detr,144,136.0,0.0,,0.0
+femto,Bearing1_2,ma3sig,detector,ar1_detr,144,138.0,0.0,,0.0
+femto,Bearing1_2,ma5sig,detector,ar1_detr,144,138.0,0.0,,0.0
+femto,Bearing1_2,ma2sig,detector,ar1_detr,144,137.0,0.0,,0.0
+femto,Bearing1_2,ewma,control chart,ar1_detr,144,93.0,0.027,85.0,0.015
+femto,Bearing1_2,cusum,control chart,ar1_detr,144,93.0,0.0895,76.0,0.057
+femto,Bearing1_4,3sig_rms,detector,iid,237,180.0,0.0,,0.0
+femto,Bearing1_4,ma3sig,detector,iid,237,181.0,0.0,,0.0
+femto,Bearing1_4,ma5sig,detector,iid,237,181.0,0.0,,0.0
+femto,Bearing1_4,ma2sig,detector,iid,237,180.0,0.0,,0.0
+femto,Bearing1_4,ewma,control chart,iid,237,180.0,0.0655,128.0,0.0525
+femto,Bearing1_4,cusum,control chart,iid,237,15.0,0.1765,122.0,0.001
+femto,Bearing1_4,3sig_rms,detector,ar1_raw,237,180.0,0.082,143.5,0.0605
+femto,Bearing1_4,ma3sig,detector,ar1_raw,237,181.0,0.043,145.0,0.0305
+femto,Bearing1_4,ma5sig,detector,ar1_raw,237,181.0,0.0005,65.0,0.0005
+femto,Bearing1_4,ma2sig,detector,ar1_raw,237,180.0,0.36,119.0,0.287
+femto,Bearing1_4,ewma,control chart,ar1_raw,237,180.0,0.8165,67.0,0.761
+femto,Bearing1_4,cusum,control chart,ar1_raw,237,15.0,0.929,51.0,0.1115
+femto,Bearing1_4,3sig_rms,detector,ar1_detr,237,180.0,0.0575,127.0,0.043
+femto,Bearing1_4,ma3sig,detector,ar1_detr,237,181.0,0.035,123.5,0.0265
+femto,Bearing1_4,ma5sig,detector,ar1_detr,237,181.0,0.0005,70.0,0.0005
+femto,Bearing1_4,ma2sig,detector,ar1_detr,237,180.0,0.2995,111.0,0.2465
+femto,Bearing1_4,ewma,control chart,ar1_detr,237,180.0,0.7835,69.0,0.719
+femto,Bearing1_4,cusum,control chart,ar1_detr,237,15.0,0.911,51.0,0.108
+femto,Bearing1_5,3sig_rms,detector,iid,410,401.0,0.0,,0.0
+femto,Bearing1_5,ma3sig,detector,iid,410,403.0,0.0,,0.0
+femto,Bearing1_5,ma5sig,detector,iid,410,404.0,0.0,,0.0
+femto,Bearing1_5,ma2sig,detector,iid,410,403.0,0.0,,0.0
+femto,Bearing1_5,ewma,control chart,iid,410,26.0,0.0655,230.0,0.0
+femto,Bearing1_5,cusum,control chart,iid,410,26.0,0.22,214.5,0.004
+femto,Bearing1_5,3sig_rms,detector,ar1_raw,410,401.0,0.028,252.5,0.0275
+femto,Bearing1_5,ma3sig,detector,ar1_raw,410,403.0,0.0105,275.0,0.0105
+femto,Bearing1_5,ma5sig,detector,ar1_raw,410,404.0,0.0,,0.0
+femto,Bearing1_5,ma2sig,detector,ar1_raw,410,403.0,0.274,196.5,0.272
+femto,Bearing1_5,ewma,control chart,ar1_raw,410,26.0,0.8715,99.0,0.1095
+femto,Bearing1_5,cusum,control chart,ar1_raw,410,26.0,0.9675,64.0,0.2045
+femto,Bearing1_5,3sig_rms,detector,ar1_detr,410,401.0,0.0235,300.0,0.0235
+femto,Bearing1_5,ma3sig,detector,ar1_detr,410,403.0,0.0095,274.0,0.0095
+femto,Bearing1_5,ma5sig,detector,ar1_detr,410,404.0,0.0,,0.0
+femto,Bearing1_5,ma2sig,detector,ar1_detr,410,403.0,0.258,211.5,0.255
+femto,Bearing1_5,ewma,control chart,ar1_detr,410,26.0,0.8735,105.0,0.105
+femto,Bearing1_5,cusum,control chart,ar1_detr,410,26.0,0.97,71.0,0.179
+femto,Bearing1_6,3sig_rms,detector,iid,408,272.0,0.0,,0.0
+femto,Bearing1_6,ma3sig,detector,iid,408,274.0,0.0,,0.0
+femto,Bearing1_6,ma5sig,detector,iid,408,274.0,0.0,,0.0
+femto,Bearing1_6,ma2sig,detector,iid,408,273.0,0.0,,0.0
+femto,Bearing1_6,ewma,control chart,iid,408,13.0,0.0685,202.0,0.0
+femto,Bearing1_6,cusum,control chart,iid,408,11.0,0.217,211.0,0.001
+femto,Bearing1_6,3sig_rms,detector,ar1_raw,408,272.0,0.0915,228.0,0.0595
+femto,Bearing1_6,ma3sig,detector,ar1_raw,408,274.0,0.056,238.0,0.0335
+femto,Bearing1_6,ma5sig,detector,ar1_raw,408,274.0,0.0,,0.0
+femto,Bearing1_6,ma2sig,detector,ar1_raw,408,273.0,0.492,176.0,0.3715
+femto,Bearing1_6,ewma,control chart,ar1_raw,408,13.0,0.9605,65.0,0.102
+femto,Bearing1_6,cusum,control chart,ar1_raw,408,11.0,0.9945,46.0,0.1165
+femto,Bearing1_6,3sig_rms,detector,ar1_detr,408,272.0,0.0005,178.0,0.0005
+femto,Bearing1_6,ma3sig,detector,ar1_detr,408,274.0,0.0,,0.0
+femto,Bearing1_6,ma5sig,detector,ar1_detr,408,274.0,0.0,,0.0
+femto,Bearing1_6,ma2sig,detector,ar1_detr,408,273.0,0.012,256.0,0.007
+femto,Bearing1_6,ewma,control chart,ar1_detr,408,13.0,0.3335,193.0,0.004
+femto,Bearing1_6,cusum,control chart,ar1_detr,408,11.0,0.5995,152.0,0.0085
+femto,Bearing1_7,3sig_rms,detector,iid,376,366.0,0.0,,0.0
+femto,Bearing1_7,ma3sig,detector,iid,376,367.0,0.0,,0.0
+femto,Bearing1_7,ma5sig,detector,iid,376,368.0,0.0,,0.0
+femto,Bearing1_7,ma2sig,detector,iid,376,364.0,0.0005,282.0,0.0005
+femto,Bearing1_7,ewma,control chart,iid,376,4.0,0.0595,204.0,0.0
+femto,Bearing1_7,cusum,control chart,iid,376,4.0,0.205,205.0,0.0
+femto,Bearing1_7,3sig_rms,detector,ar1_raw,376,366.0,0.221,189.5,0.2175
+femto,Bearing1_7,ma3sig,detector,ar1_raw,376,367.0,0.188,197.0,0.1855
+femto,Bearing1_7,ma5sig,detector,ar1_raw,376,368.0,0.0055,281.0,0.0055
+femto,Bearing1_7,ma2sig,detector,ar1_raw,376,364.0,0.634,137.0,0.6255
+femto,Bearing1_7,ewma,control chart,ar1_raw,376,4.0,0.9845,46.0,0.0435
+femto,Bearing1_7,cusum,control chart,ar1_raw,376,4.0,0.9965,37.0,0.0455
+femto,Bearing1_7,3sig_rms,detector,ar1_detr,376,366.0,0.0,,0.0
+femto,Bearing1_7,ma3sig,detector,ar1_detr,376,367.0,0.0,,0.0
+femto,Bearing1_7,ma5sig,detector,ar1_detr,376,368.0,0.0,,0.0
+femto,Bearing1_7,ma2sig,detector,ar1_detr,376,364.0,0.0,,0.0
+femto,Bearing1_7,ewma,control chart,ar1_detr,376,4.0,0.0395,219.0,0.0
+femto,Bearing1_7,cusum,control chart,ar1_detr,376,4.0,0.1375,193.0,0.0005
+femto,Bearing2_1,3sig_rms,detector,iid,151,40.0,0.0,,0.0
+femto,Bearing2_1,ma3sig,detector,iid,151,40.0,0.0,,0.0
+femto,Bearing2_1,ma5sig,detector,iid,151,148.0,0.0,,0.0
+femto,Bearing2_1,ma2sig,detector,iid,151,32.0,0.002,118.5,0.0
+femto,Bearing2_1,ewma,control chart,iid,151,30.0,0.0665,81.0,0.0
+femto,Bearing2_1,cusum,control chart,iid,151,30.0,0.1645,71.0,0.0005
+femto,Bearing2_1,3sig_rms,detector,ar1_raw,151,40.0,0.037,87.5,0.003
+femto,Bearing2_1,ma3sig,detector,ar1_raw,151,40.0,0.018,89.5,0.0
+femto,Bearing2_1,ma5sig,detector,ar1_raw,151,148.0,0.0,,0.0
+femto,Bearing2_1,ma2sig,detector,ar1_raw,151,32.0,0.1905,78.0,0.0055
+femto,Bearing2_1,ewma,control chart,ar1_raw,151,30.0,0.548,61.0,0.022
+femto,Bearing2_1,cusum,control chart,ar1_raw,151,30.0,0.693,53.0,0.0805
+femto,Bearing2_1,3sig_rms,detector,ar1_detr,151,40.0,0.035,83.0,0.0045
+femto,Bearing2_1,ma3sig,detector,ar1_detr,151,40.0,0.015,81.0,0.001
+femto,Bearing2_1,ma5sig,detector,ar1_detr,151,148.0,0.0005,60.0,0.0005
+femto,Bearing2_1,ma2sig,detector,ar1_detr,151,32.0,0.1925,78.0,0.0055
+femto,Bearing2_1,ewma,control chart,ar1_detr,151,30.0,0.5505,59.0,0.021
+femto,Bearing2_1,cusum,control chart,ar1_detr,151,30.0,0.7205,52.0,0.078
+femto,Bearing2_4,3sig_rms,detector,iid,125,,0.0,,
+femto,Bearing2_4,ma3sig,detector,iid,125,,0.0,,
+femto,Bearing2_4,ma5sig,detector,iid,125,,0.0,,
+femto,Bearing2_4,ma2sig,detector,iid,125,,0.0015,81.0,
+femto,Bearing2_4,ewma,control chart,iid,125,,0.072,66.5,
+femto,Bearing2_4,cusum,control chart,iid,125,,0.1675,66.0,
+femto,Bearing2_4,3sig_rms,detector,ar1_raw,125,,0.002,116.0,
+femto,Bearing2_4,ma3sig,detector,ar1_raw,125,,0.0005,96.0,
+femto,Bearing2_4,ma5sig,detector,ar1_raw,125,,0.0,,
+femto,Bearing2_4,ma2sig,detector,ar1_raw,125,,0.0245,66.0,
+femto,Bearing2_4,ewma,control chart,ar1_raw,125,,0.2405,65.0,
+femto,Bearing2_4,cusum,control chart,ar1_raw,125,,0.3905,62.0,
+femto,Bearing2_4,3sig_rms,detector,ar1_detr,125,,0.0005,45.0,
+femto,Bearing2_4,ma3sig,detector,ar1_detr,125,,0.0,,
+femto,Bearing2_4,ma5sig,detector,ar1_detr,125,,0.0,,
+femto,Bearing2_4,ma2sig,detector,ar1_detr,125,,0.0025,60.0,
+femto,Bearing2_4,ewma,control chart,ar1_detr,125,,0.099,64.0,
+femto,Bearing2_4,cusum,control chart,ar1_detr,125,,0.2005,63.0,
+femto,Bearing2_5,3sig_rms,detector,iid,386,,0.0005,185.0,
+femto,Bearing2_5,ma3sig,detector,iid,386,,0.0,,
+femto,Bearing2_5,ma5sig,detector,iid,386,,0.0,,
+femto,Bearing2_5,ma2sig,detector,iid,386,,0.0,,
+femto,Bearing2_5,ewma,control chart,iid,386,19.0,0.0835,208.0,0.0005
+femto,Bearing2_5,cusum,control chart,iid,386,19.0,0.219,193.0,0.002
+femto,Bearing2_5,3sig_rms,detector,ar1_raw,386,,0.0,,
+femto,Bearing2_5,ma3sig,detector,ar1_raw,386,,0.0,,
+femto,Bearing2_5,ma5sig,detector,ar1_raw,386,,0.0,,
+femto,Bearing2_5,ma2sig,detector,ar1_raw,386,,0.016,226.0,
+femto,Bearing2_5,ewma,control chart,ar1_raw,386,19.0,0.4015,165.0,0.008
+femto,Bearing2_5,cusum,control chart,ar1_raw,386,19.0,0.6765,136.0,0.028
+femto,Bearing2_5,3sig_rms,detector,ar1_detr,386,,0.0,,
+femto,Bearing2_5,ma3sig,detector,ar1_detr,386,,0.0,,
+femto,Bearing2_5,ma5sig,detector,ar1_detr,386,,0.0,,
+femto,Bearing2_5,ma2sig,detector,ar1_detr,386,,0.0015,329.0,
+femto,Bearing2_5,ewma,control chart,ar1_detr,386,19.0,0.1535,200.0,0.0005
+femto,Bearing2_5,cusum,control chart,ar1_detr,386,19.0,0.368,184.0,0.0045
+femto,Bearing2_6,3sig_rms,detector,iid,116,,0.0,,
+femto,Bearing2_6,ma3sig,detector,iid,116,,0.0,,
+femto,Bearing2_6,ma5sig,detector,iid,116,,0.0,,
+femto,Bearing2_6,ma2sig,detector,iid,116,,0.0015,89.0,
+femto,Bearing2_6,ewma,control chart,iid,116,,0.0675,61.0,
+femto,Bearing2_6,cusum,control chart,iid,116,,0.1595,57.0,
+femto,Bearing2_6,3sig_rms,detector,ar1_raw,116,,0.0095,79.0,
+femto,Bearing2_6,ma3sig,detector,ar1_raw,116,,0.0025,54.0,
+femto,Bearing2_6,ma5sig,detector,ar1_raw,116,,0.0,,
+femto,Bearing2_6,ma2sig,detector,ar1_raw,116,,0.0805,62.0,
+femto,Bearing2_6,ewma,control chart,ar1_raw,116,,0.373,52.0,
+femto,Bearing2_6,cusum,control chart,ar1_raw,116,,0.5125,48.0,
+femto,Bearing2_6,3sig_rms,detector,ar1_detr,116,,0.0015,63.0,
+femto,Bearing2_6,ma3sig,detector,ar1_detr,116,,0.0,,
+femto,Bearing2_6,ma5sig,detector,ar1_detr,116,,0.0,,
+femto,Bearing2_6,ma2sig,detector,ar1_detr,116,,0.0285,67.0,
+femto,Bearing2_6,ewma,control chart,ar1_detr,116,,0.222,58.0,
+femto,Bearing2_6,cusum,control chart,ar1_detr,116,,0.369,55.0,
+femto,Bearing2_7,3sig_rms,detector,iid,38,,0.0085,19.0,
+femto,Bearing2_7,ma3sig,detector,iid,38,,0.008,22.0,
+femto,Bearing2_7,ma5sig,detector,iid,38,,0.0005,33.0,
+femto,Bearing2_7,ma2sig,detector,iid,38,,0.0285,18.0,
+femto,Bearing2_7,ewma,control chart,iid,38,,0.1235,18.0,
+femto,Bearing2_7,cusum,control chart,iid,38,31.0,0.1985,19.0,0.182
+femto,Bearing2_7,3sig_rms,detector,ar1_raw,38,,0.046,18.5,
+femto,Bearing2_7,ma3sig,detector,ar1_raw,38,,0.036,22.0,
+femto,Bearing2_7,ma5sig,detector,ar1_raw,38,,0.002,30.0,
+femto,Bearing2_7,ma2sig,detector,ar1_raw,38,,0.1215,18.0,
+femto,Bearing2_7,ewma,control chart,ar1_raw,38,,0.2725,17.0,
+femto,Bearing2_7,cusum,control chart,ar1_raw,38,31.0,0.361,17.0,0.341
+femto,Bearing2_7,3sig_rms,detector,ar1_detr,38,,0.0055,18.0,
+femto,Bearing2_7,ma3sig,detector,ar1_detr,38,,0.0015,11.0,
+femto,Bearing2_7,ma5sig,detector,ar1_detr,38,,0.0005,30.0,
+femto,Bearing2_7,ma2sig,detector,ar1_detr,38,,0.0145,21.0,
+femto,Bearing2_7,ewma,control chart,ar1_detr,38,,0.073,20.0,
+femto,Bearing2_7,cusum,control chart,ar1_detr,38,31.0,0.134,19.5,0.119
+femto,Bearing3_1,3sig_rms,detector,iid,89,85.0,0.0,,0.0
+femto,Bearing3_1,ma3sig,detector,iid,89,86.0,0.0,,0.0
+femto,Bearing3_1,ma5sig,detector,iid,89,86.0,0.0,,0.0
+femto,Bearing3_1,ma2sig,detector,iid,89,86.0,0.0035,40.0,0.0035
+femto,Bearing3_1,ewma,control chart,iid,89,85.0,0.0875,44.0,0.087
+femto,Bearing3_1,cusum,control chart,iid,89,85.0,0.1665,45.0,0.166
+femto,Bearing3_1,3sig_rms,detector,ar1_raw,89,85.0,0.242,44.0,0.2395
+femto,Bearing3_1,ma3sig,detector,ar1_raw,89,86.0,0.2125,45.0,0.2125
+femto,Bearing3_1,ma5sig,detector,ar1_raw,89,86.0,0.0285,48.0,0.0285
+femto,Bearing3_1,ma2sig,detector,ar1_raw,89,86.0,0.4615,37.0,0.4615
+femto,Bearing3_1,ewma,control chart,ar1_raw,89,85.0,0.6505,32.0,0.6485
+femto,Bearing3_1,cusum,control chart,ar1_raw,89,85.0,0.7265,30.0,0.7245
+femto,Bearing3_1,3sig_rms,detector,ar1_detr,89,85.0,0.042,45.0,0.042
+femto,Bearing3_1,ma3sig,detector,ar1_detr,89,86.0,0.0295,44.0,0.0295
+femto,Bearing3_1,ma5sig,detector,ar1_detr,89,86.0,0.0,,0.0
+femto,Bearing3_1,ma2sig,detector,ar1_detr,89,86.0,0.18,42.0,0.18
+femto,Bearing3_1,ewma,control chart,ar1_detr,89,85.0,0.4575,38.0,0.455
+femto,Bearing3_1,cusum,control chart,ar1_detr,89,85.0,0.5655,36.0,0.56
+femto,Bearing3_3,3sig_rms,detector,iid,72,52.0,0.001,34.0,0.001
+femto,Bearing3_3,ma3sig,detector,iid,72,54.0,0.0,,0.0
+femto,Bearing3_3,ma5sig,detector,iid,72,55.0,0.0,,0.0
+femto,Bearing3_3,ma2sig,detector,iid,72,53.0,0.0045,54.0,0.0015
+femto,Bearing3_3,ewma,control chart,iid,72,16.0,0.092,39.0,0.001
+femto,Bearing3_3,cusum,control chart,iid,72,15.0,0.17,40.0,0.001
+femto,Bearing3_3,3sig_rms,detector,ar1_raw,72,52.0,0.005,43.0,0.0035
+femto,Bearing3_3,ma3sig,detector,ar1_raw,72,54.0,0.002,40.0,0.0015
+femto,Bearing3_3,ma5sig,detector,ar1_raw,72,55.0,0.0,,0.0
+femto,Bearing3_3,ma2sig,detector,ar1_raw,72,53.0,0.035,38.5,0.026
+femto,Bearing3_3,ewma,control chart,ar1_raw,72,16.0,0.209,34.0,0.0105
+femto,Bearing3_3,cusum,control chart,ar1_raw,72,15.0,0.328,33.0,0.008
+femto,Bearing3_3,3sig_rms,detector,ar1_detr,72,52.0,0.009,44.5,0.006
+femto,Bearing3_3,ma3sig,detector,ar1_detr,72,54.0,0.0035,33.0,0.002
+femto,Bearing3_3,ma5sig,detector,ar1_detr,72,55.0,0.0,,0.0
+femto,Bearing3_3,ma2sig,detector,ar1_detr,72,53.0,0.0435,35.0,0.0355
+femto,Bearing3_3,ewma,control chart,ar1_detr,72,16.0,0.2345,34.0,0.0115
+femto,Bearing3_3,cusum,control chart,ar1_detr,72,15.0,0.334,33.0,0.006
+ims,IMS_1st_test_B3,3sig_rms,detector,iid,719,707.0,0.0,,0.0
+ims,IMS_1st_test_B3,ma3sig,detector,iid,719,708.0,0.0,,0.0
+ims,IMS_1st_test_B3,ma5sig,detector,iid,719,710.0,0.0,,0.0
+ims,IMS_1st_test_B3,ma2sig,detector,iid,719,673.0,0.0005,244.0,0.0005
+ims,IMS_1st_test_B3,ewma,control chart,iid,719,600.0,0.083,378.0,0.0695
+ims,IMS_1st_test_B3,cusum,control chart,iid,719,80.0,0.3015,336.0,0.021
+ims,IMS_1st_test_B3,3sig_rms,detector,ar1_raw,719,707.0,0.4435,308.0,0.441
+ims,IMS_1st_test_B3,ma3sig,detector,ar1_raw,719,708.0,0.431,309.0,0.429
+ims,IMS_1st_test_B3,ma5sig,detector,ar1_raw,719,710.0,0.0845,378.0,0.0845
+ims,IMS_1st_test_B3,ma2sig,detector,ar1_raw,719,673.0,0.7825,181.0,0.7705
+ims,IMS_1st_test_B3,ewma,control chart,ar1_raw,719,600.0,0.998,55.0,0.9975
+ims,IMS_1st_test_B3,cusum,control chart,ar1_raw,719,80.0,0.9995,46.0,0.7235
+ims,IMS_1st_test_B3,3sig_rms,detector,ar1_detr,719,707.0,0.308,335.5,0.304
+ims,IMS_1st_test_B3,ma3sig,detector,ar1_detr,719,708.0,0.275,347.5,0.2725
+ims,IMS_1st_test_B3,ma5sig,detector,ar1_detr,719,710.0,0.0135,434.0,0.0135
+ims,IMS_1st_test_B3,ma2sig,detector,ar1_detr,719,673.0,0.798,187.0,0.787
+ims,IMS_1st_test_B3,ewma,control chart,ar1_detr,719,600.0,1.0,52.0,1.0
+ims,IMS_1st_test_B3,cusum,control chart,ar1_detr,719,80.0,1.0,43.0,0.7735
+ims,IMS_1st_test_B4,3sig_rms,detector,iid,719,574.0,0.0,,0.0
+ims,IMS_1st_test_B4,ma3sig,detector,iid,719,575.0,0.0,,0.0
+ims,IMS_1st_test_B4,ma5sig,detector,iid,719,,0.0,,
+ims,IMS_1st_test_B4,ma2sig,detector,iid,719,552.0,0.0,,0.0
+ims,IMS_1st_test_B4,ewma,control chart,iid,719,497.0,0.082,413.0,0.0545
+ims,IMS_1st_test_B4,cusum,control chart,iid,719,126.0,0.2865,338.0,0.0305
+ims,IMS_1st_test_B4,3sig_rms,detector,ar1_raw,719,574.0,0.0135,382.0,0.011
+ims,IMS_1st_test_B4,ma3sig,detector,ar1_raw,719,575.0,0.002,348.5,0.002
+ims,IMS_1st_test_B4,ma5sig,detector,ar1_raw,719,,0.0,,
+ims,IMS_1st_test_B4,ma2sig,detector,ar1_raw,719,552.0,0.196,363.5,0.153
+ims,IMS_1st_test_B4,ewma,control chart,ar1_raw,719,497.0,0.92,153.0,0.8535
+ims,IMS_1st_test_B4,cusum,control chart,ar1_raw,719,126.0,0.9885,91.0,0.659
+ims,IMS_1st_test_B4,3sig_rms,detector,ar1_detr,719,574.0,0.0,,0.0
+ims,IMS_1st_test_B4,ma3sig,detector,ar1_detr,719,575.0,0.0,,0.0
+ims,IMS_1st_test_B4,ma5sig,detector,ar1_detr,719,,0.0,,
+ims,IMS_1st_test_B4,ma2sig,detector,ar1_detr,719,552.0,0.005,428.0,0.004
+ims,IMS_1st_test_B4,ewma,control chart,ar1_detr,719,497.0,0.365,320.0,0.2745
+ims,IMS_1st_test_B4,cusum,control chart,ar1_detr,719,126.0,0.687,260.0,0.1485
+ims,IMS_2nd_test_B1,3sig_rms,detector,iid,328,178.0,0.0,,0.0
+ims,IMS_2nd_test_B1,ma3sig,detector,iid,328,179.0,0.0,,0.0
+ims,IMS_2nd_test_B1,ma5sig,detector,iid,328,182.0,0.0,,0.0
+ims,IMS_2nd_test_B1,ma2sig,detector,iid,328,178.0,0.0,,0.0
+ims,IMS_2nd_test_B1,ewma,control chart,iid,328,178.0,0.063,212.0,0.025
+ims,IMS_2nd_test_B1,cusum,control chart,iid,328,178.0,0.1975,177.0,0.1
+ims,IMS_2nd_test_B1,3sig_rms,detector,ar1_raw,328,178.0,0.0,,0.0
+ims,IMS_2nd_test_B1,ma3sig,detector,ar1_raw,328,179.0,0.0,,0.0
+ims,IMS_2nd_test_B1,ma5sig,detector,ar1_raw,328,182.0,0.0,,0.0
+ims,IMS_2nd_test_B1,ma2sig,detector,ar1_raw,328,178.0,0.0015,91.0,0.001
+ims,IMS_2nd_test_B1,ewma,control chart,ar1_raw,328,178.0,0.1055,167.0,0.0585
+ims,IMS_2nd_test_B1,cusum,control chart,ar1_raw,328,178.0,0.2865,152.0,0.17
+ims,IMS_2nd_test_B1,3sig_rms,detector,ar1_detr,328,178.0,0.0,,0.0
+ims,IMS_2nd_test_B1,ma3sig,detector,ar1_detr,328,179.0,0.0,,0.0
+ims,IMS_2nd_test_B1,ma5sig,detector,ar1_detr,328,182.0,0.0,,0.0
+ims,IMS_2nd_test_B1,ma2sig,detector,ar1_detr,328,178.0,0.0005,181.0,0.0
+ims,IMS_2nd_test_B1,ewma,control chart,ar1_detr,328,178.0,0.07,177.0,0.0355
+ims,IMS_2nd_test_B1,cusum,control chart,ar1_detr,328,178.0,0.195,175.0,0.099
+ims,IMS_3rd_test_B3,3sig_rms,detector,iid,2108,6.0,0.0,,0.0
+ims,IMS_3rd_test_B3,ma3sig,detector,iid,2108,8.0,0.0,,0.0
+ims,IMS_3rd_test_B3,ma5sig,detector,iid,2108,1990.0,0.0,,0.0
+ims,IMS_3rd_test_B3,ma2sig,detector,iid,2108,6.0,0.0005,1731.0,0.0
+ims,IMS_3rd_test_B3,ewma,control chart,iid,2108,5.0,0.181,1121.0,0.0
+ims,IMS_3rd_test_B3,cusum,control chart,iid,2108,5.0,0.5645,865.0,0.0
+ims,IMS_3rd_test_B3,3sig_rms,detector,ar1_raw,2108,6.0,0.0055,1346.0,0.0
+ims,IMS_3rd_test_B3,ma3sig,detector,ar1_raw,2108,8.0,0.0,,0.0
+ims,IMS_3rd_test_B3,ma5sig,detector,ar1_raw,2108,1990.0,0.0,,0.0
+ims,IMS_3rd_test_B3,ma2sig,detector,ar1_raw,2108,6.0,0.1775,1121.0,0.003
+ims,IMS_3rd_test_B3,ewma,control chart,ar1_raw,2108,5.0,0.99,284.0,0.005
+ims,IMS_3rd_test_B3,cusum,control chart,ar1_raw,2108,5.0,1.0,136.0,0.0075
+ims,IMS_3rd_test_B3,3sig_rms,detector,ar1_detr,2108,6.0,0.0015,946.0,0.0
+ims,IMS_3rd_test_B3,ma3sig,detector,ar1_detr,2108,8.0,0.0,,0.0
+ims,IMS_3rd_test_B3,ma5sig,detector,ar1_detr,2108,1990.0,0.0,,0.0
+ims,IMS_3rd_test_B3,ma2sig,detector,ar1_detr,2108,6.0,0.101,928.0,0.0015
+ims,IMS_3rd_test_B3,ewma,control chart,ar1_detr,2108,5.0,0.972,346.0,0.0065
+ims,IMS_3rd_test_B3,cusum,control chart,ar1_detr,2108,5.0,0.9985,157.0,0.0075

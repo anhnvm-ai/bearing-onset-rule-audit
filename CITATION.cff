@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article and this repository."
+type: software
+title: "bearing-onset-rule-audit: code and derived data"
+abstract: >-
+  Code and derived data for the article "Effect of Onset Rules and Their Implementation on Degradation Labels and Remaining-Useful-Life Evaluation in Run-to-Failure Bearing Data".
+authors:
+  - name: "Anh Nguyen Vu Minh"
+  - name: "Cao-Phuc Ha"
+  - name: "Nguyen Le Thai"
+  - name: "Huu-Tho Nguyen"
+  - name: "Phu-Nguyen Le"
+version: "1.1.0"
+date-released: "2026-10-26"
+repository-code: "https://github.com/anhnvm-ai/bearing-onset-rule-audit"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - bearing prognostics
+  - degradation onset
+  - first prediction time
+  - remaining useful life
+  - run-to-failure data
+  - statistical process control

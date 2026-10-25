@@ -1,0 +1,15 @@
+dataset,term,delta_macro_f1,source,detail
+ims,leakage_window,0.0105150721491282,J1b,"S0 leaky minus S1 clean: same test records, same eval windows, real labels"
+ims,leakage_trajectory,0.2433845325821094,J1b,S1 random records minus S2 whole trajectories held out
+ims,condition_shift,0.3843295765891936,J1b,S2 trajectory-wise minus S3 condition-wise
+nsk,leakage_window,0.0806573808545135,J1b,"S0 leaky minus S1 clean: same test records, same eval windows, real labels"
+xjtu,leakage_window,0.0366974127883491,J1b,"S0 leaky minus S1 clean: same test records, same eval windows, real labels"
+xjtu,leakage_trajectory,0.213729851378306,J1b,S1 random records minus S2 whole trajectories held out
+xjtu,condition_shift,-0.0211310891084094,J1b,S2 trajectory-wise minus S3 condition-wise
+ims,boundary,0.2516012861767455,J3/J4,best-method macro-F1 across 5 non-degenerate published rules
+nsk,boundary,0.1019762845849802,J3/J4,best-method macro-F1 across 7 non-degenerate published rules
+xjtu,boundary,0.3487452659917789,J3/J4,best-method macro-F1 across 7 non-degenerate published rules
+nsk,aggregation,0.1040322580645161,J6,"median macro-F1 across 6 pooling rules at h5, thresholds fitted per rule"
+nsk,optimization,0.4497,e5,"resnet macro-F1 range over 5 seeds, fixed 12-epoch budget"
+ims,normalization,0.1939037130168053,J7,change in GAP(forest - best threshold) when features are made relative
+xjtu,normalization,0.13527608926518775,J7,change in GAP(forest - best threshold) when features are made relative

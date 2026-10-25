@@ -1,0 +1,331 @@
+dataset,trajectory,n_records,rule,family,fired,fpt_index,fpt_fraction,baseline_records,inside_baseline,degenerate_on_dataset
+xjtu,Bearing2_4,42,3sig_rms,detector,True,11.0,0.2619047619047619,8,False,False
+xjtu,Bearing2_4,42,ma3sig,detector,True,13.0,0.3095238095238095,8,False,False
+xjtu,Bearing2_4,42,ma5sig,detector,True,19.0,0.4523809523809524,8,False,False
+xjtu,Bearing2_4,42,ma2sig,detector,True,11.0,0.2619047619047619,8,False,True
+xjtu,Bearing2_4,42,3sig_kurt,detector,False,,,8,False,True
+xjtu,Bearing2_4,42,ewma,control chart,True,10.0,0.238095238095238,8,False,True
+xjtu,Bearing2_4,42,cusum,control chart,True,10.0,0.238095238095238,8,False,True
+xjtu,Bearing2_4,42,pct02,percentile,True,41.0,0.9761904761904762,8,False,False
+xjtu,Bearing2_4,42,pct05,percentile,True,39.0,0.9285714285714286,8,False,False
+xjtu,Bearing2_4,42,pct10,percentile,True,37.0,0.8809523809523809,8,False,False
+xjtu,Bearing1_5,52,3sig_rms,detector,True,27.0,0.5192307692307693,10,False,False
+xjtu,Bearing1_5,52,ma3sig,detector,True,29.0,0.5576923076923077,10,False,False
+xjtu,Bearing1_5,52,ma5sig,detector,True,31.0,0.5961538461538461,10,False,False
+xjtu,Bearing1_5,52,ma2sig,detector,True,27.0,0.5192307692307693,10,False,True
+xjtu,Bearing1_5,52,3sig_kurt,detector,False,,,10,False,True
+xjtu,Bearing1_5,52,ewma,control chart,True,24.0,0.4615384615384615,10,False,True
+xjtu,Bearing1_5,52,cusum,control chart,True,24.0,0.4615384615384615,10,False,True
+xjtu,Bearing1_5,52,pct02,percentile,True,50.0,0.9615384615384616,10,False,False
+xjtu,Bearing1_5,52,pct05,percentile,True,49.0,0.9423076923076924,10,False,False
+xjtu,Bearing1_5,52,pct10,percentile,True,46.0,0.8846153846153846,10,False,False
+xjtu,Bearing3_5,114,3sig_rms,detector,True,32.0,0.2807017543859649,22,False,False
+xjtu,Bearing3_5,114,ma3sig,detector,True,35.0,0.3070175438596491,22,False,False
+xjtu,Bearing3_5,114,ma5sig,detector,True,93.0,0.8157894736842105,22,False,False
+xjtu,Bearing3_5,114,ma2sig,detector,True,30.0,0.2631578947368421,22,False,True
+xjtu,Bearing3_5,114,3sig_kurt,detector,True,73.0,0.6403508771929824,22,False,True
+xjtu,Bearing3_5,114,ewma,control chart,True,23.0,0.2017543859649122,22,False,True
+xjtu,Bearing3_5,114,cusum,control chart,True,22.0,0.1929824561403508,22,False,True
+xjtu,Bearing3_5,114,pct02,percentile,True,111.0,0.9736842105263158,22,False,False
+xjtu,Bearing3_5,114,pct05,percentile,True,108.0,0.9473684210526316,22,False,False
+xjtu,Bearing3_5,114,pct10,percentile,True,102.0,0.8947368421052632,22,False,False
+xjtu,Bearing1_4,122,3sig_rms,detector,True,83.0,0.680327868852459,24,False,False
+xjtu,Bearing1_4,122,ma3sig,detector,True,84.0,0.6885245901639344,24,False,False
+xjtu,Bearing1_4,122,ma5sig,detector,False,,,24,False,False
+xjtu,Bearing1_4,122,ma2sig,detector,True,82.0,0.6721311475409836,24,False,True
+xjtu,Bearing1_4,122,3sig_kurt,detector,True,85.0,0.6967213114754098,24,False,True
+xjtu,Bearing1_4,122,ewma,control chart,True,76.0,0.6229508196721312,24,False,True
+xjtu,Bearing1_4,122,cusum,control chart,True,5.0,0.040983606557377,24,True,True
+xjtu,Bearing1_4,122,pct02,percentile,True,119.0,0.9754098360655736,24,False,False
+xjtu,Bearing1_4,122,pct05,percentile,True,115.0,0.9426229508196722,24,False,False
+xjtu,Bearing1_4,122,pct10,percentile,True,109.0,0.8934426229508197,24,False,False
+xjtu,Bearing1_1,123,3sig_rms,detector,True,70.0,0.5691056910569106,24,False,False
+xjtu,Bearing1_1,123,ma3sig,detector,True,71.0,0.5772357723577236,24,False,False
+xjtu,Bearing1_1,123,ma5sig,detector,True,75.0,0.6097560975609756,24,False,False
+xjtu,Bearing1_1,123,ma2sig,detector,True,37.0,0.3008130081300813,24,False,True
+xjtu,Bearing1_1,123,3sig_kurt,detector,False,,,24,False,True
+xjtu,Bearing1_1,123,ewma,control chart,True,24.0,0.1951219512195122,24,False,True
+xjtu,Bearing1_1,123,cusum,control chart,True,24.0,0.1951219512195122,24,False,True
+xjtu,Bearing1_1,123,pct02,percentile,True,120.0,0.975609756097561,24,False,False
+xjtu,Bearing1_1,123,pct05,percentile,True,116.0,0.943089430894309,24,False,False
+xjtu,Bearing1_1,123,pct10,percentile,True,110.0,0.8943089430894309,24,False,False
+xjtu,Bearing1_3,158,3sig_rms,detector,True,58.0,0.3670886075949367,31,False,False
+xjtu,Bearing1_3,158,ma3sig,detector,True,60.0,0.379746835443038,31,False,False
+xjtu,Bearing1_3,158,ma5sig,detector,True,62.0,0.3924050632911392,31,False,False
+xjtu,Bearing1_3,158,ma2sig,detector,True,59.0,0.3734177215189873,31,False,True
+xjtu,Bearing1_3,158,3sig_kurt,detector,True,60.0,0.379746835443038,31,False,True
+xjtu,Bearing1_3,158,ewma,control chart,True,58.0,0.3670886075949367,31,False,True
+xjtu,Bearing1_3,158,cusum,control chart,True,28.0,0.1772151898734177,31,True,True
+xjtu,Bearing1_3,158,pct02,percentile,True,154.0,0.9746835443037974,31,False,False
+xjtu,Bearing1_3,158,pct05,percentile,True,150.0,0.9493670886075948,31,False,False
+xjtu,Bearing1_3,158,pct10,percentile,True,142.0,0.8987341772151899,31,False,False
+xjtu,Bearing1_2,161,3sig_rms,detector,True,31.0,0.1925465838509316,32,True,False
+xjtu,Bearing1_2,161,ma3sig,detector,True,34.0,0.2111801242236025,32,False,False
+xjtu,Bearing1_2,161,ma5sig,detector,True,35.0,0.217391304347826,32,False,False
+xjtu,Bearing1_2,161,ma2sig,detector,True,33.0,0.2049689440993788,32,False,True
+xjtu,Bearing1_2,161,3sig_kurt,detector,True,43.0,0.2670807453416149,32,False,True
+xjtu,Bearing1_2,161,ewma,control chart,True,32.0,0.1987577639751552,32,False,True
+xjtu,Bearing1_2,161,cusum,control chart,True,32.0,0.1987577639751552,32,False,True
+xjtu,Bearing1_2,161,pct02,percentile,True,157.0,0.9751552795031057,32,False,False
+xjtu,Bearing1_2,161,pct05,percentile,True,152.0,0.9440993788819876,32,False,False
+xjtu,Bearing1_2,161,pct10,percentile,True,144.0,0.8944099378881988,32,False,False
+xjtu,Bearing2_2,161,3sig_rms,detector,True,46.0,0.2857142857142857,32,False,False
+xjtu,Bearing2_2,161,ma3sig,detector,True,47.0,0.2919254658385093,32,False,False
+xjtu,Bearing2_2,161,ma5sig,detector,True,48.0,0.2981366459627329,32,False,False
+xjtu,Bearing2_2,161,ma2sig,detector,True,47.0,0.2919254658385093,32,False,True
+xjtu,Bearing2_2,161,3sig_kurt,detector,True,47.0,0.2919254658385093,32,False,True
+xjtu,Bearing2_2,161,ewma,control chart,True,46.0,0.2857142857142857,32,False,True
+xjtu,Bearing2_2,161,cusum,control chart,True,46.0,0.2857142857142857,32,False,True
+xjtu,Bearing2_2,161,pct02,percentile,True,157.0,0.9751552795031057,32,False,False
+xjtu,Bearing2_2,161,pct05,percentile,True,152.0,0.9440993788819876,32,False,False
+xjtu,Bearing2_2,161,pct10,percentile,True,144.0,0.8944099378881988,32,False,False
+xjtu,Bearing2_5,339,3sig_rms,detector,True,133.0,0.3923303834808259,67,False,False
+xjtu,Bearing2_5,339,ma3sig,detector,True,134.0,0.3952802359882006,67,False,False
+xjtu,Bearing2_5,339,ma5sig,detector,True,151.0,0.4454277286135693,67,False,False
+xjtu,Bearing2_5,339,ma2sig,detector,True,124.0,0.3657817109144542,67,False,True
+xjtu,Bearing2_5,339,3sig_kurt,detector,False,,,67,False,True
+xjtu,Bearing2_5,339,ewma,control chart,True,3.0,0.0088495575221238,67,True,True
+xjtu,Bearing2_5,339,cusum,control chart,True,4.0,0.0117994100294985,67,True,True
+xjtu,Bearing2_5,339,pct02,percentile,True,332.0,0.9793510324483776,67,False,False
+xjtu,Bearing2_5,339,pct05,percentile,True,322.0,0.9498525073746312,67,False,False
+xjtu,Bearing2_5,339,pct10,percentile,True,305.0,0.8997050147492626,67,False,False
+xjtu,Bearing3_3,371,3sig_rms,detector,True,341.0,0.9191374663072776,74,False,False
+xjtu,Bearing3_3,371,ma3sig,detector,True,343.0,0.9245283018867924,74,False,False
+xjtu,Bearing3_3,371,ma5sig,detector,True,343.0,0.9245283018867924,74,False,False
+xjtu,Bearing3_3,371,ma2sig,detector,True,342.0,0.921832884097035,74,False,True
+xjtu,Bearing3_3,371,3sig_kurt,detector,True,339.0,0.9137466307277629,74,False,True
+xjtu,Bearing3_3,371,ewma,control chart,True,26.0,0.0700808625336927,74,True,True
+xjtu,Bearing3_3,371,cusum,control chart,True,20.0,0.0539083557951482,74,True,True
+xjtu,Bearing3_3,371,pct02,percentile,True,363.0,0.9784366576819408,74,False,False
+xjtu,Bearing3_3,371,pct05,percentile,True,352.0,0.9487870619946092,74,False,False
+xjtu,Bearing3_3,371,pct10,percentile,True,333.0,0.8975741239892183,74,False,False
+xjtu,Bearing2_1,491,3sig_rms,detector,True,452.0,0.920570264765784,98,False,False
+xjtu,Bearing2_1,491,ma3sig,detector,True,454.0,0.924643584521385,98,False,False
+xjtu,Bearing2_1,491,ma5sig,detector,True,454.0,0.924643584521385,98,False,False
+xjtu,Bearing2_1,491,ma2sig,detector,True,0.0,0.0,98,True,True
+xjtu,Bearing2_1,491,3sig_kurt,detector,True,452.0,0.920570264765784,98,False,True
+xjtu,Bearing2_1,491,ewma,control chart,True,2.0,0.0040733197556008,98,True,True
+xjtu,Bearing2_1,491,cusum,control chart,True,3.0,0.0061099796334012,98,True,True
+xjtu,Bearing2_1,491,pct02,percentile,True,481.0,0.979633401221996,98,False,False
+xjtu,Bearing2_1,491,pct05,percentile,True,466.0,0.9490835030549898,98,False,False
+xjtu,Bearing2_1,491,pct10,percentile,True,441.0,0.8981670061099797,98,False,False
+xjtu,Bearing2_3,533,3sig_rms,detector,True,127.0,0.2382739212007504,106,False,False
+xjtu,Bearing2_3,533,ma3sig,detector,True,130.0,0.2439024390243902,106,False,False
+xjtu,Bearing2_3,533,ma5sig,detector,True,134.0,0.2514071294559099,106,False,False
+xjtu,Bearing2_3,533,ma2sig,detector,True,127.0,0.2382739212007504,106,False,True
+xjtu,Bearing2_3,533,3sig_kurt,detector,True,127.0,0.2382739212007504,106,False,True
+xjtu,Bearing2_3,533,ewma,control chart,True,17.0,0.0318949343339587,106,True,True
+xjtu,Bearing2_3,533,cusum,control chart,True,16.0,0.0300187617260788,106,True,True
+xjtu,Bearing2_3,533,pct02,percentile,True,522.0,0.9793621013133208,106,False,False
+xjtu,Bearing2_3,533,pct05,percentile,True,506.0,0.949343339587242,106,False,False
+xjtu,Bearing2_3,533,pct10,percentile,True,479.0,0.8986866791744841,106,False,False
+xjtu,Bearing3_4,1515,3sig_rms,detector,True,1417.0,0.9353135313531352,303,False,False
+xjtu,Bearing3_4,1515,ma3sig,detector,True,1417.0,0.9353135313531352,303,False,False
+xjtu,Bearing3_4,1515,ma5sig,detector,True,1418.0,0.935973597359736,303,False,False
+xjtu,Bearing3_4,1515,ma2sig,detector,True,1011.0,0.6673267326732674,303,False,True
+xjtu,Bearing3_4,1515,3sig_kurt,detector,True,9.0,0.0059405940594059,303,True,True
+xjtu,Bearing3_4,1515,ewma,control chart,True,3.0,0.0019801980198019,303,True,True
+xjtu,Bearing3_4,1515,cusum,control chart,True,4.0,0.0026402640264026,303,True,True
+xjtu,Bearing3_4,1515,pct02,percentile,True,1484.0,0.9795379537953796,303,False,False
+xjtu,Bearing3_4,1515,pct05,percentile,True,1439.0,0.9498349834983498,303,False,False
+xjtu,Bearing3_4,1515,pct10,percentile,True,1363.0,0.8996699669966997,303,False,False
+xjtu,Bearing3_2,2496,3sig_rms,detector,True,1441.0,0.577323717948718,499,False,False
+xjtu,Bearing3_2,2496,ma3sig,detector,True,1509.0,0.6045673076923077,499,False,False
+xjtu,Bearing3_2,2496,ma5sig,detector,True,1804.0,0.7227564102564102,499,False,False
+xjtu,Bearing3_2,2496,ma2sig,detector,True,1234.0,0.4943910256410256,499,False,True
+xjtu,Bearing3_2,2496,3sig_kurt,detector,False,,,499,False,True
+xjtu,Bearing3_2,2496,ewma,control chart,True,59.0,0.0236378205128205,499,True,True
+xjtu,Bearing3_2,2496,cusum,control chart,True,53.0,0.0212339743589743,499,True,True
+xjtu,Bearing3_2,2496,pct02,percentile,True,2446.0,0.9799679487179488,499,False,False
+xjtu,Bearing3_2,2496,pct05,percentile,True,2371.0,0.9499198717948718,499,False,False
+xjtu,Bearing3_2,2496,pct10,percentile,True,2246.0,0.8998397435897436,499,False,False
+xjtu,Bearing3_1,2538,3sig_rms,detector,True,2340.0,0.9219858156028368,507,False,False
+xjtu,Bearing3_1,2538,ma3sig,detector,True,2341.0,0.9223798266351458,507,False,False
+xjtu,Bearing3_1,2538,ma5sig,detector,True,2350.0,0.925925925925926,507,False,False
+xjtu,Bearing3_1,2538,ma2sig,detector,True,24.0,0.0094562647754137,507,True,True
+xjtu,Bearing3_1,2538,3sig_kurt,detector,True,748.0,0.2947202521670606,507,False,True
+xjtu,Bearing3_1,2538,ewma,control chart,True,16.0,0.0063041765169424,507,True,True
+xjtu,Bearing3_1,2538,cusum,control chart,True,17.0,0.0066981875492513,507,True,True
+xjtu,Bearing3_1,2538,pct02,percentile,True,2487.0,0.979905437352246,507,False,False
+xjtu,Bearing3_1,2538,pct05,percentile,True,2411.0,0.9499605988967692,507,False,False
+xjtu,Bearing3_1,2538,pct10,percentile,True,2284.0,0.8999211977935382,507,False,False
+femto,Bearing2_7,38,3sig_rms,detector,False,,,7,False,False
+femto,Bearing2_7,38,ma3sig,detector,False,,,7,False,False
+femto,Bearing2_7,38,ma5sig,detector,False,,,7,False,False
+femto,Bearing2_7,38,ma2sig,detector,False,,,7,False,False
+femto,Bearing2_7,38,3sig_kurt,detector,False,,,7,False,False
+femto,Bearing2_7,38,ewma,control chart,False,,,7,False,True
+femto,Bearing2_7,38,cusum,control chart,True,31.0,0.8157894736842105,7,False,True
+femto,Bearing2_7,38,pct02,percentile,True,37.0,0.9736842105263158,7,False,False
+femto,Bearing2_7,38,pct05,percentile,True,36.0,0.9473684210526316,7,False,False
+femto,Bearing2_7,38,pct10,percentile,True,34.0,0.8947368421052632,7,False,False
+femto,Bearing3_3,72,3sig_rms,detector,True,52.0,0.7222222222222222,14,False,False
+femto,Bearing3_3,72,ma3sig,detector,True,54.0,0.75,14,False,False
+femto,Bearing3_3,72,ma5sig,detector,True,55.0,0.7638888888888888,14,False,False
+femto,Bearing3_3,72,ma2sig,detector,True,53.0,0.7361111111111112,14,False,False
+femto,Bearing3_3,72,3sig_kurt,detector,False,,,14,False,False
+femto,Bearing3_3,72,ewma,control chart,True,16.0,0.2222222222222222,14,False,True
+femto,Bearing3_3,72,cusum,control chart,True,15.0,0.2083333333333333,14,False,True
+femto,Bearing3_3,72,pct02,percentile,True,70.0,0.9722222222222222,14,False,False
+femto,Bearing3_3,72,pct05,percentile,True,68.0,0.9444444444444444,14,False,False
+femto,Bearing3_3,72,pct10,percentile,True,64.0,0.8888888888888888,14,False,False
+femto,Bearing3_1,89,3sig_rms,detector,True,85.0,0.9550561797752808,17,False,False
+femto,Bearing3_1,89,ma3sig,detector,True,86.0,0.9662921348314608,17,False,False
+femto,Bearing3_1,89,ma5sig,detector,True,86.0,0.9662921348314608,17,False,False
+femto,Bearing3_1,89,ma2sig,detector,True,86.0,0.9662921348314608,17,False,False
+femto,Bearing3_1,89,3sig_kurt,detector,False,,,17,False,False
+femto,Bearing3_1,89,ewma,control chart,True,85.0,0.9550561797752808,17,False,True
+femto,Bearing3_1,89,cusum,control chart,True,85.0,0.9550561797752808,17,False,True
+femto,Bearing3_1,89,pct02,percentile,True,87.0,0.9775280898876404,17,False,False
+femto,Bearing3_1,89,pct05,percentile,True,84.0,0.9438202247191012,17,False,False
+femto,Bearing3_1,89,pct10,percentile,True,80.0,0.898876404494382,17,False,False
+femto,Bearing2_6,116,3sig_rms,detector,False,,,23,False,False
+femto,Bearing2_6,116,ma3sig,detector,False,,,23,False,False
+femto,Bearing2_6,116,ma5sig,detector,False,,,23,False,False
+femto,Bearing2_6,116,ma2sig,detector,False,,,23,False,False
+femto,Bearing2_6,116,3sig_kurt,detector,True,110.0,0.9482758620689656,23,False,False
+femto,Bearing2_6,116,ewma,control chart,False,,,23,False,True
+femto,Bearing2_6,116,cusum,control chart,False,,,23,False,True
+femto,Bearing2_6,116,pct02,percentile,True,113.0,0.9741379310344828,23,False,False
+femto,Bearing2_6,116,pct05,percentile,True,110.0,0.9482758620689656,23,False,False
+femto,Bearing2_6,116,pct10,percentile,True,104.0,0.896551724137931,23,False,False
+femto,Bearing2_4,125,3sig_rms,detector,False,,,25,False,False
+femto,Bearing2_4,125,ma3sig,detector,False,,,25,False,False
+femto,Bearing2_4,125,ma5sig,detector,False,,,25,False,False
+femto,Bearing2_4,125,ma2sig,detector,False,,,25,False,False
+femto,Bearing2_4,125,3sig_kurt,detector,True,56.0,0.448,25,False,False
+femto,Bearing2_4,125,ewma,control chart,False,,,25,False,True
+femto,Bearing2_4,125,cusum,control chart,False,,,25,False,True
+femto,Bearing2_4,125,pct02,percentile,True,122.0,0.976,25,False,False
+femto,Bearing2_4,125,pct05,percentile,True,118.0,0.944,25,False,False
+femto,Bearing2_4,125,pct10,percentile,True,112.0,0.896,25,False,False
+femto,Bearing1_2,144,3sig_rms,detector,True,136.0,0.9444444444444444,28,False,False
+femto,Bearing1_2,144,ma3sig,detector,True,138.0,0.9583333333333334,28,False,False
+femto,Bearing1_2,144,ma5sig,detector,True,138.0,0.9583333333333334,28,False,False
+femto,Bearing1_2,144,ma2sig,detector,True,137.0,0.9513888888888888,28,False,False
+femto,Bearing1_2,144,3sig_kurt,detector,False,,,28,False,False
+femto,Bearing1_2,144,ewma,control chart,True,93.0,0.6458333333333334,28,False,True
+femto,Bearing1_2,144,cusum,control chart,True,93.0,0.6458333333333334,28,False,True
+femto,Bearing1_2,144,pct02,percentile,True,141.0,0.9791666666666666,28,False,False
+femto,Bearing1_2,144,pct05,percentile,True,136.0,0.9444444444444444,28,False,False
+femto,Bearing1_2,144,pct10,percentile,True,129.0,0.8958333333333334,28,False,False
+femto,Bearing2_1,151,3sig_rms,detector,True,40.0,0.2649006622516556,30,False,False
+femto,Bearing2_1,151,ma3sig,detector,True,40.0,0.2649006622516556,30,False,False
+femto,Bearing2_1,151,ma5sig,detector,True,148.0,0.9801324503311258,30,False,False
+femto,Bearing2_1,151,ma2sig,detector,True,32.0,0.2119205298013245,30,False,False
+femto,Bearing2_1,151,3sig_kurt,detector,False,,,30,False,False
+femto,Bearing2_1,151,ewma,control chart,True,30.0,0.1986754966887417,30,False,True
+femto,Bearing2_1,151,cusum,control chart,True,30.0,0.1986754966887417,30,False,True
+femto,Bearing2_1,151,pct02,percentile,True,147.0,0.9735099337748344,30,False,False
+femto,Bearing2_1,151,pct05,percentile,True,143.0,0.9470198675496688,30,False,False
+femto,Bearing2_1,151,pct10,percentile,True,135.0,0.8940397350993378,30,False,False
+femto,Bearing1_4,237,3sig_rms,detector,True,180.0,0.759493670886076,47,False,False
+femto,Bearing1_4,237,ma3sig,detector,True,181.0,0.7637130801687764,47,False,False
+femto,Bearing1_4,237,ma5sig,detector,True,181.0,0.7637130801687764,47,False,False
+femto,Bearing1_4,237,ma2sig,detector,True,180.0,0.759493670886076,47,False,False
+femto,Bearing1_4,237,3sig_kurt,detector,True,179.0,0.7552742616033755,47,False,False
+femto,Bearing1_4,237,ewma,control chart,True,180.0,0.759493670886076,47,False,True
+femto,Bearing1_4,237,cusum,control chart,True,15.0,0.0632911392405063,47,True,True
+femto,Bearing1_4,237,pct02,percentile,True,232.0,0.978902953586498,47,False,False
+femto,Bearing1_4,237,pct05,percentile,True,225.0,0.9493670886075948,47,False,False
+femto,Bearing1_4,237,pct10,percentile,True,213.0,0.8987341772151899,47,False,False
+femto,Bearing1_7,376,3sig_rms,detector,True,366.0,0.973404255319149,75,False,False
+femto,Bearing1_7,376,ma3sig,detector,True,367.0,0.976063829787234,75,False,False
+femto,Bearing1_7,376,ma5sig,detector,True,368.0,0.9787234042553192,75,False,False
+femto,Bearing1_7,376,ma2sig,detector,True,364.0,0.9680851063829788,75,False,False
+femto,Bearing1_7,376,3sig_kurt,detector,True,149.0,0.3962765957446808,75,False,False
+femto,Bearing1_7,376,ewma,control chart,True,4.0,0.0106382978723404,75,True,True
+femto,Bearing1_7,376,cusum,control chart,True,4.0,0.0106382978723404,75,True,True
+femto,Bearing1_7,376,pct02,percentile,True,368.0,0.9787234042553192,75,False,False
+femto,Bearing1_7,376,pct05,percentile,True,357.0,0.949468085106383,75,False,False
+femto,Bearing1_7,376,pct10,percentile,True,338.0,0.898936170212766,75,False,False
+femto,Bearing2_5,386,3sig_rms,detector,False,,,77,False,False
+femto,Bearing2_5,386,ma3sig,detector,False,,,77,False,False
+femto,Bearing2_5,386,ma5sig,detector,False,,,77,False,False
+femto,Bearing2_5,386,ma2sig,detector,False,,,77,False,False
+femto,Bearing2_5,386,3sig_kurt,detector,False,,,77,False,False
+femto,Bearing2_5,386,ewma,control chart,True,19.0,0.0492227979274611,77,True,True
+femto,Bearing2_5,386,cusum,control chart,True,19.0,0.0492227979274611,77,True,True
+femto,Bearing2_5,386,pct02,percentile,True,378.0,0.9792746113989638,77,False,False
+femto,Bearing2_5,386,pct05,percentile,True,366.0,0.9481865284974094,77,False,False
+femto,Bearing2_5,386,pct10,percentile,True,347.0,0.8989637305699482,77,False,False
+femto,Bearing1_6,408,3sig_rms,detector,True,272.0,0.6666666666666666,81,False,False
+femto,Bearing1_6,408,ma3sig,detector,True,274.0,0.6715686274509803,81,False,False
+femto,Bearing1_6,408,ma5sig,detector,True,274.0,0.6715686274509803,81,False,False
+femto,Bearing1_6,408,ma2sig,detector,True,273.0,0.6691176470588235,81,False,False
+femto,Bearing1_6,408,3sig_kurt,detector,True,272.0,0.6666666666666666,81,False,False
+femto,Bearing1_6,408,ewma,control chart,True,13.0,0.0318627450980392,81,True,True
+femto,Bearing1_6,408,cusum,control chart,True,11.0,0.0269607843137254,81,True,True
+femto,Bearing1_6,408,pct02,percentile,True,399.0,0.9779411764705882,81,False,False
+femto,Bearing1_6,408,pct05,percentile,True,387.0,0.9485294117647058,81,False,False
+femto,Bearing1_6,408,pct10,percentile,True,367.0,0.8995098039215687,81,False,False
+femto,Bearing1_5,410,3sig_rms,detector,True,401.0,0.9780487804878047,82,False,False
+femto,Bearing1_5,410,ma3sig,detector,True,403.0,0.9829268292682928,82,False,False
+femto,Bearing1_5,410,ma5sig,detector,True,404.0,0.9853658536585366,82,False,False
+femto,Bearing1_5,410,ma2sig,detector,True,403.0,0.9829268292682928,82,False,False
+femto,Bearing1_5,410,3sig_kurt,detector,False,,,82,False,False
+femto,Bearing1_5,410,ewma,control chart,True,26.0,0.0634146341463414,82,True,True
+femto,Bearing1_5,410,cusum,control chart,True,26.0,0.0634146341463414,82,True,True
+femto,Bearing1_5,410,pct02,percentile,True,401.0,0.9780487804878047,82,False,False
+femto,Bearing1_5,410,pct05,percentile,True,389.0,0.948780487804878,82,False,False
+femto,Bearing1_5,410,pct10,percentile,True,369.0,0.9,82,False,False
+femto,Bearing1_1,466,3sig_rms,detector,True,274.0,0.5879828326180258,93,False,False
+femto,Bearing1_1,466,ma3sig,detector,True,220.0,0.4721030042918455,93,False,False
+femto,Bearing1_1,466,ma5sig,detector,True,220.0,0.4721030042918455,93,False,False
+femto,Bearing1_1,466,ma2sig,detector,True,3.0,0.0064377682403433,93,True,False
+femto,Bearing1_1,466,3sig_kurt,detector,True,437.0,0.9377682403433476,93,False,False
+femto,Bearing1_1,466,ewma,control chart,True,3.0,0.0064377682403433,93,True,True
+femto,Bearing1_1,466,cusum,control chart,True,3.0,0.0064377682403433,93,True,True
+femto,Bearing1_1,466,pct02,percentile,True,456.0,0.9785407725321889,93,False,False
+femto,Bearing1_1,466,pct05,percentile,True,442.0,0.9484978540772532,93,False,False
+femto,Bearing1_1,466,pct10,percentile,True,419.0,0.8991416309012875,93,False,False
+ims,IMS_2nd_test_B1,328,3sig_rms,detector,True,178.0,0.5426829268292683,65,False,True
+ims,IMS_2nd_test_B1,328,ma3sig,detector,True,179.0,0.5457317073170732,65,False,True
+ims,IMS_2nd_test_B1,328,ma5sig,detector,True,182.0,0.5548780487804879,65,False,False
+ims,IMS_2nd_test_B1,328,ma2sig,detector,True,178.0,0.5426829268292683,65,False,True
+ims,IMS_2nd_test_B1,328,3sig_kurt,detector,True,234.0,0.7134146341463414,65,False,False
+ims,IMS_2nd_test_B1,328,ewma,control chart,True,178.0,0.5426829268292683,65,False,True
+ims,IMS_2nd_test_B1,328,cusum,control chart,True,178.0,0.5426829268292683,65,False,True
+ims,IMS_2nd_test_B1,328,pct02,percentile,True,321.0,0.9786585365853658,65,False,False
+ims,IMS_2nd_test_B1,328,pct05,percentile,True,311.0,0.948170731707317,65,False,False
+ims,IMS_2nd_test_B1,328,pct10,percentile,True,295.0,0.899390243902439,65,False,False
+ims,IMS_1st_test_B3,719,3sig_rms,detector,True,707.0,0.9833101529902644,143,False,True
+ims,IMS_1st_test_B3,719,ma3sig,detector,True,708.0,0.9847009735744088,143,False,True
+ims,IMS_1st_test_B3,719,ma5sig,detector,True,710.0,0.9874826147426982,143,False,False
+ims,IMS_1st_test_B3,719,ma2sig,detector,True,673.0,0.9360222531293464,143,False,True
+ims,IMS_1st_test_B3,719,3sig_kurt,detector,True,321.0,0.4464534075104311,143,False,False
+ims,IMS_1st_test_B3,719,ewma,control chart,True,600.0,0.8344923504867872,143,False,True
+ims,IMS_1st_test_B3,719,cusum,control chart,True,80.0,0.1112656467315716,143,True,True
+ims,IMS_1st_test_B3,719,pct02,percentile,True,704.0,0.9791376912378305,143,False,False
+ims,IMS_1st_test_B3,719,pct05,percentile,True,683.0,0.9499304589707928,143,False,False
+ims,IMS_1st_test_B3,719,pct10,percentile,True,647.0,0.8998609179415855,143,False,False
+ims,IMS_1st_test_B4,719,3sig_rms,detector,True,574.0,0.7983310152990264,143,False,True
+ims,IMS_1st_test_B4,719,ma3sig,detector,True,575.0,0.799721835883171,143,False,True
+ims,IMS_1st_test_B4,719,ma5sig,detector,False,,,143,False,False
+ims,IMS_1st_test_B4,719,ma2sig,detector,True,552.0,0.7677329624478443,143,False,True
+ims,IMS_1st_test_B4,719,3sig_kurt,detector,True,483.0,0.6717663421418637,143,False,False
+ims,IMS_1st_test_B4,719,ewma,control chart,True,497.0,0.6912378303198887,143,False,True
+ims,IMS_1st_test_B4,719,cusum,control chart,True,126.0,0.1752433936022253,143,True,True
+ims,IMS_1st_test_B4,719,pct02,percentile,True,704.0,0.9791376912378305,143,False,False
+ims,IMS_1st_test_B4,719,pct05,percentile,True,683.0,0.9499304589707928,143,False,False
+ims,IMS_1st_test_B4,719,pct10,percentile,True,647.0,0.8998609179415855,143,False,False
+ims,IMS_3rd_test_B3,2108,3sig_rms,detector,True,6.0,0.0028462998102466,421,True,True
+ims,IMS_3rd_test_B3,2108,ma3sig,detector,True,8.0,0.0037950664136622,421,True,True
+ims,IMS_3rd_test_B3,2108,ma5sig,detector,True,1990.0,0.944022770398482,421,False,False
+ims,IMS_3rd_test_B3,2108,ma2sig,detector,True,6.0,0.0028462998102466,421,True,True
+ims,IMS_3rd_test_B3,2108,3sig_kurt,detector,True,2058.0,0.976280834914611,421,False,False
+ims,IMS_3rd_test_B3,2108,ewma,control chart,True,5.0,0.0023719165085388,421,True,True
+ims,IMS_3rd_test_B3,2108,cusum,control chart,True,5.0,0.0023719165085388,421,True,True
+ims,IMS_3rd_test_B3,2108,pct02,percentile,True,2065.0,0.9796015180265656,421,False,False
+ims,IMS_3rd_test_B3,2108,pct05,percentile,True,2002.0,0.9497153700189752,421,False,False
+ims,IMS_3rd_test_B3,2108,pct10,percentile,True,1897.0,0.8999051233396584,421,False,False
+nsk,NSK_6205,129,3sig_rms,detector,True,124.0,0.9612403100775194,25,False,False
+nsk,NSK_6205,129,ma3sig,detector,True,126.0,0.9767441860465116,25,False,False
+nsk,NSK_6205,129,ma5sig,detector,True,126.0,0.9767441860465116,25,False,False
+nsk,NSK_6205,129,ma2sig,detector,True,125.0,0.9689922480620154,25,False,False
+nsk,NSK_6205,129,3sig_kurt,detector,False,,,25,False,
+nsk,NSK_6205,129,ewma,control chart,True,26.0,0.2015503875968992,25,False,True
+nsk,NSK_6205,129,cusum,control chart,True,27.0,0.2093023255813953,25,False,True
+nsk,NSK_6205,129,pct02,percentile,True,126.0,0.9767441860465116,25,False,False
+nsk,NSK_6205,129,pct05,percentile,True,122.0,0.9457364341085271,25,False,False
+nsk,NSK_6205,129,pct10,percentile,True,116.0,0.8992248062015504,25,False,False

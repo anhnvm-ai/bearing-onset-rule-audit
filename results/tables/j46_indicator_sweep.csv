@@ -1,0 +1,1475 @@
+dataset,indicator,kind,design,family,n_traj,n_fired,rho_index_length,median_shift_sd
+xjtu,rms,amplitude,ewma_l0.05_L2,control chart,15,15,-0.02425900489848485,1.487473007180984
+xjtu,rms,amplitude,ewma_l0.05_L3,control chart,15,15,-0.20930232558139533,1.87276456717808
+xjtu,rms,amplitude,ewma_l0.05_L4,control chart,15,15,-0.012556099260028498,2.330705997017766
+xjtu,rms,amplitude,ewma_l0.05_L5,control chart,15,15,0.08042898653967125,3.122693396521047
+xjtu,rms,amplitude,ewma_l0.05_L6,control chart,15,15,0.26589088542534983,3.9874228856992993
+xjtu,rms,amplitude,ewma_l0.1_L2,control chart,15,15,-0.045822564808249165,1.4102947857420807
+xjtu,rms,amplitude,ewma_l0.1_L3,control chart,15,15,-0.18100387489244132,1.7911858862722285
+xjtu,rms,amplitude,ewma_l0.1_L4,control chart,15,15,0.0,2.1139036062450685
+xjtu,rms,amplitude,ewma_l0.1_L5,control chart,15,15,0.09838998211091234,2.8413225826875257
+xjtu,rms,amplitude,ewma_l0.1_L6,control chart,15,15,0.3729874776386404,3.826803194124656
+xjtu,rms,amplitude,ewma_l0.2_L2,control chart,15,15,-0.08641035603763852,1.3565034038490325
+xjtu,rms,amplitude,ewma_l0.2_L3,control chart,15,15,-0.20053723345211572,1.962539315538212
+xjtu,rms,amplitude,ewma_l0.2_L4,control chart,15,15,0.014324088103722552,2.139996122937181
+xjtu,rms,amplitude,ewma_l0.2_L5,control chart,15,15,0.3878464462024147,3.2254606282700204
+xjtu,rms,amplitude,ewma_l0.2_L6,control chart,15,15,0.5939177101967799,3.826803194124656
+xjtu,rms,amplitude,ewma_l0.4_L2,control chart,15,15,-0.08422952594004694,1.6001683882821838
+xjtu,rms,amplitude,ewma_l0.4_L3,control chart,15,15,0.014324088103722552,2.1032560857730584
+xjtu,rms,amplitude,ewma_l0.4_L4,control chart,15,15,0.5974955277280858,3.0634596718586704
+xjtu,rms,amplitude,ewma_l0.4_L5,control chart,15,15,0.9132379248658318,3.6011698030498183
+xjtu,rms,amplitude,ewma_l0.4_L6,control chart,15,15,0.8936554059963472,4.481623415278779
+xjtu,rms,amplitude,ewma_l0.8_L2,control chart,15,15,0.05545617173524149,2.424411869423897
+xjtu,rms,amplitude,ewma_l0.8_L3,control chart,15,15,0.9204650681762376,3.176956595367658
+xjtu,rms,amplitude,ewma_l0.8_L4,control chart,15,15,0.8936554059963472,4.481623415278779
+xjtu,rms,amplitude,ewma_l0.8_L5,control chart,15,15,0.8640429338103757,5.14126097346434
+xjtu,rms,amplitude,ewma_l0.8_L6,control chart,15,14,0.8932898694815322,6.033831341136608
+xjtu,rms,amplitude,cusum_k0.25_h3,control chart,15,15,-0.3177758366786739,1.3565034038490325
+xjtu,rms,amplitude,cusum_k0.25_h5,control chart,15,15,-0.26415360889461287,1.2799546084012217
+xjtu,rms,amplitude,cusum_k0.25_h8,control chart,15,15,-0.27394818498369383,1.6001683882821838
+xjtu,rms,amplitude,cusum_k0.25_h12,control chart,15,15,-0.07520146254454341,1.87276456717808
+xjtu,rms,amplitude,cusum_k0.5_h3,control chart,15,15,-0.25719798858551784,1.2799546084012217
+xjtu,rms,amplitude,cusum_k0.5_h5,control chart,15,15,-0.11101168280384976,1.6001683882821838
+xjtu,rms,amplitude,cusum_k0.5_h8,control chart,15,15,-0.06803941849268212,1.87276456717808
+xjtu,rms,amplitude,cusum_k0.5_h12,control chart,15,15,0.005366726296958855,2.330705997017766
+xjtu,rms,amplitude,cusum_k1_h3,control chart,15,15,0.016100178890876567,2.031592790156202
+xjtu,rms,amplitude,cusum_k1_h5,control chart,15,15,0.016100178890876567,2.8844897598546577
+xjtu,rms,amplitude,cusum_k1_h8,control chart,15,15,0.03321385863590659,3.245984226283004
+xjtu,rms,amplitude,cusum_k1_h12,control chart,15,15,0.37890989214245124,4.4720894649436636
+xjtu,rms,amplitude,cusum_k2_h3,control chart,15,15,0.9043792708683034,3.6011698030498183
+xjtu,rms,amplitude,cusum_k2_h5,control chart,15,15,0.9043792708683034,3.952562329420493
+xjtu,rms,amplitude,cusum_k2_h8,control chart,15,15,0.8936554059963472,4.939151059252636
+xjtu,rms,amplitude,cusum_k2_h12,control chart,15,15,0.8936554059963472,6.107564475591076
+xjtu,rms,amplitude,cusum_k3_h3,control chart,15,15,0.8936554059963472,5.577758541495601
+xjtu,rms,amplitude,cusum_k3_h5,control chart,15,15,0.8668457438164567,5.879365718816368
+xjtu,rms,amplitude,cusum_k3_h8,control chart,15,15,0.8668457438164567,5.8551145519488115
+xjtu,rms,amplitude,cusum_k3_h12,control chart,15,15,0.859696500568486,6.322381401044345
+xjtu,rms,amplitude,thr_1sd,detector,15,15,-0.016158093390441042,1.61124637508918
+xjtu,rms,amplitude,thr_1.5sd,detector,15,15,-0.03935599284436494,2.169015327578087
+xjtu,rms,amplitude,thr_2sd,detector,15,15,0.5849731663685152,2.921795838798141
+xjtu,rms,amplitude,thr_2.5sd,detector,15,15,0.9204650681762376,3.3603330418283
+xjtu,rms,amplitude,thr_3sd,detector,15,15,0.8936554059963472,3.9874228856992993
+xjtu,rms,amplitude,thr_4sd,detector,15,15,0.8668457438164567,5.024224423388949
+xjtu,rms,amplitude,thr_5sd,detector,15,14,0.8932898694815322,5.889186105308735
+xjtu,rms,amplitude,thr_6sd,detector,15,14,0.9020907548951433,8.854304331927676
+xjtu,rms,amplitude,thr_8sd,detector,15,14,0.9020907548951433,10.038832037977269
+xjtu,rms,amplitude,ma5_2sd,detector,15,15,0.42895459487824666,3.2254606282700204
+xjtu,rms,amplitude,ma5_3sd,detector,15,15,0.8936554059963472,5.14126097346434
+xjtu,rms,amplitude,ma5_5sd,detector,15,14,0.8888894267747267,6.570649886095089
+xjtu,rms,amplitude,ewmaAR_l0.05_L3,"chart, AR-corrected",15,15,0.3828264758497316,3.0634596718586704
+xjtu,rms,amplitude,ewmaAR_l0.1_L3,"chart, AR-corrected",15,15,0.0975828502066099,2.714067485282271
+xjtu,rms,amplitude,ewmaAR_l0.2_L3,"chart, AR-corrected",15,15,0.12623102641405498,2.735958419923936
+xjtu,rms,amplitude,ewmaAR_l0.4_L3,"chart, AR-corrected",15,15,0.627906976744186,3.0813502566884448
+xjtu,rms,amplitude,ewmaAR_l0.8_L3,"chart, AR-corrected",15,15,0.8936554059963472,3.435481524643548
+xjtu,rms,amplitude,adapt_L2,"chart, adaptive limits",15,15,0.46291350030610784,4.656170209191389
+xjtu,rms,amplitude,adapt_L3,"chart, adaptive limits",15,13,0.9077134986225895,7.223629684002834
+xjtu,rms,amplitude,adapt_L4,"chart, adaptive limits",15,13,0.9326006071578365,20.26487864976874
+xjtu,rms,amplitude,adapt_L5,"chart, adaptive limits",15,11,0.9363636363636365,23.236969402148024
+xjtu,rms,amplitude,adapt_L6,"chart, adaptive limits",15,8,0.9047619047619048,35.935097883726435
+xjtu,std,amplitude,ewma_l0.05_L2,control chart,15,15,-0.182227386569974,1.7303443265511267
+xjtu,std,amplitude,ewma_l0.05_L3,control chart,15,15,-0.23992847573735276,1.8542571290112597
+xjtu,std,amplitude,ewma_l0.05_L4,control chart,15,15,-0.19124225688321828,2.199008816897582
+xjtu,std,amplitude,ewma_l0.05_L5,control chart,15,15,-0.01073345259391771,2.7716960195054856
+xjtu,std,amplitude,ewma_l0.05_L6,control chart,15,15,0.21556350626118065,3.676482221466502
+xjtu,std,amplitude,ewma_l0.1_L2,control chart,15,15,-0.18548416882542257,1.5196425382694347
+xjtu,std,amplitude,ewma_l0.1_L3,control chart,15,15,-0.2813624589912207,1.8918378122961224
+xjtu,std,amplitude,ewma_l0.1_L4,control chart,15,15,-0.08407871198568871,1.9939417013110055
+xjtu,std,amplitude,ewma_l0.1_L5,control chart,15,15,0.0017873108119926943,2.3716646884626784
+xjtu,std,amplitude,ewma_l0.1_L6,control chart,15,15,0.24418604651162792,3.1937719799670963
+xjtu,std,amplitude,ewma_l0.2_L2,control chart,15,15,-0.1543995590642144,1.4729983414912902
+xjtu,std,amplitude,ewma_l0.2_L3,control chart,15,15,-0.27549194991055453,1.9464049981528582
+xjtu,std,amplitude,ewma_l0.2_L4,control chart,15,15,-0.061772629947303495,2.013581351263703
+xjtu,std,amplitude,ewma_l0.2_L5,control chart,15,15,0.332737030411449,3.2086985530995036
+xjtu,std,amplitude,ewma_l0.2_L6,control chart,15,15,0.5969618112055598,3.4089191624612702
+xjtu,std,amplitude,ewma_l0.4_L2,control chart,15,15,-0.11817372685571108,1.63426649359231
+xjtu,std,amplitude,ewma_l0.4_L3,control chart,15,15,-0.04647008111181005,2.186660388298266
+xjtu,std,amplitude,ewma_l0.4_L4,control chart,15,15,0.3237924865831842,3.2086985530995036
+xjtu,std,amplitude,ewma_l0.4_L5,control chart,15,15,0.9025044722719141,3.4902219420101526
+xjtu,std,amplitude,ewma_l0.4_L6,control chart,15,15,0.8936554059963472,4.376123746930029
+xjtu,std,amplitude,ewma_l0.8_L2,control chart,15,15,-0.04647008111181005,2.2167369043635197
+xjtu,std,amplitude,ewma_l0.8_L3,control chart,15,15,0.584450635521611,3.3650214320595495
+xjtu,std,amplitude,ewma_l0.8_L4,control chart,15,15,0.8936554059963472,4.376123746930029
+xjtu,std,amplitude,ewma_l0.8_L5,control chart,15,15,0.8640429338103757,5.673790066840334
+xjtu,std,amplitude,ewma_l0.8_L6,control chart,15,15,0.8668457438164567,6.658506909640083
+xjtu,std,amplitude,cusum_k0.25_h3,control chart,15,15,-0.29523538312859826,1.3670132463265474
+xjtu,std,amplitude,cusum_k0.25_h5,control chart,15,15,-0.1614355619146521,1.5196425382694347
+xjtu,std,amplitude,cusum_k0.25_h8,control chart,15,15,-0.18263212332246254,1.63426649359231
+xjtu,std,amplitude,cusum_k0.25_h12,control chart,15,15,-0.3092047704747361,1.8028428686207565
+xjtu,std,amplitude,cusum_k0.5_h3,control chart,15,15,-0.15935548015391338,1.6338683762767674
+xjtu,std,amplitude,cusum_k0.5_h5,control chart,15,15,-0.1914132379248658,1.7828925011433192
+xjtu,std,amplitude,cusum_k0.5_h8,control chart,15,15,-0.3059033989266547,1.7261199268234995
+xjtu,std,amplitude,cusum_k0.5_h12,control chart,15,15,-0.2105738148501174,2.1699525022113577
+xjtu,std,amplitude,cusum_k1_h3,control chart,15,15,-0.05719394598376622,2.013581351263703
+xjtu,std,amplitude,cusum_k1_h5,control chart,15,15,-0.04647008111181005,2.3716646884626784
+xjtu,std,amplitude,cusum_k1_h8,control chart,15,15,0.061772629947303495,3.2086985530995036
+xjtu,std,amplitude,cusum_k1_h12,control chart,15,15,0.23949964880702104,4.295213776229135
+xjtu,std,amplitude,cusum_k2_h3,control chart,15,15,0.8936554059963472,3.9853415219567365
+xjtu,std,amplitude,cusum_k2_h5,control chart,15,15,0.8936554059963472,4.376123746930029
+xjtu,std,amplitude,cusum_k2_h8,control chart,15,15,0.8936554059963472,5.673790066840334
+xjtu,std,amplitude,cusum_k2_h12,control chart,15,15,0.8936554059963472,6.169290205546446
+xjtu,std,amplitude,cusum_k3_h3,control chart,15,15,0.8936554059963472,5.507720667049265
+xjtu,std,amplitude,cusum_k3_h5,control chart,15,15,0.8864042933810374,5.837184347833619
+xjtu,std,amplitude,cusum_k3_h8,control chart,15,15,0.8668457438164567,6.101780594740001
+xjtu,std,amplitude,cusum_k3_h12,control chart,15,15,0.859696500568486,8.147842451938274
+xjtu,std,amplitude,thr_1sd,detector,15,15,0.10027595342192515,1.6102466478828896
+xjtu,std,amplitude,thr_1.5sd,detector,15,15,-0.03935599284436494,2.2167369043635197
+xjtu,std,amplitude,thr_2sd,detector,15,15,0.5974955277280858,3.2086985530995036
+xjtu,std,amplitude,thr_2.5sd,detector,15,15,0.9097412033042814,3.3650214320595495
+xjtu,std,amplitude,thr_3sd,detector,15,15,0.8936554059963472,4.097559405158894
+xjtu,std,amplitude,thr_4sd,detector,15,15,0.8668457438164567,5.507720667049265
+xjtu,std,amplitude,thr_5sd,detector,15,15,0.8668457438164567,6.658506909640083
+xjtu,std,amplitude,thr_6sd,detector,15,14,0.8888894267747267,7.820685666770099
+xjtu,std,amplitude,thr_8sd,detector,15,14,0.8888894267747267,12.790401153421197
+xjtu,std,amplitude,ma5_2sd,detector,15,15,0.1520572450805009,3.1937719799670963
+xjtu,std,amplitude,ma5_3sd,detector,15,15,0.8936554059963472,5.673790066840334
+xjtu,std,amplitude,ma5_5sd,detector,15,15,0.8640429338103757,6.938806207055191
+xjtu,std,amplitude,ewmaAR_l0.05_L3,"chart, AR-corrected",15,15,-0.0035746216239853886,2.199255358837265
+xjtu,std,amplitude,ewmaAR_l0.1_L3,"chart, AR-corrected",15,15,-0.018800365636135852,2.199008816897582
+xjtu,std,amplitude,ewmaAR_l0.2_L3,"chart, AR-corrected",15,15,0.0957066189624329,2.2587547895424587
+xjtu,std,amplitude,ewmaAR_l0.4_L3,"chart, AR-corrected",15,15,0.6291334058214285,3.3251208736091193
+xjtu,std,amplitude,ewmaAR_l0.8_L3,"chart, AR-corrected",15,15,0.8936554059963472,3.766619177622094
+xjtu,std,amplitude,adapt_L2,"chart, adaptive limits",15,15,0.4915104732979909,4.91950557311903
+xjtu,std,amplitude,adapt_L3,"chart, adaptive limits",15,14,0.879955947136564,6.235486088228279
+xjtu,std,amplitude,adapt_L4,"chart, adaptive limits",15,13,0.9326006071578365,20.56361403128772
+xjtu,std,amplitude,adapt_L5,"chart, adaptive limits",15,10,0.9272727272727272,20.76543913887416
+xjtu,std,amplitude,adapt_L6,"chart, adaptive limits",15,8,0.9047619047619048,27.417199809753953
+xjtu,p2p,amplitude,ewma_l0.05_L2,control chart,15,15,-0.10116387223254053,1.3025590227809103
+xjtu,p2p,amplitude,ewma_l0.05_L3,control chart,15,15,0.012522361359570662,2.0093543032676524
+xjtu,p2p,amplitude,ewma_l0.05_L4,control chart,15,15,0.10187671628358358,2.370693247380879
+xjtu,p2p,amplitude,ewma_l0.05_L5,control chart,15,15,0.321715946158685,4.288865421532748
+xjtu,p2p,amplitude,ewma_l0.05_L6,control chart,15,15,0.3092047704747361,5.049544563934551
+xjtu,p2p,amplitude,ewma_l0.1_L2,control chart,15,15,-0.10474489425847115,1.4935234565805882
+xjtu,p2p,amplitude,ewma_l0.1_L3,control chart,15,15,-0.048257391923802746,1.7595499355205313
+xjtu,p2p,amplitude,ewma_l0.1_L4,control chart,15,15,0.10187671628358358,2.502341112279635
+xjtu,p2p,amplitude,ewma_l0.1_L5,control chart,15,15,0.16621990551532057,4.234809110113016
+xjtu,p2p,amplitude,ewma_l0.1_L6,control chart,15,15,0.3092047704747361,4.696568714582633
+xjtu,p2p,amplitude,ewma_l0.2_L2,control chart,15,15,0.024150268336314843,1.5184943815421759
+xjtu,p2p,amplitude,ewma_l0.2_L3,control chart,15,15,0.048300536672629686,2.112625663766883
+xjtu,p2p,amplitude,ewma_l0.2_L4,control chart,15,15,0.17694377038727674,2.479430989810411
+xjtu,p2p,amplitude,ewma_l0.2_L5,control chart,15,15,0.3092047704747361,5.211038921975918
+xjtu,p2p,amplitude,ewma_l0.2_L6,control chart,15,15,0.6273460950094357,5.990398405612366
+xjtu,p2p,amplitude,ewma_l0.4_L2,control chart,15,15,0.07788722906399137,1.8386811097468037
+xjtu,p2p,amplitude,ewma_l0.4_L3,control chart,15,15,0.16621990551532057,2.6572630665090635
+xjtu,p2p,amplitude,ewma_l0.4_L4,control chart,15,15,0.6237714733854504,4.939347748099323
+xjtu,p2p,amplitude,ewma_l0.4_L5,control chart,15,15,0.6273460950094357,5.211038921975918
+xjtu,p2p,amplitude,ewma_l0.4_L6,control chart,15,15,0.9087656529516995,6.103307090266724
+xjtu,p2p,amplitude,ewma_l0.8_L2,control chart,15,15,0.07327974329170048,4.696568714582633
+xjtu,p2p,amplitude,ewma_l0.8_L3,control chart,15,15,0.6273460950094357,4.696568714582633
+xjtu,p2p,amplitude,ewma_l0.8_L4,control chart,15,15,0.9087656529516995,5.472037706110001
+xjtu,p2p,amplitude,ewma_l0.8_L5,control chart,15,15,0.9025044722719141,7.0400932669913585
+xjtu,p2p,amplitude,ewma_l0.8_L6,control chart,15,15,0.8668457438164567,7.233436342226085
+xjtu,p2p,amplitude,cusum_k0.25_h3,control chart,15,15,-0.18778266754753087,1.0829900531976555
+xjtu,p2p,amplitude,cusum_k0.25_h5,control chart,15,15,-0.05724508050089445,1.146861064272592
+xjtu,p2p,amplitude,cusum_k0.25_h8,control chart,15,15,-0.08586762075134168,1.6558607698068222
+xjtu,p2p,amplitude,cusum_k0.25_h12,control chart,15,15,-0.04655328633709829,2.1465754867455695
+xjtu,p2p,amplitude,cusum_k0.5_h3,control chart,15,15,0.008944543828264756,1.503026645783761
+xjtu,p2p,amplitude,cusum_k0.5_h5,control chart,15,15,-0.11091234347048298,1.6628894033822086
+xjtu,p2p,amplitude,cusum_k0.5_h8,control chart,15,15,0.030384283803875808,2.479430989810411
+xjtu,p2p,amplitude,cusum_k0.5_h12,control chart,15,15,0.13762293252343746,2.5175796060522977
+xjtu,p2p,amplitude,cusum_k1_h3,control chart,15,15,0.030384283803875808,2.5124492591454577
+xjtu,p2p,amplitude,cusum_k1_h5,control chart,15,15,0.16621990551532057,4.696568714582633
+xjtu,p2p,amplitude,cusum_k1_h8,control chart,15,15,0.3092047704747361,5.990398405612366
+xjtu,p2p,amplitude,cusum_k1_h12,control chart,15,15,0.3092047704747361,6.103307090266724
+xjtu,p2p,amplitude,cusum_k2_h3,control chart,15,15,0.6237714733854504,5.990398405612366
+xjtu,p2p,amplitude,cusum_k2_h5,control chart,15,15,0.629695885509839,6.051695369470566
+xjtu,p2p,amplitude,cusum_k2_h8,control chart,15,15,0.9097412033042814,6.480368219783746
+xjtu,p2p,amplitude,cusum_k2_h12,control chart,15,15,0.9097412033042814,7.233436342226085
+xjtu,p2p,amplitude,cusum_k3_h3,control chart,15,15,0.9025044722719141,6.2292363626132055
+xjtu,p2p,amplitude,cusum_k3_h5,control chart,15,15,0.8936554059963472,6.480368219783746
+xjtu,p2p,amplitude,cusum_k3_h8,control chart,15,15,0.8936554059963472,7.032325722706598
+xjtu,p2p,amplitude,cusum_k3_h12,control chart,15,15,0.8936554059963472,7.447513238272102
+xjtu,p2p,amplitude,thr_1sd,detector,15,15,-0.03130590339892666,1.8064473140438606
+xjtu,p2p,amplitude,thr_1.5sd,detector,15,15,0.07327974329170048,4.033814082732156
+xjtu,p2p,amplitude,thr_2sd,detector,15,15,0.6273460950094357,4.696568714582633
+xjtu,p2p,amplitude,thr_2.5sd,detector,15,15,0.6273460950094357,4.696568714582633
+xjtu,p2p,amplitude,thr_3sd,detector,15,15,0.9061665816802961,5.472037706110001
+xjtu,p2p,amplitude,thr_4sd,detector,15,15,0.9025044722719141,6.2292363626132055
+xjtu,p2p,amplitude,thr_5sd,detector,15,15,0.8668457438164567,7.233436342226085
+xjtu,p2p,amplitude,thr_6sd,detector,15,15,0.8668457438164567,7.971111172950901
+xjtu,p2p,amplitude,thr_8sd,detector,15,14,0.8888894267747267,10.466826271380238
+xjtu,p2p,amplitude,ma5_2sd,detector,15,15,0.3092047704747361,5.211038921975918
+xjtu,p2p,amplitude,ma5_3sd,detector,15,15,0.9087656529516995,6.480368219783746
+xjtu,p2p,amplitude,ma5_5sd,detector,15,15,0.8668457438164567,7.447513238272102
+xjtu,p2p,amplitude,ewmaAR_l0.05_L3,"chart, AR-corrected",15,15,0.033989266547406076,2.1002059952551604
+xjtu,p2p,amplitude,ewmaAR_l0.1_L3,"chart, AR-corrected",15,15,0.03222919823337574,2.2399362736997186
+xjtu,p2p,amplitude,ewmaAR_l0.2_L3,"chart, AR-corrected",15,15,0.030411449016100177,2.370693247380879
+xjtu,p2p,amplitude,ewmaAR_l0.4_L3,"chart, AR-corrected",15,15,0.6273460950094357,4.033814082732156
+xjtu,p2p,amplitude,ewmaAR_l0.8_L3,"chart, AR-corrected",15,15,0.6273460950094357,4.696568714582633
+xjtu,p2p,amplitude,adapt_L2,"chart, adaptive limits",15,15,0.5880252571455965,4.818095055701473
+xjtu,p2p,amplitude,adapt_L3,"chart, adaptive limits",15,14,0.8888894267747267,7.543292015455023
+xjtu,p2p,amplitude,adapt_L4,"chart, adaptive limits",15,13,0.9243475044396255,16.206573906510485
+xjtu,p2p,amplitude,adapt_L5,"chart, adaptive limits",15,8,0.9285714285714287,12.780575549507144
+xjtu,p2p,amplitude,adapt_L6,"chart, adaptive limits",15,8,0.9761904761904763,16.94636585624873
+xjtu,absmax,amplitude,ewma_l0.05_L2,control chart,15,15,-0.06266788545378617,1.529637735869414
+xjtu,absmax,amplitude,ewma_l0.05_L3,control chart,15,15,0.07149243247970777,2.234202750455251
+xjtu,absmax,amplitude,ewma_l0.05_L4,control chart,15,15,0.321715946158685,3.0262395242233824
+xjtu,absmax,amplitude,ewma_l0.05_L5,control chart,15,15,0.3092047704747361,3.339606869929595
+xjtu,absmax,amplitude,ewma_l0.05_L6,control chart,15,15,0.6237714733854504,5.48578539318404
+xjtu,absmax,amplitude,ewma_l0.1_L2,control chart,15,15,0.04740608228980322,1.6655982968618752
+xjtu,absmax,amplitude,ewma_l0.1_L3,control chart,15,15,0.0929401622236201,2.137866231519174
+xjtu,absmax,amplitude,ewma_l0.1_L4,control chart,15,15,0.16621990551532057,2.650690196851546
+xjtu,absmax,amplitude,ewma_l0.1_L5,control chart,15,15,0.6237714733854504,3.592924093837486
+xjtu,absmax,amplitude,ewma_l0.1_L6,control chart,15,15,0.6237714733854504,4.5765865242580155
+xjtu,absmax,amplitude,ewma_l0.2_L2,control chart,15,15,0.058243821128755875,1.598764300438124
+xjtu,absmax,amplitude,ewma_l0.2_L3,control chart,15,15,0.08757822978764203,2.234202750455251
+xjtu,absmax,amplitude,ewma_l0.2_L4,control chart,15,15,0.3092047704747361,3.0262395242233824
+xjtu,absmax,amplitude,ewma_l0.2_L5,control chart,15,15,0.6237714733854504,5.308749123939469
+xjtu,absmax,amplitude,ewma_l0.2_L6,control chart,15,15,0.6237714733854504,5.48578539318404
+xjtu,absmax,amplitude,ewma_l0.4_L2,control chart,15,15,0.06970512166771509,1.9765665452989376
+xjtu,absmax,amplitude,ewma_l0.4_L3,control chart,15,15,0.3092047704747361,3.3750826422988514
+xjtu,absmax,amplitude,ewma_l0.4_L4,control chart,15,15,0.6237714733854504,4.497380510636703
+xjtu,absmax,amplitude,ewma_l0.4_L5,control chart,15,15,0.6237714733854504,5.876325967432532
+xjtu,absmax,amplitude,ewma_l0.4_L6,control chart,15,15,0.8990173384323251,6.255060459088927
+xjtu,absmax,amplitude,ewma_l0.8_L2,control chart,15,15,0.6237714733854504,3.3750826422988514
+xjtu,absmax,amplitude,ewma_l0.8_L3,control chart,15,15,0.6237714733854504,6.159012978797409
+xjtu,absmax,amplitude,ewma_l0.8_L4,control chart,15,15,0.9025044722719141,5.88647941707506
+xjtu,absmax,amplitude,ewma_l0.8_L5,control chart,15,15,0.9097412033042814,6.820594731491748
+xjtu,absmax,amplitude,ewma_l0.8_L6,control chart,15,15,0.8668457438164567,7.5523235647002585
+xjtu,absmax,amplitude,cusum_k0.25_h3,control chart,15,15,-0.02954343171392777,1.152413162536323
+xjtu,absmax,amplitude,cusum_k0.25_h5,control chart,15,15,0.06535365197323414,1.0871110904584547
+xjtu,absmax,amplitude,cusum_k0.25_h8,control chart,15,15,-0.007149243247970777,1.6988550746297235
+xjtu,absmax,amplitude,cusum_k0.25_h12,control chart,15,15,0.09472747303561281,2.2103687699578485
+xjtu,absmax,amplitude,cusum_k0.5_h3,control chart,15,15,0.06350626118067978,1.3156446566204096
+xjtu,absmax,amplitude,cusum_k0.5_h5,control chart,15,15,0.07149243247970777,1.6988550746297235
+xjtu,absmax,amplitude,cusum_k0.5_h8,control chart,15,15,0.10196779964221823,2.446961356018272
+xjtu,absmax,amplitude,cusum_k0.5_h12,control chart,15,15,0.321715946158685,3.120519754806404
+xjtu,absmax,amplitude,cusum_k1_h3,control chart,15,15,0.16621990551532057,2.9113491899349975
+xjtu,absmax,amplitude,cusum_k1_h5,control chart,15,15,0.3092047704747361,4.088176522873666
+xjtu,absmax,amplitude,cusum_k1_h8,control chart,15,15,0.6237714733854504,4.996099166070667
+xjtu,absmax,amplitude,cusum_k1_h12,control chart,15,15,0.6237714733854504,5.378336669296831
+xjtu,absmax,amplitude,cusum_k2_h3,control chart,15,15,0.6237714733854504,5.53600668911275
+xjtu,absmax,amplitude,cusum_k2_h5,control chart,15,15,0.8990173384323251,6.255060459088927
+xjtu,absmax,amplitude,cusum_k2_h8,control chart,15,15,0.8990173384323251,6.159012978797409
+xjtu,absmax,amplitude,cusum_k2_h12,control chart,15,15,0.9097412033042814,5.899812084413619
+xjtu,absmax,amplitude,cusum_k3_h3,control chart,15,15,0.8829315411243911,6.255060459088927
+xjtu,absmax,amplitude,cusum_k3_h5,control chart,15,15,0.8829315411243911,6.255060459088927
+xjtu,absmax,amplitude,cusum_k3_h8,control chart,15,15,0.8917710196779963,6.243377351248739
+xjtu,absmax,amplitude,cusum_k3_h12,control chart,15,15,0.8936554059963472,6.829168228984444
+xjtu,absmax,amplitude,thr_1sd,detector,15,15,-0.04382826475849732,1.9161537422027957
+xjtu,absmax,amplitude,thr_1.5sd,detector,15,15,0.5751341681574239,3.0262395242233824
+xjtu,absmax,amplitude,thr_2sd,detector,15,15,0.6237714733854504,4.378974434983575
+xjtu,absmax,amplitude,thr_2.5sd,detector,15,15,0.6273460950094357,5.632920587212477
+xjtu,absmax,amplitude,thr_3sd,detector,15,15,0.9097412033042814,5.876325967432532
+xjtu,absmax,amplitude,thr_4sd,detector,15,15,0.9097412033042814,6.820594731491748
+xjtu,absmax,amplitude,thr_5sd,detector,15,15,0.8668457438164567,6.820594731491748
+xjtu,absmax,amplitude,thr_6sd,detector,15,15,0.8668457438164567,7.817959338625348
+xjtu,absmax,amplitude,thr_8sd,detector,15,14,0.884488984067921,10.420355325414658
+xjtu,absmax,amplitude,ma5_2sd,detector,15,15,0.6237714733854504,4.996099166070667
+xjtu,absmax,amplitude,ma5_3sd,detector,15,15,0.8990173384323251,6.243377351248739
+xjtu,absmax,amplitude,ma5_5sd,detector,15,15,0.8668457438164567,8.063668526843628
+xjtu,absmax,amplitude,ewmaAR_l0.05_L3,"chart, AR-corrected",15,15,0.07699197355750871,1.6487184242567752
+xjtu,absmax,amplitude,ewmaAR_l0.1_L3,"chart, AR-corrected",15,15,0.09115285141162742,1.829299273971406
+xjtu,absmax,amplitude,ewmaAR_l0.2_L3,"chart, AR-corrected",15,15,0.07685436491568585,2.1397277530071577
+xjtu,absmax,amplitude,ewmaAR_l0.4_L3,"chart, AR-corrected",15,15,0.6273460950094357,3.3750826422988514
+xjtu,absmax,amplitude,ewmaAR_l0.8_L3,"chart, AR-corrected",15,15,0.6457960644007156,6.159012978797409
+xjtu,absmax,amplitude,adapt_L2,"chart, adaptive limits",15,15,0.5880252571455965,6.419139603630776
+xjtu,absmax,amplitude,adapt_L3,"chart, adaptive limits",15,14,0.9020907548951433,9.818964340391156
+xjtu,absmax,amplitude,adapt_L4,"chart, adaptive limits",15,10,0.8545454545454544,11.406991206929796
+xjtu,absmax,amplitude,adapt_L5,"chart, adaptive limits",15,8,0.9285714285714287,11.171985460515524
+xjtu,absmax,amplitude,adapt_L6,"chart, adaptive limits",15,5,0.9999999999999999,12.355869729268962
+xjtu,crest,waveform shape,ewma_l0.05_L2,control chart,15,13,0.04126551359105471,1.1842360997226722
+xjtu,crest,waveform shape,ewma_l0.05_L3,control chart,15,13,0.20632756795527354,2.42074446072986
+xjtu,crest,waveform shape,ewma_l0.05_L4,control chart,15,11,0.3872447404414744,3.229986644629935
+xjtu,crest,waveform shape,ewma_l0.05_L5,control chart,15,11,0.3963563813930385,4.456432823658863
+xjtu,crest,waveform shape,ewma_l0.05_L6,control chart,15,10,0.41337576970244394,5.02802518733616
+xjtu,crest,waveform shape,ewma_l0.1_L2,control chart,15,13,0.0577717190274766,1.1842360997226722
+xjtu,crest,waveform shape,ewma_l0.1_L3,control chart,15,13,0.20689674853445608,2.6889513737982407
+xjtu,crest,waveform shape,ewma_l0.1_L4,control chart,15,11,0.3881278538812785,3.2168313401238944
+xjtu,crest,waveform shape,ewma_l0.1_L5,control chart,15,11,0.3963563813930385,3.5428559245229048
+xjtu,crest,waveform shape,ewma_l0.1_L6,control chart,15,10,0.41337576970244394,4.983989708056165
+xjtu,crest,waveform shape,ewma_l0.2_L2,control chart,15,13,0.06877585598509119,1.458650598966426
+xjtu,crest,waveform shape,ewma_l0.2_L3,control chart,15,12,0.39579745461116567,2.903434717536229
+xjtu,crest,waveform shape,ewma_l0.2_L4,control chart,15,11,0.3872447404414744,3.216687096525651
+xjtu,crest,waveform shape,ewma_l0.2_L5,control chart,15,10,0.4146341463414635,4.307461040808581
+xjtu,crest,waveform shape,ewma_l0.2_L6,control chart,15,10,0.41337576970244394,4.983989708056165
+xjtu,crest,waveform shape,ewma_l0.4_L2,control chart,15,13,0.33562617720724497,2.4894987251773726
+xjtu,crest,waveform shape,ewma_l0.4_L3,control chart,15,11,0.3872447404414744,3.268073570876095
+xjtu,crest,waveform shape,ewma_l0.4_L4,control chart,15,10,0.41337576970244394,4.703166132207501
+xjtu,crest,waveform shape,ewma_l0.4_L5,control chart,15,9,0.3277310924369748,5.072066157094257
+xjtu,crest,waveform shape,ewma_l0.4_L6,control chart,15,8,0.3333333333333334,6.059086975344586
+xjtu,crest,waveform shape,ewma_l0.8_L2,control chart,15,11,0.3963563813930385,3.53653546032515
+xjtu,crest,waveform shape,ewma_l0.8_L3,control chart,15,10,0.4146341463414635,4.401802822788282
+xjtu,crest,waveform shape,ewma_l0.8_L4,control chart,15,7,0.7500000000000002,6.144371228848708
+xjtu,crest,waveform shape,ewma_l0.8_L5,control chart,15,7,0.7500000000000002,8.097989828940928
+xjtu,crest,waveform shape,ewma_l0.8_L6,control chart,15,7,0.7500000000000002,8.097989828940928
+xjtu,crest,waveform shape,cusum_k0.25_h3,control chart,15,14,-0.09471365638766521,1.4049171147835908
+xjtu,crest,waveform shape,cusum_k0.25_h5,control chart,15,13,0.06327378750628389,1.1842360997226722
+xjtu,crest,waveform shape,cusum_k0.25_h8,control chart,15,13,0.1349862258953168,1.2972749047158032
+xjtu,crest,waveform shape,cusum_k0.25_h12,control chart,15,13,0.19559228650137742,3.005597266866805
+xjtu,crest,waveform shape,cusum_k0.5_h3,control chart,15,13,0.08677685950413223,1.2735311541013905
+xjtu,crest,waveform shape,cusum_k0.5_h5,control chart,15,13,0.11829447229435683,1.189891076978473
+xjtu,crest,waveform shape,cusum_k0.5_h8,control chart,15,12,0.0875658085422933,2.8187879004268774
+xjtu,crest,waveform shape,cusum_k0.5_h12,control chart,15,11,0.3881278538812785,3.308309180190363
+xjtu,crest,waveform shape,cusum_k1_h3,control chart,15,12,0.4798606308117672,3.267218480191125
+xjtu,crest,waveform shape,cusum_k1_h5,control chart,15,11,0.3963563813930385,3.5428559245229048
+xjtu,crest,waveform shape,cusum_k1_h8,control chart,15,10,0.4146341463414635,4.409927886321915
+xjtu,crest,waveform shape,cusum_k1_h12,control chart,15,10,0.41337576970244394,5.02802518733616
+xjtu,crest,waveform shape,cusum_k2_h3,control chart,15,10,0.41337576970244394,4.307461040808581
+xjtu,crest,waveform shape,cusum_k2_h5,control chart,15,10,0.4146341463414635,4.983989708056165
+xjtu,crest,waveform shape,cusum_k2_h8,control chart,15,9,0.326362689414732,5.7552528072061975
+xjtu,crest,waveform shape,cusum_k2_h12,control chart,15,8,0.8333333333333335,7.194992118239406
+xjtu,crest,waveform shape,cusum_k3_h3,control chart,15,7,0.7500000000000002,6.606627358235705
+xjtu,crest,waveform shape,cusum_k3_h5,control chart,15,7,0.7500000000000002,8.097989828940928
+xjtu,crest,waveform shape,cusum_k3_h8,control chart,15,7,0.7500000000000002,8.27415097440906
+xjtu,crest,waveform shape,cusum_k3_h12,control chart,15,7,0.7500000000000002,8.709829799921323
+xjtu,crest,waveform shape,thr_1sd,detector,15,13,0.13379323071894825,1.9384318463328043
+xjtu,crest,waveform shape,thr_1.5sd,detector,15,12,0.3789473684210527,3.475726727894605
+xjtu,crest,waveform shape,thr_2sd,detector,15,10,0.41337576970244394,3.941854141121425
+xjtu,crest,waveform shape,thr_2.5sd,detector,15,9,0.3277310924369748,4.456432823658863
+xjtu,crest,waveform shape,thr_3sd,detector,15,8,0.8333333333333335,5.949812018027453
+xjtu,crest,waveform shape,thr_4sd,detector,15,7,0.7500000000000002,8.097989828940928
+xjtu,crest,waveform shape,thr_5sd,detector,15,7,0.7500000000000002,7.009733316809838
+xjtu,crest,waveform shape,thr_6sd,detector,15,5,0.6,10.44321281768786
+xjtu,crest,waveform shape,thr_8sd,detector,15,4,0.39999999999999997,12.787145649046403
+xjtu,crest,waveform shape,ma5_2sd,detector,15,10,0.41337576970244394,4.307461040808581
+xjtu,crest,waveform shape,ma5_3sd,detector,15,9,0.8666666666666667,5.511546592453467
+xjtu,crest,waveform shape,ma5_5sd,detector,15,7,0.7500000000000002,8.709829799921323
+xjtu,crest,waveform shape,ewmaAR_l0.05_L3,"chart, AR-corrected",15,13,0.15405791740660424,1.8328247105660016
+xjtu,crest,waveform shape,ewmaAR_l0.1_L3,"chart, AR-corrected",15,12,0.17017543859649126,2.717310635561107
+xjtu,crest,waveform shape,ewmaAR_l0.2_L3,"chart, AR-corrected",15,11,0.4601378680539873,3.266363389506155
+xjtu,crest,waveform shape,ewmaAR_l0.4_L3,"chart, AR-corrected",15,10,0.41337576970244394,3.6763403756507707
+xjtu,crest,waveform shape,ewmaAR_l0.8_L3,"chart, AR-corrected",15,10,0.4146341463414635,4.401802822788282
+xjtu,crest,waveform shape,adapt_L2,"chart, adaptive limits",15,8,0.3333333333333334,4.840453344586929
+xjtu,crest,waveform shape,adapt_L3,"chart, adaptive limits",15,7,0.8571428571428573,6.606627358235705
+xjtu,crest,waveform shape,adapt_L4,"chart, adaptive limits",15,4,0.39999999999999997,12.319068016635423
+xjtu,crest,waveform shape,adapt_L5,"chart, adaptive limits",15,3,,14.194923215582987
+xjtu,crest,waveform shape,adapt_L6,"chart, adaptive limits",15,3,,14.194923215582987
+xjtu,kurtosis,waveform shape,ewma_l0.05_L2,control chart,15,13,-0.24413816327065815,1.4721118225722896
+xjtu,kurtosis,waveform shape,ewma_l0.05_L3,control chart,15,12,-0.49387116017853416,1.7514636638910455
+xjtu,kurtosis,waveform shape,ewma_l0.05_L4,control chart,15,12,-0.3537658665108649,3.3833197774998123
+xjtu,kurtosis,waveform shape,ewma_l0.05_L5,control chart,15,12,-0.3824561403508772,3.8652181645334145
+xjtu,kurtosis,waveform shape,ewma_l0.05_L6,control chart,15,11,0.07744894808829489,5.099437685852223
+xjtu,kurtosis,waveform shape,ewma_l0.1_L2,control chart,15,14,-0.3329660237635522,1.5638891434936641
+xjtu,kurtosis,waveform shape,ewma_l0.1_L3,control chart,15,13,-0.3658875538406851,1.57092999551594
+xjtu,kurtosis,waveform shape,ewma_l0.1_L4,control chart,15,12,-0.3817869252443988,3.582729424681938
+xjtu,kurtosis,waveform shape,ewma_l0.1_L5,control chart,15,11,-0.4054680223446026,5.099437685852223
+xjtu,kurtosis,waveform shape,ewma_l0.1_L6,control chart,15,11,0.4794520547945206,5.764945854795136
+xjtu,kurtosis,waveform shape,ewma_l0.2_L2,control chart,15,15,-0.35547805458970294,1.6338334565159531
+xjtu,kurtosis,waveform shape,ewma_l0.2_L3,control chart,15,13,-0.34297520661157027,1.703829264377883
+xjtu,kurtosis,waveform shape,ewma_l0.2_L4,control chart,15,13,0.030261376633440123,4.8399394813666925
+xjtu,kurtosis,waveform shape,ewma_l0.2_L5,control chart,15,12,0.4728553661283838,5.577235426972077
+xjtu,kurtosis,waveform shape,ewma_l0.2_L6,control chart,15,11,0.4783611499571155,5.764945854795136
+xjtu,kurtosis,waveform shape,ewma_l0.4_L2,control chart,15,14,-0.3586360806046546,1.738297626488895
+xjtu,kurtosis,waveform shape,ewma_l0.4_L3,control chart,15,13,0.10178826685793495,4.8399394813666925
+xjtu,kurtosis,waveform shape,ewma_l0.4_L4,control chart,15,12,0.4728553661283838,5.577235426972077
+xjtu,kurtosis,waveform shape,ewma_l0.4_L5,control chart,15,12,0.4728553661283838,5.577235426972077
+xjtu,kurtosis,waveform shape,ewma_l0.4_L6,control chart,15,10,0.3039527718400323,5.43219177032368
+xjtu,kurtosis,waveform shape,ewma_l0.8_L2,control chart,15,13,0.44566754678339093,3.6371165865962953
+xjtu,kurtosis,waveform shape,ewma_l0.8_L3,control chart,15,12,0.29772374904379717,5.577235426972077
+xjtu,kurtosis,waveform shape,ewma_l0.8_L4,control chart,15,10,0.7294866524160775,6.815441461959632
+xjtu,kurtosis,waveform shape,ewma_l0.8_L5,control chart,15,10,0.7294866524160775,7.586025581570606
+xjtu,kurtosis,waveform shape,ewma_l0.8_L6,control chart,15,8,0.8333333333333335,8.879359212861903
+xjtu,kurtosis,waveform shape,cusum_k0.25_h3,control chart,15,15,-0.29596519684352884,1.4073815736552846
+xjtu,kurtosis,waveform shape,cusum_k0.25_h5,control chart,15,15,-0.33722095155505105,1.4123683995866112
+xjtu,kurtosis,waveform shape,cusum_k0.25_h8,control chart,15,14,-0.25742589834812624,1.3153550724565004
+xjtu,kurtosis,waveform shape,cusum_k0.25_h12,control chart,15,13,-0.43191237558637263,1.3696735398209836
+xjtu,kurtosis,waveform shape,cusum_k0.5_h3,control chart,15,15,-0.31871096030782675,1.5172067491788885
+xjtu,kurtosis,waveform shape,cusum_k0.5_h5,control chart,15,14,-0.24669603524229078,1.5180238202957401
+xjtu,kurtosis,waveform shape,cusum_k0.5_h8,control chart,15,13,-0.43191237558637263,1.4456710166389024
+xjtu,kurtosis,waveform shape,cusum_k0.5_h12,control chart,15,13,-0.32920110192837465,4.1154383530467635
+xjtu,kurtosis,waveform shape,cusum_k1_h3,control chart,15,13,-0.18982136251885168,2.3825405067649945
+xjtu,kurtosis,waveform shape,cusum_k1_h5,control chart,15,12,-0.256140350877193,4.067321746362081
+xjtu,kurtosis,waveform shape,cusum_k1_h8,control chart,15,12,0.4728553661283838,5.43219177032368
+xjtu,kurtosis,waveform shape,cusum_k1_h12,control chart,15,12,0.4728553661283838,5.8508418545092535
+xjtu,kurtosis,waveform shape,cusum_k2_h3,control chart,15,12,0.4728553661283838,5.577235426972077
+xjtu,kurtosis,waveform shape,cusum_k2_h5,control chart,15,12,0.4728553661283838,5.577235426972077
+xjtu,kurtosis,waveform shape,cusum_k2_h8,control chart,15,11,0.4783611499571155,6.261664159287482
+xjtu,kurtosis,waveform shape,cusum_k2_h12,control chart,15,10,0.5106406566912542,7.871429739826457
+xjtu,kurtosis,waveform shape,cusum_k3_h3,control chart,15,12,0.7670764828304892,5.734887055788992
+xjtu,kurtosis,waveform shape,cusum_k3_h5,control chart,15,12,0.7684210526315791,6.815441461959632
+xjtu,kurtosis,waveform shape,cusum_k3_h8,control chart,15,10,0.8145934285312865,7.871429739826457
+xjtu,kurtosis,waveform shape,cusum_k3_h12,control chart,15,10,0.8145934285312865,9.82312359140997
+xjtu,kurtosis,waveform shape,thr_1sd,detector,15,14,-0.2726275958362644,1.7222174746548107
+xjtu,kurtosis,waveform shape,thr_1.5sd,detector,15,13,0.07575757575757576,2.571693453450669
+xjtu,kurtosis,waveform shape,thr_2sd,detector,15,11,0.2779050490227052,4.402637471531931
+xjtu,kurtosis,waveform shape,thr_2.5sd,detector,15,11,0.2779050490227052,6.0550331680919305
+xjtu,kurtosis,waveform shape,thr_3sd,detector,15,10,0.3039527718400323,6.494367332174664
+xjtu,kurtosis,waveform shape,thr_4sd,detector,15,9,0.7999999999999999,8.410761687630659
+xjtu,kurtosis,waveform shape,thr_5sd,detector,15,8,0.8333333333333335,8.879359212861903
+xjtu,kurtosis,waveform shape,thr_6sd,detector,15,8,0.8333333333333335,10.819676222305407
+xjtu,kurtosis,waveform shape,thr_8sd,detector,15,7,0.8571428571428573,12.748280595210089
+xjtu,kurtosis,waveform shape,ma5_2sd,detector,15,12,0.4728553661283838,5.759251799100102
+xjtu,kurtosis,waveform shape,ma5_3sd,detector,15,11,0.4783611499571155,6.202906417054375
+xjtu,kurtosis,waveform shape,ma5_5sd,detector,15,8,0.8095238095238096,10.348187436303439
+xjtu,kurtosis,waveform shape,ewmaAR_l0.05_L3,"chart, AR-corrected",15,12,-0.3537658665108649,3.4884996870607052
+xjtu,kurtosis,waveform shape,ewmaAR_l0.1_L3,"chart, AR-corrected",15,13,-0.327373074489034,3.566084363863701
+xjtu,kurtosis,waveform shape,ewmaAR_l0.2_L3,"chart, AR-corrected",15,13,-0.24209101306752098,2.510080582616453
+xjtu,kurtosis,waveform shape,ewmaAR_l0.4_L3,"chart, AR-corrected",15,13,0.04126551359105471,4.8399394813666925
+xjtu,kurtosis,waveform shape,ewmaAR_l0.8_L3,"chart, AR-corrected",15,12,0.29772374904379717,5.577235426972077
+xjtu,kurtosis,waveform shape,adapt_L2,"chart, adaptive limits",15,11,0.2779050490227052,6.0550331680919305
+xjtu,kurtosis,waveform shape,adapt_L3,"chart, adaptive limits",15,9,0.33333333333333337,6.933701496257398
+xjtu,kurtosis,waveform shape,adapt_L4,"chart, adaptive limits",15,7,0.8571428571428573,9.34795673809315
+xjtu,kurtosis,waveform shape,adapt_L5,"chart, adaptive limits",15,5,0.9999999999999999,34.52366010552943
+xjtu,kurtosis,waveform shape,adapt_L6,"chart, adaptive limits",15,5,0.9999999999999999,34.52366010552943
+xjtu,skew,waveform shape,ewma_l0.05_L2,control chart,15,13,-0.4393939393939394,1.3052850199992942
+xjtu,skew,waveform shape,ewma_l0.05_L3,control chart,15,12,-0.4798606308117672,1.4795544623606829
+xjtu,skew,waveform shape,ewma_l0.05_L4,control chart,15,12,-0.4798606308117672,1.809125369365196
+xjtu,skew,waveform shape,ewma_l0.05_L5,control chart,15,12,-0.3537658665108649,2.614447156255147
+xjtu,skew,waveform shape,ewma_l0.05_L6,control chart,15,11,-0.3515981735159817,5.306916113402991
+xjtu,skew,waveform shape,ewma_l0.1_L2,control chart,15,14,-0.3469162995594714,1.7401863125071517
+xjtu,skew,waveform shape,ewma_l0.1_L3,control chart,15,13,-0.45942271798040907,1.8391157540567684
+xjtu,skew,waveform shape,ewma_l0.1_L4,control chart,15,13,-0.3328751429678413,3.256150766320859
+xjtu,skew,waveform shape,ewma_l0.1_L5,control chart,15,12,-0.3467606018274814,3.76855867248851
+xjtu,skew,waveform shape,ewma_l0.1_L6,control chart,15,12,0.05253948512537597,4.541362094672744
+xjtu,skew,waveform shape,ewma_l0.2_L2,control chart,15,14,-0.3737598743571,1.5734093872299892
+xjtu,skew,waveform shape,ewma_l0.2_L3,control chart,15,13,-0.4234486786671868,1.8391157540567684
+xjtu,skew,waveform shape,ewma_l0.2_L4,control chart,15,13,-0.2723523897009611,3.606382613939921
+xjtu,skew,waveform shape,ewma_l0.2_L5,control chart,15,12,0.05964912280701754,4.736967706700379
+xjtu,skew,waveform shape,ewma_l0.2_L6,control chart,15,11,0.25968176711957697,4.7855256830674495
+xjtu,skew,waveform shape,ewma_l0.4_L2,control chart,15,14,-0.4277841629809876,1.924535971299345
+xjtu,skew,waveform shape,ewma_l0.4_L3,control chart,15,13,-0.2723523897009611,3.37094477543011
+xjtu,skew,waveform shape,ewma_l0.4_L4,control chart,15,12,0.0665500144921429,4.4388692583004445
+xjtu,skew,waveform shape,ewma_l0.4_L5,control chart,15,11,0.26940639269406397,4.977771243951497
+xjtu,skew,waveform shape,ewma_l0.4_L6,control chart,15,10,0.7416447632896789,6.940532592340129
+xjtu,skew,waveform shape,ewma_l0.8_L2,control chart,15,12,-0.3824561403508772,3.0778787305641404
+xjtu,skew,waveform shape,ewma_l0.8_L3,control chart,15,11,0.2779050490227052,4.6884097303333085
+xjtu,skew,waveform shape,ewma_l0.8_L4,control chart,15,11,0.680365296803653,6.264635827482574
+xjtu,skew,waveform shape,ewma_l0.8_L5,control chart,15,9,0.7949860383179369,7.170053262254721
+xjtu,skew,waveform shape,ewma_l0.8_L6,control chart,15,9,0.7949860383179369,8.444820760321848
+xjtu,skew,waveform shape,cusum_k0.25_h3,control chart,15,14,-0.5237048387009514,1.425797672898081
+xjtu,skew,waveform shape,cusum_k0.25_h5,control chart,15,14,-0.42447655347340263,1.4565054471938081
+xjtu,skew,waveform shape,cusum_k0.25_h8,control chart,15,14,-0.4911894273127753,1.4095030962034882
+xjtu,skew,waveform shape,cusum_k0.25_h12,control chart,15,13,-0.429161341346969,1.685096048953654
+xjtu,skew,waveform shape,cusum_k0.5_h3,control chart,15,14,-0.42447655347340263,1.6524779591170666
+xjtu,skew,waveform shape,cusum_k0.5_h5,control chart,15,14,-0.39757709251101325,1.2179740781051742
+xjtu,skew,waveform shape,cusum_k0.5_h8,control chart,15,13,-0.429161341346969,1.8391157540567684
+xjtu,skew,waveform shape,cusum_k0.5_h12,control chart,15,13,-0.2723523897009611,3.435966065779719
+xjtu,skew,waveform shape,cusum_k1_h3,control chart,15,13,-0.2630853994490358,2.423565422295118
+xjtu,skew,waveform shape,cusum_k1_h5,control chart,15,13,-0.2668503212221538,3.645090224248744
+xjtu,skew,waveform shape,cusum_k1_h8,control chart,15,13,-0.25309515002513555,4.7855256830674495
+xjtu,skew,waveform shape,cusum_k1_h12,control chart,15,13,-0.2723523897009611,5.774111832959708
+xjtu,skew,waveform shape,cusum_k2_h3,control chart,15,13,0.5089413342896748,4.6884097303333085
+xjtu,skew,waveform shape,cusum_k2_h5,control chart,15,13,0.5089413342896748,5.1275927623563256
+xjtu,skew,waveform shape,cusum_k2_h8,control chart,15,10,0.41337576970244394,6.84337198840614
+xjtu,skew,waveform shape,cusum_k2_h12,control chart,15,10,0.8510677611520904,8.010209840033244
+xjtu,skew,waveform shape,cusum_k3_h3,control chart,15,11,0.8792733518259361,7.170053262254721
+xjtu,skew,waveform shape,cusum_k3_h5,control chart,15,10,0.8510677611520904,7.215026137613802
+xjtu,skew,waveform shape,cusum_k3_h8,control chart,15,10,0.8510677611520904,8.010209840033244
+xjtu,skew,waveform shape,cusum_k3_h12,control chart,15,10,0.8536585365853661,8.024167661468304
+xjtu,skew,waveform shape,thr_1sd,detector,15,13,-0.29053113055341917,1.764744266038997
+xjtu,skew,waveform shape,thr_1.5sd,detector,15,13,-0.3365520442827152,2.7848126856981708
+xjtu,skew,waveform shape,thr_2sd,detector,15,12,0.05964912280701754,4.02967725288171
+xjtu,skew,waveform shape,thr_2.5sd,detector,15,11,0.2779050490227052,4.6884097303333085
+xjtu,skew,waveform shape,thr_3sd,detector,15,11,0.6879288918430899,6.264635827482574
+xjtu,skew,waveform shape,thr_4sd,detector,15,9,0.7949860383179369,7.170053262254721
+xjtu,skew,waveform shape,thr_5sd,detector,15,9,0.7949860383179369,8.734796538918452
+xjtu,skew,waveform shape,thr_6sd,detector,15,9,0.7949860383179369,8.94716312540854
+xjtu,skew,waveform shape,thr_8sd,detector,15,8,0.8503146459584138,10.805990324276054
+xjtu,skew,waveform shape,ma5_2sd,detector,15,13,0.11570247933884299,4.189328786267581
+xjtu,skew,waveform shape,ma5_3sd,detector,15,12,0.7600712181471058,5.833651548331863
+xjtu,skew,waveform shape,ma5_5sd,detector,15,9,0.7949860383179369,8.088782865327849
+xjtu,skew,waveform shape,ewmaAR_l0.05_L3,"chart, AR-corrected",15,12,-0.41754385964912283,1.7084849809862634
+xjtu,skew,waveform shape,ewmaAR_l0.1_L3,"chart, AR-corrected",15,13,-0.4765840220385675,1.8391157540567684
+xjtu,skew,waveform shape,ewmaAR_l0.2_L3,"chart, AR-corrected",15,13,-0.2916096293767866,2.5212186536240275
+xjtu,skew,waveform shape,ewmaAR_l0.4_L3,"chart, AR-corrected",15,13,-0.2503441157857319,3.645090224248744
+xjtu,skew,waveform shape,ewmaAR_l0.8_L3,"chart, AR-corrected",15,11,0.6788172508915258,4.9935737483160185
+xjtu,skew,waveform shape,adapt_L2,"chart, adaptive limits",15,12,0.0665500144921429,4.5914512672918
+xjtu,skew,waveform shape,adapt_L3,"chart, adaptive limits",15,9,0.7999999999999999,7.170053262254721
+xjtu,skew,waveform shape,adapt_L4,"chart, adaptive limits",15,5,0.9999999999999999,20.828048631351376
+xjtu,skew,waveform shape,adapt_L5,"chart, adaptive limits",15,5,0.9999999999999999,20.828048631351376
+xjtu,skew,waveform shape,adapt_L6,"chart, adaptive limits",15,5,0.9999999999999999,20.828048631351376
+femto,v_rms,amplitude,ewma_l0.05_L2,control chart,13,10,-0.5393939393939393,2.231432350300558
+femto,v_rms,amplitude,ewma_l0.05_L3,control chart,13,9,-0.5333333333333333,2.6398709599136185
+femto,v_rms,amplitude,ewma_l0.05_L4,control chart,13,8,-0.30952380952380953,6.978952132328444
+femto,v_rms,amplitude,ewma_l0.05_L5,control chart,13,8,0.7857142857142858,11.223118159916506
+femto,v_rms,amplitude,ewma_l0.05_L6,control chart,13,8,0.7857142857142858,12.988965927404038
+femto,v_rms,amplitude,ewma_l0.1_L2,control chart,13,10,-0.2735574946560291,2.0935168498470076
+femto,v_rms,amplitude,ewma_l0.1_L3,control chart,13,10,-0.5151515151515151,2.3418275349872966
+femto,v_rms,amplitude,ewma_l0.1_L4,control chart,13,9,-0.7,2.6560462509800207
+femto,v_rms,amplitude,ewma_l0.1_L5,control chart,13,9,0.3,11.497804984510143
+femto,v_rms,amplitude,ewma_l0.1_L6,control chart,13,9,0.7999999999999999,11.497804984510143
+femto,v_rms,amplitude,ewma_l0.2_L2,control chart,13,10,-0.2735574946560291,1.764968329673598
+femto,v_rms,amplitude,ewma_l0.2_L3,control chart,13,10,-0.5151515151515151,2.322732328107417
+femto,v_rms,amplitude,ewma_l0.2_L4,control chart,13,9,-0.18333333333333335,2.7487064357092796
+femto,v_rms,amplitude,ewma_l0.2_L5,control chart,13,9,0.2833333333333333,7.932038323566934
+femto,v_rms,amplitude,ewma_l0.2_L6,control chart,13,9,0.7833333333333333,10.94843133532287
+femto,v_rms,amplitude,ewma_l0.4_L2,control chart,13,10,-0.2735574946560291,2.1287778987539756
+femto,v_rms,amplitude,ewma_l0.4_L3,control chart,13,9,-0.16666666666666669,2.8656875352054603
+femto,v_rms,amplitude,ewma_l0.4_L4,control chart,13,9,0.2833333333333333,7.384237203598391
+femto,v_rms,amplitude,ewma_l0.4_L5,control chart,13,9,0.7833333333333333,9.909715474025994
+femto,v_rms,amplitude,ewma_l0.4_L6,control chart,13,9,0.7833333333333333,11.121360541337031
+femto,v_rms,amplitude,ewma_l0.8_L2,control chart,13,9,0.33333333333333337,3.1810167429173366
+femto,v_rms,amplitude,ewma_l0.8_L3,control chart,13,9,0.2833333333333333,7.918570590312723
+femto,v_rms,amplitude,ewma_l0.8_L4,control chart,13,9,0.7833333333333333,11.7490406835565
+femto,v_rms,amplitude,ewma_l0.8_L5,control chart,13,9,0.9166666666666666,11.121360541337031
+femto,v_rms,amplitude,ewma_l0.8_L6,control chart,13,9,0.9166666666666666,11.121360541337031
+femto,v_rms,amplitude,cusum_k0.25_h3,control chart,13,13,-0.49311481879559826,1.3492522186439937
+femto,v_rms,amplitude,cusum_k0.25_h5,control chart,13,13,-0.35213238264366686,1.7168449471724436
+femto,v_rms,amplitude,cusum_k0.25_h8,control chart,13,11,-0.5181818181818182,2.2177074485967494
+femto,v_rms,amplitude,cusum_k0.25_h12,control chart,13,9,-0.5333333333333333,1.3724914417811307
+femto,v_rms,amplitude,cusum_k0.5_h3,control chart,13,12,-0.3403529723239144,2.0150412947659295
+femto,v_rms,amplitude,cusum_k0.5_h5,control chart,13,11,-0.6104799437547951,2.2177074485967494
+femto,v_rms,amplitude,cusum_k0.5_h8,control chart,13,10,-0.5167197121280549,2.4665819011753256
+femto,v_rms,amplitude,cusum_k0.5_h12,control chart,13,9,-0.2333333333333333,2.8055448393083084
+femto,v_rms,amplitude,cusum_k1_h3,control chart,13,11,-0.48181818181818187,2.4277572076180842
+femto,v_rms,amplitude,cusum_k1_h5,control chart,13,10,0.1515151515151515,3.4518255189929508
+femto,v_rms,amplitude,cusum_k1_h8,control chart,13,10,0.3696969696969697,7.784416594374166
+femto,v_rms,amplitude,cusum_k1_h12,control chart,13,9,0.7833333333333333,10.94843133532287
+femto,v_rms,amplitude,cusum_k2_h3,control chart,13,10,0.8424242424242423,9.047155729587967
+femto,v_rms,amplitude,cusum_k2_h5,control chart,13,10,0.8424242424242423,11.435200612446765
+femto,v_rms,amplitude,cusum_k2_h8,control chart,13,9,0.7833333333333333,11.7490406835565
+femto,v_rms,amplitude,cusum_k2_h12,control chart,13,9,0.7833333333333333,12.713706375905028
+femto,v_rms,amplitude,cusum_k3_h3,control chart,13,10,0.8424242424242423,11.435200612446765
+femto,v_rms,amplitude,cusum_k3_h5,control chart,13,9,0.7833333333333333,11.7490406835565
+femto,v_rms,amplitude,cusum_k3_h8,control chart,13,9,0.8117225864930513,11.121360541337031
+femto,v_rms,amplitude,cusum_k3_h12,control chart,13,9,0.8333333333333333,12.713706375905028
+femto,v_rms,amplitude,thr_1sd,detector,13,10,-0.13414883533020291,1.6763704298332907
+femto,v_rms,amplitude,thr_1.5sd,detector,13,9,0.31666666666666665,2.4002244385693716
+femto,v_rms,amplitude,thr_2sd,detector,13,9,0.2833333333333333,7.918570590312723
+femto,v_rms,amplitude,thr_2.5sd,detector,13,9,0.2833333333333333,7.918570590312723
+femto,v_rms,amplitude,thr_3sd,detector,13,9,0.8166666666666667,8.994672726801276
+femto,v_rms,amplitude,thr_4sd,detector,13,9,0.9166666666666666,8.994672726801276
+femto,v_rms,amplitude,thr_5sd,detector,13,9,0.9166666666666666,11.121360541337031
+femto,v_rms,amplitude,thr_6sd,detector,13,9,0.9666666666666667,11.121360541337031
+femto,v_rms,amplitude,thr_8sd,detector,13,9,0.9666666666666667,12.006821540112995
+femto,v_rms,amplitude,ma5_2sd,detector,13,9,0.2833333333333333,7.932038323566934
+femto,v_rms,amplitude,ma5_3sd,detector,13,9,0.7833333333333333,10.94843133532287
+femto,v_rms,amplitude,ma5_5sd,detector,13,9,0.8833333333333333,12.006821540112995
+femto,v_rms,amplitude,ewmaAR_l0.05_L3,"chart, AR-corrected",13,8,0.3333333333333334,2.4829282578163454
+femto,v_rms,amplitude,ewmaAR_l0.1_L3,"chart, AR-corrected",13,9,0.3,7.658440796996634
+femto,v_rms,amplitude,ewmaAR_l0.2_L3,"chart, AR-corrected",13,9,0.09999999999999999,7.64695125452366
+femto,v_rms,amplitude,ewmaAR_l0.4_L3,"chart, AR-corrected",13,9,0.09999999999999999,7.384237203598391
+femto,v_rms,amplitude,ewmaAR_l0.8_L3,"chart, AR-corrected",13,9,0.7833333333333333,8.994672726801276
+femto,v_rms,amplitude,adapt_L2,"chart, adaptive limits",13,9,0.38333333333333336,7.918570590312723
+femto,v_rms,amplitude,adapt_L3,"chart, adaptive limits",13,9,0.9833333333333333,11.7490406835565
+femto,v_rms,amplitude,adapt_L4,"chart, adaptive limits",13,9,0.9833333333333333,12.006821540112995
+femto,v_rms,amplitude,adapt_L5,"chart, adaptive limits",13,8,0.9761904761904763,15.47900363376073
+femto,v_rms,amplitude,adapt_L6,"chart, adaptive limits",13,6,0.942857142857143,22.38661994369064
+femto,v_kurtosis,waveform shape,ewma_l0.05_L2,control chart,13,13,0.47592892341683096,2.2602700887599956
+femto,v_kurtosis,waveform shape,ewma_l0.05_L3,control chart,13,11,0.5909090909090909,4.657759634519069
+femto,v_kurtosis,waveform shape,ewma_l0.05_L4,control chart,13,10,0.5393939393939393,4.534264814176995
+femto,v_kurtosis,waveform shape,ewma_l0.05_L5,control chart,13,10,0.6727272727272726,3.421276095667812
+femto,v_kurtosis,waveform shape,ewma_l0.05_L6,control chart,13,9,0.7999999999999999,3.6697872268441674
+femto,v_kurtosis,waveform shape,ewma_l0.1_L2,control chart,13,13,0.40440203319233614,2.597353462555936
+femto,v_kurtosis,waveform shape,ewma_l0.1_L3,control chart,13,11,0.6272727272727273,4.657759634519069
+femto,v_kurtosis,waveform shape,ewma_l0.1_L4,control chart,13,11,0.5909090909090909,4.657759634519069
+femto,v_kurtosis,waveform shape,ewma_l0.1_L5,control chart,13,10,0.6626170426112704,4.8707697198207
+femto,v_kurtosis,waveform shape,ewma_l0.1_L6,control chart,13,9,0.7196715715299219,8.073199851283952
+femto,v_kurtosis,waveform shape,ewma_l0.2_L2,control chart,13,13,0.47592892341683096,2.597353462555936
+femto,v_kurtosis,waveform shape,ewma_l0.2_L3,control chart,13,13,0.3053648005738049,2.861564156105906
+femto,v_kurtosis,waveform shape,ewma_l0.2_L4,control chart,13,11,0.6727272727272727,4.657759634519069
+femto,v_kurtosis,waveform shape,ewma_l0.2_L5,control chart,13,10,0.5757575757575757,5.364755923658151
+femto,v_kurtosis,waveform shape,ewma_l0.2_L6,control chart,13,8,0.6904761904761906,14.03242581303345
+femto,v_kurtosis,waveform shape,ewma_l0.4_L2,control chart,13,13,0.3163689375314194,2.9104514475917327
+femto,v_kurtosis,waveform shape,ewma_l0.4_L3,control chart,13,10,0.4666666666666666,4.940495648265227
+femto,v_kurtosis,waveform shape,ewma_l0.4_L4,control chart,13,8,0.6904761904761906,14.03242581303345
+femto,v_kurtosis,waveform shape,ewma_l0.4_L5,control chart,13,8,0.7619047619047621,19.38289799879407
+femto,v_kurtosis,waveform shape,ewma_l0.4_L6,control chart,13,8,0.7619047619047621,19.38289799879407
+femto,v_kurtosis,waveform shape,ewma_l0.8_L2,control chart,13,10,0.8787878787878788,18.180786348283455
+femto,v_kurtosis,waveform shape,ewma_l0.8_L3,control chart,13,7,0.8928571428571429,19.007548080681648
+femto,v_kurtosis,waveform shape,ewma_l0.8_L4,control chart,13,7,0.8928571428571429,19.007548080681648
+femto,v_kurtosis,waveform shape,ewma_l0.8_L5,control chart,13,7,0.8928571428571429,21.411771381702874
+femto,v_kurtosis,waveform shape,ewma_l0.8_L6,control chart,13,7,0.9285714285714288,21.411771381702874
+femto,v_kurtosis,waveform shape,cusum_k0.25_h3,control chart,13,13,0.4297536968274488,1.5577295537247653
+femto,v_kurtosis,waveform shape,cusum_k0.25_h5,control chart,13,13,0.44291651254398723,2.597353462555936
+femto,v_kurtosis,waveform shape,cusum_k0.25_h8,control chart,13,13,0.7527472527472527,2.571528870190188
+femto,v_kurtosis,waveform shape,cusum_k0.25_h12,control chart,13,11,0.5909090909090909,4.657759634519069
+femto,v_kurtosis,waveform shape,cusum_k0.5_h3,control chart,13,13,0.43956043956043955,1.792470259823865
+femto,v_kurtosis,waveform shape,cusum_k0.5_h5,control chart,13,13,0.3163689375314194,2.861564156105906
+femto,v_kurtosis,waveform shape,cusum_k0.5_h8,control chart,13,11,0.5909090909090909,4.657759634519069
+femto,v_kurtosis,waveform shape,cusum_k0.5_h12,control chart,13,11,0.6363636363636364,2.9967774155567564
+femto,v_kurtosis,waveform shape,cusum_k1_h3,control chart,13,12,0.22416846986827083,2.7944298951897415
+femto,v_kurtosis,waveform shape,cusum_k1_h5,control chart,13,11,0.15945371665237182,2.9104514475917327
+femto,v_kurtosis,waveform shape,cusum_k1_h8,control chart,13,11,0.7107079942220003,4.657759634519069
+femto,v_kurtosis,waveform shape,cusum_k1_h12,control chart,13,8,0.5952380952380953,9.392013430732794
+femto,v_kurtosis,waveform shape,cusum_k2_h3,control chart,13,9,0.5499999999999999,7.550680125133934
+femto,v_kurtosis,waveform shape,cusum_k2_h5,control chart,13,9,0.6,10.710827010181635
+femto,v_kurtosis,waveform shape,cusum_k2_h8,control chart,13,8,0.7619047619047621,19.38289799879407
+femto,v_kurtosis,waveform shape,cusum_k2_h12,control chart,13,7,0.6785714285714287,21.513251726234625
+femto,v_kurtosis,waveform shape,cusum_k3_h3,control chart,13,9,0.65,17.354024615885265
+femto,v_kurtosis,waveform shape,cusum_k3_h5,control chart,13,8,0.7619047619047621,19.38289799879407
+femto,v_kurtosis,waveform shape,cusum_k3_h8,control chart,13,7,0.6785714285714287,21.513251726234625
+femto,v_kurtosis,waveform shape,cusum_k3_h12,control chart,13,7,0.6785714285714287,21.513251726234625
+femto,v_kurtosis,waveform shape,thr_1sd,detector,13,10,0.8666666666666665,2.2370857211159922
+femto,v_kurtosis,waveform shape,thr_1.5sd,detector,13,10,0.7454545454545454,2.7152747870206015
+femto,v_kurtosis,waveform shape,thr_2sd,detector,13,7,0.8571428571428573,3.9819728274969974
+femto,v_kurtosis,waveform shape,thr_2.5sd,detector,13,6,0.8857142857142858,5.638377942403014
+femto,v_kurtosis,waveform shape,thr_3sd,detector,13,6,0.8857142857142858,15.102500483418318
+femto,v_kurtosis,waveform shape,thr_4sd,detector,13,6,0.8857142857142858,15.102500483418318
+femto,v_kurtosis,waveform shape,thr_5sd,detector,13,5,0.7999999999999999,21.411771381702874
+femto,v_kurtosis,waveform shape,thr_6sd,detector,13,5,0.7999999999999999,21.411771381702874
+femto,v_kurtosis,waveform shape,thr_8sd,detector,13,4,0.7999999999999999,26.898791699578055
+femto,v_kurtosis,waveform shape,ma5_2sd,detector,13,9,0.5499999999999999,7.550680125133934
+femto,v_kurtosis,waveform shape,ma5_3sd,detector,13,8,0.7619047619047621,19.38289799879407
+femto,v_kurtosis,waveform shape,ma5_5sd,detector,13,7,0.6785714285714287,21.513251726234625
+femto,v_kurtosis,waveform shape,ewmaAR_l0.05_L3,"chart, AR-corrected",13,11,0.6272727272727273,4.657759634519069
+femto,v_kurtosis,waveform shape,ewmaAR_l0.1_L3,"chart, AR-corrected",13,12,0.7692307692307694,3.0540628359427906
+femto,v_kurtosis,waveform shape,ewmaAR_l0.2_L3,"chart, AR-corrected",13,13,0.3163689375314194,2.9104514475917327
+femto,v_kurtosis,waveform shape,ewmaAR_l0.4_L3,"chart, AR-corrected",13,11,0.5909090909090909,3.9819728274969974
+femto,v_kurtosis,waveform shape,ewmaAR_l0.8_L3,"chart, AR-corrected",13,7,0.8928571428571429,19.007548080681648
+femto,v_kurtosis,waveform shape,adapt_L2,"chart, adaptive limits",13,5,0.7999999999999999,12.742887296390748
+femto,v_kurtosis,waveform shape,adapt_L3,"chart, adaptive limits",13,3,,21.411771381702874
+femto,v_kurtosis,waveform shape,adapt_L4,"chart, adaptive limits",13,3,,21.411771381702874
+femto,v_kurtosis,waveform shape,adapt_L5,"chart, adaptive limits",13,2,,14.481225753418403
+femto,v_kurtosis,waveform shape,adapt_L6,"chart, adaptive limits",13,1,,21.411771381702874
+femto,v_crest,waveform shape,ewma_l0.05_L2,control chart,13,13,0.5604395604395606,1.7789286964996596
+femto,v_crest,waveform shape,ewma_l0.05_L3,control chart,13,11,0.6727272727272727,3.3618930531969133
+femto,v_crest,waveform shape,ewma_l0.05_L4,control chart,13,9,0.75,3.118980892923622
+femto,v_crest,waveform shape,ewma_l0.05_L5,control chart,13,9,0.75,3.8349732344593215
+femto,v_crest,waveform shape,ewma_l0.05_L6,control chart,13,9,0.8666666666666667,7.617012734374534
+femto,v_crest,waveform shape,ewma_l0.1_L2,control chart,13,13,0.4649247864592164,1.701994923959925
+femto,v_crest,waveform shape,ewma_l0.1_L3,control chart,13,12,0.6993006993006995,3.4891723231528893
+femto,v_crest,waveform shape,ewma_l0.1_L4,control chart,13,10,0.6727272727272726,3.7979505520648322
+femto,v_crest,waveform shape,ewma_l0.1_L5,control chart,13,9,0.75,4.813801166235874
+femto,v_crest,waveform shape,ewma_l0.1_L6,control chart,13,9,0.8333333333333333,6.506143818082451
+femto,v_crest,waveform shape,ewma_l0.2_L2,control chart,13,13,0.41540617014995074,1.701994923959925
+femto,v_crest,waveform shape,ewma_l0.2_L3,control chart,13,11,0.6272727272727273,3.6820719779306996
+femto,v_crest,waveform shape,ewma_l0.2_L4,control chart,13,10,0.6121212121212121,4.098314240788779
+femto,v_crest,waveform shape,ewma_l0.2_L5,control chart,13,9,0.75,4.813801166235874
+femto,v_crest,waveform shape,ewma_l0.2_L6,control chart,13,8,0.8095238095238096,8.363038311341072
+femto,v_crest,waveform shape,ewma_l0.4_L2,control chart,13,12,0.5524475524475525,2.720438269113843
+femto,v_crest,waveform shape,ewma_l0.4_L3,control chart,13,11,0.6272727272727273,3.6820719779306996
+femto,v_crest,waveform shape,ewma_l0.4_L4,control chart,13,10,0.8060606060606059,4.324387200347598
+femto,v_crest,waveform shape,ewma_l0.4_L5,control chart,13,8,0.8095238095238096,8.941002070326244
+femto,v_crest,waveform shape,ewma_l0.4_L6,control chart,13,8,0.8095238095238096,8.363038311341072
+femto,v_crest,waveform shape,ewma_l0.8_L2,control chart,13,11,0.7727272727272727,3.4339823065360284
+femto,v_crest,waveform shape,ewma_l0.8_L3,control chart,13,7,0.8571428571428573,9.109063888307608
+femto,v_crest,waveform shape,ewma_l0.8_L4,control chart,13,6,0.942857142857143,6.731405351120675
+femto,v_crest,waveform shape,ewma_l0.8_L5,control chart,13,5,0.8999999999999998,8.77294025234488
+femto,v_crest,waveform shape,ewma_l0.8_L6,control chart,13,5,0.9999999999999999,8.77294025234488
+femto,v_crest,waveform shape,cusum_k0.25_h3,control chart,13,13,0.42424403404760963,1.612363244643715
+femto,v_crest,waveform shape,cusum_k0.25_h5,control chart,13,13,0.3108668690526121,1.7789286964996596
+femto,v_crest,waveform shape,cusum_k0.25_h8,control chart,13,13,0.7317751076813702,3.3618930531969133
+femto,v_crest,waveform shape,cusum_k0.25_h12,control chart,13,10,0.7454545454545454,2.871774080779322
+femto,v_crest,waveform shape,cusum_k0.5_h3,control chart,13,12,0.3922948222694739,1.7404618102297924
+femto,v_crest,waveform shape,cusum_k0.5_h5,control chart,13,12,0.3012263813854889,3.163572029533128
+femto,v_crest,waveform shape,cusum_k0.5_h8,control chart,13,10,0.6121212121212121,4.098314240788779
+femto,v_crest,waveform shape,cusum_k0.5_h12,control chart,13,9,0.75,4.514556503646859
+femto,v_crest,waveform shape,cusum_k1_h3,control chart,13,11,0.19590028045862823,3.42529380489279
+femto,v_crest,waveform shape,cusum_k1_h5,control chart,13,10,0.6121212121212121,4.098314240788779
+femto,v_crest,waveform shape,cusum_k1_h8,control chart,13,9,0.6666666666666667,4.514556503646859
+femto,v_crest,waveform shape,cusum_k1_h12,control chart,13,9,0.6833333333333333,4.070856330996914
+femto,v_crest,waveform shape,cusum_k2_h3,control chart,13,9,0.5333333333333333,4.514556503646859
+femto,v_crest,waveform shape,cusum_k2_h5,control chart,13,8,0.523809523809524,6.235039587352021
+femto,v_crest,waveform shape,cusum_k2_h8,control chart,13,8,0.6904761904761906,5.67960512920598
+femto,v_crest,waveform shape,cusum_k2_h12,control chart,13,7,0.8214285714285715,8.264924161244908
+femto,v_crest,waveform shape,cusum_k3_h3,control chart,13,7,0.6785714285714287,7.617012734374534
+femto,v_crest,waveform shape,cusum_k3_h5,control chart,13,7,0.8214285714285715,7.617012734374534
+femto,v_crest,waveform shape,cusum_k3_h8,control chart,13,7,0.8468812149338255,9.109063888307608
+femto,v_crest,waveform shape,cusum_k3_h12,control chart,13,7,0.8468812149338255,8.264924161244908
+femto,v_crest,waveform shape,thr_1sd,detector,13,13,0.7582417582417583,3.3618930531969133
+femto,v_crest,waveform shape,thr_1.5sd,detector,13,10,0.9151515151515152,3.1996166562026858
+femto,v_crest,waveform shape,thr_2sd,detector,13,9,0.9166666666666666,3.513140290601729
+femto,v_crest,waveform shape,thr_2.5sd,detector,13,8,0.9523809523809524,6.143040271473304
+femto,v_crest,waveform shape,thr_3sd,detector,13,6,0.8857142857142858,6.5428792905540085
+femto,v_crest,waveform shape,thr_4sd,detector,13,5,0.8999999999999998,8.77294025234488
+femto,v_crest,waveform shape,thr_5sd,detector,13,4,1.0,8.941002070326244
+femto,v_crest,waveform shape,thr_6sd,detector,13,3,,8.77294025234488
+femto,v_crest,waveform shape,thr_8sd,detector,13,2,,15.84755306010768
+femto,v_crest,waveform shape,ma5_2sd,detector,13,9,0.6666666666666667,4.813801166235874
+femto,v_crest,waveform shape,ma5_3sd,detector,13,8,0.8095238095238096,7.9409684478097216
+femto,v_crest,waveform shape,ma5_5sd,detector,13,6,0.942857142857143,6.0923998886632535
+femto,v_crest,waveform shape,ewmaAR_l0.05_L3,"chart, AR-corrected",13,12,0.7880922768806397,2.871774080779322
+femto,v_crest,waveform shape,ewmaAR_l0.1_L3,"chart, AR-corrected",13,13,0.7472527472527472,3.42529380489279
+femto,v_crest,waveform shape,ewmaAR_l0.2_L3,"chart, AR-corrected",13,12,0.3922948222694739,3.4891723231528893
+femto,v_crest,waveform shape,ewmaAR_l0.4_L3,"chart, AR-corrected",13,12,0.6993006993006995,3.558027142233364
+femto,v_crest,waveform shape,ewmaAR_l0.8_L3,"chart, AR-corrected",13,7,0.8571428571428573,9.109063888307608
+femto,v_crest,waveform shape,adapt_L2,"chart, adaptive limits",13,5,0.9999999999999999,7.230640776499516
+femto,v_crest,waveform shape,adapt_L3,"chart, adaptive limits",13,2,,6.143040271473304
+femto,v_crest,waveform shape,adapt_L4,"chart, adaptive limits",13,1,,8.77294025234488
+femto,v_crest,waveform shape,adapt_L5,"chart, adaptive limits",13,1,,8.77294025234488
+femto,v_crest,waveform shape,adapt_L6,"chart, adaptive limits",13,1,,8.77294025234488
+femto,v_p2p,amplitude,ewma_l0.05_L2,control chart,13,12,0.2027972027972028,3.4895248093926363
+femto,v_p2p,amplitude,ewma_l0.05_L3,control chart,13,11,0.6181818181818182,5.317599633349185
+femto,v_p2p,amplitude,ewma_l0.05_L4,control chart,13,11,0.9,5.913632183106263
+femto,v_p2p,amplitude,ewma_l0.05_L5,control chart,13,10,0.9483326481409007,6.262323074063832
+femto,v_p2p,amplitude,ewma_l0.05_L6,control chart,13,10,0.9515151515151514,6.175758465865681
+femto,v_p2p,amplitude,ewma_l0.1_L2,control chart,13,11,0.0956722299914231,2.9427269996247127
+femto,v_p2p,amplitude,ewma_l0.1_L3,control chart,13,11,0.18181818181818182,3.336120031413146
+femto,v_p2p,amplitude,ewma_l0.1_L4,control chart,13,11,0.9363636363636365,5.317599633349185
+femto,v_p2p,amplitude,ewma_l0.1_L5,control chart,13,11,0.9545454545454546,9.530412308549208
+femto,v_p2p,amplitude,ewma_l0.1_L6,control chart,13,11,0.9545454545454546,9.530412308549208
+femto,v_p2p,amplitude,ewma_l0.2_L2,control chart,13,11,0.22323520331332056,3.266236051490641
+femto,v_p2p,amplitude,ewma_l0.2_L3,control chart,13,11,0.4601378680539873,4.242223204284589
+femto,v_p2p,amplitude,ewma_l0.2_L4,control chart,13,11,0.8272727272727273,5.142245458675673
+femto,v_p2p,amplitude,ewma_l0.2_L5,control chart,13,11,0.9545454545454546,9.530412308549208
+femto,v_p2p,amplitude,ewma_l0.2_L6,control chart,13,10,0.9393939393939393,11.068525620536729
+femto,v_p2p,amplitude,ewma_l0.4_L2,control chart,13,11,0.21818181818181823,3.266236051490641
+femto,v_p2p,amplitude,ewma_l0.4_L3,control chart,13,11,0.6090909090909091,4.965478223044314
+femto,v_p2p,amplitude,ewma_l0.4_L4,control chart,13,11,0.961278120390013,9.530412308549208
+femto,v_p2p,amplitude,ewma_l0.4_L5,control chart,13,10,0.9483326481409007,10.64876585498995
+femto,v_p2p,amplitude,ewma_l0.4_L6,control chart,13,10,0.9515151515151514,10.64876585498995
+femto,v_p2p,amplitude,ewma_l0.8_L2,control chart,13,10,0.6484848484848483,5.805501857947576
+femto,v_p2p,amplitude,ewma_l0.8_L3,control chart,13,9,0.9333333333333332,9.530412308549208
+femto,v_p2p,amplitude,ewma_l0.8_L4,control chart,13,9,0.9333333333333332,9.530412308549208
+femto,v_p2p,amplitude,ewma_l0.8_L5,control chart,13,8,0.8862434338158116,10.64876585498995
+femto,v_p2p,amplitude,ewma_l0.8_L6,control chart,13,8,0.8571428571428572,10.64876585498995
+femto,v_p2p,amplitude,cusum_k0.25_h3,control chart,13,13,-0.3218710060102268,1.0079650125753745
+femto,v_p2p,amplitude,cusum_k0.25_h5,control chart,13,12,0.18914214645135352,2.1658582902457404
+femto,v_p2p,amplitude,cusum_k0.25_h8,control chart,13,12,0.6293706293706295,4.223630566421361
+femto,v_p2p,amplitude,cusum_k0.25_h12,control chart,13,11,0.5818181818181819,4.837005278619139
+femto,v_p2p,amplitude,cusum_k0.5_h3,control chart,13,12,-0.16112108771781963,1.8207463536591384
+femto,v_p2p,amplitude,cusum_k0.5_h5,control chart,13,12,0.3082316460688724,3.946943350630656
+femto,v_p2p,amplitude,cusum_k0.5_h8,control chart,13,12,0.6713286713286714,4.223630566421361
+femto,v_p2p,amplitude,cusum_k0.5_h12,control chart,13,11,0.8545454545454546,5.317599633349185
+femto,v_p2p,amplitude,cusum_k1_h3,control chart,13,12,0.3642737635359401,3.946943350630656
+femto,v_p2p,amplitude,cusum_k1_h5,control chart,13,12,0.4763579984700754,3.9166155010983426
+femto,v_p2p,amplitude,cusum_k1_h8,control chart,13,11,0.8454545454545455,5.142245458675673
+femto,v_p2p,amplitude,cusum_k1_h12,control chart,13,11,0.8519384289712437,6.6455254928508385
+femto,v_p2p,amplitude,cusum_k2_h3,control chart,13,11,0.790909090909091,5.168416488230308
+femto,v_p2p,amplitude,cusum_k2_h5,control chart,13,10,0.8060606060606059,5.906970990540573
+femto,v_p2p,amplitude,cusum_k2_h8,control chart,13,10,0.8060606060606059,8.087968900700023
+femto,v_p2p,amplitude,cusum_k2_h12,control chart,13,10,0.9422535927041001,11.068525620536729
+femto,v_p2p,amplitude,cusum_k3_h3,control chart,13,10,0.8060606060606059,5.906970990540573
+femto,v_p2p,amplitude,cusum_k3_h5,control chart,13,10,0.7963562622208846,8.087968900700023
+femto,v_p2p,amplitude,cusum_k3_h8,control chart,13,10,0.9272727272727272,10.64876585498995
+femto,v_p2p,amplitude,cusum_k3_h12,control chart,13,9,0.9,12.60663893252425
+femto,v_p2p,amplitude,thr_1sd,detector,13,12,0.5944055944055945,4.15079912722873
+femto,v_p2p,amplitude,thr_1.5sd,detector,13,10,0.8909090909090909,4.1158571372674775
+femto,v_p2p,amplitude,thr_2sd,detector,13,10,0.8909090909090909,4.687785816549816
+femto,v_p2p,amplitude,thr_2.5sd,detector,13,10,0.9272727272727272,4.871260261617189
+femto,v_p2p,amplitude,thr_3sd,detector,13,8,0.9523809523809524,7.24794526579676
+femto,v_p2p,amplitude,thr_4sd,detector,13,8,0.934148484292342,8.159648792911183
+femto,v_p2p,amplitude,thr_5sd,detector,13,8,0.9523809523809524,8.507979543517989
+femto,v_p2p,amplitude,thr_6sd,detector,13,6,0.8285714285714287,15.24910661276719
+femto,v_p2p,amplitude,thr_8sd,detector,13,6,0.942857142857143,15.567161644922635
+femto,v_p2p,amplitude,ma5_2sd,detector,13,11,0.8454545454545455,5.142245458675673
+femto,v_p2p,amplitude,ma5_3sd,detector,13,10,0.9515151515151514,11.068525620536729
+femto,v_p2p,amplitude,ma5_5sd,detector,13,8,0.9047619047619048,10.859817638354848
+femto,v_p2p,amplitude,ewmaAR_l0.05_L3,"chart, AR-corrected",13,11,0.6181818181818182,5.317599633349185
+femto,v_p2p,amplitude,ewmaAR_l0.1_L3,"chart, AR-corrected",13,11,0.18181818181818182,3.336120031413146
+femto,v_p2p,amplitude,ewmaAR_l0.2_L3,"chart, AR-corrected",13,11,0.41818181818181827,4.242223204284589
+femto,v_p2p,amplitude,ewmaAR_l0.4_L3,"chart, AR-corrected",13,11,0.6090909090909091,4.965478223044314
+femto,v_p2p,amplitude,ewmaAR_l0.8_L3,"chart, AR-corrected",13,9,0.9333333333333332,9.530412308549208
+femto,v_p2p,amplitude,adapt_L2,"chart, adaptive limits",13,9,0.9333333333333332,11.767119401430692
+femto,v_p2p,amplitude,adapt_L3,"chart, adaptive limits",13,7,1.0,11.767119401430692
+femto,v_p2p,amplitude,adapt_L4,"chart, adaptive limits",13,6,0.942857142857143,22.426728715165027
+femto,v_p2p,amplitude,adapt_L5,"chart, adaptive limits",13,6,0.942857142857143,22.426728715165027
+femto,v_p2p,amplitude,adapt_L6,"chart, adaptive limits",13,5,0.8999999999999998,26.12236360622637
+femto,v_absmax,amplitude,ewma_l0.05_L2,control chart,13,12,0.2027972027972028,3.499148457688319
+femto,v_absmax,amplitude,ewma_l0.05_L3,control chart,13,11,0.6181818181818182,5.310676460178962
+femto,v_absmax,amplitude,ewma_l0.05_L4,control chart,13,11,0.9,5.905691442919233
+femto,v_absmax,amplitude,ewma_l0.05_L5,control chart,13,10,0.9483326481409007,6.264485972200637
+femto,v_absmax,amplitude,ewma_l0.05_L6,control chart,13,10,0.9515151515151514,6.17782462218247
+femto,v_absmax,amplitude,ewma_l0.1_L2,control chart,13,11,0.0956722299914231,2.941456175948678
+femto,v_absmax,amplitude,ewma_l0.1_L3,control chart,13,11,0.18181818181818182,3.3362121236313023
+femto,v_absmax,amplitude,ewma_l0.1_L4,control chart,13,11,0.9363636363636365,5.310676460178962
+femto,v_absmax,amplitude,ewma_l0.1_L5,control chart,13,11,0.9545454545454546,9.57068546565078
+femto,v_absmax,amplitude,ewma_l0.1_L6,control chart,13,11,0.9545454545454546,9.57068546565078
+femto,v_absmax,amplitude,ewma_l0.2_L2,control chart,13,11,-0.06833730713673078,2.941456175948678
+femto,v_absmax,amplitude,ewma_l0.2_L3,control chart,13,11,0.4601378680539873,4.237055904060723
+femto,v_absmax,amplitude,ewma_l0.2_L4,control chart,13,11,0.8272727272727273,5.136033974339345
+femto,v_absmax,amplitude,ewma_l0.2_L5,control chart,13,11,0.9545454545454546,9.57068546565078
+femto,v_absmax,amplitude,ewma_l0.2_L6,control chart,13,10,0.9393939393939393,11.130014125178569
+femto,v_absmax,amplitude,ewma_l0.4_L2,control chart,13,11,0.21818181818181823,3.286528268145134
+femto,v_absmax,amplitude,ewma_l0.4_L3,control chart,13,11,0.6090909090909091,4.964270568415229
+femto,v_absmax,amplitude,ewma_l0.4_L4,control chart,13,11,0.961278120390013,9.57068546565078
+femto,v_absmax,amplitude,ewma_l0.4_L5,control chart,13,10,0.9483326481409007,10.703078914317524
+femto,v_absmax,amplitude,ewma_l0.4_L6,control chart,13,10,0.9515151515151514,10.703078914317524
+femto,v_absmax,amplitude,ewma_l0.8_L2,control chart,13,10,0.6484848484848483,5.8032283025177875
+femto,v_absmax,amplitude,ewma_l0.8_L3,control chart,13,9,0.9333333333333332,9.57068546565078
+femto,v_absmax,amplitude,ewma_l0.8_L4,control chart,13,9,0.9333333333333332,9.57068546565078
+femto,v_absmax,amplitude,ewma_l0.8_L5,control chart,13,8,0.8862434338158116,10.703078914317524
+femto,v_absmax,amplitude,ewma_l0.8_L6,control chart,13,8,0.8862434338158116,10.703078914317524
+femto,v_absmax,amplitude,cusum_k0.25_h3,control chart,13,13,-0.3218710060102268,1.0125564152687219
+femto,v_absmax,amplitude,cusum_k0.25_h5,control chart,13,12,0.18914214645135352,2.1564125989235396
+femto,v_absmax,amplitude,cusum_k0.25_h8,control chart,13,12,0.6293706293706295,4.2174586809258265
+femto,v_absmax,amplitude,cusum_k0.25_h12,control chart,13,11,0.5818181818181819,5.1554258626481
+femto,v_absmax,amplitude,cusum_k0.5_h3,control chart,13,12,-0.16112108771781963,1.8276562968211927
+femto,v_absmax,amplitude,cusum_k0.5_h5,control chart,13,12,0.3082316460688724,3.940638201740631
+femto,v_absmax,amplitude,cusum_k0.5_h8,control chart,13,12,0.6713286713286714,4.2174586809258265
+femto,v_absmax,amplitude,cusum_k0.5_h12,control chart,13,11,0.8545454545454546,5.310676460178962
+femto,v_absmax,amplitude,cusum_k1_h3,control chart,13,12,0.3642737635359401,3.940638201740631
+femto,v_absmax,amplitude,cusum_k1_h5,control chart,13,12,0.4763579984700754,3.9210409786057343
+femto,v_absmax,amplitude,cusum_k1_h8,control chart,13,11,0.8454545454545455,5.136033974339345
+femto,v_absmax,amplitude,cusum_k1_h12,control chart,13,10,0.8024353176576852,8.106435751135564
+femto,v_absmax,amplitude,cusum_k2_h3,control chart,13,11,0.790909090909091,5.1554258626481
+femto,v_absmax,amplitude,cusum_k2_h5,control chart,13,10,0.8060606060606059,5.898805949634223
+femto,v_absmax,amplitude,cusum_k2_h8,control chart,13,10,0.8060606060606059,8.106435751135564
+femto,v_absmax,amplitude,cusum_k2_h12,control chart,13,10,0.9422535927041001,11.130014125178569
+femto,v_absmax,amplitude,cusum_k3_h3,control chart,13,10,0.8060606060606059,5.898805949634223
+femto,v_absmax,amplitude,cusum_k3_h5,control chart,13,10,0.7963562622208846,8.106435751135564
+femto,v_absmax,amplitude,cusum_k3_h8,control chart,13,10,0.9272727272727272,10.703078914317524
+femto,v_absmax,amplitude,cusum_k3_h12,control chart,13,9,0.9,12.689342784706357
+femto,v_absmax,amplitude,thr_1sd,detector,13,12,0.5944055944055945,4.150241346023265
+femto,v_absmax,amplitude,thr_1.5sd,detector,13,10,0.8909090909090909,4.125399418280182
+femto,v_absmax,amplitude,thr_2sd,detector,13,10,0.8909090909090909,4.687169255479784
+femto,v_absmax,amplitude,thr_2.5sd,detector,13,10,0.9272727272727272,4.8695656680049595
+femto,v_absmax,amplitude,thr_3sd,detector,13,8,0.9523809523809524,7.267478017033004
+femto,v_absmax,amplitude,thr_4sd,detector,13,8,0.934148484292342,8.178903836847693
+femto,v_absmax,amplitude,thr_5sd,detector,13,8,0.9523809523809524,8.547124657316335
+femto,v_absmax,amplitude,thr_6sd,detector,13,6,0.8285714285714287,15.31054872697823
+femto,v_absmax,amplitude,thr_8sd,detector,13,6,0.942857142857143,15.595957180298022
+femto,v_absmax,amplitude,ma5_2sd,detector,13,11,0.8454545454545455,5.136033974339345
+femto,v_absmax,amplitude,ma5_3sd,detector,13,10,0.9515151515151514,11.130014125178569
+femto,v_absmax,amplitude,ma5_5sd,detector,13,8,0.9047619047619048,10.905040758634017
+femto,v_absmax,amplitude,ewmaAR_l0.05_L3,"chart, AR-corrected",13,11,0.6181818181818182,5.310676460178962
+femto,v_absmax,amplitude,ewmaAR_l0.1_L3,"chart, AR-corrected",13,11,0.18181818181818182,3.3362121236313023
+femto,v_absmax,amplitude,ewmaAR_l0.2_L3,"chart, AR-corrected",13,11,0.41818181818181827,4.265297362026531
+femto,v_absmax,amplitude,ewmaAR_l0.4_L3,"chart, AR-corrected",13,11,0.6090909090909091,4.964270568415229
+femto,v_absmax,amplitude,ewmaAR_l0.8_L3,"chart, AR-corrected",13,9,0.9333333333333332,9.57068546565078
+femto,v_absmax,amplitude,adapt_L2,"chart, adaptive limits",13,9,0.9333333333333332,11.83547236298427
+femto,v_absmax,amplitude,adapt_L3,"chart, adaptive limits",13,7,1.0,11.83547236298427
+femto,v_absmax,amplitude,adapt_L4,"chart, adaptive limits",13,6,0.942857142857143,22.453711148455376
+femto,v_absmax,amplitude,adapt_L5,"chart, adaptive limits",13,6,0.942857142857143,22.453711148455376
+femto,v_absmax,amplitude,adapt_L6,"chart, adaptive limits",13,5,0.8999999999999998,26.121797205938563
+xjtu,spec_centroid,spectrum,ewma_l0.05_L2,control chart,15,12,0.21678321678321683,1.5184483154035375
+xjtu,spec_centroid,spectrum,ewma_l0.05_L3,control chart,15,8,0.2142857142857143,1.4464810629873814
+xjtu,spec_centroid,spectrum,ewma_l0.05_L4,control chart,15,8,0.523809523809524,1.6051145142050172
+xjtu,spec_centroid,spectrum,ewma_l0.05_L5,control chart,15,8,0.5628843430992317,1.5441438937327616
+xjtu,spec_centroid,spectrum,ewma_l0.05_L6,control chart,15,7,0.8214285714285715,3.8148077048921314
+xjtu,spec_centroid,spectrum,ewma_l0.1_L2,control chart,15,12,0.21678321678321683,1.5646160294970861
+xjtu,spec_centroid,spectrum,ewma_l0.1_L3,control chart,15,8,0.2142857142857143,1.7387740631541835
+xjtu,spec_centroid,spectrum,ewma_l0.1_L4,control chart,15,8,0.4761904761904762,1.613776233947337
+xjtu,spec_centroid,spectrum,ewma_l0.1_L5,control chart,15,7,0.642857142857143,1.9065440352449485
+xjtu,spec_centroid,spectrum,ewma_l0.1_L6,control chart,15,7,0.9285714285714288,3.395474283022972
+xjtu,spec_centroid,spectrum,ewma_l0.2_L2,control chart,15,12,0.22807157939231376,1.6224296370867157
+xjtu,spec_centroid,spectrum,ewma_l0.2_L3,control chart,15,8,0.22754898976351917,1.7846103018510995
+xjtu,spec_centroid,spectrum,ewma_l0.2_L4,control chart,15,7,0.5,1.8656244128913606
+xjtu,spec_centroid,spectrum,ewma_l0.2_L5,control chart,15,7,0.7500000000000002,3.3597028709613497
+xjtu,spec_centroid,spectrum,ewma_l0.2_L6,control chart,15,5,0.9999999999999999,4.574565364573886
+xjtu,spec_centroid,spectrum,ewma_l0.4_L2,control chart,15,10,0.2857156055296304,1.8265579452877285
+xjtu,spec_centroid,spectrum,ewma_l0.4_L3,control chart,15,7,0.5,2.5002208591540747
+xjtu,spec_centroid,spectrum,ewma_l0.4_L4,control chart,15,7,0.9285714285714288,3.1391149562663894
+xjtu,spec_centroid,spectrum,ewma_l0.4_L5,control chart,15,5,0.9999999999999999,4.26942291498391
+xjtu,spec_centroid,spectrum,ewma_l0.4_L6,control chart,15,5,0.9999999999999999,4.574565364573886
+xjtu,spec_centroid,spectrum,ewma_l0.8_L2,control chart,15,7,0.642857142857143,2.581544003749552
+xjtu,spec_centroid,spectrum,ewma_l0.8_L3,control chart,15,6,0.8857142857142858,5.220734736307101
+xjtu,spec_centroid,spectrum,ewma_l0.8_L4,control chart,15,5,0.9999999999999999,4.26942291498391
+xjtu,spec_centroid,spectrum,ewma_l0.8_L5,control chart,15,5,0.9999999999999999,4.605851931582669
+xjtu,spec_centroid,spectrum,ewma_l0.8_L6,control chart,15,5,0.9999999999999999,5.400358546313704
+xjtu,spec_centroid,spectrum,cusum_k0.25_h3,control chart,15,13,0.1568089516460079,0.895091261517774
+xjtu,spec_centroid,spectrum,cusum_k0.25_h5,control chart,15,12,0.20665530815981217,1.413822009123299
+xjtu,spec_centroid,spectrum,cusum_k0.25_h8,control chart,15,10,0.09090909090909088,1.4989497270783496
+xjtu,spec_centroid,spectrum,cusum_k0.25_h12,control chart,15,9,0.16666666666666669,1.4827437005660882
+xjtu,spec_centroid,spectrum,cusum_k0.5_h3,control chart,15,12,0.2381789992350377,1.5846751921444684
+xjtu,spec_centroid,spectrum,cusum_k0.5_h5,control chart,15,10,0.2606060606060606,1.4225711359214364
+xjtu,spec_centroid,spectrum,cusum_k0.5_h8,control chart,15,8,0.2142857142857143,1.6798402113213786
+xjtu,spec_centroid,spectrum,cusum_k0.5_h12,control chart,15,8,0.523809523809524,1.6648842296033495
+xjtu,spec_centroid,spectrum,cusum_k1_h3,control chart,15,8,0.5000000000000001,2.0868559245695297
+xjtu,spec_centroid,spectrum,cusum_k1_h5,control chart,15,7,0.642857142857143,2.004547667393532
+xjtu,spec_centroid,spectrum,cusum_k1_h8,control chart,15,7,0.642857142857143,1.8725260175788156
+xjtu,spec_centroid,spectrum,cusum_k1_h12,control chart,15,6,0.7714285714285715,2.833674098476921
+xjtu,spec_centroid,spectrum,cusum_k2_h3,control chart,15,5,0.9999999999999999,4.26942291498391
+xjtu,spec_centroid,spectrum,cusum_k2_h5,control chart,15,5,0.9999999999999999,4.574565364573886
+xjtu,spec_centroid,spectrum,cusum_k2_h8,control chart,15,5,0.9999999999999999,4.7412658323469
+xjtu,spec_centroid,spectrum,cusum_k2_h12,control chart,15,5,0.9999999999999999,4.6636215047081215
+xjtu,spec_centroid,spectrum,cusum_k3_h3,control chart,15,5,0.9999999999999999,4.7412658323469
+xjtu,spec_centroid,spectrum,cusum_k3_h5,control chart,15,5,0.9999999999999999,4.8611606182045
+xjtu,spec_centroid,spectrum,cusum_k3_h8,control chart,15,5,0.9999999999999999,4.6636215047081215
+xjtu,spec_centroid,spectrum,cusum_k3_h12,control chart,15,5,0.9999999999999999,3.927858774369096
+xjtu,spec_centroid,spectrum,thr_1sd,detector,15,10,0.32517785314411984,1.8528916554728214
+xjtu,spec_centroid,spectrum,thr_1.5sd,detector,15,8,0.5149792926227014,2.3300802239857217
+xjtu,spec_centroid,spectrum,thr_2sd,detector,15,7,0.642857142857143,2.739592477098559
+xjtu,spec_centroid,spectrum,thr_2.5sd,detector,15,6,0.6,5.147622937554494
+xjtu,spec_centroid,spectrum,thr_3sd,detector,15,5,0.9999999999999999,3.99876431046739
+xjtu,spec_centroid,spectrum,thr_4sd,detector,15,5,0.9999999999999999,4.574565364573886
+xjtu,spec_centroid,spectrum,thr_5sd,detector,15,5,0.9999999999999999,5.400358546313704
+xjtu,spec_centroid,spectrum,thr_6sd,detector,15,3,,7.89673637635204
+xjtu,spec_centroid,spectrum,thr_8sd,detector,15,3,,10.191854811013965
+xjtu,spec_centroid,spectrum,ma5_2sd,detector,15,6,0.6,2.859552315103371
+xjtu,spec_centroid,spectrum,ma5_3sd,detector,15,5,0.9999999999999999,4.7412658323469
+xjtu,spec_centroid,spectrum,ma5_5sd,detector,15,5,0.9999999999999999,5.451163830642385
+xjtu,spec_centroid,spectrum,ewmaAR_l0.05_L3,"chart, AR-corrected",15,9,0.5166666666666667,1.4843056384712838
+xjtu,spec_centroid,spectrum,ewmaAR_l0.1_L3,"chart, AR-corrected",15,9,0.5166666666666667,1.9065440352449485
+xjtu,spec_centroid,spectrum,ewmaAR_l0.2_L3,"chart, AR-corrected",15,9,0.5774109120414489,1.9065440352449485
+xjtu,spec_centroid,spectrum,ewmaAR_l0.4_L3,"chart, AR-corrected",15,7,0.9642857142857145,4.26942291498391
+xjtu,spec_centroid,spectrum,ewmaAR_l0.8_L3,"chart, AR-corrected",15,5,0.9999999999999999,3.99876431046739
+xjtu,spec_centroid,spectrum,adapt_L2,"chart, adaptive limits",15,6,0.4285714285714286,2.6605682404240554
+xjtu,spec_centroid,spectrum,adapt_L3,"chart, adaptive limits",15,3,,3.99876431046739
+xjtu,spec_centroid,spectrum,adapt_L4,"chart, adaptive limits",15,2,,6.427091818756789
+xjtu,spec_centroid,spectrum,adapt_L5,"chart, adaptive limits",15,1,,8.279618272939693
+xjtu,spec_centroid,spectrum,adapt_L6,"chart, adaptive limits",15,1,,14.440911295219676
+xjtu,band_power_fixed,spectrum,ewma_l0.05_L2,control chart,15,10,0.11550205329921229,1.116510246126442
+xjtu,band_power_fixed,spectrum,ewma_l0.05_L3,control chart,15,8,-0.2515015150017844,1.6029093782459602
+xjtu,band_power_fixed,spectrum,ewma_l0.05_L4,control chart,15,7,-0.16216874328520064,1.886328232785366
+xjtu,band_power_fixed,spectrum,ewma_l0.05_L5,control chart,15,6,-0.46381682852195877,1.809462505992312
+xjtu,band_power_fixed,spectrum,ewma_l0.05_L6,control chart,15,5,-0.49999999999999994,2.1590069262747247
+xjtu,band_power_fixed,spectrum,ewma_l0.1_L2,control chart,15,10,0.16565664216775916,1.2106939388957898
+xjtu,band_power_fixed,spectrum,ewma_l0.1_L3,control chart,15,8,-0.07142857142857144,1.8326409270504573
+xjtu,band_power_fixed,spectrum,ewma_l0.1_L4,control chart,15,6,-0.46381682852195877,1.919331340021119
+xjtu,band_power_fixed,spectrum,ewma_l0.1_L5,control chart,15,6,-0.40583972495671394,1.9657658244074145
+xjtu,band_power_fixed,spectrum,ewma_l0.1_L6,control chart,15,5,-0.49999999999999994,2.107410164133756
+xjtu,band_power_fixed,spectrum,ewma_l0.2_L2,control chart,15,10,0.23780929899445064,1.450444517133553
+xjtu,band_power_fixed,spectrum,ewma_l0.2_L3,control chart,15,7,-0.14285714285714288,1.8968215574022793
+xjtu,band_power_fixed,spectrum,ewma_l0.2_L4,control chart,15,6,-0.40583972495671394,2.2255381031183816
+xjtu,band_power_fixed,spectrum,ewma_l0.2_L5,control chart,15,5,-0.49999999999999994,2.284876084277725
+xjtu,band_power_fixed,spectrum,ewma_l0.2_L6,control chart,15,4,-0.6000000000000001,2.5915384195993036
+xjtu,band_power_fixed,spectrum,ewma_l0.4_L2,control chart,15,11,0.27914526311954124,1.7917065828820327
+xjtu,band_power_fixed,spectrum,ewma_l0.4_L3,control chart,15,7,-0.14285714285714288,2.362957584230221
+xjtu,band_power_fixed,spectrum,ewma_l0.4_L4,control chart,15,5,-0.49999999999999994,2.682675662319353
+xjtu,band_power_fixed,spectrum,ewma_l0.4_L5,control chart,15,3,,3.2448592642504943
+xjtu,band_power_fixed,spectrum,ewma_l0.4_L6,control chart,15,2,,3.9279962065387837
+xjtu,band_power_fixed,spectrum,ewma_l0.8_L2,control chart,15,8,0.1077863635721933,2.134082372757507
+xjtu,band_power_fixed,spectrum,ewma_l0.8_L3,control chart,15,5,0.0,3.10978510412627
+xjtu,band_power_fixed,spectrum,ewma_l0.8_L4,control chart,15,2,,3.984428875972607
+xjtu,band_power_fixed,spectrum,ewma_l0.8_L5,control chart,15,2,,4.602041757571938
+xjtu,band_power_fixed,spectrum,ewma_l0.8_L6,control chart,15,2,,9.653875302317532
+xjtu,band_power_fixed,spectrum,cusum_k0.25_h3,control chart,15,13,-0.05300484348380716,1.1655814790629506
+xjtu,band_power_fixed,spectrum,cusum_k0.25_h5,control chart,15,12,0.0,0.9369077188135941
+xjtu,band_power_fixed,spectrum,cusum_k0.25_h8,control chart,15,8,-0.07142857142857144,1.8326409270504573
+xjtu,band_power_fixed,spectrum,cusum_k0.25_h12,control chart,15,8,-0.07142857142857144,1.6260253667297317
+xjtu,band_power_fixed,spectrum,cusum_k0.5_h3,control chart,15,12,0.007042428152039987,1.3943508636244684
+xjtu,band_power_fixed,spectrum,cusum_k0.5_h5,control chart,15,10,0.22492505116162387,1.523503646828353
+xjtu,band_power_fixed,spectrum,cusum_k0.5_h8,control chart,15,8,-0.05988131309566295,1.9397691941336515
+xjtu,band_power_fixed,spectrum,cusum_k0.5_h12,control chart,15,7,-0.12613124477737828,1.8767663728649988
+xjtu,band_power_fixed,spectrum,cusum_k1_h3,control chart,15,7,-0.14285714285714288,2.279337855119325
+xjtu,band_power_fixed,spectrum,cusum_k1_h5,control chart,15,7,-0.14285714285714288,2.1451735709489803
+xjtu,band_power_fixed,spectrum,cusum_k1_h8,control chart,15,7,-0.14285714285714288,1.8067448142919196
+xjtu,band_power_fixed,spectrum,cusum_k1_h12,control chart,15,5,-0.49999999999999994,2.353879146236645
+xjtu,band_power_fixed,spectrum,cusum_k2_h3,control chart,15,4,-0.19999999999999998,3.435918738742114
+xjtu,band_power_fixed,spectrum,cusum_k2_h5,control chart,15,3,,4.517958331247583
+xjtu,band_power_fixed,spectrum,cusum_k2_h8,control chart,15,2,,3.8113431450353326
+xjtu,band_power_fixed,spectrum,cusum_k2_h12,control chart,15,2,,3.447044748105932
+xjtu,band_power_fixed,spectrum,cusum_k3_h3,control chart,15,3,,4.517958331247583
+xjtu,band_power_fixed,spectrum,cusum_k3_h5,control chart,15,2,,3.9567910121703997
+xjtu,band_power_fixed,spectrum,cusum_k3_h8,control chart,15,2,,3.2455624545344763
+xjtu,band_power_fixed,spectrum,cusum_k3_h12,control chart,15,2,,10.0448547152296
+xjtu,band_power_fixed,spectrum,thr_1sd,detector,15,12,0.25352741347343954,1.8135700181950956
+xjtu,band_power_fixed,spectrum,thr_1.5sd,detector,15,8,0.19162020190612142,1.9916839916645603
+xjtu,band_power_fixed,spectrum,thr_2sd,detector,15,7,-0.14285714285714288,2.3876594571652725
+xjtu,band_power_fixed,spectrum,thr_2.5sd,detector,15,5,0.0,3.10978510412627
+xjtu,band_power_fixed,spectrum,thr_3sd,detector,15,4,-0.19999999999999998,3.436497849810259
+xjtu,band_power_fixed,spectrum,thr_4sd,detector,15,2,,4.504868287702206
+xjtu,band_power_fixed,spectrum,thr_5sd,detector,15,2,,9.653875302317532
+xjtu,band_power_fixed,spectrum,thr_6sd,detector,15,2,,10.251977579350907
+xjtu,band_power_fixed,spectrum,thr_8sd,detector,15,1,,13.842075038867376
+xjtu,band_power_fixed,spectrum,ma5_2sd,detector,15,5,-0.49999999999999994,2.3611907575773885
+xjtu,band_power_fixed,spectrum,ma5_3sd,detector,15,2,,3.7651550079858582
+xjtu,band_power_fixed,spectrum,ma5_5sd,detector,15,2,,12.746679056810258
+xjtu,band_power_fixed,spectrum,ewmaAR_l0.05_L3,"chart, AR-corrected",15,7,-0.16216874328520064,1.8836853012792318
+xjtu,band_power_fixed,spectrum,ewmaAR_l0.1_L3,"chart, AR-corrected",15,7,-0.10714285714285716,1.8634073022354105
+xjtu,band_power_fixed,spectrum,ewmaAR_l0.2_L3,"chart, AR-corrected",15,7,-0.12613124477737828,2.1451735709489803
+xjtu,band_power_fixed,spectrum,ewmaAR_l0.4_L3,"chart, AR-corrected",15,6,-0.3714285714285715,2.624534526928733
+xjtu,band_power_fixed,spectrum,ewmaAR_l0.8_L3,"chart, AR-corrected",15,5,0.0,3.2448592642504943
+xjtu,band_power_fixed,spectrum,adapt_L2,"chart, adaptive limits",15,7,-0.14285714285714288,2.3876594571652725
+xjtu,band_power_fixed,spectrum,adapt_L3,"chart, adaptive limits",15,2,,8.499566397806175
+xjtu,band_power_fixed,spectrum,adapt_L4,"chart, adaptive limits",15,1,,19.65907134219584
+xjtu,band_power_fixed,spectrum,adapt_L5,"chart, adaptive limits",15,1,,19.65907134219584
+xjtu,band_power_fixed,spectrum,adapt_L6,"chart, adaptive limits",15,0,,
+xjtu,band_power_auto,spectrum,ewma_l0.05_L2,control chart,15,15,0.10205912773902318,0.9597502641431334
+xjtu,band_power_auto,spectrum,ewma_l0.05_L3,control chart,15,15,-0.05719394598376622,1.1447488327874378
+xjtu,band_power_auto,spectrum,ewma_l0.05_L4,control chart,15,14,0.19536471442517733,1.4120419741847838
+xjtu,band_power_auto,spectrum,ewma_l0.05_L5,control chart,15,12,0.46234746910330854,1.692549221943151
+xjtu,band_power_auto,spectrum,ewma_l0.05_L6,control chart,15,8,0.730552019767088,2.096206751796366
+xjtu,band_power_auto,spectrum,ewma_l0.1_L2,control chart,15,15,0.09838998211091234,1.278888364338876
+xjtu,band_power_auto,spectrum,ewma_l0.1_L3,control chart,15,15,-0.07327974329170048,1.2800754709174282
+xjtu,band_power_auto,spectrum,ewma_l0.1_L4,control chart,15,13,-0.08253102718210942,1.7275482184081177
+xjtu,band_power_auto,spectrum,ewma_l0.1_L5,control chart,15,8,0.934148484292342,2.6394864461253387
+xjtu,band_power_auto,spectrum,ewma_l0.1_L6,control chart,15,7,0.9549937104572924,1.8040500375963218
+xjtu,band_power_auto,spectrum,ewma_l0.2_L2,control chart,15,15,0.05545617173524149,1.316636152381857
+xjtu,band_power_auto,spectrum,ewma_l0.2_L3,control chart,15,15,-0.007149243247970777,1.5813300708729752
+xjtu,band_power_auto,spectrum,ewma_l0.2_L4,control chart,15,8,0.5748606057183643,2.712223522628654
+xjtu,band_power_auto,spectrum,ewma_l0.2_L5,control chart,15,7,0.9549937104572924,3.152197746441688
+xjtu,band_power_auto,spectrum,ewma_l0.2_L6,control chart,15,7,0.9549937104572924,3.2451279959374904
+xjtu,band_power_auto,spectrum,ewma_l0.4_L2,control chart,15,15,0.08042898653967125,1.5492137252063902
+xjtu,band_power_auto,spectrum,ewma_l0.4_L3,control chart,15,9,0.652725378829464,2.752415165264165
+xjtu,band_power_auto,spectrum,ewma_l0.4_L4,control chart,15,7,0.9549937104572924,2.825597776276883
+xjtu,band_power_auto,spectrum,ewma_l0.4_L5,control chart,15,7,0.991031208965115,3.941797936278719
+xjtu,band_power_auto,spectrum,ewma_l0.4_L6,control chart,15,7,0.991031208965115,4.219345638291924
+xjtu,band_power_auto,spectrum,ewma_l0.8_L2,control chart,15,10,0.2249250511616239,2.6756322171222955
+xjtu,band_power_auto,spectrum,ewma_l0.8_L3,control chart,15,7,0.991031208965115,3.3758944571472136
+xjtu,band_power_auto,spectrum,ewma_l0.8_L4,control chart,15,7,0.991031208965115,4.394710167025122
+xjtu,band_power_auto,spectrum,ewma_l0.8_L5,control chart,15,6,0.9856107606091624,5.5348828661387115
+xjtu,band_power_auto,spectrum,ewma_l0.8_L6,control chart,15,6,0.9856107606091624,5.966650385502926
+xjtu,band_power_auto,spectrum,cusum_k0.25_h3,control chart,15,15,0.1806797853309481,1.197576189286239
+xjtu,band_power_auto,spectrum,cusum_k0.25_h5,control chart,15,15,0.1663685152057245,1.5416612240171277
+xjtu,band_power_auto,spectrum,cusum_k0.25_h8,control chart,15,15,-0.033989266547406076,1.10209780258597
+xjtu,band_power_auto,spectrum,cusum_k0.25_h12,control chart,15,15,0.05724508050089445,1.1131494832973035
+xjtu,band_power_auto,spectrum,cusum_k0.5_h3,control chart,15,15,0.17352415026833629,1.2860971227193347
+xjtu,band_power_auto,spectrum,cusum_k0.5_h5,control chart,15,15,0.05183201354778813,1.4490802382420818
+xjtu,band_power_auto,spectrum,cusum_k0.5_h8,control chart,15,15,-0.014298486495941554,1.4159720708351198
+xjtu,band_power_auto,spectrum,cusum_k0.5_h12,control chart,15,14,0.11441151037694501,1.385851633436629
+xjtu,band_power_auto,spectrum,cusum_k1_h3,control chart,15,11,0.29157251045005134,2.752415165264165
+xjtu,band_power_auto,spectrum,cusum_k1_h5,control chart,15,11,0.7334870966009104,2.2687560248977046
+xjtu,band_power_auto,spectrum,cusum_k1_h8,control chart,15,8,0.934148484292342,1.7492886463681332
+xjtu,band_power_auto,spectrum,cusum_k1_h12,control chart,15,7,0.9549937104572924,3.1511038598093246
+xjtu,band_power_auto,spectrum,cusum_k2_h3,control chart,15,7,0.9549937104572924,3.941797936278719
+xjtu,band_power_auto,spectrum,cusum_k2_h5,control chart,15,7,0.9549937104572924,4.051071570341407
+xjtu,band_power_auto,spectrum,cusum_k2_h8,control chart,15,7,0.9549937104572924,4.394710167025122
+xjtu,band_power_auto,spectrum,cusum_k2_h12,control chart,15,7,0.9549937104572924,4.860787998138484
+xjtu,band_power_auto,spectrum,cusum_k3_h3,control chart,15,7,0.991031208965115,4.508373491377532
+xjtu,band_power_auto,spectrum,cusum_k3_h5,control chart,15,7,0.991031208965115,4.656636860225443
+xjtu,band_power_auto,spectrum,cusum_k3_h8,control chart,15,6,0.9856107606091624,6.542404780636748
+xjtu,band_power_auto,spectrum,cusum_k3_h12,control chart,15,6,0.9856107606091624,7.68648539780929
+xjtu,band_power_auto,spectrum,thr_1sd,detector,15,15,0.2921151644303756,1.6529831059720084
+xjtu,band_power_auto,spectrum,thr_1.5sd,detector,15,10,0.44377104688644714,2.3247957525436878
+xjtu,band_power_auto,spectrum,thr_2sd,detector,15,8,0.934148484292342,2.828531687343177
+xjtu,band_power_auto,spectrum,thr_2.5sd,detector,15,7,0.991031208965115,3.152197746441688
+xjtu,band_power_auto,spectrum,thr_3sd,detector,15,7,0.991031208965115,4.086603549478428
+xjtu,band_power_auto,spectrum,thr_4sd,detector,15,6,0.9856107606091624,4.889318395625251
+xjtu,band_power_auto,spectrum,thr_5sd,detector,15,6,0.9856107606091624,7.061489883612744
+xjtu,band_power_auto,spectrum,thr_6sd,detector,15,6,0.9856107606091624,8.84078781761847
+xjtu,band_power_auto,spectrum,thr_8sd,detector,15,5,0.9746794344808963,11.443426310844622
+xjtu,band_power_auto,spectrum,ma5_2sd,detector,15,7,0.594618725379069,2.752415165264165
+xjtu,band_power_auto,spectrum,ma5_3sd,detector,15,7,0.991031208965115,4.394710167025122
+xjtu,band_power_auto,spectrum,ma5_5sd,detector,15,6,0.9856107606091624,9.88209243027089
+xjtu,band_power_auto,spectrum,ewmaAR_l0.05_L3,"chart, AR-corrected",15,12,0.20877192982456141,1.590205315264354
+xjtu,band_power_auto,spectrum,ewmaAR_l0.1_L3,"chart, AR-corrected",15,12,0.5288974835954515,1.568343624171149
+xjtu,band_power_auto,spectrum,ewmaAR_l0.2_L3,"chart, AR-corrected",15,11,0.8974966337290644,1.7503701538814616
+xjtu,band_power_auto,spectrum,ewmaAR_l0.4_L3,"chart, AR-corrected",15,9,0.8954053273686235,2.5988492689804255
+xjtu,band_power_auto,spectrum,ewmaAR_l0.8_L3,"chart, AR-corrected",15,7,0.991031208965115,3.3758944571472136
+xjtu,band_power_auto,spectrum,adapt_L2,"chart, adaptive limits",15,8,0.8383383833392812,4.0386365815895955
+xjtu,band_power_auto,spectrum,adapt_L3,"chart, adaptive limits",15,4,0.9486832980505139,7.061489883612744
+xjtu,band_power_auto,spectrum,adapt_L4,"chart, adaptive limits",15,2,,12.553554016004309
+xjtu,band_power_auto,spectrum,adapt_L5,"chart, adaptive limits",15,2,,14.186560997751299
+xjtu,band_power_auto,spectrum,adapt_L6,"chart, adaptive limits",15,1,,16.23889474617875
+xjtu,env_rms,envelope,ewma_l0.05_L2,control chart,15,15,-0.40431674830808084,1.7106614335730714
+xjtu,env_rms,envelope,ewma_l0.05_L3,control chart,15,15,-0.5693825021229714,1.8983967059344224
+xjtu,env_rms,envelope,ewma_l0.05_L4,control chart,15,15,-0.465950569030047,1.893604025312656
+xjtu,env_rms,envelope,ewma_l0.05_L5,control chart,15,15,-0.407176361718067,2.4211079156425863
+xjtu,env_rms,envelope,ewma_l0.05_L6,control chart,15,14,-0.4092411717329187,2.854164625658399
+xjtu,env_rms,envelope,ewma_l0.1_L2,control chart,15,15,-0.43345954719657204,1.539434991739258
+xjtu,env_rms,envelope,ewma_l0.1_L3,control chart,15,15,-0.5693825021229714,1.971426128321579
+xjtu,env_rms,envelope,ewma_l0.1_L4,control chart,15,15,-0.4888095065395321,1.9055353306420668
+xjtu,env_rms,envelope,ewma_l0.1_L5,control chart,15,14,-0.5022173057773122,2.6808727824089096
+xjtu,env_rms,envelope,ewma_l0.1_L6,control chart,15,14,-0.16353681013115265,3.870144497751148
+xjtu,env_rms,envelope,ewma_l0.2_L2,control chart,15,15,-0.5068000889162163,1.3539517240810752
+xjtu,env_rms,envelope,ewma_l0.2_L3,control chart,15,15,-0.5658014800970408,2.0109194941797197
+xjtu,env_rms,envelope,ewma_l0.2_L4,control chart,15,14,-0.4277841629809876,2.0900760197402573
+xjtu,env_rms,envelope,ewma_l0.2_L5,control chart,15,14,-0.09251101321585903,3.7419866023474406
+xjtu,env_rms,envelope,ewma_l0.2_L6,control chart,15,14,0.5676571091779195,5.040609706908304
+xjtu,env_rms,envelope,ewma_l0.4_L2,control chart,15,15,-0.4512819179803352,2.0169412678508096
+xjtu,env_rms,envelope,ewma_l0.4_L3,control chart,15,14,-0.3969131409101947,2.1974332560869234
+xjtu,env_rms,envelope,ewma_l0.4_L4,control chart,15,14,0.38766519823788553,3.9337650750448985
+xjtu,env_rms,envelope,ewma_l0.4_L5,control chart,15,14,0.968097395497227,4.829704382573058
+xjtu,env_rms,envelope,ewma_l0.4_L6,control chart,15,14,0.8976903121883377,6.630039182127138
+xjtu,env_rms,envelope,ewma_l0.8_L2,control chart,15,14,-0.2513783225764567,2.4530597712779896
+xjtu,env_rms,envelope,ewma_l0.8_L3,control chart,15,14,0.9460951819631992,3.779412029581347
+xjtu,env_rms,envelope,ewma_l0.8_L4,control chart,15,14,0.8976903121883377,6.630039182127138
+xjtu,env_rms,envelope,ewma_l0.8_L5,control chart,15,14,0.9020907548951433,8.084799438151967
+xjtu,env_rms,envelope,ewma_l0.8_L6,control chart,15,14,0.9020907548951433,8.084799438151967
+xjtu,env_rms,envelope,cusum_k0.25_h3,control chart,15,15,-0.4682015388769039,1.42795111890579
+xjtu,env_rms,envelope,cusum_k0.25_h5,control chart,15,15,-0.4348651248469136,1.3255412638021937
+xjtu,env_rms,envelope,cusum_k0.25_h8,control chart,15,15,-0.5747540351618674,1.6070208822208156
+xjtu,env_rms,envelope,cusum_k0.25_h12,control chart,15,15,-0.5773465338178408,1.692027281811013
+xjtu,env_rms,envelope,cusum_k0.5_h3,control chart,15,15,-0.46181957473411905,1.3539517240810752
+xjtu,env_rms,envelope,cusum_k0.5_h5,control chart,15,15,-0.39928395589126614,1.539434991739258
+xjtu,env_rms,envelope,cusum_k0.5_h8,control chart,15,15,-0.5282007488247691,1.8983967059344224
+xjtu,env_rms,envelope,cusum_k0.5_h12,control chart,15,15,-0.4418604651162791,2.0317071083000533
+xjtu,env_rms,envelope,cusum_k1_h3,control chart,15,15,-0.4605742163104695,2.104978711454146
+xjtu,env_rms,envelope,cusum_k1_h5,control chart,15,14,-0.36784140969163,2.1577512121432685
+xjtu,env_rms,envelope,cusum_k1_h8,control chart,15,14,-0.4823788546255507,2.7994346881458405
+xjtu,env_rms,envelope,cusum_k1_h12,control chart,15,14,-0.3080309894763904,2.854164625658399
+xjtu,env_rms,envelope,cusum_k2_h3,control chart,15,14,0.5676571091779195,4.829704382573058
+xjtu,env_rms,envelope,cusum_k2_h5,control chart,15,14,0.968097395497227,4.849866557249367
+xjtu,env_rms,envelope,cusum_k2_h8,control chart,15,14,0.9724978382040327,6.4953699629331325
+xjtu,env_rms,envelope,cusum_k2_h12,control chart,15,14,0.9438325991189427,7.598918534768206
+xjtu,env_rms,envelope,cusum_k3_h3,control chart,15,14,0.8976903121883377,6.656985879310335
+xjtu,env_rms,envelope,cusum_k3_h5,control chart,15,14,0.9020907548951433,8.380174675814153
+xjtu,env_rms,envelope,cusum_k3_h8,control chart,15,14,0.9020907548951433,9.570260582770153
+xjtu,env_rms,envelope,cusum_k3_h12,control chart,15,14,0.9020907548951433,9.151659780173453
+xjtu,env_rms,envelope,thr_1sd,detector,15,15,-0.44636276029099636,1.9644090014245266
+xjtu,env_rms,envelope,thr_1.5sd,detector,15,14,-0.18584252724799213,2.2629581041348796
+xjtu,env_rms,envelope,thr_2sd,detector,15,14,-0.06174204414158584,2.6953602533556613
+xjtu,env_rms,envelope,thr_2.5sd,detector,15,14,0.9460951819631992,4.092910841200158
+xjtu,env_rms,envelope,thr_3sd,detector,15,14,0.9416947392563936,6.630039182127138
+xjtu,env_rms,envelope,thr_4sd,detector,15,14,0.9020907548951433,8.084799438151967
+xjtu,env_rms,envelope,thr_5sd,detector,15,14,0.9020907548951433,8.084799438151967
+xjtu,env_rms,envelope,thr_6sd,detector,15,14,0.9020907548951433,8.235170688386216
+xjtu,env_rms,envelope,thr_8sd,detector,15,13,0.9326006071578365,12.202164819429985
+xjtu,env_rms,envelope,ma5_2sd,detector,15,14,0.04405286343612335,2.800222426219133
+xjtu,env_rms,envelope,ma5_3sd,detector,15,14,0.9449339207048458,5.973932287881942
+xjtu,env_rms,envelope,ma5_5sd,detector,15,14,0.9020907548951433,9.151659780173453
+xjtu,env_rms,envelope,ewmaAR_l0.05_L3,"chart, AR-corrected",15,14,0.05280531248166693,3.110454473866236
+xjtu,env_rms,envelope,ewmaAR_l0.1_L3,"chart, AR-corrected",15,14,0.061674008810572695,2.800826737842653
+xjtu,env_rms,envelope,ewmaAR_l0.2_L3,"chart, AR-corrected",15,14,0.08379277419215223,2.7589140667213794
+xjtu,env_rms,envelope,ewmaAR_l0.4_L3,"chart, AR-corrected",15,14,0.49339207048458156,2.931668768156611
+xjtu,env_rms,envelope,ewmaAR_l0.8_L3,"chart, AR-corrected",15,14,0.9460951819631992,4.092910841200158
+xjtu,env_rms,envelope,adapt_L2,"chart, adaptive limits",15,14,-0.10143335823260531,3.347167945613557
+xjtu,env_rms,envelope,adapt_L3,"chart, adaptive limits",15,13,0.9326006071578365,10.373934725004279
+xjtu,env_rms,envelope,adapt_L4,"chart, adaptive limits",15,13,0.9381026756366437,15.125844002332753
+xjtu,env_rms,envelope,adapt_L5,"chart, adaptive limits",15,12,0.9580419580419581,25.41215909216399
+xjtu,env_rms,envelope,adapt_L6,"chart, adaptive limits",15,9,0.9333333333333332,29.460104701821063
+xjtu,env_kurtosis,envelope,ewma_l0.05_L2,control chart,15,14,0.10121018225652828,1.5077939865025292
+xjtu,env_kurtosis,envelope,ewma_l0.05_L3,control chart,15,14,0.6145374449339208,3.3204417054728905
+xjtu,env_kurtosis,envelope,ewma_l0.05_L4,control chart,15,14,0.8314977973568283,5.587051309083073
+xjtu,env_kurtosis,envelope,ewma_l0.05_L5,control chart,15,14,0.8116740088105727,7.530944817325036
+xjtu,env_kurtosis,envelope,ewma_l0.05_L6,control chart,15,13,0.8278236914600551,10.055778762845828
+xjtu,env_kurtosis,envelope,ewma_l0.1_L2,control chart,15,14,0.19073881493739914,1.6107072352257321
+xjtu,env_kurtosis,envelope,ewma_l0.1_L3,control chart,15,14,0.5060509112826415,2.533717012773826
+xjtu,env_kurtosis,envelope,ewma_l0.1_L4,control chart,15,14,0.8314977973568283,6.358441975683533
+xjtu,env_kurtosis,envelope,ewma_l0.1_L5,control chart,15,13,0.8415977961432507,6.573159861709049
+xjtu,env_kurtosis,envelope,ewma_l0.1_L6,control chart,15,13,0.8278236914600551,7.945880315020309
+xjtu,env_kurtosis,envelope,ewma_l0.2_L2,control chart,15,14,0.18832599118942733,1.6511657046668393
+xjtu,env_kurtosis,envelope,ewma_l0.2_L3,control chart,15,14,0.5060509112826415,2.9305493595483583
+xjtu,env_kurtosis,envelope,ewma_l0.2_L4,control chart,15,13,0.8526170798898071,6.775260991466405
+xjtu,env_kurtosis,envelope,ewma_l0.2_L5,control chart,15,12,0.8508771929824562,7.360570653243357
+xjtu,env_kurtosis,envelope,ewma_l0.2_L6,control chart,15,11,0.8059360730593609,8.699002745470013
+xjtu,env_kurtosis,envelope,ewma_l0.4_L2,control chart,15,14,0.3700440528634361,1.899223151353016
+xjtu,env_kurtosis,envelope,ewma_l0.4_L3,control chart,15,13,0.8693268196515526,5.4617149341317495
+xjtu,env_kurtosis,envelope,ewma_l0.4_L4,control chart,15,12,0.8508771929824562,6.458479852197273
+xjtu,env_kurtosis,envelope,ewma_l0.4_L5,control chart,15,12,0.8508771929824562,8.322441530245161
+xjtu,env_kurtosis,envelope,ewma_l0.4_L6,control chart,15,11,0.8059360730593609,8.872820849333353
+xjtu,env_kurtosis,envelope,ewma_l0.8_L2,control chart,15,12,0.8021028062474066,5.658983207857569
+xjtu,env_kurtosis,envelope,ewma_l0.8_L3,control chart,15,12,0.8546422913727825,6.830999336742405
+xjtu,env_kurtosis,envelope,ewma_l0.8_L4,control chart,15,10,0.8024353176576853,9.042894112895405
+xjtu,env_kurtosis,envelope,ewma_l0.8_L5,control chart,15,10,0.8024353176576853,9.615633109327813
+xjtu,env_kurtosis,envelope,ewma_l0.8_L6,control chart,15,10,0.8024353176576853,11.135341252270567
+xjtu,env_kurtosis,envelope,cusum_k0.25_h3,control chart,15,14,0.11784140969162997,1.4528167096650084
+xjtu,env_kurtosis,envelope,cusum_k0.25_h5,control chart,15,14,0.031973558573321244,1.3764475753849843
+xjtu,env_kurtosis,envelope,cusum_k0.25_h8,control chart,15,14,0.44884515609416886,1.7214501790211134
+xjtu,env_kurtosis,envelope,cusum_k0.25_h12,control chart,15,14,0.6116615362459753,3.5493115164064473
+xjtu,env_kurtosis,envelope,cusum_k0.5_h3,control chart,15,14,0.17016668081214534,1.6235504406917496
+xjtu,env_kurtosis,envelope,cusum_k0.5_h5,control chart,15,14,0.38063829413868244,1.8298720811669296
+xjtu,env_kurtosis,envelope,cusum_k0.5_h8,control chart,15,14,0.6160619789527808,2.451264066907432
+xjtu,env_kurtosis,envelope,cusum_k0.5_h12,control chart,15,14,0.8116740088105727,6.529552467425486
+xjtu,env_kurtosis,envelope,cusum_k1_h3,control chart,15,14,0.7656770309841704,3.3204417054728905
+xjtu,env_kurtosis,envelope,cusum_k1_h5,control chart,15,14,0.8800885413611155,4.9115716006929055
+xjtu,env_kurtosis,envelope,cusum_k1_h8,control chart,15,13,0.8278236914600551,6.775260991466405
+xjtu,env_kurtosis,envelope,cusum_k1_h12,control chart,15,13,0.8278236914600551,7.945880315020309
+xjtu,env_kurtosis,envelope,cusum_k2_h3,control chart,15,13,0.8719008264462811,6.166818248699963
+xjtu,env_kurtosis,envelope,cusum_k2_h5,control chart,15,12,0.8508771929824562,8.322441530245161
+xjtu,env_kurtosis,envelope,cusum_k2_h8,control chart,15,10,0.8024353176576853,10.189019281670188
+xjtu,env_kurtosis,envelope,cusum_k2_h12,control chart,15,10,0.8024353176576853,10.388516182354763
+xjtu,env_kurtosis,envelope,cusum_k3_h3,control chart,15,11,0.8059360730593609,8.872820849333353
+xjtu,env_kurtosis,envelope,cusum_k3_h5,control chart,15,11,0.8059360730593609,9.212967376457458
+xjtu,env_kurtosis,envelope,cusum_k3_h8,control chart,15,10,0.8024353176576853,10.388516182354763
+xjtu,env_kurtosis,envelope,cusum_k3_h12,control chart,15,10,0.8024353176576853,10.95458431190982
+xjtu,env_kurtosis,envelope,thr_1sd,detector,15,14,0.5810367368324239,2.041663409666981
+xjtu,env_kurtosis,envelope,thr_1.5sd,detector,15,12,0.8210526315789475,3.8178490422662414
+xjtu,env_kurtosis,envelope,thr_2sd,detector,15,10,0.8449887057152897,6.830999336742405
+xjtu,env_kurtosis,envelope,thr_2.5sd,detector,15,10,0.8449887057152897,7.726684333307285
+xjtu,env_kurtosis,envelope,thr_3sd,detector,15,10,0.8024353176576853,9.615633109327813
+xjtu,env_kurtosis,envelope,thr_4sd,detector,15,10,0.8145934285312865,9.615633109327813
+xjtu,env_kurtosis,envelope,thr_5sd,detector,15,10,0.8145934285312865,11.561766713754
+xjtu,env_kurtosis,envelope,thr_6sd,detector,15,10,0.8145934285312865,12.220675542752783
+xjtu,env_kurtosis,envelope,thr_8sd,detector,15,10,0.8145934285312865,13.110660972394168
+xjtu,env_kurtosis,envelope,ma5_2sd,detector,15,12,0.8157894736842105,6.118487962799078
+xjtu,env_kurtosis,envelope,ma5_3sd,detector,15,11,0.8059360730593609,10.018298842198169
+xjtu,env_kurtosis,envelope,ma5_5sd,detector,15,10,0.8024353176576853,10.95458431190982
+xjtu,env_kurtosis,envelope,ewmaAR_l0.05_L3,"chart, AR-corrected",15,14,0.5892070484581498,2.724783491479551
+xjtu,env_kurtosis,envelope,ewmaAR_l0.1_L3,"chart, AR-corrected",15,14,0.5016504685758358,2.7358813132658506
+xjtu,env_kurtosis,envelope,ewmaAR_l0.2_L3,"chart, AR-corrected",15,14,0.5060509112826415,2.625900938537698
+xjtu,env_kurtosis,envelope,ewmaAR_l0.4_L3,"chart, AR-corrected",15,13,0.8363144087787088,5.856251481583387
+xjtu,env_kurtosis,envelope,ewmaAR_l0.8_L3,"chart, AR-corrected",15,11,0.8838291723017182,6.14169871292814
+xjtu,env_kurtosis,envelope,adapt_L2,"chart, adaptive limits",15,10,0.8024353176576853,8.316035725763957
+xjtu,env_kurtosis,envelope,adapt_L3,"chart, adaptive limits",15,9,0.8333333333333333,12.587961224531753
+xjtu,env_kurtosis,envelope,adapt_L4,"chart, adaptive limits",15,7,0.7857142857142859,11.853389860973813
+xjtu,env_kurtosis,envelope,adapt_L5,"chart, adaptive limits",15,6,0.6571428571428573,17.04991543992659
+xjtu,env_kurtosis,envelope,adapt_L6,"chart, adaptive limits",15,4,0.39999999999999997,34.320301827288375
+femto,spec_centroid,spectrum,ewma_l0.05_L2,control chart,13,7,0.7142857142857144,1.2838438391408802
+femto,spec_centroid,spectrum,ewma_l0.05_L3,control chart,13,5,0.8999999999999998,1.6216561359948043
+femto,spec_centroid,spectrum,ewma_l0.05_L4,control chart,13,4,1.0,1.5228217815854095
+femto,spec_centroid,spectrum,ewma_l0.05_L5,control chart,13,4,0.7999999999999999,1.2468756509874686
+femto,spec_centroid,spectrum,ewma_l0.05_L6,control chart,13,2,,2.2808580265375245
+femto,spec_centroid,spectrum,ewma_l0.1_L2,control chart,13,11,0.4312108080078245,1.1109453788780022
+femto,spec_centroid,spectrum,ewma_l0.1_L3,control chart,13,5,0.8999999999999998,1.8730946326921434
+femto,spec_centroid,spectrum,ewma_l0.1_L4,control chart,13,4,1.0,1.4682247059363687
+femto,spec_centroid,spectrum,ewma_l0.1_L5,control chart,13,2,,2.0345609630761032
+femto,spec_centroid,spectrum,ewma_l0.1_L6,control chart,13,2,,2.566786618051003
+femto,spec_centroid,spectrum,ewma_l0.2_L2,control chart,13,8,0.523809523809524,1.3123858567029132
+femto,spec_centroid,spectrum,ewma_l0.2_L3,control chart,13,6,0.8285714285714287,1.5944106847896822
+femto,spec_centroid,spectrum,ewma_l0.2_L4,control chart,13,3,,2.242081614716044
+femto,spec_centroid,spectrum,ewma_l0.2_L5,control chart,13,2,,2.349831938573314
+femto,spec_centroid,spectrum,ewma_l0.2_L6,control chart,13,1,,3.508761614728622
+femto,spec_centroid,spectrum,ewma_l0.4_L2,control chart,13,7,0.7500000000000002,2.069535781002262
+femto,spec_centroid,spectrum,ewma_l0.4_L3,control chart,13,3,,2.242081614716044
+femto,spec_centroid,spectrum,ewma_l0.4_L4,control chart,13,2,,3.210820586282591
+femto,spec_centroid,spectrum,ewma_l0.4_L5,control chart,13,1,,3.508761614728622
+femto,spec_centroid,spectrum,ewma_l0.4_L6,control chart,13,1,,3.423998481503252
+femto,spec_centroid,spectrum,ewma_l0.8_L2,control chart,13,3,,2.7727793979505924
+femto,spec_centroid,spectrum,ewma_l0.8_L3,control chart,13,1,,3.508761614728622
+femto,spec_centroid,spectrum,ewma_l0.8_L4,control chart,13,0,,
+femto,spec_centroid,spectrum,ewma_l0.8_L5,control chart,13,0,,
+femto,spec_centroid,spectrum,ewma_l0.8_L6,control chart,13,0,,
+femto,spec_centroid,spectrum,cusum_k0.25_h3,control chart,13,13,0.6153846153846153,0.902985303557443
+femto,spec_centroid,spectrum,cusum_k0.25_h5,control chart,13,10,0.6606060606060605,1.0663139861832245
+femto,spec_centroid,spectrum,cusum_k0.25_h8,control chart,13,7,0.7142857142857144,1.2838438391408802
+femto,spec_centroid,spectrum,cusum_k0.25_h12,control chart,13,5,0.9999999999999999,1.5836650613131826
+femto,spec_centroid,spectrum,cusum_k0.5_h3,control chart,13,8,0.6428571428571429,1.364737987997667
+femto,spec_centroid,spectrum,cusum_k0.5_h5,control chart,13,6,0.8285714285714287,1.4318180120311674
+femto,spec_centroid,spectrum,cusum_k0.5_h8,control chart,13,5,0.9999999999999999,1.5919736947351264
+femto,spec_centroid,spectrum,cusum_k0.5_h12,control chart,13,4,1.0,1.4601667221934174
+femto,spec_centroid,spectrum,cusum_k1_h3,control chart,13,6,0.8285714285714287,1.866909721455807
+femto,spec_centroid,spectrum,cusum_k1_h5,control chart,13,5,0.8999999999999998,1.5836650613131826
+femto,spec_centroid,spectrum,cusum_k1_h8,control chart,13,2,,2.3676998919125176
+femto,spec_centroid,spectrum,cusum_k1_h12,control chart,13,2,,2.3396868952503653
+femto,spec_centroid,spectrum,cusum_k2_h3,control chart,13,1,,3.469801814976177
+femto,spec_centroid,spectrum,cusum_k2_h5,control chart,13,1,,2.6489242750303332
+femto,spec_centroid,spectrum,cusum_k2_h8,control chart,13,1,,2.658748213031501
+femto,spec_centroid,spectrum,cusum_k2_h12,control chart,13,1,,2.0994579770426176
+femto,spec_centroid,spectrum,cusum_k3_h3,control chart,13,0,,
+femto,spec_centroid,spectrum,cusum_k3_h5,control chart,13,0,,
+femto,spec_centroid,spectrum,cusum_k3_h8,control chart,13,0,,
+femto,spec_centroid,spectrum,cusum_k3_h12,control chart,13,0,,
+femto,spec_centroid,spectrum,thr_1sd,detector,13,8,0.6904761904761906,1.5217217920973227
+femto,spec_centroid,spectrum,thr_1.5sd,detector,13,4,0.39999999999999997,2.470560078272203
+femto,spec_centroid,spectrum,thr_2sd,detector,13,2,,3.234791948042849
+femto,spec_centroid,spectrum,thr_2.5sd,detector,13,1,,3.508761614728622
+femto,spec_centroid,spectrum,thr_3sd,detector,13,1,,3.508761614728622
+femto,spec_centroid,spectrum,thr_4sd,detector,13,0,,
+femto,spec_centroid,spectrum,thr_5sd,detector,13,0,,
+femto,spec_centroid,spectrum,thr_6sd,detector,13,0,,
+femto,spec_centroid,spectrum,thr_8sd,detector,13,0,,
+femto,spec_centroid,spectrum,ma5_2sd,detector,13,1,,3.508761614728622
+femto,spec_centroid,spectrum,ma5_3sd,detector,13,0,,
+femto,spec_centroid,spectrum,ma5_5sd,detector,13,0,,
+femto,spec_centroid,spectrum,ewmaAR_l0.05_L3,"chart, AR-corrected",13,5,0.8999999999999998,1.8358037927499997
+femto,spec_centroid,spectrum,ewmaAR_l0.1_L3,"chart, AR-corrected",13,6,0.8285714285714287,1.444500073703531
+femto,spec_centroid,spectrum,ewmaAR_l0.2_L3,"chart, AR-corrected",13,6,0.8285714285714287,1.421072388554668
+femto,spec_centroid,spectrum,ewmaAR_l0.4_L3,"chart, AR-corrected",13,6,0.7142857142857143,1.9272619034970757
+femto,spec_centroid,spectrum,ewmaAR_l0.8_L3,"chart, AR-corrected",13,2,,3.210820586282591
+femto,spec_centroid,spectrum,adapt_L2,"chart, adaptive limits",13,0,,
+femto,spec_centroid,spectrum,adapt_L3,"chart, adaptive limits",13,0,,
+femto,spec_centroid,spectrum,adapt_L4,"chart, adaptive limits",13,0,,
+femto,spec_centroid,spectrum,adapt_L5,"chart, adaptive limits",13,0,,
+femto,spec_centroid,spectrum,adapt_L6,"chart, adaptive limits",13,0,,
+femto,band_power_fixed,spectrum,ewma_l0.05_L2,control chart,13,8,0.26347777762091695,1.408838253395965
+femto,band_power_fixed,spectrum,ewma_l0.05_L3,control chart,13,6,0.08571428571428573,1.5726843489996893
+femto,band_power_fixed,spectrum,ewma_l0.05_L4,control chart,13,5,0.09999999999999999,1.503974465467268
+femto,band_power_fixed,spectrum,ewma_l0.05_L5,control chart,13,4,0.39999999999999997,1.849771984248353
+femto,band_power_fixed,spectrum,ewma_l0.05_L6,control chart,13,3,,2.491021588292808
+femto,band_power_fixed,spectrum,ewma_l0.1_L2,control chart,13,9,-0.016666666666666666,0.9966147782380869
+femto,band_power_fixed,spectrum,ewma_l0.1_L3,control chart,13,6,0.2571428571428572,1.8361111769779843
+femto,band_power_fixed,spectrum,ewma_l0.1_L4,control chart,13,5,0.7,1.826027968745057
+femto,band_power_fixed,spectrum,ewma_l0.1_L5,control chart,13,3,,1.8305384641908906
+femto,band_power_fixed,spectrum,ewma_l0.1_L6,control chart,13,2,,2.3941449376792945
+femto,band_power_fixed,spectrum,ewma_l0.2_L2,control chart,13,8,-0.07185757571479554,1.6008011187541715
+femto,band_power_fixed,spectrum,ewma_l0.2_L3,control chart,13,5,0.7,1.6835199658262139
+femto,band_power_fixed,spectrum,ewma_l0.2_L4,control chart,13,4,0.39999999999999997,2.1988981221557236
+femto,band_power_fixed,spectrum,ewma_l0.2_L5,control chart,13,2,,2.337267236783723
+femto,band_power_fixed,spectrum,ewma_l0.2_L6,control chart,13,2,,2.7996028762381275
+femto,band_power_fixed,spectrum,ewma_l0.4_L2,control chart,13,6,0.2,2.0381565832610997
+femto,band_power_fixed,spectrum,ewma_l0.4_L3,control chart,13,4,0.39999999999999997,2.098850901063169
+femto,band_power_fixed,spectrum,ewma_l0.4_L4,control chart,13,2,,2.337267236783723
+femto,band_power_fixed,spectrum,ewma_l0.4_L5,control chart,13,1,,3.3930876425913032
+femto,band_power_fixed,spectrum,ewma_l0.4_L6,control chart,13,0,,
+femto,band_power_fixed,spectrum,ewma_l0.8_L2,control chart,13,4,-0.7999999999999999,1.9286424928719836
+femto,band_power_fixed,spectrum,ewma_l0.8_L3,control chart,13,1,,3.3930876425913032
+femto,band_power_fixed,spectrum,ewma_l0.8_L4,control chart,13,0,,
+femto,band_power_fixed,spectrum,ewma_l0.8_L5,control chart,13,0,,
+femto,band_power_fixed,spectrum,ewma_l0.8_L6,control chart,13,0,,
+femto,band_power_fixed,spectrum,cusum_k0.25_h3,control chart,13,11,0.14578625522502567,1.4495851071814805
+femto,band_power_fixed,spectrum,cusum_k0.25_h5,control chart,13,9,0.43333333333333335,0.9966147782380869
+femto,band_power_fixed,spectrum,cusum_k0.25_h8,control chart,13,7,0.25,1.3303410670809195
+femto,band_power_fixed,spectrum,cusum_k0.25_h12,control chart,13,5,0.09999999999999999,1.3148162957349379
+femto,band_power_fixed,spectrum,cusum_k0.5_h3,control chart,13,9,-0.03333333333333333,1.5745362840067163
+femto,band_power_fixed,spectrum,cusum_k0.5_h5,control chart,13,6,0.2571428571428572,1.727476631724949
+femto,band_power_fixed,spectrum,cusum_k0.5_h8,control chart,13,5,0.09999999999999999,1.3245180745299654
+femto,band_power_fixed,spectrum,cusum_k0.5_h12,control chart,13,5,0.09999999999999999,1.8305384641908906
+femto,band_power_fixed,spectrum,cusum_k1_h3,control chart,13,4,0.39999999999999997,1.9710607586532047
+femto,band_power_fixed,spectrum,cusum_k1_h5,control chart,13,3,,1.8305384641908906
+femto,band_power_fixed,spectrum,cusum_k1_h8,control chart,13,3,,2.15830282820055
+femto,band_power_fixed,spectrum,cusum_k1_h12,control chart,13,3,,1.9235220192017228
+femto,band_power_fixed,spectrum,cusum_k2_h3,control chart,13,2,,2.564119418500672
+femto,band_power_fixed,spectrum,cusum_k2_h5,control chart,13,0,,
+femto,band_power_fixed,spectrum,cusum_k2_h8,control chart,13,0,,
+femto,band_power_fixed,spectrum,cusum_k2_h12,control chart,13,0,,
+femto,band_power_fixed,spectrum,cusum_k3_h3,control chart,13,0,,
+femto,band_power_fixed,spectrum,cusum_k3_h5,control chart,13,0,,
+femto,band_power_fixed,spectrum,cusum_k3_h8,control chart,13,0,,
+femto,band_power_fixed,spectrum,cusum_k3_h12,control chart,13,0,,
+femto,band_power_fixed,spectrum,thr_1sd,detector,13,7,0.3571428571428572,1.8519305640615418
+femto,band_power_fixed,spectrum,thr_1.5sd,detector,13,5,-0.19999999999999998,1.8687452605361288
+femto,band_power_fixed,spectrum,thr_2sd,detector,13,2,,2.669499809404602
+femto,band_power_fixed,spectrum,thr_2.5sd,detector,13,0,,
+femto,band_power_fixed,spectrum,thr_3sd,detector,13,0,,
+femto,band_power_fixed,spectrum,thr_4sd,detector,13,0,,
+femto,band_power_fixed,spectrum,thr_5sd,detector,13,0,,
+femto,band_power_fixed,spectrum,thr_6sd,detector,13,0,,
+femto,band_power_fixed,spectrum,thr_8sd,detector,13,0,,
+femto,band_power_fixed,spectrum,ma5_2sd,detector,13,2,,1.8652273903096266
+femto,band_power_fixed,spectrum,ma5_3sd,detector,13,0,,
+femto,band_power_fixed,spectrum,ma5_5sd,detector,13,0,,
+femto,band_power_fixed,spectrum,ewmaAR_l0.05_L3,"chart, AR-corrected",13,6,0.2571428571428572,2.005810849932614
+femto,band_power_fixed,spectrum,ewmaAR_l0.1_L3,"chart, AR-corrected",13,5,-0.3,1.7087024650198646
+femto,band_power_fixed,spectrum,ewmaAR_l0.2_L3,"chart, AR-corrected",13,4,0.39999999999999997,1.8548211883781898
+femto,band_power_fixed,spectrum,ewmaAR_l0.4_L3,"chart, AR-corrected",13,4,0.316227766016838,2.086823883198769
+femto,band_power_fixed,spectrum,ewmaAR_l0.8_L3,"chart, AR-corrected",13,1,,3.3930876425913032
+femto,band_power_fixed,spectrum,adapt_L2,"chart, adaptive limits",13,1,,2.447998626464017
+femto,band_power_fixed,spectrum,adapt_L3,"chart, adaptive limits",13,0,,
+femto,band_power_fixed,spectrum,adapt_L4,"chart, adaptive limits",13,0,,
+femto,band_power_fixed,spectrum,adapt_L5,"chart, adaptive limits",13,0,,
+femto,band_power_fixed,spectrum,adapt_L6,"chart, adaptive limits",13,0,,
+femto,band_power_auto,spectrum,ewma_l0.05_L2,control chart,13,6,-0.057977103565244846,1.0520800721257566
+femto,band_power_auto,spectrum,ewma_l0.05_L3,control chart,13,5,0.3,1.1736447211329792
+femto,band_power_auto,spectrum,ewma_l0.05_L4,control chart,13,4,0.6000000000000001,1.4026258297431538
+femto,band_power_auto,spectrum,ewma_l0.05_L5,control chart,13,3,,1.8533370252882182
+femto,band_power_auto,spectrum,ewma_l0.05_L6,control chart,13,3,,1.44691981039518
+femto,band_power_auto,spectrum,ewma_l0.1_L2,control chart,13,7,-0.10714285714285716,1.1703071049374618
+femto,band_power_auto,spectrum,ewma_l0.1_L3,control chart,13,5,0.3,1.4259655382808154
+femto,band_power_auto,spectrum,ewma_l0.1_L4,control chart,13,3,,1.7855974350378043
+femto,band_power_auto,spectrum,ewma_l0.1_L5,control chart,13,3,,1.9971068008526947
+femto,band_power_auto,spectrum,ewma_l0.1_L6,control chart,13,3,,2.1735546392210585
+femto,band_power_auto,spectrum,ewma_l0.2_L2,control chart,13,7,-0.10714285714285716,1.4914989916132793
+femto,band_power_auto,spectrum,ewma_l0.2_L3,control chart,13,3,,1.6349712258552296
+femto,band_power_auto,spectrum,ewma_l0.2_L4,control chart,13,3,,2.4686300907473635
+femto,band_power_auto,spectrum,ewma_l0.2_L5,control chart,13,3,,2.1735546392210585
+femto,band_power_auto,spectrum,ewma_l0.2_L6,control chart,13,2,,2.4987041210313383
+femto,band_power_auto,spectrum,ewma_l0.4_L2,control chart,13,6,0.2571428571428572,1.7579305134462047
+femto,band_power_auto,spectrum,ewma_l0.4_L3,control chart,13,3,,2.1593492451531993
+femto,band_power_auto,spectrum,ewma_l0.4_L4,control chart,13,2,,2.413725544866753
+femto,band_power_auto,spectrum,ewma_l0.4_L5,control chart,13,2,,3.2918323417917206
+femto,band_power_auto,spectrum,ewma_l0.4_L6,control chart,13,2,,3.399327360940169
+femto,band_power_auto,spectrum,ewma_l0.8_L2,control chart,13,3,,2.2878894630921884
+femto,band_power_auto,spectrum,ewma_l0.8_L3,control chart,13,2,,3.2918323417917206
+femto,band_power_auto,spectrum,ewma_l0.8_L4,control chart,13,2,,3.7878348289672172
+femto,band_power_auto,spectrum,ewma_l0.8_L5,control chart,13,1,,5.249597742934735
+femto,band_power_auto,spectrum,ewma_l0.8_L6,control chart,13,1,,6.23272645635882
+femto,band_power_auto,spectrum,cusum_k0.25_h3,control chart,13,11,-0.12328895654385025,0.9627489574742847
+femto,band_power_auto,spectrum,cusum_k0.25_h5,control chart,13,8,0.19162020190612142,1.0313473567599993
+femto,band_power_auto,spectrum,cusum_k0.25_h8,control chart,13,5,0.3,1.5125334822469405
+femto,band_power_auto,spectrum,cusum_k0.25_h12,control chart,13,5,0.3,1.1736447211329792
+femto,band_power_auto,spectrum,cusum_k0.5_h3,control chart,13,8,0.09523809523809526,1.1108016242321266
+femto,band_power_auto,spectrum,cusum_k0.5_h5,control chart,13,5,-0.09999999999999999,1.1936019539203078
+femto,band_power_auto,spectrum,cusum_k0.5_h8,control chart,13,4,0.6000000000000001,1.4226655054415747
+femto,band_power_auto,spectrum,cusum_k0.5_h12,control chart,13,4,0.6000000000000001,1.6309595168015936
+femto,band_power_auto,spectrum,cusum_k1_h3,control chart,13,3,,1.8533370252882182
+femto,band_power_auto,spectrum,cusum_k1_h5,control chart,13,3,,1.2900104358197602
+femto,band_power_auto,spectrum,cusum_k1_h8,control chart,13,3,,2.1781722901004907
+femto,band_power_auto,spectrum,cusum_k1_h12,control chart,13,3,,2.551723402086404
+femto,band_power_auto,spectrum,cusum_k2_h3,control chart,13,2,,2.881457741289513
+femto,band_power_auto,spectrum,cusum_k2_h5,control chart,13,2,,3.058797053086908
+femto,band_power_auto,spectrum,cusum_k2_h8,control chart,13,2,,3.2995773566405
+femto,band_power_auto,spectrum,cusum_k2_h12,control chart,13,2,,3.592290128978679
+femto,band_power_auto,spectrum,cusum_k3_h3,control chart,13,2,,3.4770381206252337
+femto,band_power_auto,spectrum,cusum_k3_h5,control chart,13,2,,4.359329976847861
+femto,band_power_auto,spectrum,cusum_k3_h8,control chart,13,2,,4.651197289054215
+femto,band_power_auto,spectrum,cusum_k3_h12,control chart,13,2,,3.528715689129755
+femto,band_power_auto,spectrum,thr_1sd,detector,13,7,-0.14285714285714288,1.4355968953437084
+femto,band_power_auto,spectrum,thr_1.5sd,detector,13,3,,1.7855974350378043
+femto,band_power_auto,spectrum,thr_2sd,detector,13,3,,2.3209298848229047
+femto,band_power_auto,spectrum,thr_2.5sd,detector,13,2,,3.2918323417917206
+femto,band_power_auto,spectrum,thr_3sd,detector,13,2,,3.5525456911280244
+femto,band_power_auto,spectrum,thr_4sd,detector,13,1,,5.249597742934735
+femto,band_power_auto,spectrum,thr_5sd,detector,13,1,,6.23272645635882
+femto,band_power_auto,spectrum,thr_6sd,detector,13,1,,6.413507484565051
+femto,band_power_auto,spectrum,thr_8sd,detector,13,1,,10.168642264580487
+femto,band_power_auto,spectrum,ma5_2sd,detector,13,4,0.6000000000000001,2.2985917873961177
+femto,band_power_auto,spectrum,ma5_3sd,detector,13,2,,3.2995773566405
+femto,band_power_auto,spectrum,ma5_5sd,detector,13,1,,6.014120665014949
+femto,band_power_auto,spectrum,ewmaAR_l0.05_L3,"chart, AR-corrected",13,6,0.4285714285714286,1.1836233375266434
+femto,band_power_auto,spectrum,ewmaAR_l0.1_L3,"chart, AR-corrected",13,6,0.4285714285714286,1.1836233375266434
+femto,band_power_auto,spectrum,ewmaAR_l0.2_L3,"chart, AR-corrected",13,3,,1.8533370252882182
+femto,band_power_auto,spectrum,ewmaAR_l0.4_L3,"chart, AR-corrected",13,3,,2.4315982792275537
+femto,band_power_auto,spectrum,ewmaAR_l0.8_L3,"chart, AR-corrected",13,2,,3.2918323417917206
+femto,band_power_auto,spectrum,adapt_L2,"chart, adaptive limits",13,2,,3.0394817005977846
+femto,band_power_auto,spectrum,adapt_L3,"chart, adaptive limits",13,1,,10.764755889203297
+femto,band_power_auto,spectrum,adapt_L4,"chart, adaptive limits",13,0,,
+femto,band_power_auto,spectrum,adapt_L5,"chart, adaptive limits",13,0,,
+femto,band_power_auto,spectrum,adapt_L6,"chart, adaptive limits",13,0,,
+femto,env_rms,envelope,ewma_l0.05_L2,control chart,13,10,-0.4863244349440517,1.7138306940243675
+femto,env_rms,envelope,ewma_l0.05_L3,control chart,13,10,0.10303030303030303,4.6544564635090175
+femto,env_rms,envelope,ewma_l0.05_L4,control chart,13,7,0.25,7.789391230378242
+femto,env_rms,envelope,ewma_l0.05_L5,control chart,13,6,0.7714285714285715,11.34735532929053
+femto,env_rms,envelope,ewma_l0.05_L6,control chart,13,6,0.7714285714285715,11.63341681133451
+femto,env_rms,envelope,ewma_l0.1_L2,control chart,13,11,-0.5205533720740343,1.8453852684323442
+femto,env_rms,envelope,ewma_l0.1_L3,control chart,13,10,0.10303030303030303,3.530601820898459
+femto,env_rms,envelope,ewma_l0.1_L4,control chart,13,9,0.6,13.153506724550084
+femto,env_rms,envelope,ewma_l0.1_L5,control chart,13,9,0.7999999999999999,17.669509313099216
+femto,env_rms,envelope,ewma_l0.1_L6,control chart,13,9,0.7999999999999999,17.669509313099216
+femto,env_rms,envelope,ewma_l0.2_L2,control chart,13,12,-0.34965034965034975,1.757784835127444
+femto,env_rms,envelope,ewma_l0.2_L3,control chart,13,11,0.09090909090909091,4.541864734605828
+femto,env_rms,envelope,ewma_l0.2_L4,control chart,13,9,0.7949860383179369,7.7144249231523805
+femto,env_rms,envelope,ewma_l0.2_L5,control chart,13,9,0.7949860383179369,13.11666210136422
+femto,env_rms,envelope,ewma_l0.2_L6,control chart,13,9,0.7949860383179369,13.11666210136422
+femto,env_rms,envelope,ewma_l0.4_L2,control chart,13,11,-0.29090909090909095,1.866195230452838
+femto,env_rms,envelope,ewma_l0.4_L3,control chart,13,9,0.7833333333333333,6.920282832076991
+femto,env_rms,envelope,ewma_l0.4_L4,control chart,13,9,0.7833333333333333,7.7144249231523805
+femto,env_rms,envelope,ewma_l0.4_L5,control chart,13,9,0.7833333333333333,7.7144249231523805
+femto,env_rms,envelope,ewma_l0.4_L6,control chart,13,9,0.7949860383179369,13.11666210136422
+femto,env_rms,envelope,ewma_l0.8_L2,control chart,13,10,0.5757575757575757,5.875715236563813
+femto,env_rms,envelope,ewma_l0.8_L3,control chart,13,9,0.7833333333333333,5.6758023548471845
+femto,env_rms,envelope,ewma_l0.8_L4,control chart,13,9,0.7833333333333333,5.78851986022174
+femto,env_rms,envelope,ewma_l0.8_L5,control chart,13,9,0.9166666666666666,6.075628118280441
+femto,env_rms,envelope,ewma_l0.8_L6,control chart,13,9,0.8833333333333333,13.11666210136422
+femto,env_rms,envelope,cusum_k0.25_h3,control chart,13,13,-0.42916134134696904,1.3126514989104248
+femto,env_rms,envelope,cusum_k0.25_h5,control chart,13,12,-0.5744317040374439,1.4020762654722985
+femto,env_rms,envelope,cusum_k0.25_h8,control chart,13,11,-0.2277910237891026,0.9835442344222839
+femto,env_rms,envelope,cusum_k0.25_h12,control chart,13,10,0.10303030303030303,2.7020363682240243
+femto,env_rms,envelope,cusum_k0.5_h3,control chart,13,12,-0.5639238070123688,1.4072660085345456
+femto,env_rms,envelope,cusum_k0.5_h5,control chart,13,11,0.173121178079718,2.149123219243213
+femto,env_rms,envelope,cusum_k0.5_h8,control chart,13,11,0.10933969141876927,3.1656964177562497
+femto,env_rms,envelope,cusum_k0.5_h12,control chart,13,9,0.6,6.199619431141112
+femto,env_rms,envelope,cusum_k1_h3,control chart,13,10,0.5878787878787878,5.170295309485785
+femto,env_rms,envelope,cusum_k1_h5,control chart,13,10,0.8206724839680872,5.932073989251091
+femto,env_rms,envelope,cusum_k1_h8,control chart,13,10,0.8424242424242423,5.2333667884876425
+femto,env_rms,envelope,cusum_k1_h12,control chart,13,9,0.7949860383179369,13.11666210136422
+femto,env_rms,envelope,cusum_k2_h3,control chart,13,10,0.8424242424242423,5.932073989251091
+femto,env_rms,envelope,cusum_k2_h5,control chart,13,10,0.8424242424242423,6.75147239168706
+femto,env_rms,envelope,cusum_k2_h8,control chart,13,9,0.7833333333333333,6.284084748179288
+femto,env_rms,envelope,cusum_k2_h12,control chart,13,9,0.7999999999999999,13.11666210136422
+femto,env_rms,envelope,cusum_k3_h3,control chart,13,10,0.8424242424242423,5.932073989251091
+femto,env_rms,envelope,cusum_k3_h5,control chart,13,9,0.7833333333333333,13.11666210136422
+femto,env_rms,envelope,cusum_k3_h8,control chart,13,9,0.8954053273686237,13.11666210136422
+femto,env_rms,envelope,cusum_k3_h12,control chart,13,8,0.8571428571428572,15.427105702005559
+femto,env_rms,envelope,thr_1sd,detector,13,10,0.17575757575757575,2.0028997981291505
+femto,env_rms,envelope,thr_1.5sd,detector,13,10,0.5757575757575757,5.108833544726506
+femto,env_rms,envelope,thr_2sd,detector,13,10,0.7818181818181817,5.875715236563813
+femto,env_rms,envelope,thr_2.5sd,detector,13,9,0.7833333333333333,5.6758023548471845
+femto,env_rms,envelope,thr_3sd,detector,13,9,0.7833333333333333,5.6758023548471845
+femto,env_rms,envelope,thr_4sd,detector,13,9,0.9166666666666666,6.075628118280441
+femto,env_rms,envelope,thr_5sd,detector,13,9,0.8833333333333333,13.11666210136422
+femto,env_rms,envelope,thr_6sd,detector,13,9,0.9,13.1847020909119
+femto,env_rms,envelope,thr_8sd,detector,13,8,0.8571428571428572,18.219869420105766
+femto,env_rms,envelope,ma5_2sd,detector,13,9,0.7833333333333333,5.78851986022174
+femto,env_rms,envelope,ma5_3sd,detector,13,9,0.7949860383179369,13.153506724550084
+femto,env_rms,envelope,ma5_5sd,detector,13,8,0.8571428571428572,16.254808101789713
+femto,env_rms,envelope,ewmaAR_l0.05_L3,"chart, AR-corrected",13,9,-0.03333333333333333,3.0188117852778826
+femto,env_rms,envelope,ewmaAR_l0.1_L3,"chart, AR-corrected",13,10,0.4666666666666666,5.292833571977408
+femto,env_rms,envelope,ewmaAR_l0.2_L3,"chart, AR-corrected",13,10,0.6097674333191042,5.474436506151837
+femto,env_rms,envelope,ewmaAR_l0.4_L3,"chart, AR-corrected",13,9,0.7833333333333333,5.669586293242211
+femto,env_rms,envelope,ewmaAR_l0.8_L3,"chart, AR-corrected",13,9,0.7833333333333333,5.6758023548471845
+femto,env_rms,envelope,adapt_L2,"chart, adaptive limits",13,10,0.9272727272727272,5.988208079328375
+femto,env_rms,envelope,adapt_L3,"chart, adaptive limits",13,10,0.960490759014502,12.99405563000556
+femto,env_rms,envelope,adapt_L4,"chart, adaptive limits",13,9,0.9833333333333333,17.669509313099216
+femto,env_rms,envelope,adapt_L5,"chart, adaptive limits",13,7,1.0,19.615309351058993
+femto,env_rms,envelope,adapt_L6,"chart, adaptive limits",13,7,1.0,23.278556200901598
+femto,env_kurtosis,envelope,ewma_l0.05_L2,control chart,13,9,0.8451956828432803,2.5168117644372208
+femto,env_kurtosis,envelope,ewma_l0.05_L3,control chart,13,9,0.8333333333333333,3.901864380974755
+femto,env_kurtosis,envelope,ewma_l0.05_L4,control chart,13,9,0.7833333333333333,5.588878564759397
+femto,env_kurtosis,envelope,ewma_l0.05_L5,control chart,13,8,0.8095238095238096,7.637831073409782
+femto,env_kurtosis,envelope,ewma_l0.05_L6,control chart,13,8,0.7545045450053531,7.637831073409782
+femto,env_kurtosis,envelope,ewma_l0.1_L2,control chart,13,9,0.42678197846541877,2.451413639436042
+femto,env_kurtosis,envelope,ewma_l0.1_L3,control chart,13,9,0.75,3.527867030851202
+femto,env_kurtosis,envelope,ewma_l0.1_L4,control chart,13,9,0.75,5.588878564759397
+femto,env_kurtosis,envelope,ewma_l0.1_L5,control chart,13,8,0.7857142857142858,7.637831073409782
+femto,env_kurtosis,envelope,ewma_l0.1_L6,control chart,13,8,0.8095238095238096,7.637831073409782
+femto,env_kurtosis,envelope,ewma_l0.2_L2,control chart,13,9,0.26666666666666666,2.451413639436042
+femto,env_kurtosis,envelope,ewma_l0.2_L3,control chart,13,9,0.6833333333333333,3.901864380974755
+femto,env_kurtosis,envelope,ewma_l0.2_L4,control chart,13,8,0.7857142857142858,7.637831073409782
+femto,env_kurtosis,envelope,ewma_l0.2_L5,control chart,13,8,0.7857142857142858,7.637831073409782
+femto,env_kurtosis,envelope,ewma_l0.2_L6,control chart,13,8,0.8095238095238096,7.637831073409782
+femto,env_kurtosis,envelope,ewma_l0.4_L2,control chart,13,9,0.26666666666666666,2.451413639436042
+femto,env_kurtosis,envelope,ewma_l0.4_L3,control chart,13,9,0.75,5.588878564759397
+femto,env_kurtosis,envelope,ewma_l0.4_L4,control chart,13,8,0.8095238095238096,7.637831073409782
+femto,env_kurtosis,envelope,ewma_l0.4_L5,control chart,13,8,0.7619047619047621,7.637831073409782
+femto,env_kurtosis,envelope,ewma_l0.4_L6,control chart,13,7,0.642857142857143,9.686783582060167
+femto,env_kurtosis,envelope,ewma_l0.8_L2,control chart,13,7,0.8214285714285715,5.588878564759397
+femto,env_kurtosis,envelope,ewma_l0.8_L3,control chart,13,7,0.9642857142857145,8.560000539471712
+femto,env_kurtosis,envelope,ewma_l0.8_L4,control chart,13,6,0.942857142857143,12.885982062850585
+femto,env_kurtosis,envelope,ewma_l0.8_L5,control chart,13,5,0.7,10.058141738254964
+femto,env_kurtosis,envelope,ewma_l0.8_L6,control chart,13,4,0.7999999999999999,13.635052662242211
+femto,env_kurtosis,envelope,cusum_k0.25_h3,control chart,13,13,0.6887078474798858,1.7257600867129363
+femto,env_kurtosis,envelope,cusum_k0.25_h5,control chart,13,10,0.03048837166595521,1.8481541283199947
+femto,env_kurtosis,envelope,cusum_k0.25_h8,control chart,13,9,0.8333333333333333,2.5168117644372208
+femto,env_kurtosis,envelope,cusum_k0.25_h12,control chart,13,9,0.75,4.492127093341605
+femto,env_kurtosis,envelope,cusum_k0.5_h3,control chart,13,11,0.34168653568365387,1.8105778569105586
+femto,env_kurtosis,envelope,cusum_k0.5_h5,control chart,13,9,0.3666666666666667,2.451413639436042
+femto,env_kurtosis,envelope,cusum_k0.5_h8,control chart,13,9,0.75,3.901864380974755
+femto,env_kurtosis,envelope,cusum_k0.5_h12,control chart,13,8,0.7857142857142858,7.252033575882775
+femto,env_kurtosis,envelope,cusum_k1_h3,control chart,13,9,0.35,3.527867030851202
+femto,env_kurtosis,envelope,cusum_k1_h5,control chart,13,8,0.7857142857142858,5.040502829050501
+femto,env_kurtosis,envelope,cusum_k1_h8,control chart,13,8,0.7857142857142858,5.040502829050501
+femto,env_kurtosis,envelope,cusum_k1_h12,control chart,13,8,0.8095238095238096,7.3697349136508326
+femto,env_kurtosis,envelope,cusum_k2_h3,control chart,13,8,0.7857142857142858,5.040502829050501
+femto,env_kurtosis,envelope,cusum_k2_h5,control chart,13,8,0.7857142857142858,7.637831073409782
+femto,env_kurtosis,envelope,cusum_k2_h8,control chart,13,7,0.642857142857143,9.686783582060167
+femto,env_kurtosis,envelope,cusum_k2_h12,control chart,13,7,0.642857142857143,9.686783582060167
+femto,env_kurtosis,envelope,cusum_k3_h3,control chart,13,7,0.6785714285714287,9.686783582060167
+femto,env_kurtosis,envelope,cusum_k3_h5,control chart,13,7,0.642857142857143,9.686783582060167
+femto,env_kurtosis,envelope,cusum_k3_h8,control chart,13,7,0.642857142857143,10.639413777875356
+femto,env_kurtosis,envelope,cusum_k3_h12,control chart,13,7,0.642857142857143,10.639413777875356
+femto,env_kurtosis,envelope,thr_1sd,detector,13,9,0.7,4.285116013748291
+femto,env_kurtosis,envelope,thr_1.5sd,detector,13,8,0.9761904761904763,4.451618953076717
+femto,env_kurtosis,envelope,thr_2sd,detector,13,6,0.942857142857143,4.517439943396207
+femto,env_kurtosis,envelope,thr_2.5sd,detector,13,6,0.942857142857143,4.517439943396207
+femto,env_kurtosis,envelope,thr_3sd,detector,13,5,0.8999999999999998,6.0331533055027045
+femto,env_kurtosis,envelope,thr_4sd,detector,13,5,0.7,8.560000539471712
+femto,env_kurtosis,envelope,thr_5sd,detector,13,4,1.0,9.504807980766977
+femto,env_kurtosis,envelope,thr_6sd,detector,13,3,,8.998232138693668
+femto,env_kurtosis,envelope,thr_8sd,detector,13,1,,10.058141738254964
+femto,env_kurtosis,envelope,ma5_2sd,detector,13,8,0.7857142857142858,5.040502829050501
+femto,env_kurtosis,envelope,ma5_3sd,detector,13,8,0.7619047619047621,7.637831073409782
+femto,env_kurtosis,envelope,ma5_5sd,detector,13,6,0.6571428571428573,10.752445518506622
+femto,env_kurtosis,envelope,ewmaAR_l0.05_L3,"chart, AR-corrected",13,10,0.8666666666666665,3.376697997929841
+femto,env_kurtosis,envelope,ewmaAR_l0.1_L3,"chart, AR-corrected",13,9,0.75,4.492127093341605
+femto,env_kurtosis,envelope,ewmaAR_l0.2_L3,"chart, AR-corrected",13,9,0.75,3.901864380974755
+femto,env_kurtosis,envelope,ewmaAR_l0.4_L3,"chart, AR-corrected",13,9,0.75,4.982651576992114
+femto,env_kurtosis,envelope,ewmaAR_l0.8_L3,"chart, AR-corrected",13,7,0.9642857142857145,8.560000539471712
+femto,env_kurtosis,envelope,adapt_L2,"chart, adaptive limits",13,3,,4.749763873044123
+femto,env_kurtosis,envelope,adapt_L3,"chart, adaptive limits",13,1,,10.058141738254964
+femto,env_kurtosis,envelope,adapt_L4,"chart, adaptive limits",13,0,,
+femto,env_kurtosis,envelope,adapt_L5,"chart, adaptive limits",13,0,,
+femto,env_kurtosis,envelope,adapt_L6,"chart, adaptive limits",13,0,,

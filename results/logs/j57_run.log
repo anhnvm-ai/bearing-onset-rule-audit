@@ -1,0 +1,60 @@
+==============================================================================
+         J57  NON-FIRING TRAJECTORIES: WEIGHTING x TREATMENT  (R1.5)          
+==============================================================================
+started 2026-10-24 21:20:24
+
+330 rule-trajectory pairs; 36 never fire
+
+==============================================================================
+A  The Kaplan-Meier value of J28 against the bearing-averaged, labeled-healthy rate
+==============================================================================
+  J28 censors a non-firing trajectory at u = 1. An alarm needs c = 3 confirming records, so i* <= n - 3
+  and every observed onset fraction U = i*/n is below 1: all censoring falls after the last event.
+  Kaplan-Meier on [0, 1] then reduces to the empirical survival function with the censored trajectories
+  counted as 'not yet fired':  S(u) = #{j : U_j > u} / N  for u < 1.
+  Its restricted mean on [0, 1] is  (1/N) [ sum_fired U_j + N_censored ],  so
+      1 - RMST = (1/N) sum_fired (1 - U_j),
+  which is the bearing-averaged positive rate with non-firing trajectories labeled healthy.
+  largest observed onset fraction over the 294 firing pairs: 0.9875 (< 1, as the argument needs)
+  cells checked (J28 reports datasets with >= 3 trajectories): 21; largest |KM - bearing-averaged healthy| = 2.78e-16
+  PASS: equal to 1e-09 in every cell. Kaplan-Meier is not a third treatment for this quantity.
+
+==============================================================================
+B  The 2 x 2 for every dataset x rule with a non-firing trajectory
+==============================================================================
+  rate_* = share of records labeled degraded;  rec = pooled over records (Eq. 2), brg = mean over bearings
+  excl = non-firing trajectories excluded (submitted convention), heal = labeled healthy to the end
+  dataset rule        fired  rec/excl rec/heal brg/excl brg/heal   KM(J28)
+  xjtu    ma5sig     14/15      0.228    0.225    0.392    0.366     0.366
+  xjtu    3sig_kurt  10/15      0.678    0.454    0.535    0.357     0.357
+  femto   3sig_rms    9/13      0.232    0.181    0.239    0.165     0.165
+  femto   ma3sig      9/13      0.251    0.195    0.244    0.169     0.169
+  femto   ma5sig      9/13      0.204    0.159    0.162    0.112     0.112
+  femto   ma2sig      9/13      0.349    0.272    0.305    0.211     0.211
+  femto   3sig_kurt   6/13      0.304    0.174    0.308    0.142     0.142
+  femto   ewma       10/13      0.829    0.752    0.706    0.543     0.543
+  femto   cusum      11/13      0.880    0.810    0.723    0.612     0.612
+  ims     ma5sig      3/4       0.087    0.070    0.171    0.128     0.128
+  nsk     3sig_kurt   0/1         nan    0.000      nan    0.000       n/a
+
+==============================================================================
+C  What each change does, median over the cells with a non-firing trajectory
+==============================================================================
+  treatment = exclude minus healthy (weighting fixed);  weighting = record minus bearing (treatment fixed)
+  xjtu   (2 cells)  treatment: record +0.114, bearing +0.102   weighting: exclude -0.010, healthy -0.022
+  femto  (7 cells)  treatment: record +0.070, bearing +0.094   weighting: exclude +0.041, healthy +0.046
+  ims    (1 cells)  treatment: record +0.016, bearing +0.043   weighting: exclude -0.085, healthy -0.058
+  nsk    only rules that fire on no trajectory: no contrast to compute
+
+  The submitted Section V-B reported a fall of 0.102 (XJTU-SY) and 0.094 (FEMTO) 'when non-firing is
+  treated as censoring'. By the identity of part A that number is the TREATMENT effect under BEARING
+  weighting (column 'treatment: bearing' above), not a property of Kaplan-Meier.
+
+==============================================================================
+D  Prevalence screen [0.01, 0.50] under each cell of the 2 x 2
+==============================================================================
+  xjtu   3sig_kurt  rec/excl fail, rec/heal pass, brg/excl fail, brg/heal pass
+  cells whose verdict depends on the weighting or the treatment: 1 of 11
+
+wrote results/tables/j57_censoring_2x2.csv (40 rows)
+finished 2026-10-24 21:20:24

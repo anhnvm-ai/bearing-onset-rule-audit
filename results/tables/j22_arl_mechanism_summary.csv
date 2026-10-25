@@ -1,0 +1,55 @@
+dataset,rule,family,null,n_traj,median_p,share_p_gt_050,share_p_lt_005,rho_null_median_vs_observed
+xjtu,3sig_rms,detector,iid,15,0.0,0.0,1.0,0.7999999999999999
+xjtu,ma3sig,detector,iid,15,0.0,0.0,1.0,
+xjtu,ma5sig,detector,iid,14,0.0,0.0,1.0,
+xjtu,ma2sig,detector,iid,15,0.0005,0.0,1.0,0.8267515394048879
+xjtu,ewma,control chart,iid,15,0.001,0.0,1.0,-0.2166518325688036
+xjtu,cusum,control chart,iid,15,0.0005,0.0,0.9333333333333333,-0.08407884652013047
+xjtu,3sig_rms,detector,ar1_raw,15,0.0515,0.0,0.4666666666666667,0.9357142857142854
+xjtu,ma3sig,detector,ar1_raw,15,0.0555,0.0,0.4666666666666667,0.9340659340659341
+xjtu,ma5sig,detector,ar1_raw,14,0.00025,0.0,0.9285714285714286,0.8571428571428573
+xjtu,ma2sig,detector,ar1_raw,15,0.0785,0.13333333333333333,0.4,0.5357142857142856
+xjtu,ewma,control chart,ar1_raw,15,0.097,0.06666666666666667,0.4,0.16994660466834885
+xjtu,cusum,control chart,ar1_raw,15,0.125,0.0,0.3333333333333333,0.31692044929486146
+xjtu,3sig_rms,detector,ar1_detr,15,0.002,0.0,0.8666666666666667,0.9181818181818183
+xjtu,ma3sig,detector,ar1_detr,15,0.0,0.0,0.8666666666666667,0.8833333333333333
+xjtu,ma5sig,detector,ar1_detr,14,0.0,0.0,1.0,
+xjtu,ma2sig,detector,ar1_detr,15,0.013,0.06666666666666667,0.7333333333333333,0.5285714285714286
+xjtu,ewma,control chart,ar1_detr,15,0.0195,0.0,0.6,-0.1645798697840852
+xjtu,cusum,control chart,ar1_detr,15,0.0075,0.0,0.6666666666666666,-0.026857665194479786
+femto,3sig_rms,detector,iid,9,0.0,0.0,1.0,
+femto,ma3sig,detector,iid,9,0.0,0.0,1.0,
+femto,ma5sig,detector,iid,9,0.0,0.0,1.0,
+femto,ma2sig,detector,iid,9,0.0,0.0,1.0,0.3
+femto,ewma,control chart,iid,10,0.00025,0.0,0.8,-0.5030303030303029
+femto,cusum,control chart,iid,11,0.001,0.0,0.7272727272727273,-0.6195915847063591
+femto,3sig_rms,detector,ar1_raw,9,0.0595,0.0,0.4444444444444444,0.8166666666666667
+femto,ma3sig,detector,ar1_raw,9,0.0305,0.0,0.7777777777777778,0.8333333333333335
+femto,ma5sig,detector,ar1_raw,9,0.0,0.0,1.0,1.0
+femto,ma2sig,detector,ar1_raw,9,0.272,0.1111111111111111,0.4444444444444444,0.5
+femto,ewma,control chart,ar1_raw,10,0.0465,0.2,0.6,0.2727272727272727
+femto,cusum,control chart,ar1_raw,11,0.1115,0.09090909090909091,0.36363636363636365,0.10933969141876927
+femto,3sig_rms,detector,ar1_detr,9,0.006,0.0,1.0,0.8928571428571429
+femto,ma3sig,detector,ar1_detr,9,0.002,0.0,1.0,0.8285714285714287
+femto,ma5sig,detector,ar1_detr,9,0.0,0.0,1.0,
+femto,ma2sig,detector,ar1_detr,9,0.007,0.0,0.6666666666666666,0.28571428571428575
+femto,ewma,control chart,ar1_detr,10,0.01325,0.1,0.7,-0.4787878787878787
+femto,cusum,control chart,ar1_detr,11,0.057,0.09090909090909091,0.45454545454545453,-0.346242356159436
+ims,3sig_rms,detector,iid,4,0.0,0.0,1.0,
+ims,ma3sig,detector,iid,4,0.0,0.0,1.0,
+ims,ma5sig,detector,iid,3,0.0,0.0,1.0,
+ims,ma2sig,detector,iid,4,0.0,0.0,1.0,
+ims,ewma,control chart,iid,4,0.03975,0.0,0.5,-0.39999999999999997
+ims,cusum,control chart,iid,4,0.025750000000000002,0.0,0.75,-0.7999999999999999
+ims,3sig_rms,detector,ar1_raw,4,0.0055,0.0,0.75,
+ims,ma3sig,detector,ar1_raw,4,0.001,0.0,0.75,
+ims,ma5sig,detector,ar1_raw,3,0.0,0.0,0.6666666666666666,
+ims,ma2sig,detector,ar1_raw,4,0.078,0.25,0.5,-0.39999999999999997
+ims,ewma,control chart,ar1_raw,4,0.456,0.5,0.25,-1.0
+ims,cusum,control chart,ar1_raw,4,0.41450000000000004,0.5,0.25,0.39999999999999997
+ims,3sig_rms,detector,ar1_detr,4,0.0,0.0,0.75,
+ims,ma3sig,detector,ar1_detr,4,0.0,0.0,0.75,
+ims,ma5sig,detector,ar1_detr,3,0.0,0.0,1.0,
+ims,ma2sig,detector,ar1_detr,4,0.00275,0.25,0.75,-0.39999999999999997
+ims,ewma,control chart,ar1_detr,4,0.155,0.25,0.5,-0.7999999999999999
+ims,cusum,control chart,ar1_detr,4,0.12375,0.25,0.25,0.6000000000000001

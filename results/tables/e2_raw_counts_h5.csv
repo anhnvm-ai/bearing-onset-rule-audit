@@ -1,0 +1,8 @@
+model,TP,FP,FN,TN,terminal_precision,terminal_recall,macro_f1,balanced_accuracy,mcc
+RMS_threshold_1feat,4,0,1,124,1.0,0.8,0.9424,0.9,0.8908
+temperature_threshold,4,0,1,124,1.0,0.8,0.9424,0.9,0.8908
+logistic_RMS_kurtosis,4,0,1,124,1.0,0.8,0.9424,0.9,0.8908
+RF_21feat,4,0,1,124,1.0,0.8,0.9424,0.9,0.8908
+cnn1d,4,0,1,124,1.0,0.8,0.9424,0.9,0.8908
+fusion,4,0,1,124,1.0,0.8,0.9424,0.9,0.8908
+resnet,4,0,1,124,1.0,0.8,0.9424,0.9,0.8908

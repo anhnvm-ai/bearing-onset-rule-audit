@@ -1,0 +1,56 @@
+==============================================================================
+        J63  GRADUAL AND NONLINEAR DEGRADATION, VARYING NOISE  (WP-E)         
+==============================================================================
+started 2026-10-24 21:56:08   R = 400 series per length and cell   phi = 0.367
+XJTU-SY lengths: [42, 52, 114, 122, 123, 158, 161, 161, 339, 371, 491, 533, 1515, 2496, 2538]
+  step  u0 0.3 ar1    delta 2: done
+  step  u0 0.3 ar1    delta 6: done
+  step  u0 0.3 hetero delta 2: done
+  step  u0 0.3 hetero delta 6: done
+  step  u0 0.5 ar1    delta 2: done
+  step  u0 0.5 ar1    delta 6: done
+  step  u0 0.5 hetero delta 2: done
+  step  u0 0.5 hetero delta 6: done
+  step  u0 0.7 ar1    delta 2: done
+  step  u0 0.7 ar1    delta 6: done
+  step  u0 0.7 hetero delta 2: done
+  step  u0 0.7 hetero delta 6: done
+  ramp  u0 0.3 ar1    delta 2: done
+  ramp  u0 0.3 ar1    delta 6: done
+  ramp  u0 0.3 hetero delta 2: done
+  ramp  u0 0.3 hetero delta 6: done
+  ramp  u0 0.5 ar1    delta 2: done
+  ramp  u0 0.5 ar1    delta 6: done
+  ramp  u0 0.5 hetero delta 2: done
+  ramp  u0 0.5 hetero delta 6: done
+  ramp  u0 0.7 ar1    delta 2: done
+  ramp  u0 0.7 ar1    delta 6: done
+  ramp  u0 0.7 hetero delta 2: done
+  ramp  u0 0.7 hetero delta 6: done
+  exp   u0 0.3 ar1    delta 2: done
+  exp   u0 0.3 ar1    delta 6: done
+  exp   u0 0.3 hetero delta 2: done
+  exp   u0 0.3 hetero delta 6: done
+  exp   u0 0.5 ar1    delta 2: done
+  exp   u0 0.5 ar1    delta 6: done
+  exp   u0 0.5 hetero delta 2: done
+  exp   u0 0.5 hetero delta 6: done
+  exp   u0 0.7 ar1    delta 2: done
+  exp   u0 0.7 ar1    delta 6: done
+  exp   u0 0.7 hetero delta 2: done
+  exp   u0 0.7 hetero delta 6: done
+
+==============================================================================
+Summary: b1 - 1 and alarms before t_1, median over u0 (AR(1) noise, delta = 6)
+==============================================================================
+  P-prospective
+    step  3sig_rms b1-1 -0.04, early 0.03, missed 0.00; cusum b1-1 -0.62, early 0.53, missed 0.00; cusum_cal b1-1 -0.09, early 0.03, missed 0.00; ewma b1-1 -0.48, early 0.42, missed 0.00; ewma_cal b1-1 -0.05, early 0.03, missed 0.00; ma3sig b1-1 -0.03, early 0.01, missed 0.00; ma5sig b1-1 -0.03, early 0.00, missed 0.01; ma_cal b1-1 -0.05, early 0.03, missed 0.00; thr_cal b1-1 -0.04, early 0.04, missed 0.00
+    ramp  3sig_rms b1-1 -0.09, early 0.07, missed 0.00; cusum b1-1 -0.68, early 0.72, missed 0.00; cusum_cal b1-1 -0.14, early 0.09, missed 0.00; ewma b1-1 -0.54, early 0.62, missed 0.00; ewma_cal b1-1 -0.09, early 0.10, missed 0.00; ma3sig b1-1 -0.06, early 0.03, missed 0.00; ma5sig b1-1 -0.03, early 0.00, missed 0.09; ma_cal b1-1 -0.09, early 0.08, missed 0.00; thr_cal b1-1 -0.09, early 0.07, missed 0.00
+    exp   3sig_rms b1-1 -0.07, early 0.08, missed 0.01; cusum b1-1 -0.73, early 0.80, missed 0.00; cusum_cal b1-1 -0.12, early 0.15, missed 0.23; ewma b1-1 -0.59, early 0.71, missed 0.00; ewma_cal b1-1 -0.08, early 0.14, missed 0.00; ma3sig b1-1 -0.04, early 0.04, missed 0.03; ma5sig b1-1 -0.01, early 0.00, missed 0.38; ma_cal b1-1 -0.08, early 0.11, missed 0.01; thr_cal b1-1 -0.07, early 0.09, missed 0.01
+  P-retro
+    step  3sig_rms b1-1 -0.01, early 0.01, missed 0.00; cusum b1-1 -0.56, early 0.51, missed 0.00; cusum_cal b1-1 -0.03, early 0.01, missed 0.00; ewma b1-1 -0.34, early 0.36, missed 0.00; ewma_cal b1-1 -0.02, early 0.02, missed 0.00; ma3sig b1-1 -0.02, early 0.00, missed 0.00; ma5sig b1-1 -0.04, early 0.00, missed 0.01; ma_cal b1-1 -0.02, early 0.02, missed 0.00; thr_cal b1-1 -0.02, early 0.04, missed 0.00
+    ramp  3sig_rms b1-1 -0.03, early 0.02, missed 0.00; cusum b1-1 -0.62, early 0.69, missed 0.00; cusum_cal b1-1 -0.07, early 0.22, missed 0.00; ewma b1-1 -0.40, early 0.59, missed 0.00; ewma_cal b1-1 -0.05, early 0.16, missed 0.00; ma3sig b1-1 -0.04, early 0.00, missed 0.00; ma5sig b1-1 -0.01, early 0.00, missed 0.11; ma_cal b1-1 -0.05, early 0.11, missed 0.00; thr_cal b1-1 -0.05, early 0.09, missed 0.00
+    exp   3sig_rms b1-1 -0.01, early 0.03, missed 0.06; cusum b1-1 -0.68, early 0.78, missed 0.01; cusum_cal b1-1 -0.04, early 0.33, missed 0.08; ewma b1-1 -0.46, early 0.68, missed 0.01; ewma_cal b1-1 -0.03, early 0.24, missed 0.04; ma3sig b1-1 -0.01, early 0.01, missed 0.10; ma5sig b1-1 +0.00, early 0.00, missed 0.48; ma_cal b1-1 -0.02, early 0.17, missed 0.04; thr_cal b1-1 -0.03, early 0.14, missed 0.03
+
+wrote results/tables/j63_gradual.csv (648 rows)
+finished 2026-10-24 21:57:32
