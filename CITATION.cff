@@ -10,8 +10,8 @@ authors:
   - name: "Nguyen Le Thai"
   - name: "Huu-Tho Nguyen"
   - name: "Phu-Nguyen Le"
-version: "1.1.1"
-date-released: "2026-10-26"
+version: "1.2.0"
+date-released: "2026-10-29"
 repository-code: "https://github.com/anhnvm-ai/bearing-onset-rule-audit"
 license:
   - MIT

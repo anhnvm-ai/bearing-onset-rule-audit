@@ -1,6 +1,12 @@
-"""J68 -- build release v1.1.1 of the repository bearing-onset-rule-audit (resubmission of Access-2026-51094).
+"""J68 -- build release v1.2.0 of the repository bearing-onset-rule-audit (resubmission of Access-2026-51094).
 
-v1.1.1 (amendment A8) supersedes v1.1.0, built by the first version of this script on the same day: it adds the
+v1.2.0 (amendment A9) supersedes v1.1.1: it adds J70 (the matched false-alarm calibration validated on independent
+null series) and J71 (a scoring set that does not depend on the labelers, the alignment of training and scored
+records, and the reversal test with the elapsed record count as input), J72 (the error of constant predictions on each
+scoring set), their result tables and run logs, amendments A9 to A11, and the figures and README map of the shortened
+manuscript. No earlier result table changed.
+
+v1.1.1 (amendment A8) superseded v1.1.0, built by the first version of this script on the same day: it added the
 exporters and supplementary tables of the planned secondary outputs that an internal review found unreported (J66),
 Fig. 6 in two rows (J67), amendment A8, and the README map of the final supplementary numbering.
 
@@ -70,7 +76,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SCRIPTS, SRC = ROOT / "scripts", ROOT / "src"
 TABLES, LOGS = ROOT / "results" / "tables", ROOT / "results" / "logs"
 MS = ROOT / "paper" / "access_resub"          # read to index the release; never released
-VERSION, RELEASED = "1.1.1", "2026-10-26"
+VERSION, RELEASED = "1.2.0", "2026-10-29"
 REPO = "https://github.com/anhnvm-ai/bearing-onset-rule-audit"
 NAME = "bearing-onset-rule-audit"
 TITLE = ("Effect of Onset Rules and Their Implementation on Degradation Labels and Remaining-Useful-Life "
@@ -96,7 +102,7 @@ def skipped(name: str) -> bool:
     return name.split("_", 1)[0] in SKIP
 SANITIZE = MS / "release_sanitize.txt"          # comment edits for the public copies; not released
 DATASETS_ENV = "BEARING_DATASETS"
-RUN_LOG = re.compile(r"^j(5[7-9]|6\d)_run\.log$")
+RUN_LOG = re.compile(r"^j(5[7-9]|6\d|7[0-2])_run\.log$")
 TEMPLATE_IMAGES = {"bullet.png", "logo.png", "notaglinelogo.png"}
 
 # Figures of the two documents that J67 does not draw: the script that writes each one. Two of them were restyled
@@ -129,16 +135,22 @@ PIPELINE_NEW = [  # step, what it does, script, needs
     ("25", "Design-parameter models M0-M4, in and out of sample", "J64_design_parameters.py", "derived"),
     ("26", "Linear mixed models with a random intercept per bearing (sensitivity)", "J65_mixed_effects.py", "derived"),
     ("27", "Amendment A6 (post hoc): ratio of labeler to model effects", "J69_labeler_model_contrast.py", "derived"),
-    ("28", "Every number and table body of the resubmitted paper (writes into paper/access_resub/)",
+    ("28", "Amendment A9: the calibrated multipliers of J61 on independent null series", "J70_far_validation.py", "derived"),
+    ("29", "Amendment A9 (post hoc): fixed scoring set, alignment of training and scored records, reversal test with "
+           "the elapsed record count (re-scores the prediction cache of J62)", "J71_fixed_scoring_set.py", "derived"),
+    ("30", "Amendment A11 (post hoc, descriptive): constant predictions on each scoring set", "J72_constant_reference.py",
+     "derived"),
+    ("31", "Every number and table body of the resubmitted paper (writes into paper/access_resub/)",
      "J66_resub_export_numbers.py", "derived"),
-    ("29", "The six figures of the resubmitted paper (writes into paper/access_resub/figures/)",
-     "J67_resub_figures.py", "derived"),
-    ("30", "This release", "J68_make_release_v110.py", "derived"),
+    ("32", "The figures of the resubmitted paper and two of its supplementary material (writes into "
+           "paper/access_resub/figures/)", "J67_resub_figures.py", "derived"),
+    ("33", "This release", "J68_make_release_v110.py", "derived"),
 ]
 RUN_ORDER = ["J57_censoring_decomposition.py", "J58_onset_fraction.py", "J59_configurations.py",
              "J60_baseline_protocols.py", "J61_far_calibration.py", "J62_common_reference_rul.py",
              "J63_gradual_simulation.py", "J64_design_parameters.py", "J65_mixed_effects.py",
-             "J69_labeler_model_contrast.py", "J66_resub_export_numbers.py", "J67_resub_figures.py"]
+             "J69_labeler_model_contrast.py", "J70_far_validation.py", "J71_fixed_scoring_set.py",
+             "J72_constant_reference.py", "J66_resub_export_numbers.py", "J67_resub_figures.py"]
 
 
 def load(name: str):
@@ -562,7 +574,7 @@ and figure of the article and its supplementary material. Release {VERSION} acco
   data/             the derived data ({c['n_derived']} files); no raw dataset is redistributed (data/README.md)
   plan/             the pre-specified analysis plan, its SHA-256 at locking, and its amendments
   results/tables/   {c['n_tables']} result tables
-  results/logs/     the run logs of the analyses added for the resubmission (J57-J69), with their self-checks
+  results/logs/     the run logs of the analyses added for the resubmission (J57-J72), with their self-checks
   results/figures/  every figure of the article and its supplementary material
   environment/      package versions the results were produced with
 ```
@@ -571,8 +583,8 @@ and figure of the article and its supplementary material. Release {VERSION} acco
 
 Each script writes the result tables named after it (`j60_*` by `J60_*.py`, and so on). The writer of each table is
 shown in brackets. `J66_resub_export_numbers.py` writes every number of the article as a LaTeX macro whose comment
-names the table it comes from, and writes the rows of every data table; `J67_resub_figures.py` draws the six figures
-of the article.
+names the table it comes from, and writes the rows of every data table; `J67_resub_figures.py` draws the figures
+of the article and two figures of its supplementary material.
 
 ### Article
 
@@ -600,9 +612,11 @@ The protocol, calibration, simulation, design-parameter and RUL analyses added f
 ```
 
 Check it with `sha256sum plan/{PLAN}` (Linux, macOS) or `Get-FileHash plan/{PLAN}` (Windows PowerShell).
-Deviations were recorded in the append-only file `plan/ANALYSIS_PLAN_AMENDMENTS.md` (amendments A1-A7), each before
-any result it affects was reported. A6 adds one analysis after the planned ones and is labeled post hoc; A7 records
-that the files are released here rather than on Zenodo, as the plan had stated.
+Deviations were recorded in the append-only file `plan/ANALYSIS_PLAN_AMENDMENTS.md` (amendments A1-A11), each before
+any result it affects was reported. A6, A9 and A11 add analyses after related results had been seen and are labeled
+post hoc; A9 also validates the calibration on new null series. A7 and A8 concern the release and the reporting of
+secondary outputs, and A10 corrects the writing time stated in A9. The digest was recorded by the authors at locking
+and first published with release 1.1.0, after the planned analyses had been run.
 
 ## Reproducing
 
@@ -614,13 +628,15 @@ python code/make_workspace.py
 ```
 
 These steps read only the derived data and result tables released here; J62 needs `torch` for its GRU and TCN models
-and runs for several hours on a laptop. The full pipeline, including the earlier steps, is in `code/README.md`. The
+and runs for several hours on a laptop. J71 re-scores the out-of-fold predictions that J62 caches in
+`results/cache_j62/`, which are not released, so it runs after J62. The full pipeline, including the earlier steps, is in `code/README.md`. The
 steps that read the raw acquisitions need the datasets rebuilt first (`data/README.md`); set the environment variable
 `{DATASETS_ENV}` to the folder that holds them.
 
 Every script that wrote a result table of the resubmission checks itself before writing (for example, J62 reproduces
-the submitted onsets and the earlier RUL models, and J69 reproduces the labeler main effects of J62 within 1e-9); the
-checks and their outcomes are in `results/logs/`.
+the submitted onsets and the earlier RUL models, J69 reproduces the labeler main effects of J62 within 1e-9, J70
+reproduces every calibration of J61 and J71 every value and reversal of J62); the checks and their outcomes are in
+`results/logs/`.
 
 ## Licences
 
@@ -640,7 +656,8 @@ Cite the article and this repository:
 |---|---|---|
 | 1.0.0 | 2026-10-02 | Code and derived data of the first submission |
 | 1.1.0 | 2026-10-26 | Adds the analyses of the resubmission (J57-J69), their logs, the pre-specified plan and the figures of the resubmitted paper |
-| {VERSION} | {RELEASED} | Cited by the resubmission (amendment A8): adds the supplementary tables of the planned secondary outputs (C-rank reversals, rank agreement, Spearman correlations, simulation delays, median run lengths), Fig. 6 in two rows, and the map of the final supplementary numbering; no result table changed |
+| 1.1.1 | 2026-10-26 | Amendment A8: adds the supplementary tables of the planned secondary outputs (C-rank reversals, rank agreement, Spearman correlations, simulation delays, median run lengths), Fig. 6 in two rows, and the map of the final supplementary numbering; no result table changed |
+| {VERSION} | {RELEASED} | Cited by the resubmission (amendment A9): adds the calibration validated on independent null series (J70), the fixed scoring set, the alignment of training and scored records and the reversal test with the elapsed record count (J71), constant predictions on each scoring set (J72), amendments A9 to A11, and the figures and map of the shortened manuscript; no earlier result table changed |
 """
 
 
@@ -658,7 +675,7 @@ supplementary material and the logs refer to, so they are kept as they are rathe
 ```
 code/
   make_workspace.py   lays the scripts out so that their relative paths resolve
-  scripts/            the analyses: J3-J49 (first submission) and J57-J69 (resubmission)
+  scripts/            the analyses: J3-J49 (first submission) and J57-J72 (resubmission)
   src/                the library the scripts import (features, metrics, thresholds, splits)
 ```
 

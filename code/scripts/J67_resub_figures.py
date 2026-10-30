@@ -1,4 +1,5 @@
-"""J67 -- the six figures of the resubmitted manuscript (paper/access_resub/figures/).
+"""J67 -- the six figures of the resubmitted manuscript (paper/access_resub/figures/), and with Fig. 2 its full
+version over all eight protocols for Supplementary Section S2 (figS_protocol_gap_full).
 
 Style follows J54 and J52: the IEEE Access widths (text 177.53 mm, column 85.29 mm), Arial 8 pt, PDF with
 fonttype 42 plus a 300 dpi PNG. Colour carries the rule family only: RMS detectors teal, control charts orange,
@@ -113,7 +114,7 @@ def fig1() -> None:
                           (None, "positive rate,"), (None, "label agreement,"), (None, "RUL-target"),
                           (None, r"distance $D_j$")], False),
         ("RUL evaluation", 5, [(None, "target: labeler's own"), (None, "or a common"), (None, "reference;"),
-                                (None, "scored records:"), (None, "S or S3"), (None, ""), (None, "9 models;"),
+                                (None, "scored records:"), (None, r"$S$, $S3$ or $S^{\mathrm{fix}}$"), (None, ""), (None, "9 models;"),
                                 (None, "C-rank, C-common")], True),
     ]
 
@@ -139,13 +140,66 @@ def fig1() -> None:
     for x, w, xn in zip(xs[:-1], widths[:-1], xs[1:]):
         ax.add_patch(FancyArrowPatch((x + w + 0.15, y0 + h / 2), (xn - 0.15, y0 + h / 2), arrowstyle="-|>",
                                      mutation_scale=6, color=INK2, lw=0.8, shrinkA=0, shrinkB=0))
-    ax.text(50, 3.2, "Reported: the four items of ORD-4 (Table 5), with released code, labels, configurations "
-            "and a dated pre-specified plan", fontsize=BASE, color=INK2, ha="center", va="center")
+    ax.text(50, 3.2, "Reported: the four items of ORD-4 (Table 4), with released code, labels, configurations "
+            "and a dated analysis plan", fontsize=BASE, color=INK2, ha="center", va="center")
     save(fig, "fig1_framework")
 
 
 # ------------------------------------------------------------------ Fig. 2: protocol x calibration
+ARMS_MAIN = ["P-retro", "P-II", "P-fixed(10)", "P-prospective"]   # the main figure; all eight in Supplementary S2
+
+
+def gap_interval(ax, x, v, lo, hi, cal, ylo, yhi, label_left) -> None:
+    """One gap with its interval, truncated at the axis limits with the end value printed."""
+    ax.plot([x, x], [max(lo, ylo), min(hi, yhi)], color=INK, lw=0.9, solid_capstyle="butt", zorder=2)
+    for end, lim, mk in ((lo, ylo, "v"), (hi, yhi, "^")):
+        if (end < lim and lim == ylo) or (end > lim and lim == yhi):
+            ax.plot(x, lim, ls="", marker=mk, ms=3, color=INK, zorder=3)
+            ax.text(x - 0.14 if label_left else x + 0.14, lim + (0.15 if lim == ylo else -0.15),
+                    f"{end:+.1f}".replace("-", "−"), fontsize=BASE - 1, color=INK2,
+                    va="bottom" if lim == ylo else "top", ha="right" if label_left else "left")
+    ax.plot(x, v, ls="", marker="o", ms=4.2, mfc=SURFACE if cal else INK, mec=INK, mew=0.9, zorder=4)
+
+
 def fig2() -> None:
+    """Column figure: XJTU-SY above FEMTO, four protocols at conventional settings and two at 5% FAR."""
+    gap, mg = read("j60_gap"), read("j61_matched_gap")
+    g = gap[gap.bearing_set == "main"].set_index(["dataset", "arm"])
+    m = mg[(mg.noise_arm == "main") & (mg.level == 0.05)].set_index(["dataset", "protocol"])
+    ylo, yhi = -3.2, 4.8
+    xs = list(range(len(ARMS_MAIN))) + [len(ARMS_MAIN) + 0.5, len(ARMS_MAIN) + 1.5]
+    fig, axes = plt.subplots(2, 1, figsize=(CW, 2.8), sharex=True)
+    fig.subplots_adjust(left=0.15, right=0.985, top=0.92, bottom=0.29, hspace=0.36)
+    for ax, ds, letter in zip(axes, ("xjtu", "femto"), "ab"):
+        pts = [(g.loc[(ds, a)].gap_b1_minus_1, g.loc[(ds, a)].gap_lo, g.loc[(ds, a)].gap_hi, False) for a in ARMS_MAIN]
+        pts += [(m.loc[(ds, p)].gap_calibrated, m.loc[(ds, p)].gap_cal_lo, m.loc[(ds, p)].gap_cal_hi, True)
+                for p in ("P-retro", "P-prospective")]
+        ax.axhline(0, color=INK2, lw=0.6, zorder=1)
+        ax.axvline(len(ARMS_MAIN) - 0.25, color=AXIS, lw=0.6, zorder=1)
+        for x, (v, lo, hi, cal) in zip(xs, pts):
+            gap_interval(ax, x, v, lo, hi, cal, ylo, yhi, label_left=x < len(ARMS_MAIN))
+        ax.set_xlim(-0.6, xs[-1] + 0.6)
+        ax.set_ylim(ylo - 0.35, yhi + 0.4)
+        ax.set_yticks([-2, 0, 2, 4])
+        n = int(g.loc[(ds, "P-retro")].n_bearings)
+        panel(ax, letter, f"{DS_NAME[ds]}, {n} bearings")
+        style(ax)
+    # group labels inside panel (a), above its highest interval, so that they cannot meet the panel title
+    axes[0].text((len(ARMS_MAIN) - 1) / 2, yhi - 0.15, "conventional settings", ha="center", va="center", color=INK2)
+    axes[0].text(len(ARMS_MAIN) + 1.0, yhi - 0.15, "5% FAR", ha="center", va="center", color=INK2)
+    axes[1].set_xticks(xs)
+    axes[1].set_xticklabels(ARMS_MAIN + ["P-retro", "P-prospective"], rotation=35, ha="right", rotation_mode="anchor")
+    fig.text(0.02, 0.575, r"detectors minus charts, $\beta_1 - 1$", rotation=90, ha="center", va="center", color=INK2)
+    fig.legend(handles=[Line2D([], [], ls="", marker="o", ms=4, mfc=INK2, mec=INK2, label="conventional"),
+                        Line2D([], [], ls="", marker="o", ms=4, mfc=SURFACE, mec=INK2, mew=0.9, label="5% FAR"),
+                        Line2D([], [], color=INK, lw=0.9, label="95% interval")],
+               loc="lower center", ncol=3, frameon=False, handlelength=1.2, columnspacing=1.2, labelcolor=INK2,
+               bbox_to_anchor=(0.55, 0.0))
+    save(fig, "fig2_protocol_gap")
+
+
+def fig2_full() -> None:
+    """Supplementary Section S2: the gap under all eight protocols (the main figure of the 2026-10-26 version)."""
     gap, mg = read("j60_gap"), read("j61_matched_gap")
     g = gap[gap.bearing_set == "main"].set_index(["dataset", "arm"])
     m = mg[(mg.noise_arm == "main") & (mg.level == 0.05)].set_index(["dataset", "protocol"])
@@ -182,7 +236,7 @@ def fig2() -> None:
     fig.legend(handles=CAL_LEGEND + [Line2D([], [], color=INK, lw=0.9, label="95% bearing-bootstrap interval")],
                loc="lower center", ncol=3, frameon=False, handlelength=1.2, columnspacing=1.6, labelcolor=INK2,
                bbox_to_anchor=(0.53, 0.0))
-    save(fig, "fig2_protocol_gap")
+    save(fig, "figS_protocol_gap_full")
 
 
 # ------------------------------------------------------------------ Fig. 3: onset fraction against length
@@ -191,8 +245,8 @@ def fig3() -> None:
     x = o[(o.dataset == "xjtu") & o.fired.astype(bool)]
     panels = [("3sig_rms", "P-retro"), ("ewma", "P-retro"), ("3sig_rms", "P-prospective"), ("ewma", "P-prospective")]
     mk = {1: "o", 2: "s", 3: "^"}
-    fig, axes = plt.subplots(2, 2, figsize=(CW, 3.15), sharex=True, sharey=True)
-    fig.subplots_adjust(left=0.16, right=0.98, top=0.93, bottom=0.21, hspace=0.32, wspace=0.10)
+    fig, axes = plt.subplots(2, 2, figsize=(CW, 2.75), sharex=True, sharey=True)
+    fig.subplots_adjust(left=0.16, right=0.98, top=0.92, bottom=0.24, hspace=0.38, wspace=0.10)
     nn = np.geomspace(35, 3000, 60)
     for ax, (rule, arm), letter in zip(axes.flat, panels, "abcd"):
         q = x[(x.rule == rule) & (x.arm == arm)]
@@ -205,7 +259,8 @@ def fig3() -> None:
             ax.scatter(s.n_records, s.u, marker=m_, s=16, facecolor=col, edgecolor=SURFACE, linewidth=0.4, zorder=3)
         ax.set_xscale("log")
         ax.set_yscale("log")
-        ax.set_ylim(0.004, 1.3)
+        assert (q.u.dropna() > 0.002).all(), "an onset fraction would fall below the axis"   # EWMA on Bearing3_4: 0.0026
+        ax.set_ylim(0.002, 1.3)
         ax.xaxis.set_major_formatter(PLAIN)
         ax.yaxis.set_major_formatter(PLAIN)
         panel(ax, letter, f"{rule}, {arm}")
@@ -258,8 +313,8 @@ def fig4() -> None:
 # ------------------------------------------------------------------ Fig. 5: consequences for the labels
 def fig5() -> None:
     lab, mg = read("j60_labels"), read("j61_matched_gap")
-    fig, axes = plt.subplots(1, 3, figsize=(TW, 2.45), gridspec_kw={"width_ratios": [1.6, 1, 1]})
-    fig.subplots_adjust(left=0.065, right=0.995, top=0.88, bottom=0.30, wspace=0.32)
+    fig, axes = plt.subplots(1, 3, figsize=(TW, 2.1), gridspec_kw={"width_ratios": [1.6, 1, 1]})
+    fig.subplots_adjust(left=0.065, right=0.995, top=0.865, bottom=0.345, wspace=0.32)
     ax = axes[0]
     pr = lab[(lab.dataset == "xjtu") & (lab.kind == "positive_rate")].set_index(["arm", "rule"]).pos_rate_record
     for i, arm in enumerate(ARMS):
@@ -309,9 +364,9 @@ def fig5() -> None:
 def fig6() -> None:
     o, cr = read("j60_onsets"), read("j62_common_reference")
     # two rows since the self-review of 2026-10-26: the C-rank panels moved to the supplementary (Table S22)
-    fig = plt.figure(figsize=(TW, 3.6))
-    gs = fig.add_gridspec(2, 2, height_ratios=[0.95, 1.05], hspace=0.55, wspace=0.12,
-                          left=0.065, right=0.995, top=0.94, bottom=0.27)
+    fig = plt.figure(figsize=(TW, 3.0))
+    gs = fig.add_gridspec(2, 2, height_ratios=[0.95, 1.05], hspace=0.66, wspace=0.12,
+                          left=0.065, right=0.995, top=0.935, bottom=0.32)
     # (a) the targets on one bearing
     ax = fig.add_subplot(gs[0, :])
     b, arm = "Bearing1_3", "P-prospective"
@@ -326,17 +381,21 @@ def fig6() -> None:
     for r in ("ewma", "3sig_rms", "pct05"):
         col, _ = LABELER_STYLE[r]
         y = np.where(t < onset[r], 1.0, (n - 1 - t) / max(n - 1 - onset[r], 1))
-        ax.plot(t, y, color=col, lw=1.1, zorder=3, label=f"{r} target, onset {onset[r]}")
-    ax.plot(t, (n - 1 - t) / (n - 1), color=INK, lw=0.9, ls=(0, (4, 2)), zorder=4, label="common reference $r_t$")
+        ax.plot(t, y, color=col, lw=1.1, zorder=3, label=f"{r}, onset {onset[r]}")
+    ax.plot(t, (n - 1 - t) / (n - 1), color=INK, lw=0.9, ls=(0, (4, 2)), zorder=4, label="reference $r_t$")
     ax.text((s_sig + s_all) / 2, 1.02, "S3", ha="center", va="bottom", color=INK2)
     ax.text((s_all + n - 1) / 2, 1.02, "S", ha="center", va="bottom", color=INK2)
+    s_fix = int(np.floor(0.8 * n))                       # the fixed late-life set of amendment A9
+    ax.plot([s_fix, n - 1], [1.2, 1.2], color=INK2, lw=0.8, solid_capstyle="butt", zorder=3, clip_on=False)
+    ax.plot([s_fix, s_fix], [1.17, 1.23], color=INK2, lw=0.8, zorder=3, clip_on=False)
+    ax.text(s_fix - 0.008 * n, 1.2, r"$S^{\mathrm{fix}}$", ha="right", va="center", color=INK2)
     ax.set_xlim(0, n - 1)
-    ax.set_ylim(0, 1.12)
+    ax.set_ylim(0, 1.25)
     ax.set_xlabel("record t", labelpad=1)
     ax.set_ylabel("RUL target")
     panel(ax, "a", f"XJTU-SY {b}, {n} records, {arm}")
-    ax.legend(loc="lower left", frameon=False, ncol=1, handlelength=1.6, labelcolor=INK2, borderaxespad=0.1,
-              labelspacing=0.25)
+    ax.legend(loc="lower left", frameon=False, ncol=2, handlelength=1.6, labelcolor=INK2, borderaxespad=0.1,
+              labelspacing=0.25, columnspacing=1.2)
     style(ax)
     # (b), (c) the nine models under the four labelers, P-prospective, conventional settings, scoring set S
     a = cr[(cr.variant == "a") & (cr.config == "P-prospective|canonical")]
@@ -369,7 +428,7 @@ def fig6() -> None:
     save(fig, "fig6_rul")
 
 
-FIGS = {1: fig1, 2: fig2, 3: fig3, 4: fig4, 5: fig5, 6: fig6}
+FIGS = {1: fig1, 2: lambda: (fig2(), fig2_full()), 3: fig3, 4: fig4, 5: fig5, 6: fig6}
 
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")

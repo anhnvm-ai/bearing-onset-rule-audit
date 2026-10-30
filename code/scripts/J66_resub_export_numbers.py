@@ -131,6 +131,8 @@ def data_design(M: Macros) -> None:
     M.add("RsRules", j57.rule.nunique(), "j57: onset rules")
     M.add("RsDesigns", int((j59.set == "design").sum()), "j59_rule_configurations: designs of the sweep")
     M.add("RsConfigs", len(j59), "j59_rule_configurations: rules plus designs")
+    canon = int(((j59.set == "design") & (j59.canonical.astype(str).str.lower() == "true")).sum())
+    M.add("RsDistinctConfigs", len(j59) - canon, "j59_rule_configurations: rules plus designs, without the designs that coincide with a rule")
     M.add("RsModels", cr.model.nunique(), "j62_common_reference: prediction models")
     M.add("RsResamples", r"20\,000", "B of J60-J65 and J69: bearing resamples stratified by condition")
     for ds in DS:
@@ -140,6 +142,7 @@ def data_design(M: Macros) -> None:
         phi = cal[(cal.dataset == ds) & (cal.noise_arm == "main")].phi.unique()
         assert len(phi) == 1
         M.add(f"RsPhi{DS[ds]}", f(phi[0], 3), f"j61_calibration: AR(1) coefficient of the null model, {DS_NAME[ds]}")
+    M.add("RsEligBoth", int(M.get("RsEligXjtu")) + int(M.get("RsEligFemto")), "j60_protocol_curve: bearings with n >= 80, XJTU-SY and FEMTO")
     ft = read("fig1_fpt_matrix").drop_duplicates(["dataset", "trajectory"])
     for ds, nm in (("xjtu", "Xjtu"), ("femto", "Femto"), ("ims", "Ims"), ("nsk", "Nsk")):
         n80 = int((ft[ft.dataset == ds].n_records >= 80).sum())
@@ -254,6 +257,9 @@ def calibration(M: Macros) -> None:
           "j61_matched_gap: configurations in which |calibrated gap| < |conventional gap|")
     M.add("RsCalHalf", int((mg.gap_calibrated.abs() < 0.5 * mg.gap_uncalibrated.abs()).sum()),
           "j61_matched_gap: configurations in which |calibrated gap| < half of |conventional gap|")
+    ex = mg[(mg.gap_cal_lo > 0) | (mg.gap_cal_hi < 0)]
+    assert ((ex.dataset == "xjtu") & (ex.protocol == "P-retro")).all(), "Section IV-B: the exceptions are all XJTU-SY, P-retro"
+    M.add("RsCalGapExcl", len(ex), "j61_matched_gap: configurations whose calibrated gap interval excludes 0 (all XJTU-SY, P-retro)")
     fch = df[(df.noise_arm == "main") & df.canonical & (df.dataset == "femto")
              & df.design.isin([CANONICAL_DESIGN[r] for r in CHARTS])].far
     M.add("RsFarChartFemtoMin", f(fch.min()), "j61_design_far: FAR of EWMA and CUSUM at canonical settings, FEMTO, both protocols, lowest")
@@ -287,6 +293,14 @@ def simulation(M: Macros) -> None:
     for prot, pn in PROT.items():
         M.add(f"RsSimDetMissExp{pn}", pct(miss.loc[prot].max()),
               f"j63_gradual: exponential degradation, delta = 6: largest median miss share of an RMS detector, per cent, {prot}")
+    # Section IV-C: under P-retro the calibrated charts still alarm early more often than the calibrated detectors
+    r = med[(med.protocol == "P-retro") & med["shape"].isin(["ramp", "exp"])]
+    ch, de = r[r.rule.isin(["ewma_cal", "cusum_cal"])].early, r[r.rule.isin(["thr_cal", "ma_cal"])].early
+    assert ch.min() > de.max(), "under P-retro the calibrated charts no longer alarm early more often than the detectors"
+    M.add("RsSimCalRetroChartMin", pct(ch.min()), "j63_gradual: P-retro, ramp and exponential shapes, calibrated EWMA and CUSUM, alarms before t_1, per cent, lowest")
+    M.add("RsSimCalRetroChartMax", pct(ch.max()), "same, highest")
+    M.add("RsSimCalRetroDetMin", pct(de.min()), "same, calibrated threshold and moving-average detectors, lowest")
+    M.add("RsSimCalRetroDetMax", pct(de.max()), "same, highest")
 
 
 # ------------------------------------------------------------------ Section IV-D: design parameters
@@ -380,6 +394,8 @@ def rul(M: Macros) -> None:
     hit = sS[sS.n_significant_reversals > 0]
     assert ((hit.labeler_a == "pct05") | (hit.labeler_b == "pct05")).all(), "a reversal under S without pct05"
     M.add("RsRevSthree", int(s3.n_significant_reversals.sum()), "j62_rankings: significant reversals, scoring set S3, all configurations")
+    M.add("RsRevSthreeCal", int(s3[s3.config.str.endswith("matched5")].n_significant_reversals.sum()),
+          "j62_rankings: significant reversals, scoring set S3, the two configurations at 5% FAR")
     can_s = sS[sS.config.str.endswith("canonical")]
     M.add("RsRevCan", int(can_s.n_significant_reversals.sum()),
           "j62_rankings: C-common reversals, S, the two configurations at conventional settings (primary)")
@@ -466,6 +482,84 @@ def rul(M: Macros) -> None:
         M.add(f"RsVarBest{DS[ds]}", int((q.idxmin(axis=1) == best).sum()),
               f"j62_common_reference: configurations in which variant ({best}) has the lowest median, {DS_NAME[ds]}")
     M.add("RsVarCfgs", len(q), "j62_common_reference: configurations")
+
+
+# ------------------------------------------------------------------ amendment A9: calibration on new series (J70)
+def validation(M: Macros) -> None:
+    v, cal = read("j70_far_validation"), read("j61_calibration")
+    assert len(v) == len(cal) and (v.R_val == 10000).all()
+    M.add("RsValSeries", r"10\,000", "j70_far_validation: new null series per trajectory length")
+    for lv, nm in ((0.01, "One"), (0.05, "Five"), (0.10, "Ten")):
+        q = v[(v.level - lv).abs() < 1e-9]
+        M.add(f"RsVal{nm}Min", f(100 * q.far_val.min()), f"j70_far_validation: false-alarm rate on the new series at the {lv:.0%} level, lowest over the calibrations, per cent")
+        M.add(f"RsVal{nm}Max", f(100 * q.far_val.max()), "same, highest")
+    M.add("RsValMaxDev", f(100 * (v.far_val - v.level).abs().max()),
+          "j70_far_validation: largest |FAR on the new series minus target| over all calibrations, percentage points")
+    M.add("RsValZMax", f(v.z.abs().max()), "j70_far_validation: largest |z| (deviation over the combined Monte Carlo SE); A9 allows 4")
+    med = [abs(float((v[(v.level - lv).abs() < 1e-9].far_val - lv).median())) for lv in (0.01, 0.05, 0.10)]
+    M.add("RsValMedDevMax", f(100 * max(med)), "j70_far_validation: largest |median deviation| over the three levels, percentage points; A9 allows 0.2")
+    M.add("RsValWithinTol", int(v.within_tol.sum()), "j70_far_validation: calibrations within +/-0.5 points of their target on the new series")
+    assert v.z.abs().max() <= 4 and max(med) <= 0.002, "the criterion of A9 is not met"
+
+
+# ------------------------------------------------------------------ amendment A9: fixed scoring set, input variant (b) (J71)
+def rul_posthoc(M: Macros) -> None:
+    rk, cells, al = read("j71_rankings"), read("j71_cells"), read("j71_alignment")
+    cc = rk[rk.metric == "C-common RMSE"]
+    fx = cc[cc.analysis == "fixed set"]
+    can = fx.config.str.endswith("canonical")
+    sig_pair = (fx.labeler_a != "pct05") & (fx.labeler_b != "pct05")
+    M.add("RsFixRevCan", int(fx[can].n_significant_reversals.sum()), "j71_rankings: C-common reversals over S^fix, conventional configurations")
+    M.add("RsFixRevCal", int(fx[~can].n_significant_reversals.sum()), "same, 5% FAR configurations")
+    M.add("RsFixRevSignalCan", int(fx[can & sig_pair].n_significant_reversals.sum()), "same, conventional, between two signal-based labelers")
+    M.add("RsFixRevRank", int(rk[(rk.analysis == "fixed set") & (rk.metric == "C-rank concordance")].n_significant_reversals.sum()),
+          "j71_rankings: C-rank reversals over S^fix, all configurations")
+    # Section V-B says: one reversal at conventional settings, with pct05, none between signal-based labelers; with calibrated
+    # labelers one, 3sig_rms against ma5sig on XJTU-SY; none in C-rank
+    hit_can, hit_cal = fx[can & (fx.n_significant_reversals > 0)], fx[~can & (fx.n_significant_reversals > 0)]
+    assert M.get("RsFixRevCan") == "1" and (hit_can.labeler_b == "pct05").all() and M.get("RsFixRevSignalCan") == "0"
+    assert M.get("RsFixRevCal") == "1" and list(hit_cal[["labeler_a", "labeler_b", "dataset"]].iloc[0]) == ["3sig_rms", "ma5sig", "xjtu"]
+    assert M.get("RsFixRevRank") == "0"
+    med = cells[cells.variant == "a"].groupby(["config", "dataset", "labeler"]).rmse_common_Sfix.median().unstack()
+    assert (med.idxmin(axis=1) == "pct05").all(), "pct05 does not give the lowest median C-common RMSE over S^fix in every cell"
+    canm = med[med.index.get_level_values("config").str.endswith("canonical")]
+    M.add("RsFixPctRmseMin", f(canm["pct05"].min()), "j71_cells: median over the nine models of C-common RMSE over S^fix, pct05, conventional configurations, lowest")
+    M.add("RsFixPctRmseMax", f(canm["pct05"].max()), "same, highest")
+    other = canm[["3sig_rms", "ma5sig", "ewma"]]
+    M.add("RsFixOtherRmseMin", f(other.min().min()), "same, signal-based labelers, lowest")
+    M.add("RsFixOtherRmseMax", f(other.max().max()), "same, highest")
+    assert (al[(al.set == "Sfix") & (al.labeler == "pct05")].specialization == 1).all(), "pct05's training records are not all inside S^fix"
+    sp = al[al.set == "Sfix"].groupby("labeler").specialization.median().drop("pct05")
+    M.add("RsFixSpecOtherMin", f(sp.min()), "j71_alignment: share of a labeler's training records inside S^fix, median over configurations and datasets, signal-based labelers, lowest")
+    M.add("RsFixSpecOtherMax", f(sp.max()), "same, highest")
+    vb = cc[cc.analysis == "variant b"]
+    for st, nm in (("S", "S"), ("S3", "Sthree")):
+        q = vb[vb.set == st]
+        M.add(f"RsVarbRev{nm}Can", int(q[q.config.str.endswith("canonical")].n_significant_reversals.sum()),
+              f"j71_rankings: C-common reversals with input variant (b), {st}, conventional configurations")
+        M.add(f"RsVarbRev{nm}Cal", int(q[q.config.str.endswith("matched5")].n_significant_reversals.sum()), "same, 5% FAR configurations")
+    M.add("RsVarbRevRank", int(rk[(rk.analysis == "variant b") & (rk.metric == "C-rank concordance")].n_significant_reversals.sum()),
+          "j71_rankings: C-rank reversals with input variant (b), S and S3, all configurations")
+    # Section V-B says: over S every reversal involves pct05; every reversal with input (b) is on FEMTO under P-prospective
+    h = vb[(vb.set == "S") & (vb.n_significant_reversals > 0)]
+    assert ((h.labeler_a == "pct05") | (h.labeler_b == "pct05")).all()
+    hb = vb[vb.n_significant_reversals > 0]
+    assert (hb.dataset == "femto").all() and hb.config.str.startswith("P-prospective").all()
+    # and over S^fix none of the FEMTO reversals of S remains: the two reversals there are new, both on XJTU-SY
+    assert (fx[fx.n_significant_reversals > 0].dataset == "xjtu").all()
+
+
+# ------------------------------------------------------------------ amendment A11: constant predictions (J72)
+def constant_reference(M: Macros) -> None:
+    c = read("j72_constant_reference")
+    for st, nm in (("S", "S"), ("Sfix", "Fix")):
+        v = c[c.set == st].rmse_pct05_constant.round(3).unique()
+        assert len(v) == 1, f"the pct05 constant scores differently across configurations over {st}"
+        M.add(f"RsConstPct{nm}", f(v[0], 3), f"j72_constant_reference: RMSE of the pct05 constant (mean target of its training records), {st}, every configuration")
+    b = c[c.set == "Sfix"].rmse_best_constant.round(3).unique()
+    assert len(b) == 1
+    M.add("RsConstBestFix", f(b[0], 3), "j72_constant_reference: RMSE of the best constant over S^fix, every configuration")
+    M.add("RsConstPctValue", f(c.pct05_constant_mean.mean(), 3), "j72_constant_reference: the pct05 constant, mean over folds and configurations")
 
 
 # ------------------------------------------------------------------ table bodies
@@ -839,10 +933,10 @@ def supp_nonfiring_full() -> str:
     return "\n".join(lines) + "\n"
 
 
-def _rul_grid(name: str, col: str, labs: list[str], d: int) -> str:
-    a = read("j62_common_reference")
+def _rul_grid(name: str, col: str, labs: list[str], d: int, source: str = "j62_common_reference") -> str:
+    a = read(source)
     a = a[a.variant == "a"].set_index(["config", "dataset", "labeler", "model"])[col]
-    lines = _head(name, f"Table rows: {col} for every configuration, dataset, labeler and model, input variant (a) (j62_common_reference).")
+    lines = _head(name, f"Table rows: {col} for every configuration, dataset, labeler and model, input variant (a) ({source}).")
     for cfg in CFG:
         for ds in DS:
             lines.append(rf"\multicolumn{{10}}{{@{{}}l}}{{\textbf{{{DS_NAME[ds]}, {CFG_LABEL[cfg]}}}}} \\")
@@ -996,7 +1090,90 @@ def supp_mixed_rul() -> str:
     return "\n".join(lines) + "\n"
 
 
+def supp_far_validation() -> str:
+    """All 192 calibrations: one row per dataset, noise model, protocol and rule; the three levels in columns."""
+    v = read("j70_far_validation")
+    v["lv"] = v.level.round(2)
+    v = v.set_index(["dataset", "noise_arm", "protocol", "rule", "lv"])
+    lines = _head("supp_tab_far_validation.tex", "Table rows: amendment A9, false-alarm rate of the 192 calibrated multipliers on "
+                  "10 000 new null series per length, per cent, and the largest |z| over the three levels (j70_far_validation).")
+    sym = {"thr": "k", "ma": "k", "ewma": "L", "cusum": "H"}
+    arm_label = {"main": "Gaussian", "t3": "t(3)", "phi_q25": r"$\phi$ lower quartile", "phi_q75": r"$\phi$ upper quartile"}
+    for ds in DS:
+        lines.append(rf"\multicolumn{{7}}{{@{{}}l}}{{\textbf{{{DS_NAME[ds]}}}}} \\")
+        for arm in ("main", "t3", "phi_q25", "phi_q75"):
+            for prot in PROT:
+                for rule in ("thr", "ma", "ewma", "cusum"):
+                    r = [v.loc[(ds, arm, prot, rule, lv)] for lv in (0.01, 0.05, 0.10)]
+                    first = prot == "P-retro" and rule == "thr"
+                    cells = [arm_label[arm] if first else "", prot if rule == "thr" else "",
+                             f"{CAL_LABEL[rule + '_cal']} (${sym[rule]}$)"]
+                    cells += [f(100 * x.far_val) for x in r] + [f(max(abs(x.z) for x in r))]
+                    lines.append(" & ".join(cells) + r" \\")
+    return "\n".join(lines) + "\n"
+
+
+def supp_constant() -> str:
+    c = read("j72_constant_reference").set_index(["config", "dataset", "set"])
+    cells71 = read("j71_cells")
+    a = cells71[cells71.variant == "a"]
+    # Section S8 says that the best constant over S^fix scores below every trained model
+    assert (a.rmse_common_Sfix > c.xs("Sfix", level="set").rmse_best_constant.max()).all()
+    lines = _head("supp_tab_constant.tex", "Table rows: amendment A11, RMSE of the pct05 constant and of the best constant on each "
+                  "scoring set (j72_constant_reference).")
+    for cfg in CFG:
+        for ds in DS:
+            cells = [CFG_LABEL[cfg], DS_NAME[ds]]
+            cells += [f(c.loc[(cfg, ds, st), "rmse_pct05_constant"], 3) for st in ("S", "S3", "Sfix")]
+            cells += [f(c.loc[(cfg, ds, st), "rmse_best_constant"], 3) for st in ("S", "S3", "Sfix")]
+            lines.append(" & ".join(cells) + r" \\")
+    return "\n".join(lines) + "\n"
+
+
+def supp_rul_fixed() -> str:
+    return _rul_grid("supp_tab_rul_fixed.tex", "rmse_common_Sfix", ["3sig_rms", "ma5sig", "ewma", "pct05"], 3, source="j71_cells")
+
+
+def supp_reversals_posthoc() -> str:
+    r = read("j71_rankings")
+    r = r[r.n_significant_reversals > 0]
+    lines = _head("supp_tab_reversals_posthoc.tex", "Table rows: amendment A9, significant reversals over S^fix with input variant (a), "
+                  "and over S and S3 with input variant (b) (j71_rankings).")
+    groups = (("fixed set", "C-common RMSE", r"Scoring set $S^{\mathrm{fix}}$, input variant (a), C-common RMSE"),
+              ("fixed set", "C-rank concordance", r"Scoring set $S^{\mathrm{fix}}$, input variant (a), C-rank concordance"),
+              ("variant b", "C-common RMSE", "Input variant (b), C-common RMSE"),
+              ("variant b", "C-rank concordance", "Input variant (b), C-rank concordance"))
+    for analysis, metric, label in groups:
+        lines.append(rf"\multicolumn{{6}}{{@{{}}l}}{{\textbf{{{label}}}}} \\")
+        q = r[(r.analysis == analysis) & (r.metric == metric)]
+        if q.empty:
+            lines.append(r"\multicolumn{6}{@{}l}{none} \\")
+        for _, x in q.iterrows():
+            pairs = "; ".join(" vs ".join(MODEL_SHORT[m.strip()] for m in p.split(" vs ")) for p in x.reversals.split(";"))
+            st = r"$S^{\mathrm{fix}}$" if x.set == "Sfix" else f"${x.set}$"
+            lines.append(" & ".join([DS_NAME[x.dataset], CFG_LABEL[x.config], st, f"{tt(x.labeler_a)} vs {tt(x.labeler_b)}",
+                                     str(int(x.n_significant_reversals)), pairs]) + r" \\")
+    return "\n".join(lines) + "\n"
+
+
+def supp_alignment() -> str:
+    a = read("j71_alignment")
+    lines = _head("supp_tab_alignment.tex", "Table rows: amendment A9, coverage and specialization of each labeler on each scoring set, "
+                  "median (range) over the four configurations and two datasets (j71_alignment).")
+    for lab in ("3sig_rms", "ma5sig", "ewma", "pct05"):
+        cells = [tt(lab)]
+        for st in ("S", "S3", "Sfix"):
+            q = a[(a.labeler == lab) & (a.set == st)]
+            for col in ("coverage", "specialization"):
+                cells.append(f"{f(q[col].median())} ({f(q[col].min())}--{f(q[col].max())})")
+        lines.append(" & ".join(cells) + r" \\")
+    return "\n".join(lines) + "\n"
+
+
 SUPP_TABLES_2 = {"supp_design_models": supp_design_models, "supp_design_outcomes": supp_design_outcomes,
+                 "supp_far_validation": supp_far_validation, "supp_rul_fixed": supp_rul_fixed,
+                 "supp_reversals_posthoc": supp_reversals_posthoc, "supp_alignment": supp_alignment,
+                 "supp_constant": supp_constant,
                  "supp_nonfiring_full": supp_nonfiring_full, "supp_rul_common": supp_rul_common,
                  "supp_rul_common_s3": supp_rul_common_s3, "supp_rul_rank": supp_rul_rank, "supp_rul_own": supp_rul_own,
                  "supp_reversals": supp_reversals, "supp_main_effects": supp_main_effects, "supp_variants": supp_variants,
@@ -1021,18 +1198,21 @@ def self_check(M: Macros) -> list[str]:
               "RsWarmupShare": "0.52", "RsInsideChartsXjtu": "62", "RsTreatBearXjtu": "0.102", "RsTreatBearFemto": "0.094",
               "RsNeverFire": "36", "RsRuleTrajPairs": "330", "RsDisagreeUncXjtuRetro": "0.70", "RsCalReadingOne": "24",
               "RsRevTotal": "14", "RsRevSthree": "1", "RsAsixRankOk": "16", "RsAsixRankOkNoTs": "13",
-              "RsContamOnsets": "39", "RsContamUsed": "11", "RsPhiRawXjtu": "0.763", "RsPhiRawFemto": "0.579"}
+              "RsContamOnsets": "39", "RsContamUsed": "11", "RsPhiRawXjtu": "0.763", "RsPhiRawFemto": "0.579",
+              "RsDistinctConfigs": "71", "RsEligBoth": "24"}
     bad = [f"{k}: {M.get(k)} against {v}" for k, v in expect.items() if M.get(k) != v]
     # counts that the text reports as "all <total>"
     whole = [("RsTwoStageWorst", "RsTwoStageCells"), ("RsMixedModelSigRank", "RsMixedCfgs"),
              ("RsMixedCommonBothSig", "RsMixedCfgs"), ("RsMixedSdModelLarger", "RsMixedModels"),
-             ("RsAsixRankOk", "RsAsixCells"), ("RsVarBestXjtu", "RsVarCfgs"), ("RsVarBestFemto", "RsVarCfgs")]
+             ("RsAsixRankOk", "RsAsixCells"), ("RsVarBestXjtu", "RsVarCfgs"), ("RsVarBestFemto", "RsVarCfgs"),
+             ("RsValWithinTol", "RsCalibrations")]
     return bad + [f"{a} = {M.get(a)}, but the text says all {M.get(b)}" for a, b in whole if M.get(a) != M.get(b)]
 
 
 def build() -> dict[str, str]:
     M = Macros()
-    for part in (data_design, protocol, calibration, simulation, design, labels, rul):
+    for part in (data_design, protocol, calibration, simulation, design, labels, rul, validation, rul_posthoc,
+                 constant_reference):
         part(M)
     old = set()
     for p in OLD_MACROS:

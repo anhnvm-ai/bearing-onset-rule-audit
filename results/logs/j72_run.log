@@ -1,0 +1,37 @@
+==============================================================================
+J72  CONSTANT PREDICTIONS ON EACH RUL SCORING SET  (A11, post hoc, descriptive)
+==============================================================================
+started 2026-10-29 23:40:14
+
+  self-check: one length and one count per bearing; S^fix counts equal n - floor(0.8 n): PASS
+
+==============================================================================
+RMSE against r_t: pct05 constant / best constant; models trained under pct05 (median of nine)
+==============================================================================
+  P-prospective|canonical  femto  S      constant 0.024: 0.015   best constant 0.021: 0.015   pct05 models: 0.018
+  P-prospective|canonical  femto  S3     constant 0.024: 0.249   best constant 0.204: 0.172   pct05 models: 0.248
+  P-prospective|canonical  femto  Sfix   constant 0.024: 0.095   best constant 0.099: 0.058   pct05 models: 0.096
+  P-prospective|canonical  xjtu   S      constant 0.025: 0.015   best constant 0.025: 0.015   pct05 models: 0.015
+  P-prospective|canonical  xjtu   S3     constant 0.025: 0.275   best constant 0.218: 0.196   pct05 models: 0.269
+  P-prospective|canonical  xjtu   Sfix   constant 0.025: 0.095   best constant 0.100: 0.058   pct05 models: 0.091
+  P-prospective|matched5   femto  S      constant 0.024: 0.015   best constant 0.022: 0.015   pct05 models: 0.018
+  P-prospective|matched5   femto  S3     constant 0.024: 0.263   best constant 0.217: 0.179   pct05 models: 0.262
+  P-prospective|matched5   femto  Sfix   constant 0.024: 0.095   best constant 0.099: 0.058   pct05 models: 0.096
+  P-prospective|matched5   xjtu   S      constant 0.025: 0.015   best constant 0.025: 0.015   pct05 models: 0.017
+  P-prospective|matched5   xjtu   S3     constant 0.025: 0.291   best constant 0.244: 0.191   pct05 models: 0.286
+  P-prospective|matched5   xjtu   Sfix   constant 0.025: 0.095   best constant 0.100: 0.058   pct05 models: 0.091
+  P-retro|canonical        femto  S      constant 0.024: 0.015   best constant 0.020: 0.015   pct05 models: 0.018
+  P-retro|canonical        femto  S3     constant 0.024: 0.180   best constant 0.165: 0.113   pct05 models: 0.178
+  P-retro|canonical        femto  Sfix   constant 0.024: 0.095   best constant 0.099: 0.058   pct05 models: 0.095
+  P-retro|canonical        xjtu   S      constant 0.025: 0.015   best constant 0.025: 0.015   pct05 models: 0.016
+  P-retro|canonical        xjtu   S3     constant 0.025: 0.272   best constant 0.216: 0.193   pct05 models: 0.266
+  P-retro|canonical        xjtu   Sfix   constant 0.025: 0.095   best constant 0.100: 0.058   pct05 models: 0.091
+  P-retro|matched5         femto  S      constant 0.024: 0.015   best constant 0.021: 0.015   pct05 models: 0.017
+  P-retro|matched5         femto  S3     constant 0.024: 0.452   best constant 0.374: 0.286   pct05 models: 0.447
+  P-retro|matched5         femto  Sfix   constant 0.024: 0.095   best constant 0.099: 0.058   pct05 models: 0.095
+  P-retro|matched5         xjtu   S      constant 0.025: 0.015   best constant 0.025: 0.015   pct05 models: 0.016
+  P-retro|matched5         xjtu   S3     constant 0.025: 0.434   best constant 0.372: 0.260   pct05 models: 0.428
+  P-retro|matched5         xjtu   Sfix   constant 0.025: 0.095   best constant 0.100: 0.058   pct05 models: 0.091
+
+wrote j72_constant_reference.csv (24 rows)
+finished 2026-10-29 23:40:14

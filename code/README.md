@@ -1,12 +1,12 @@
 # Code
 
-72 scripts and the 15-module library they import. File names are the ones the article, its
+75 scripts and the 15-module library they import. File names are the ones the article, its
 supplementary material and the logs refer to, so they are kept as they are rather than renumbered.
 
 ```
 code/
   make_workspace.py   lays the scripts out so that their relative paths resolve
-  scripts/            the analyses: J3-J49 (first submission) and J57-J69 (resubmission)
+  scripts/            the analyses: J3-J49 (first submission) and J57-J72 (resubmission)
   src/                the library the scripts import (features, metrics, thresholds, splits)
 ```
 
@@ -53,9 +53,12 @@ into which the exporters write (the manuscript itself is not released).
 | 25 | Design-parameter models M0-M4, in and out of sample | `J64_design_parameters.py` | this repository |
 | 26 | Linear mixed models with a random intercept per bearing (sensitivity) | `J65_mixed_effects.py` | this repository |
 | 27 | Amendment A6 (post hoc): ratio of labeler to model effects | `J69_labeler_model_contrast.py` | this repository |
-| 28 | Every number and table body of the resubmitted paper (writes into paper/access_resub/) | `J66_resub_export_numbers.py` | this repository |
-| 29 | The six figures of the resubmitted paper (writes into paper/access_resub/figures/) | `J67_resub_figures.py` | this repository |
-| 30 | This release | `J68_make_release_v110.py` | this repository |
+| 28 | Amendment A9: the calibrated multipliers of J61 on independent null series | `J70_far_validation.py` | this repository |
+| 29 | Amendment A9 (post hoc): fixed scoring set, alignment of training and scored records, reversal test with the elapsed record count (re-scores the prediction cache of J62) | `J71_fixed_scoring_set.py` | this repository |
+| 30 | Amendment A11 (post hoc, descriptive): constant predictions on each scoring set | `J72_constant_reference.py` | this repository |
+| 31 | Every number and table body of the resubmitted paper (writes into paper/access_resub/) | `J66_resub_export_numbers.py` | this repository |
+| 32 | The figures of the resubmitted paper and two of its supplementary material (writes into paper/access_resub/figures/) | `J67_resub_figures.py` | this repository |
+| 33 | This release | `J68_make_release_v110.py` | this repository |
 
 Steps 01, 02 and 12 read the raw acquisitions; every other step runs from the tables in `results/tables/`.
 

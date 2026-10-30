@@ -1,0 +1,90 @@
+==============================================================================
+J71  RUL COMPARISON ON A FIXED SCORING SET AND WITH TIME INPUTS  (A9, post hoc)
+==============================================================================
+started 2026-10-29 22:35:23
+  P-retro|canonical        XJTU-SY (14 bearings) done
+  P-retro|canonical        FEMTO   (9 bearings) done
+  P-prospective|canonical  XJTU-SY (12 bearings) done
+  P-prospective|canonical  FEMTO   (8 bearings) done
+  P-prospective|matched5   XJTU-SY (13 bearings) done
+  P-prospective|matched5   FEMTO   (8 bearings) done
+  P-retro|matched5         XJTU-SY (15 bearings) done
+  P-retro|matched5         FEMTO   (9 bearings) done
+
+  self-check: pooled values against j62_common_reference.csv (variants a, b): largest |difference| 1.1e-16
+  self-check: j62_rankings.csv (144 rows): 0 mismatches, largest numeric difference 1.1e-16
+  self-check: j62_main_effect.csv (144 rows): 0 mismatches, largest numeric difference 1.0e-16
+  PASS
+
+==============================================================================
+Significant reversals (C-common RMSE / C-rank concordance), per configuration and dataset
+==============================================================================
+
+  fixed set, set Sfix:
+    P-retro|canonical        XJTU-SY: 1 / 0; median tau (C-common) +0.19
+      C-common RMSE      ewma vs pct05: et:all vs tcn
+    P-retro|canonical        FEMTO  : 0 / 0; median tau (C-common) +0.08
+    P-prospective|canonical  XJTU-SY: 0 / 0; median tau (C-common) +0.44
+    P-prospective|canonical  FEMTO  : 0 / 0; median tau (C-common) +0.31
+    P-prospective|matched5   XJTU-SY: 1 / 0; median tau (C-common) +0.00
+      C-common RMSE      3sig_rms vs ma5sig: lin:rms vs rf:all
+    P-prospective|matched5   FEMTO  : 0 / 0; median tau (C-common) +0.36
+    P-retro|matched5         XJTU-SY: 0 / 0; median tau (C-common) +0.44
+    P-retro|matched5         FEMTO  : 0 / 0; median tau (C-common) +0.53
+
+  variant b, set S:
+    P-retro|canonical        XJTU-SY: 0 / 0; median tau (C-common) +0.61
+    P-retro|canonical        FEMTO  : 0 / 0; median tau (C-common) +0.25
+    P-prospective|canonical  XJTU-SY: 0 / 0; median tau (C-common) +0.67
+    P-prospective|canonical  FEMTO  : 2 / 1; median tau (C-common) +0.42
+      C-common RMSE      ewma vs pct05: lin:rms vs gru; ridge:all vs gru
+      C-rank concordance ewma vs pct05: rf:all vs tcn
+    P-prospective|matched5   XJTU-SY: 0 / 0; median tau (C-common) +0.58
+    P-prospective|matched5   FEMTO  : 8 / 3; median tau (C-common) +0.33
+      C-common RMSE      ma5sig vs pct05: lin:rms vs gru; lin:rms vs tcn; ridge:all vs gru; ridge:all vs tcn
+      C-common RMSE      ewma vs pct05: lin:rms vs gru; lin:rms vs tcn; ridge:all vs gru; ridge:all vs tcn
+      C-rank concordance ma5sig vs pct05: ridge:all vs tcn
+      C-rank concordance ewma vs pct05: ridge:all vs tcn; gbr:all vs et:all
+    P-retro|matched5         XJTU-SY: 0 / 0; median tau (C-common) +0.69
+    P-retro|matched5         FEMTO  : 0 / 0; median tau (C-common) +0.58
+
+  variant b, set S3:
+    P-retro|canonical        XJTU-SY: 0 / 0; median tau (C-common) +0.11
+    P-retro|canonical        FEMTO  : 0 / 0; median tau (C-common) +0.22
+    P-prospective|canonical  XJTU-SY: 0 / 0; median tau (C-common) +0.00
+    P-prospective|canonical  FEMTO  : 6 / 0; median tau (C-common) +0.11
+      C-common RMSE      3sig_rms vs ma5sig: gbr:all vs et:all; gbr:all vs gru
+      C-common RMSE      3sig_rms vs ewma: ridge:all vs tcn; knn:all vs rf:all; et:all vs rf:all
+      C-common RMSE      ma5sig vs ewma: ridge:all vs tcn
+    P-prospective|matched5   XJTU-SY: 0 / 0; median tau (C-common) +0.61
+    P-prospective|matched5   FEMTO  : 5 / 0; median tau (C-common) +0.39
+      C-common RMSE      3sig_rms vs ma5sig: knn:all vs rf:all; et:all vs rf:all
+      C-common RMSE      3sig_rms vs ewma: knn:all vs rf:all; gbr:all vs et:all; et:all vs rf:all
+    P-retro|matched5         XJTU-SY: 0 / 0; median tau (C-common) +0.61
+    P-retro|matched5         FEMTO  : 0 / 0; median tau (C-common) +0.89
+
+==============================================================================
+Readings of A9 (C-common RMSE, primary configurations)
+==============================================================================
+  item 2, S^fix: reversals between signal-based labelers 0, in pairs with pct05 1 -> F2
+  item 3, variant (b) over S_j: 2 reversals -> at least one reversal
+
+==============================================================================
+Alignment with the scored set (coverage / specialization), median over configurations and datasets
+==============================================================================
+  S     3sig_rms: 1.00 / 0.17  ma5sig: 1.00 / 0.13  ewma: 1.00 / 0.07  pct05: 1.00 / 0.92
+  S3    3sig_rms: 1.00 / 0.96  ma5sig: 1.00 / 0.90  ewma: 1.00 / 0.48  pct05: 0.18 / 0.92
+  Sfix  3sig_rms: 0.66 / 0.47  ma5sig: 0.65 / 0.42  ewma: 0.94 / 0.28  pct05: 0.25 / 1.00
+
+  C-common RMSE over S^fix (variant a), median over the nine models, by labeler:
+    P-retro|canonical        XJTU-SY 3sig_rms: 0.221  ma5sig: 0.234  ewma: 0.306  pct05: 0.091
+    P-retro|canonical        FEMTO   3sig_rms: 0.150  ma5sig: 0.191  ewma: 0.301  pct05: 0.095
+    P-prospective|canonical  XJTU-SY 3sig_rms: 0.220  ma5sig: 0.244  ewma: 0.285  pct05: 0.091
+    P-prospective|canonical  FEMTO   3sig_rms: 0.147  ma5sig: 0.167  ewma: 0.190  pct05: 0.096
+    P-prospective|matched5   XJTU-SY 3sig_rms: 0.247  ma5sig: 0.229  ewma: 0.324  pct05: 0.091
+    P-prospective|matched5   FEMTO   3sig_rms: 0.150  ma5sig: 0.198  ewma: 0.198  pct05: 0.096
+    P-retro|matched5         XJTU-SY 3sig_rms: 0.229  ma5sig: 0.257  ewma: 0.284  pct05: 0.091
+    P-retro|matched5         FEMTO   3sig_rms: 0.286  ma5sig: 0.287  ewma: 0.275  pct05: 0.095
+
+wrote j71_rankings.csv (240), j71_main_effect.csv, j71_cells.csv (544), j71_alignment.csv (96), j71_readings.csv
+finished 2026-10-29 22:36:52

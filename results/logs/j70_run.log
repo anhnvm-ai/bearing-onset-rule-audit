@@ -1,0 +1,36 @@
+==============================================================================
+  J70  MATCHED FALSE-ALARM CALIBRATION VALIDATED ON NEW SERIES  (A9, item 1)  
+==============================================================================
+started 2026-10-29 22:32:35   R = 4,000 (self-check), 10,000 (validation)   seed = 70
+  XJTU-SY P-prospective main    (phi 0.367, 13 lengths) done
+  XJTU-SY P-prospective t3      (phi 0.367, 13 lengths) done
+  XJTU-SY P-prospective phi_q25 (phi 0.149, 13 lengths) done
+  XJTU-SY P-prospective phi_q75 (phi 0.546, 13 lengths) done
+  XJTU-SY P-retro       main    (phi 0.367, 15 lengths) done
+  XJTU-SY P-retro       t3      (phi 0.367, 15 lengths) done
+  XJTU-SY P-retro       phi_q25 (phi 0.149, 15 lengths) done
+  XJTU-SY P-retro       phi_q75 (phi 0.546, 15 lengths) done
+  FEMTO   P-prospective main    (phi 0.264, 11 lengths) done
+  FEMTO   P-prospective t3      (phi 0.264, 11 lengths) done
+  FEMTO   P-prospective phi_q25 (phi 0.075, 11 lengths) done
+  FEMTO   P-prospective phi_q75 (phi 0.577, 11 lengths) done
+  FEMTO   P-retro       main    (phi 0.264, 13 lengths) done
+  FEMTO   P-retro       t3      (phi 0.264, 13 lengths) done
+  FEMTO   P-retro       phi_q25 (phi 0.075, 13 lengths) done
+  FEMTO   P-retro       phi_q75 (phi 0.577, 13 lengths) done
+
+  self-check: largest difference from j61_calibration.csv (multiplier, achieved FAR): 5.7e-14
+  PASS
+
+==============================================================================
+False-alarm rate on the new series at the calibrated multipliers (192 calibrations)
+==============================================================================
+  level 1%: FAR_val 0.0089-0.0109 (main null 0.0092-0.0109); median deviation +0.003 points; largest |z| 1.98; within +/-0.5 points 64/64; 95% intervals covering the target 0.67
+  level 5%: FAR_val 0.0482-0.0525 (main null 0.0483-0.0521); median deviation -0.020 points; largest |z| 2.36; within +/-0.5 points 64/64; 95% intervals covering the target 0.70
+  level 10%: FAR_val 0.0982-0.1034 (main null 0.0991-0.1014); median deviation +0.056 points; largest |z| 2.21; within +/-0.5 points 64/64; 95% intervals covering the target 0.84
+
+  largest |z| overall 2.36: xjtu P-retro phi_q75 thr level 5%, FAR_val 0.0525 (calibration series 0.0500)
+  criterion of A9 (no |z| > 4; |median deviation| <= 0.2 points at each level): MET -- the calibration is validated
+
+wrote j70_far_validation.csv (192 rows)
+finished 2026-10-29 22:44:29

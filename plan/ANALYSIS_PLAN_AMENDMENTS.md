@@ -227,3 +227,76 @@ Written after an internal review of the manuscript, before the resubmission. It 
 **Reason.** The plan's reporting commitments (Section 15) require every planned analysis to be reported. The internal review found the outputs listed in item 2 unreported, and found that J62 did not compute the concordance over all records.
 
 **Results seen before the change.** All planned results, including the outputs of item 2, which were in the result tables of release v1.1.0.
+
+## A9 — 2026-10-29
+
+Written at 22:35 +07, before `scripts/J70_far_validation.py` and `scripts/J71_fixed_scoring_set.py` existed.
+
+**Section(s) affected:** 8 (WP-A, calibration) and 9 (WP-C, model comparison under the common reference). Three analyses are added; no existing analysis and no existing result table changes.
+
+**Change.**
+1. **Validation of the calibrated multipliers on independent series** (`scripts/J70_far_validation.py`).
+   - The 192 multipliers of `results/tables/j61_calibration.csv` (2 datasets × 2 protocols × 4 noise arms × 4 rules × 3 levels) are kept unchanged.
+   - Self-check before any output is written: with the seed sequences of J61 ([61, dataset, protocol, noise arm]) and R = 4,000, the bisection of J61 must reproduce every multiplier and every achieved FAR of `j61_calibration.csv` to 1e-12.
+   - New degradation-free series are simulated exactly as in J61 (same null models, trajectory lengths, protocols and c = 3), from the seed sequences [70, dataset, protocol, noise arm], with R = 10,000 series per length.
+   - For each calibration: the false-alarm rate FAR_val of the new series at the calibrated multiplier, its Monte Carlo standard error SE_val, the interval FAR_val ± 1.96 SE_val, and z = (FAR_val − target) / sqrt(SE_cal² + SE_val²), where SE_cal is the `mc_se` of J61.
+   - Criterion: the calibration is validated if no |z| exceeds 4 among the 192 calibrations and if, at each level, the median of FAR_val − target lies within ±0.2 percentage points. Also reported: the range of FAR_val at each level and the number of calibrations within the ±0.5-point tolerance of Section 8.
+   - If the criterion fails, the affected multipliers are calibrated again on more series in a further amendment, and both results are reported.
+   - The in-control run lengths of J61 were computed on separate series (seed sequence [61, 99, dataset]) and are not recomputed.
+2. **A scoring set that does not depend on the labelers** (`scripts/J71_fixed_scoring_set.py`).
+   - S^fix_j = {t : t ≥ ⌊0.8 n_j⌋}, the last 20% of the records of bearing j. No other fixed set is analyzed.
+   - Everything else is as in J62: the four configurations, the two datasets and their bearings, the four labelers and all six labeler pairs, the nine models with input variant (a), the cached out-of-fold predictions of J62 (no model is retrained), the cell values (C-common: RMSE pooled over the scored records; C-rank: mean over bearings of Harrell's concordance over the scored records), for GRU and TCN the per-bearing values of the median seed chosen by J62 (by pooled C-common RMSE over S_j), the B = 20,000 resamples of J62 (seed 62, drawn in the same order, hence identical), the bootstrap p-value, Holm's correction over the 2 × 36 tests of each labeler pair, Kendall's τ, the share of resamples in which the best model differs, and the labeler main effects.
+   - Self-check before any output is written: the same code applied to S_j and S3_j must reproduce `j62_common_reference.csv` (pooled values of variants (a) and (b), to 1e-9), `j62_rankings.csv` (reversals, best models, shares and τ) and `j62_main_effect.csv`.
+   - Alignment of each labeler with each scored set (S_j, S3_j, S^fix_j), per configuration and dataset, pooled over bearings: coverage, the share of scored records with t ≥ i*_{L,j}, i.e. inside the training window that labeler L selects on bearing j; specialization, the share of the records with t ≥ i*_{L,j} that are scored.
+   - Reading, made in C-common RMSE (the primary measure) on the two primary configurations (P-retro and P-prospective with the conventional labelers); the configurations with calibrated labelers are reported as sensitivity analyses, and C-rank without a reading:
+     - F1: at least one significant reversal on S^fix between two of the three signal-based labelers (3sig_rms, ma5sig, ewma). The onset rule, through the training records it selects, can reverse model comparisons on a scoring set that does not depend on the labelers.
+     - F2: significant reversals on S^fix only in pairs that include pct05. The reversals are attributed to the alignment of a labeler's training records with the scored records (the training window of pct05 covers only the last quarter of S^fix), not to better labels.
+     - F3: no significant reversal on S^fix. The evaluation protocol, including the alignment of training and scored records, rather than the onset rule alone, reversed the comparisons on S_j.
+   - The abstract, the contributions, the conclusion and item 4 of ORD-4 state the reading obtained. S_j remains the primary scoring set; S_j, S3_j and S^fix_j are reported side by side.
+3. **Reversal test with the elapsed record count as input** (also `scripts/J71_fixed_scoring_set.py`).
+   - Input variant (b) for the eight models that have it, and variant (a) for the two-stage model, which has no other; nine models, so the Holm family is unchanged.
+   - Scoring sets S_j and S3_j, with the per-bearing values of variant (b) as in `j62_per_bearing.csv`, recomputed by the same code.
+   - Same test and outputs as item 2, on the same resamples.
+   - Reading, in C-common RMSE on the two primary configurations: at least one significant reversal over S_j means that the reversals do not depend on per-record inputs alone; none means that the reversal results are stated as conditional on per-record inputs. In both cases the Discussion states that the reversal results are conditional on the nine pre-specified models and their inputs.
+   - Variant (c) (history features, tree models only) is not tested; its error stays as reported.
+4. **Release.** The release cited by the resubmission becomes v1.2.0, which adds the two scripts, their result tables and this amendment. Releases v1.1.0 and v1.1.1 stay available.
+
+**Reason.**
+- An internal review of the resubmission package (2026-10-29) noted that (i) the achieved false-alarm rates were reported on the same series as the bisection, so their agreement with the target holds by construction; (ii) S_j depends on the labelers and coincides with the training window of pct05; (iii) the reversal test used per-record inputs only, although inputs with the elapsed record count lower the error.
+- Section 8 plans the achieved FAR on the calibration series only. Section 9 plans S_j and its variant S3_j only, and reports the input variants by their error, without a reversal test.
+
+**Results seen before the change.**
+- All planned results (J57–J65) and the result of A6 (J69), including every reversal over S_j and S3_j and the error of every input variant.
+- No result on S^fix_j, on the alignment indices, on reversals with variant (b) or on independent null series had been computed.
+- Items 2 and 3 are therefore labeled post hoc in the R2.8 classification table; item 1 is a validation of a planned procedure, added after review.
+
+## A10 — 2026-10-29
+
+Written at 22:45 +07, after the results of A9 had been computed. It corrects one statement of A9 and changes no analysis and no result.
+
+**Section(s) affected:** none of the plan; the first line of amendment A9.
+
+**Change.** The first line of A9 gives its writing time as 22:35 +07, a time estimated before the entry was saved. The file system records the entry as saved at 22:31:26 +07. `scripts/J70_far_validation.py` was created at 22:32:23 and first run at 22:32:35; `scripts/J71_fixed_scoring_set.py` was created at 22:34:43 and first run at 22:35:23. A9 was therefore written at 22:31 +07, before either script existed, as its first line states; only the clock time was wrong. The script that appended A9 refused to run if either script existed.
+
+**Reason.** The time stated in A9 is later than the first run of J70, so the order of events would appear reversed.
+
+**Results seen before the change.** The results of J70 and J71.
+
+## A11 — 2026-10-29
+
+Written at 23:39 +07, before `scripts/J72_constant_reference.py` existed. Post hoc and descriptive.
+
+**Section(s) affected:** 9 (WP-C). One descriptive reference is added; no analysis and no result changes.
+
+**Change.** For each configuration, dataset and scoring set (S_j, S3_j and S^fix_j of A9), the RMSE against the common reference r_t of two constant predictions, computed by `scripts/J72_constant_reference.py`:
+1. a constant equal to the mean of r_t over the training records of pct05 (t ≥ ⌊0.95 n⌋) on the training bearings of each fold, with one bearing held out at a time as in J62;
+2. the best constant, the mean of r_t over the scored records of all bearings, which no constant prediction can beat.
+- Inputs: the bearing lengths and the numbers of scored records per bearing in `j62_per_bearing.csv` (S_j and S3_j are the last records of each bearing), and ⌊0.8 n⌋ for S^fix_j. No model is involved.
+- Self-check: the numbers of records per bearing equal those of `j62_per_bearing.csv`, and the S^fix_j counts equal n − ⌊0.8 n⌋.
+- Reported as a description next to the C-common RMSE of the models trained under pct05; no reading is attached.
+
+**Reason.** A second internal review (2026-10-29) noted that S^fix_j contains the whole training window of pct05, so a constant prediction near the end of life may score about as well as the models trained under pct05, and their low error would then say little about the labels.
+
+**Results seen before the change.**
+- All results of J70 and J71.
+- The reviewer's approximate values for a reference spread evenly over the last 20% of life: about 0.095 for a constant of 0.025 and about 0.058 for a constant of 0.1.
